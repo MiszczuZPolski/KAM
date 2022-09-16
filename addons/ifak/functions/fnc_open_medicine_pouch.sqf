@@ -1,39 +1,37 @@
-
-params ["_caller"];
+params [["_caller",player,[objNull]]];
 
 //Misc types
-private _Misc1_type = _caller getVariable [QGVAR(MiscPouch1_type), ""];
-private _Misc2_type = _caller getVariable [QGVAR(MiscPouch2_type), ""];
+private _Misctype1 = _caller getVariable [QGVAR(MiscPouch1_type), ""];
+private _Misctype2 = _caller getVariable [QGVAR(MiscPouch2_type), ""];
 
 //Misc Amount
-private _Misc1_Amount = _caller getVariable [QGVAR(MiscPouch1_amount), 0];
-private _Misc2_Amount = _caller getVariable [QGVAR(MiscPouch2_amount), 0];
+private _MiscAmount1 = _caller getVariable [QGVAR(MiscPouch1_amount), 0];
+private _MiscAmount2 = _caller getVariable [QGVAR(MiscPouch2_amount), 0];
 
 //Painkillers
-private _pain_bool = _caller getVariable [QGVAR(painkillersPouch), false];
+private _painBool = _caller getVariable [QGVAR(painkillersPouch), false];
 
-if (_Misc1_Amount > 0 || _Misc2_Amount > 0 || _pain_bool) then {
-	//replace IFAK item with lighter version
-	[_caller, -5] call FUNC(change_ifak_size);
-		
+if (_MiscAmount1 > 0 || _MiscAmount2 > 0 || _pain_bool) then {
 	// M I S C   I T E M S
-	if (_Misc1_Amount > 0) then {
-		for "_i" from 1 to _Misc1_Amount do {
-			 if !(_caller canAdd [_Misc1_type, 1]) then { break }; 
-			 _caller addItem _Misc1_type; _caller setVariable ["flf_misc1_Amount_namespace", (_Misc1_Amount - _i)]; 
+	if (_MiscAmount1 > 0) then {
+		for "_i" from 1 to _MiscAmount1 do {
+			 if !(_caller canAdd [_Misctype1, 1]) then { break }; 
+			 _caller addItem _Misctype1; 
+			 _caller setVariable [QGVAR(MiscPouch1_amount), (_MiscAmount1 - _i)]; 
 		};
 	};
 		
-	if (_Misc2_Amount > 0) then {
-		for "_j" from 1 to _Misc2_Amount do { 
-			if !(_caller canAdd [_Misc2_type, 1]) then { break }; 
-			_caller addItem _Misc2_type; _caller setVariable ["flf_misc2_Amount_namespace", (_Misc2_Amount - _j)]; 
+	if (_MiscAmount2 > 0) then {
+		for "_j" from 1 to _MiscAmount2 do { 
+			if !(_caller canAdd [_Misctype2, 1]) then { break }; 
+			_caller addItem _Misctype2; 
+			_caller setVariable [QGVAR(MiscPouch2_amount), (_MiscAmount2 - _j)]; 
 		};
 	};
 		
 	//P A I N K I L L E R S
 	//check before another check for ppl playing without KAT
-	if (_pain_bool && (_caller canAdd ["kat_Painkiller", 1])) then {
+	if (_painBool && (_caller canAdd ["kat_Painkiller", 1])) then {
 		_caller addMagazine "kat_Painkiller"; 
 		_caller setVariable [QGVAR(painkillersPouch), false];
 	};

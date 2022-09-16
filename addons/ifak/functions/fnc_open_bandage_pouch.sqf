@@ -1,5 +1,5 @@
 
-params ["_caller"];
+params [["_caller",player,[objNull]]];
 
 //Get all the bandage types
 private _bandage1_type = _caller getVariable [QGVAR(bandagePouch1_type), ""];
@@ -12,9 +12,6 @@ private _bandage2_Amount = _caller getVariable [QGVAR(bandagePouch2_amount), 0];
 private _bandage3_Amount = _caller getVariable [QGVAR(bandagePouch3_amount), 0];
 
 if (_bandage1_Amount > 0 || _bandage2_Amount > 0 || _bandage3_Amount > 0) then {
-	//replace IFAK item with lighter version
-	[_caller, -15] call FUNC(change_ifak_size);
-
 	// B A N D A G E S
 	//Get desired ammount from namespace, then iterate through each bandage and check if it fits inside the inventory if not, break the loop and save remaining ammount to namespace.
 	if (_bandage1_Amount > 0) then {

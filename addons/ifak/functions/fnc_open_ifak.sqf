@@ -14,9 +14,9 @@
  * Public: No
  */
 
-params ["_caller"];
-
-playSound3D [QPATHOF_SOUND(sounds\zip1.ogg), _caller, false, getposASL _caller, 0.6, 1, 0, 0, true];
+params [["_caller",player,[objNull]]];
+systemChat "działa";
+playSound3D [QPATHTOF_SOUND(sounds\zip1.ogg), _caller, false, getposASL _caller, 0.6, 1, 0, 0, true];
 [QGVAR(openBandages), _caller, _caller] call CBA_fnc_targetEvent;
 [QGVAR(openInjectors), _caller, _caller] call CBA_fnc_targetEvent;
 [QGVAR(openMedicines), _caller, _caller] call CBA_fnc_targetEvent;

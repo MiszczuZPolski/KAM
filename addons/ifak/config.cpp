@@ -1,9 +1,13 @@
+#include "script_component.hpp"
+
 class CfgPatches {
     class ADDON    {
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         units[] = {};
-        weapons[] = {};
+        weapons[] = {
+            "kat_ifak"
+        };
         magazines[] = {};
         requiredAddons[] = {
             "ace_medical_treatment",
@@ -15,3 +19,8 @@ class CfgPatches {
         VERSION_CONFIG;
     };
 };
+
+#include "CfgEventHandlers.hpp"
+#include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
+#include "CfgSounds.hpp"

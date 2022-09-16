@@ -1,4 +1,4 @@
-params ["_caller"];
+params [["_caller",player,[objNull]]];
 
 //Injector types
 private _injector1_type = _caller getVariable [QGVAR(injectorPouch1_type), ""];
@@ -9,9 +9,6 @@ private _injector1_Amount = _caller getVariable [QGVAR(injectorPouch1_amount), 0
 private _injector2_Amount = _caller getVariable [QGVAR(injectorPouch2_amount), 0];
 
 if (_injector1_Amount > 0 || _injector2_Amount > 0) then {
-	//replace IFAK item with lighter version
-	[_caller, -10] call FUNC(change_ifak_size);
-		
 	//I N J E C T O R S
 	if (_injector1_Amount > 0) then {
 	for "_i" from 1 to _injector1_Amount do { if !(_caller canAdd [_injector1_type, 1]) then { break }; _caller addItem _injector1_type; _caller setVariable [QGVAR(injectorPouch1_amount), (_injector1_Amount - _i)]; };

@@ -9,14 +9,14 @@
  * None
  *
  * Example:
- * [_target] call kat_ifak_fnc_open_ifak;
+ * [_caller] call kat_ifak_fnc_open_ifak;
  *
  * Public: No
  */
 
-params ["_target"];
+ _caller = _this #0;
 
-playSound3D [QPATHOF_SOUND(sounds\zip1.ogg), _target, false, getposASL _target, 0.6, 1, 0, 0, true];
-[QGVAR(openBandages), _target, _target] call CBA_fnc_targetEvent;
-[QGVAR(openInjectors), _target, _target] call CBA_fnc_targetEvent;
-[QGVAR(openMedicines), _target, _target] call CBA_fnc_targetEvent;
+playSound3D [QPATHTOF_SOUND(sounds\zip1.ogg), _caller, false, getposASL _caller, 0.6, 1, 0, 0, true];
+[QGVAR(openBandages), _caller, _caller] call CBA_fnc_targetEvent;
+[QGVAR(openInjectors), _caller, _caller] call CBA_fnc_targetEvent;
+[QGVAR(openMedicines), _caller, _caller] call CBA_fnc_targetEvent;
