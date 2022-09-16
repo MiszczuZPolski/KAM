@@ -2,14 +2,14 @@
 params ["_caller"];
 
 //Get all the bandage types
-_bandage1_type = _caller getVariable [QGVAR(bandagePouch1_type), ""];
-_bandage2_type = _caller getVariable [QGVAR(bandagePouch2_type), ""];
-_bandage3_type = _caller getVariable [QGVAR(bandagePouch3_type), ""];
+private _bandage1_type = _caller getVariable [QGVAR(bandagePouch1_type), ""];
+private _bandage2_type = _caller getVariable [QGVAR(bandagePouch2_type), ""];
+private _bandage3_type = _caller getVariable [QGVAR(bandagePouch3_type), ""];
 
 //Get bandage Amount
-_bandage1_Amount = _caller getVariable [QGVAR(bandagePouch1_amount), 0];
-_bandage2_Amount = _caller getVariable [QGVAR(bandagePouch2_amount), 0];
-_bandage3_Amount = _caller getVariable [QGVAR(bandagePouch3_amount), 0];
+private _bandage1_Amount = _caller getVariable [QGVAR(bandagePouch1_amount), 0];
+private _bandage2_Amount = _caller getVariable [QGVAR(bandagePouch2_amount), 0];
+private _bandage3_Amount = _caller getVariable [QGVAR(bandagePouch3_amount), 0];
 
 if (_bandage1_Amount > 0 || _bandage2_Amount > 0 || _bandage3_Amount > 0) then {
 	//replace IFAK item with lighter version

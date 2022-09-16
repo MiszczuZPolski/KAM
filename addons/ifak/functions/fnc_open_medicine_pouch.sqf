@@ -1,17 +1,16 @@
-params [
-	["_caller",player,[objNull]]
-];
+
+params ["_caller"];
 
 //Misc types
-_Misc1_type = _caller getVariable [QGVAR(MiscPouch1_type), ""];
-_Misc2_type = _caller getVariable [QGVAR(MiscPouch2_type), ""];
+private _Misc1_type = _caller getVariable [QGVAR(MiscPouch1_type), ""];
+private _Misc2_type = _caller getVariable [QGVAR(MiscPouch2_type), ""];
 
 //Misc Amount
-_Misc1_Amount = _caller getVariable [QGVAR(MiscPouch1_amount), 0];
-_Misc2_Amount = _caller getVariable [QGVAR(MiscPouch2_amount), 0];
+private _Misc1_Amount = _caller getVariable [QGVAR(MiscPouch1_amount), 0];
+private _Misc2_Amount = _caller getVariable [QGVAR(MiscPouch2_amount), 0];
 
 //Painkillers
-_pain_bool = _caller getVariable [QGVAR(painkillersPouch), false];
+private _pain_bool = _caller getVariable [QGVAR(painkillersPouch), false];
 
 if (_Misc1_Amount > 0 || _Misc2_Amount > 0 || _pain_bool) then {
 	//replace IFAK item with lighter version
