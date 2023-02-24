@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="KAT">
-    <Package name="ifak">
-        <Key ID="STR_KAT_ifak_IFAK_Open">
-        <English>Open IFAK</English>
-        <Polish>Otwórz IFAK</Polish>
+    <Package name="Ifak">
+        <Key ID="STR_KAT_Ifak_Ifak_Open">
+        <English>Open Ifak</English>
+        <Polish>Otwórz Ifak</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_OpenBandage">
+      <Key ID="STR_KAT_Ifak_OpenBandage">
         <English>Open Bandage Pouch</English>
         <Polish>Otwórz kieszeń z bandażami</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_OpenInjectors">
+      <Key ID="STR_KAT_Ifak_OpenInjectors">
         <English>Open Injectors Pouch</English>
         <Polish>Otwórz kieszeń z zastrzykami</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_OpenMisc">
+      <Key ID="STR_KAT_Ifak_OpenMisc">
         <English>Open Medical and Painkillers pouch</English>
         <Polish>Otwórz kieszeń z przedmiotami medycznymi</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_ifak_DisplayName">
+      <Key ID="STR_KAT_Ifak_Ifak_DisplayName">
         <English>Individual First Aid Kit</English>
         <Polish>Indywidualna apteczka pierwszej pomocy</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_IFAK_DescriptionShort">
-        <English>IFAK containing medical items</English>
+      <Key ID="STR_KAT_Ifak_Ifak_DescriptionShort">
+        <English>Ifak containing medical items</English>
         <Polish>Apteczka zawierająca przedmioty pierwszej pomocy</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_DisplayName_DNS">
-        <English>IFAK (Partially Unpacked)</English>
-        <Polish>IFAK (Częściowo rozpakowany)</Polish>
+      <Key ID="STR_KAT_Ifak_DisplayName_DNS">
+        <English>Ifak (Partially Unpacked)</English>
+        <Polish>Ifak (Częściowo rozpakowany)</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Description_DNS">
+      <Key ID="STR_KAT_Ifak_Description_DNS">
         <English>DO NOT SHARE</English>
         <Polish>NIE UDOSTĘPNIAJ</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Unpacked">
-        <English>IFAK was unpacked and is now empty</English>
-        <Polish>Całkowicie rozpakowano IFAKa</Polish>
+      <Key ID="STR_KAT_Ifak_Unpacked">
+        <English>Ifak was unpacked and is now empty</English>
+        <Polish>Całkowicie rozpakowano Ifaka</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Injectors">
+      <Key ID="STR_KAT_Ifak_Injectors">
         <English>Injectors unpacked</English>
         <Polish>Rozpakowano strzykawki</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_MedicalMisc">
+      <Key ID="STR_KAT_Ifak_MedicalMisc">
         <English>Medical items and painkillers unpacked</English>
         <Polish>Rozpakowano przedmioty medyczne oraz leki przeciwbólowe</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Bandages">
+      <Key ID="STR_KAT_Ifak_Bandages">
         <English>Bandages unpacked</English>
         <Polish>Rozpakowano bandaże</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Bandage_type">
+      <Key ID="STR_KAT_Ifak_Bandage_type">
         <English>Type of Bandage</English>
         <Polish>Rodzaj opatrunku</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Amount">
+      <Key ID="STR_KAT_Ifak_Amount">
         <English>Amount</English>
         <Polish>Ilość</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Bandage_pouch1">
+      <Key ID="STR_KAT_Ifak_Bandage_pouch1">
         <English>Bandage pouch 1</English>
         <Polish>Kieszeń z bandażami (1)</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Bandage_pouch2">
+      <Key ID="STR_KAT_Ifak_Bandage_pouch2">
         <English>Bandage pouch 2</English>
         <Polish>Kieszeń z bandażami (2)</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Bandage_pouch3">
+      <Key ID="STR_KAT_Ifak_Bandage_pouch3">
         <English>Bandage pouch 3</English>
         <Polish>Kieszeń z bandażami (3)</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Injector_type">
+      <Key ID="STR_KAT_Ifak_Injector_type">
         <English>Type of Injector</English>
         <Polish>Rodzaj autostrzykawki</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Injector_pouch1">
+      <Key ID="STR_KAT_Ifak_Injector_pouch1">
         <English>Injector pouch 1</English>
         <Polish>Kieszeń z autostrzykawkami (1)</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Injector_pouch2">
+      <Key ID="STR_KAT_Ifak_Injector_pouch2">
         <English>Injector pouch 2</English>
         <Polish>Kieszeń z autostrzykawkami (2)</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Medical_item">
+      <Key ID="STR_KAT_Ifak_Medical_item">
         <English>Medical item</English>
         <Polish>Wyposażenie medyczne</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Medical_pouch1">
+      <Key ID="STR_KAT_Ifak_Medical_pouch1">
         <English>Medical Pouch 1</English>
         <Polish>Kieszeń medyczna (1)</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Medical_pouch2">
+      <Key ID="STR_KAT_Ifak_Medical_pouch2">
         <English>Medical Pouch 2</English>
         <Polish>Kieszeń medyczna (2)</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Painkillers_type">
+      <Key ID="STR_KAT_Ifak_Painkillers_type">
         <English>Add Painkillers</English>
         <Polish>Dodaj leki przeciwbólowe</Polish>
       </Key>
-      <Key ID="STR_KAT_ifak_Painkillers_pouch">
+      <Key ID="STR_KAT_Ifak_Painkillers_pouch">
         <English>Painkillers Pouch</English>
         <Polish>Kieszeń z lekami przeciwbólowymi</Polish>
       </Key>
