@@ -40,7 +40,7 @@ class ACE_Medical_Treatment_Actions {
         consumeItem = 0;
         medicRequired = QGVAR(medLvl_Accuvac);
         callbackSuccess = QFUNC(treatmentAdvanced_accuvac);
-        sounds[] = {{QPATHTO_R(sounds\Suctiov.wav),6,1,15}};
+        sounds[] = {{QPATHTO_R(sounds\suction.wav),6,1,15}};
     };
     class Overstretch: Larynxtubus {
         displayName = CSTRING(overstretch);
@@ -86,7 +86,7 @@ class ACE_Medical_Treatment_Actions {
         callbackSuccess = QFUNC(treatmentAdvanced_CancelRecoveryPosition);
     };
     class CheckPulse;
-    class CheckAirway: checkPulse {
+    class CheckAirway: CheckPulse {
         displayName = CSTRING(checkAirway);
         displayNameProgress = CSTRING(action_checking);
         category = "airway";

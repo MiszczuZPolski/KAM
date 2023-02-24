@@ -56,20 +56,21 @@ private _fnc_sliderMove = {
     private _idc = ctrlIDC _slider;
     private _logic = GETMVAR(BIS_fnc_initCuratorAttributes_target,objNull);
     private _unit = attachedTo _logic;
-    private _curVal = _unit getVariable ["ace_medical_bloodVolume", 6.0];
+    private _curVal = _unit getVariable [QACEGVAR(medical,bloodvolume), 6.0];
     _slider ctrlSetTooltip format [localize "STR_kat_zeus_sliderFormat13was23", parseNumber((sliderPosition _slider) toFixed 2), (parseNumber (_curVal toFixed 2)), "L"];
 };
 
 private _slider = _display displayCtrl 26423;
 _slider sliderSetRange [0, 6];
 _slider sliderSetSpeed [1,0.5];
-private _curBloodVol = _unit getVariable ["ace_medical_bloodVolume", 6.0];
+private _curBloodVol = _unit getVariable [QACEGVAR(medical,bloodvolume), 6.0];
 _slider sliderSetPosition (parseNumber (_curBloodVol toFixed 2));
 _slider ctrlAddEventHandler ["SliderPosChanged", _fnc_sliderMove];
 [_slider,_curBloodVol] call _fnc_sliderMove;
 
 
-private _playerBloodyType = _unit getVariable [QEGVAR(circulation,bloodtype), "O"];
+private _playerBloodyType = _unit getVariable [QEGVAR(circulation,bloodtype), "O_N"];
+private _playerBloodyTypeIndex = ["O","O_N","A","A_N","B","B_N","AB","AB_N"] find _playerBloodyType;
 private _select = switch (_playerBloodyType) do 
 {
     case "O+":  {0};
@@ -80,7 +81,7 @@ private _select = switch (_playerBloodyType) do
     case "B-":  {5};
     case "AB+":  {6};
     case "AB-":  {7};
-    default {0};
+    default {_playerBloodyTypeIndex};
 };
 (_display displayCtrl 16107) lbSetCurSel _select;
 
@@ -97,7 +98,7 @@ private _fnc_onConfirm = {
     private _bloodtypeSel = lbCurSel (_display displayCtrl 16107);
     private _bloodtype = ["O","O_N","A","A_N","B","B_N","AB","AB_N"] select _bloodtypeSel;
     _unit setVariable [QEGVAR(circulation,bloodtype), _bloodtype, true];
-    private _dogtagData = _unit getVariable "ace_dogtags_dogtagData";
+    private _dogtagData = _unit getVariable QACEGVAR(dogtags,dogtagData);
     if(!isNil "_dogtagData") then {
         switch (_bloodtype) do {
             case "O": {_bloodtype = "O+"};
@@ -112,9 +113,9 @@ private _fnc_onConfirm = {
         _dogtagData set [1, _bloodtype];
     };
 
-    private _curBloodVol = _unit getVariable ["ace_medical_bloodVolume", 6.0];
+    private _curBloodVol = _unit getVariable [QACEGVAR(medical,bloodvolume), 6.0];
     private _sliderValue = sliderPosition (_display displayCtrl 26423);
-    _unit setVariable ["ace_medical_bloodVolume", ( parseNumber (_sliderValue toFixed 2)), true];
+    _unit setVariable [QACEGVAR(medical,bloodvolume), ( parseNumber (_sliderValue toFixed 2)), true];
 };
 
 _display displayAddEventHandler ["unload", _fnc_onUnload];

@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="kat">
     <Package name="airway">
-        <Key ID="STR_kat_URL">
-            <English>https://github.com/Tomcat-SG/KAM</English>
-            <German>https://github.com/Tomcat-SG/KAM</German>
-            <Polish>https://github.com/Tomcat-SG/KAM</Polish>
-            <Spanish>https://github.com/Tomcat-SG/KAM</Spanish>
-            <Chinese>https://github.com/Tomcat-SG/KAM</Chinese>
-            <Chinesesimp>https://github.com/Tomcat-SG/KAM</Chinesesimp>
-            <Czech>https://github.com/Tomcat-SG/KAM</Czech>
-            <Korean>https://github.com/Tomcat-SG/KAM</Korean>
-            <French>https://github.com/Tomcat-SG/KAM</French>
-            <Turkish>https://github.com/Tomcat-SG/KAM</Turkish>
-            <Italian>https://github.com/Tomcat-SG/KAM</Italian>
-            <Russian>https://github.com/Tomcat-SG/KAM</Russian>
-            <Japanese>https://github.com/Tomcat-SG/KAM</Japanese>
-        </Key>
         <Key ID="STR_kat_airway_SETTING_ENABLE">
             <English>ACE-Airway injuries activated?</English>
             <German>ACE-Atemwegverletzungen aktiviert?</German>
@@ -30,21 +15,7 @@
             <Italian>Attivare ACE-Lesioni Respiratorie?</Italian>
             <Russian>Активированы травмы ACE-Airway?</Russian>
             <Japanese>KAM-Airway を有効化しますか?</Japanese>
-        </Key>
-        <Key ID="STR_kat_airway_SETTING_collapsed">
-            <English>Probability for airway collapsing</English>
-            <German>Atemwegsverletzungswahrscheinlichkeit</German>
-            <Polish>Szansa na zapadnięcie się dróg oddechowych</Polish>
-            <Spanish>Probabilidad de colapso de las vías aéreas</Spanish>
-            <Chinese>呼吸道塌陷機率</Chinese>
-            <Chinesesimp>气道塌陷几率</Chinesesimp>
-            <Czech>Pravděpodobnost zhroucení dýchacích cest</Czech>
-            <Korean>기도 허탈 확률</Korean>
-            <French>Probabilité d'affaissement des voies aériennes</French>
-            <Turkish>Hava yolu çökmesi olasılığı</Turkish>
-            <Italian>Probabilità di collasso delle vie aeree</Italian>
-            <Russian>Вероятность коллапса дыхательных путей</Russian>
-            <Japanese>気道崩壊の確率</Japanese>
+            <Portuguese>ACE - Lesões nas vias aéreas ativadas?</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_SETTING_obstruction">
             <English>Probability for an obstructed airway</English>
@@ -60,6 +31,7 @@
             <Italian>Probabilità di ostruzione delle vie aeree</Italian>
             <Russian>Вероятность закупорки дыхательных путей</Russian>
             <Japanese>気道閉塞の確率</Japanese>
+            <Portuguese>Probabilidade de obstrução das vias aéreas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_SETTING_occluded">
             <English>Probability for airway occluding</English>
@@ -75,6 +47,7 @@
             <Italian>Probabilità di occlusione delle vie aeree</Italian>
             <Russian>Вероятность закупорки дыхательных путей</Russian>
             <Japanese>気道異物の確率</Japanese>
+            <Portuguese>Probabilidade de oclusão das vias aéreas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_SETTING_occlusion_repeatTimer">
             <English>Occlusion repeat timer</English>
@@ -87,6 +60,7 @@
             <Czech>Opakovač uzavření dýchacích cest</Czech>
             <Chinesesimp>气道异物再发冷却时间</Chinesesimp>
             <Spanish>Tiempo de repetición de las oclusiones</Spanish>
+            <Portuguese>Temporizador de repetição de oclusão</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_SETTING_puking_sound">
             <English>Activate the puking sound?</English>
@@ -102,6 +76,7 @@
             <Italian>Attivare il suono del vomito?</Italian>
             <Russian>Активировать звук рвоты?</Russian>
             <Japanese>嘔吐音を再生しますか?</Japanese>
+            <Portuguese>Ativar o som de vomitar?</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_SETTING_exit">
             <English>Community called keko had addon for AFK players. They were put unconscious so others could drag them away. That triggered chances for airway problems. This string prevents that from happening when they get unconscious by that AFK addon.</English>
@@ -110,13 +85,14 @@
             <Spanish>La comunidad llamada Keko tenía un addon para los jugadores AFK. Se les ponía inconscientes para que otros pudieran arrastrarlos. Eso disparó las posibilidades de problemas en las vías respiratorias. Esta cadena evita que eso suceda cuando quedan inconscientes por ese addon de AFK.</Spanish>
             <Chinese>名为keko的社区有AFK玩家的附加功能。他们被置于无意识状态，所以其他人可以将他们拖走。这引发了气道问题的机会。这个字符串可以防止他们被AFK插件弄昏的情况发生。</Chinese>
             <Chinesesimp>一个名为keko的社区有为AFK玩家提供的附加功能。处于AFK状态下的玩家被调整为无意识状态，所以其他人可以将他们拖走。这引发了与气道相关的问题。这个设定可以防止他们被AFK插件杀死的情况发生。</Chinesesimp>
-            <Czech>Komunia zvaná keko měla addon pro AFK hráče. Ti byli dáni do bezvědomí, takže je ostatní mohli odtáhnout pryč. To ale vyvolalo problémy, které mohli ohrozit jejich dýchací cesty. Tento string zabrání dýchacím potížím, pokud je hráč tímto AFK addonemm dán do bezvědomí.</Czech>
+            <Czech>Komunita zvaná keko měla addon pro AFK hráče. Ti byli dáni do bezvědomí, takže je ostatní mohli odtáhnout pryč. To ale vyvolalo problémy, které mohly ohrozit jejich dýchací cesty. Tento string zabrání dýchacím potížím, pokud je hráč tímto AFK addonem dán do bezvědomí.</Czech>
             <Korean>keko라는 커뮤니티에는 잠수 플레이어를 위한 애드온이 있었습니다. 그 애드온은 다른 사람들이 그들을 끌고 갈 수 있도록 그들을 의식불명으로 만듭니다. 그러나 그것은 기도 이상의 확률을 발생시켰습니다. 이 문자열은 그 애드온에 의해 의식불명이 발생하는 것을 방지합니다.</Korean>
             <French>Le membre de la communauté appelé Keko avait un addon pour les joueurs AFK. Ils étaient passés inconscients et pouvaient être trainés. Ce qui déclenchait les chances de problèmes respiratoires. Cette option empêche cela de se produire quand ils deviennent inconscients par cet addon AFK.</French>
             <Turkish>Keko adlı topluluğun AFK oyuncuları için eklentileri vardı. Başkalarının onları uzaklaştırabilmesi için bilinçsiz bırakıldılar. Bu, hava yolu problemleri olasılığını tetikledi. Bu dize, AFK eklentisi tarafından bilinçsiz hale geldiklerinde bunun olmasını engeller.</Turkish>
             <Italian>La comunità chiamata keko aveva un addon per i giocatori AFK. Venivano resi inconscenti così che gli altri potessero trascinarli via. Questo aveva la possibilità di causare problemi alle vie aeree. Questa stringa previene che ciò succeda quando vengono resi incoscenti da questo addon AFK.</Italian>
             <Russian>У сообщества под названием Keko был аддон для игроков AFK. Они были лишены сознания, чтобы другие могли их вытащить. Это спровоцировало риск респираторных заболеваний. Эта строка предотвратит это, когда они потеряют сознание из-за этого аддона AFK.</Russian>
             <Japanese>kekoというコミュニティにはAFKプレーヤー用のアドオンがありました。他の人がそれらを引き離すことができるように、彼らは無意識に置かれました。それが気道の問題の可能性を引き起こしました。この文字列は、AFKアドオンによって意識が失われたときにそれが発生するのを防ぎます。</Japanese>
+            <Portuguese>A comunidade Keko tinha um addon para os jogadores AFK. Eles foram colocados inconscientes para que outros pudessem arrastá-los. Isso desencadeou chances de problemas nas vias aéreas. Esta corda evita que isso aconteça quando eles ficam inconscientes por causa do addon.</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_checkAirway">
             <English>Check Airways</English>
@@ -132,12 +108,13 @@
             <Italian>Controllare vie aeree</Italian>
             <Russian>проверить дыхательные пути</Russian>
             <Japanese>気道を確認する</Japanese>
+            <Portuguese>Verificar as vias aéreas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_checkAirway_log">
             <English>%1 checked airways: %2, %3</English>
             <German>%1 überprüfte Atemwege: %2, %3</German>
             <Polish>%1 sprawdził drogi oddechowe: %2, %3</Polish>
-            <Spanish>%1 comprobó las vías aéreas: %2, %2</Spanish>
+            <Spanish>%1 comprobó las vías aéreas: %2, %3</Spanish>
             <Chinese>%1 檢查呼吸道: %2, %3</Chinese>
             <Czech>Zkontrolovány dýchací cesty: %2, %3</Czech>
             <Korean>%1 기도 확인됨: %2, %3</Korean>
@@ -145,6 +122,7 @@
             <Turkish>%1 kontrol edilmiş havayolları: %2, %3</Turkish>
             <Italian>%1 ha controllato le vie aeree: %2, %3</Italian>
             <Japanese>%1 が気道を確認しました: %2, %3</Japanese>
+            <Portuguese>%1 verificou as vias aéreas: %2, %3</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_airway_log">
             <English>%1 inserted a %2</English>
@@ -160,6 +138,7 @@
             <Italian>%1 ha intubato con %2</Italian>
             <Russian>%1 вставил %2</Russian>
             <Japanese>%1 は %2 を挿管しました</Japanese>
+            <Portuguese>%1 intubou com %2</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Occluded">
             <English>Occluded</English>
@@ -175,21 +154,7 @@
             <Italian>Occlusa</Italian>
             <Russian>Окклюзия</Russian>
             <Japanese>異物発生</Japanese>
-        </Key>
-        <Key ID="STR_kat_airway_Collapsed">
-            <English>Collapsed</English>
-            <German>Kollabiert</German>
-            <Polish>Zapadnięte</Polish>
-            <Spanish>Colapsada</Spanish>
-            <Chinese>塌陷</Chinese>
-            <Chinesesimp>塌陷</Chinesesimp>
-            <Czech>Zhrouceno</Czech>
-            <Korean>허탈</Korean>
-            <French>Affaissées </French>
-            <Turkish>Çökmüş</Turkish>
-            <Italian>Collassata</Italian>
-            <Russian>Свернуто</Russian>
-            <Japanese>崩壊発生</Japanese>
+            <Portuguese>Ocluída</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_obstruction">
             <English>Obstruction</English>
@@ -205,33 +170,20 @@
             <Italian>Ostruita</Italian>
             <Russian>Обструкция</Russian>
             <Japanese>閉塞発生</Japanese>
-        </Key>
-        <Key ID="STR_kat_airway_N">
-            <English>Not</English>
-            <German>Nicht</German>
-            <Polish>Nie</Polish>
-            <Spanish>No</Spanish>
-            <Chinese>無</Chinese>
-            <Chinesesimp>无</Chinesesimp>
-            <Czech>Není</Czech>
-            <Korean>없음</Korean>
-            <French>Non</French>
-            <Turkish>Değil</Turkish>
-            <Italian>No</Italian>
-            <Russian>Нет</Russian>
-            <Japanese>無し</Japanese>
+            <Portuguese>Obstruída</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_mitigatedObstruction">
             <English>Mitigated obstruction</English>
             <Polish>Ręcznie udrożnione</Polish>
-            <Japanese>軽減された</Japanese>
-            <Italian>Ostruzione attenuata.</Italian>
+            <Japanese>閉塞軽減中</Japanese>
+            <Italian>Ostruzione attenuata</Italian>
             <Czech>Zmírněné zablokování</Czech>
             <Korean>막힘 완화됨</Korean>
             <German>Geringe Obstruktion</German>
             <Chinesesimp>减轻阻塞</Chinesesimp>
             <French>Obstruction atténuée</French>
             <Spanish>Obstrucción mitigada</Spanish>
+            <Portuguese>Obstrução mitigada</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_message_obstructionTemporarilyMitigated">
             <English>Obstruction is temporarily mitigated</English>
@@ -240,6 +192,10 @@
             <Japanese>閉塞は一時的に軽減されています</Japanese>
             <Spanish>Obstrucción temporalmente mitigada</Spanish>
             <German>Die Obstruktion ist temporär gemildert</German>
+            <Italian>Ostruzione è momentaneamente attenuata</Italian>
+            <Czech>Zablokování je dočasně zmírněno</Czech>
+            <Korean>혀막힘이 일시적으로 완화되었습니다.</Korean>
+            <Portuguese>Obstrução temporariamente mitigada</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_message_obstruction_no">
             <English>Airways are clear</English>
@@ -255,6 +211,7 @@
             <Italian>Le vie aeree sono libere</Italian>
             <Russian>Дыхательные пути чисты</Russian>
             <Japanese>気道は確保されています</Japanese>
+            <Portuguese>As vias aéreas estão limpas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_message_Occluded_no">
             <English>No medical suction needed</English>
@@ -270,6 +227,7 @@
             <Italian>Aspirazione medica non necessaria</Italian>
             <Russian>Всасывание не требуется</Russian>
             <Japanese>医療吸引は必要ありません</Japanese>
+            <Portuguese>Não é necessária sucção médica</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_message_obstruction_yes">
             <English>Airway management needed</English>
@@ -285,6 +243,7 @@
             <Italian>Gestione delle vie aeree necessaria</Italian>
             <Russian>Необходимо управление дыхательными путями</Russian>
             <Japanese>気道管理が必要です</Japanese>
+            <Portuguese>Necessidade de gerenciamento das vias aéreas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_message_Occluded_yes">
             <English>Medical suction needed</English>
@@ -300,6 +259,7 @@
             <Italian>Aspirazione medica necessaria</Italian>
             <Russian>всасывание необходимо</Russian>
             <Japanese>医療吸引が必要です</Japanese>
+            <Portuguese>Sucção médica necessária</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Airway_already">
             <English>Airway management has already been performed</English>
@@ -315,21 +275,7 @@
             <Italian>Gestione delle vie aeree già eseguita</Italian>
             <Russian>Всасывание необходимо</Russian>
             <Japanese>気道管理はすでに行われています</Japanese>
-        </Key>
-        <Key ID="STR_kat_airway_activity">
-            <English>%1 put a: %2</English>
-            <German>%1 setze einen: %2</German>
-            <Polish>%1 umieścił: %2</Polish>
-            <Spanish>%1 puso un: %2</Spanish>
-            <Chinese>%1 放置一個: %2</Chinese>
-            <Chinesesimp>%1 被放置: %2</Chinesesimp>
-            <Czech>%1 vlož: %2</Czech>
-            <Korean>%1 은(는) %2 을(를) 사용했습니다</Korean>
-            <French>%1 a placé un(e) : %2</French>
-            <Turkish>% 1 a:% 2 koydu</Turkish>
-            <Italian>%1 ha posizionato un: %2</Italian>
-            <Russian>%1 установить: %2</Russian>
-            <Japanese>%1 は %2 を使用しました</Japanese>
+            <Portuguese>O gerenciamento das vias aéreas já foi realizado</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Airway_NA">
             <English>Airways are clear</English>
@@ -345,6 +291,7 @@
             <Italian>Le vie aeree sono libere</Italian>
             <Russian>Дыхательные пути чисты</Russian>
             <Japanese>気道は確保されています</Japanese>
+            <Portuguese>As vias aéreas estão limpas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Airway_turnaroundSuccess">
             <English>Occlusion removed</English>
@@ -360,6 +307,7 @@
             <Italian>Occlusione rimossa</Italian>
             <Russian>Окклюзия удалена</Russian>
             <Japanese>異物が除去されました</Japanese>
+            <Portuguese>Oclusão removida</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Airway_NotClearForItem">
             <English>Item could not be used, airways are not clear</English>
@@ -375,6 +323,7 @@
             <Italian>L'articolo non può essere utilizzato, le vie aeree non sono libere</Italian>
             <Russian>Предмет не может быть использован, дыхательные пути не очищены</Russian>
             <Japanese>使用できませんでした、気道が詰まっています</Japanese>
+            <Portuguese>O item não pôde ser usado, as vias aéreas estão bloqueadas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_overstretch">
             <English>Hyperextending Head</English>
@@ -390,6 +339,7 @@
             <Italian>Iperestensione della testa</Italian>
             <Russian>Гиперэкстензия головы</Russian>
             <Japanese>気道確保 (頭部後屈あご先挙上法)</Japanese>
+            <Portuguese>Hiperextensão de cabeça</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_overstretched">
             <English>Hyperextended Head</English>
@@ -405,6 +355,7 @@
             <Italian>Testa iperestesa</Italian>
             <Russian>перетянутый голова</Russian>
             <Japanese>気道確保中 (頭部後屈あご先挙上法)</Japanese>
+            <Portuguese>Cabeça hiperextendida</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_overstretching">
             <English>Extending</English>
@@ -419,7 +370,8 @@
             <Turkish>Uzatılmış</Turkish>
             <Italian>Estendendo</Italian>
             <Russian>Гиперэкстензия головы</Russian>
-            <Japanese>気道確保中</Japanese>
+            <Japanese>気道確保実施中</Japanese>
+            <Portuguese>Hiperextendendo cabeça</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_overstretch_cancel">
             <English>Hyperextending Head canceled</English>
@@ -434,7 +386,8 @@
             <Turkish>Hyperextension İptal Edildi</Turkish>
             <Italian>Iperestensione della testa annullata</Italian>
             <Russian>Гиперэкстензия головы отменена</Russian>
-            <Japanese>気道確保が中止されました</Japanese>
+            <Japanese>気道確保が中断されました</Japanese>
+            <Portuguese>Hiperextensão cancelada</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_overstretch_info">
             <English>Don't run away, you're saving a life!</English>
@@ -450,12 +403,13 @@
             <Italian>Non andartene, stai salvando una vita!</Italian>
             <Russian>Не убегай, ты спасаешь жизнь!</Russian>
             <Japanese>移動しないでください、 あなたは気道確保中です!</Japanese>
+            <Portuguese>Não fuja, você está salvando uma vida!</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_turnaround_info">
             <English>Head turn performed, airways are still not clear</English>
             <German>Kopfdrehung durchgeführt, Atemwege sind noch nicht frei</German>
             <Polish>Obrót głowy wykonany, drogi oddechowe wciąż nie są czyste</Polish>
-            <Spanish>Giro de cabeza realizado, vías aéreas aún sin despejadar</Spanish>
+            <Spanish>Giro realizado, vías aéreas aún sin despejadar</Spanish>
             <Chinese>转头，气道仍不清楚</Chinese>
             <Chinesesimp>尝试清理气道异物失败, 异物仍存在</Chinesesimp>
             <Czech>Hlavou se otočilo, dýchací cesty stále nejsou volné</Czech>
@@ -465,6 +419,7 @@
             <Italian>Rotazione della testa eseguita, le vie aeree non sono ancora libere</Italian>
             <Russian>Выполнен поворот головы, дыхательные пути еще не очистились</Russian>
             <Japanese>試みましたが、異物がまだ残っています</Japanese>
+            <Portuguese>Giro de cabeça executada, as vias aéreas ainda estão bloqueadas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_turnaround">
             <English>Head turning</English>
@@ -474,12 +429,13 @@
             <Chinese>扶正頭部</Chinese>
             <Chinesesimp>尝试清理气道异物</Chinesesimp>
             <Czech>Otáčet hlavou</Czech>
-            <Korean>고개 돌리는 중</Korean>
+            <Korean>고개 돌리기</Korean>
             <French>Rotation de la tête</French>
             <Turkish>Baş döndürme</Turkish>
             <Italian>Rotazione testa</Italian>
             <Russian>Повернуть голову в сторону</Russian>
             <Japanese>異物の除去</Japanese>
+            <Portuguese>Virar cabeça</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_turnaround_action">
             <English>Turning the head</English>
@@ -489,12 +445,13 @@
             <Chinese>轉動頭部中</Chinese>
             <Chinesesimp>尝试清理气道异物中</Chinesesimp>
             <Czech>Otáčení hlavou</Czech>
-            <Korean>고개 돌리기</Korean>
+            <Korean>고개 돌리는 중</Korean>
             <French>Rotation de la tête</French>
             <Turkish>Kafayı çevir</Turkish>
             <Italian>Ruotando la testa</Italian>
             <Russian>Повернуть голову в сторону</Russian>
             <Japanese>異物を除去しようとしています</Japanese>
+            <Portuguese>Virando a cabeça</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Accuvac_NA">
             <English>Medical suction not needed</English>
@@ -510,6 +467,7 @@
             <Italian>Aspirazione medica non necessaria</Italian>
             <Russian>Медицинская всасывание не требуется</Russian>
             <Japanese>医療吸引は必要ありません</Japanese>
+            <Portuguese>Sucção médica não necessária</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_action_checking">
             <English>Checking Airway</English>
@@ -525,6 +483,7 @@
             <Italian>Controllo delle vie aeree</Italian>
             <Russian>Проверка дыхательных путей</Russian>
             <Japanese>気道を確認する</Japanese>
+            <Portuguese>Verificando as vias aéreas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_action_placing">
             <English>Placing</English>
@@ -540,6 +499,7 @@
             <Italian>Posizionando</Italian>
             <Russian>Размещение</Russian>
             <Japanese>装着中</Japanese>
+            <Portuguese>Colocando</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Larynxtubus_Display">
             <English>King LT</English>
@@ -554,7 +514,8 @@
             <Turkish>Laringeal Tüp</Turkish>
             <Italian>Tubo laringeo</Italian>
             <Russian>Гортанная трубка</Russian>
-            <Japanese>King LT 喉頭気道チューブ</Japanese>
+            <Japanese>King LT (喉頭エアウェイ)</Japanese>
+            <Portuguese>Tubo Laríngeo</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Larynx_Desc_Short">
             <English>The King LT is used to save the airways</English>
@@ -569,22 +530,8 @@
             <Turkish>Laringeal Tüpü, hava yollarını kurtarmak için kullanılır</Turkish>
             <Italian>Il tubo laringeo viene usato per salvare le vie aeree</Italian>
             <Russian>Ларингеальная трубка – это устройство для обеспечения проходимости дыхательных путей.</Russian>
-            <Japanese>King LTは気道を保護するために使用されます</Japanese>
-        </Key>
-        <Key ID="STR_kat_airway_Larynx_Desc_Use">
-            <English>The King LT is used to save the airways</English>
-            <German>Der Larynxtubus ist ein Hilfsmittel zur Atemwegssicherung</German>
-            <Polish>Rurka krtaniowa służy do ratowania dróg oddechowych</Polish>
-            <Spanish>El tubo laríngeo previene obstrucciones y oclusiones</Spanish>
-            <Chinese>喉管是用於拯救呼吸道</Chinese>
-            <Chinesesimp>King LT-D是一种无菌的一次性声门上气道装置,是气管插管或面罩通气的替代方法,经过特殊设计,可最大限度地减少气道创伤.</Chinesesimp>
-            <Czech>King LT je používán na záchranu dýchacích cest</Czech>
-            <Korean>기관삽입기는 기도를 확보하기 위해 사용됩니다.</Korean>
-            <French>Le tube laryngé est utilisé pour protéger les voies aériennes</French>
-            <Turkish>Laringeal Tüpü, hava yollarını kurtarmak için kullanılır</Turkish>
-            <Italian>Il tubo laringeo viene usato per salvare le vie aeree</Italian>
-            <Russian>Ларингеальная трубка – это устройство для обеспечения проходимости дыхательных путей.</Russian>
-            <Japanese>King LTは気道を保護するために使用されます</Japanese>
+            <Japanese>King LT (喉頭エアウェイ)は気道を確保するために使用されます</Japanese>
+            <Portuguese>O Tubo Laríngeo evita obstruções e oclusões</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Guedeltubus_Display">
             <English>Guedel Tube</English>
@@ -593,13 +540,14 @@
             <Spanish>Cánula de Guedel</Spanish>
             <Chinese>抽吸管</Chinese>
             <Chinesesimp>口咽通气管(Guedel)</Chinesesimp>
-            <Czech>Geudel Tuba</Czech>
+            <Czech>Guedel Tuba</Czech>
             <Korean>게델튜브</Korean>
             <French>Canule de Guedel</French>
             <Turkish>Guedel Tüpü</Turkish>
             <Italian>Canula di Guedel</Italian>
             <Russian>Трубка Геделя</Russian>
-            <Japanese>Guedel 経口気道チューブ</Japanese>
+            <Japanese>ゲデルチューブ (口咽頭エアウェイ)</Japanese>
+            <Portuguese>Cânula de Guedel</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Guedel_Desc_Short">
             <English>The Guedel Tube is used to save the airways</English>
@@ -608,43 +556,14 @@
             <Spanish>La cánula de Guedel impide obstrucciones</Spanish>
             <Chinese>抽吸管用於拯救呼吸道</Chinese>
             <Chinesesimp>Guedel是一种气道辅助通气装置,同时集成了舌垫可防止气道阻塞.</Chinesesimp>
-            <Czech>Geudel tuba je používán na záchranu dýchacích cest</Czech>
+            <Czech>Guedel tuba je používána na zajištění dýchacích cest</Czech>
             <Korean>게델튜브는 응급처치현장에서 신속하며 간편하게 기도확보하기 위해 사용됩니다</Korean>
             <French>La canule de Guedel est utilisée pour protéger les voies aériennes</French>
             <Turkish>Guedel Tüpü, hava yollarını kurtarmak için kullanılır</Turkish>
             <Italian>La canula di Guedel viene usata per salvare le vie aeree</Italian>
             <Russian>Трубка Геделя используется для сохранения дыхательных путей.</Russian>
-            <Japanese>Guedelチューブは気道を保護するために使用されます</Japanese>
-        </Key>
-        <Key ID="STR_kat_airway_Guedel_Desc_Use">
-            <English>The Guedel Tube is used to save the airways</English>
-            <German>Der Guedeltubus ist ein Hilfsmittel zur Atemwegssicherung</German>
-            <Polish>Rurka ustno-gardłowa służy do podtrzymywania języka przed blokowaniem dróg oddechowych</Polish>
-            <Spanish>La cánula de Guedel impide obstrucciones</Spanish>
-            <Chinese>抽吸管用於拯救呼吸道</Chinese>
-            <Chinesesimp>Guedel是一种气道辅助通气装置,同时集成了舌垫可防止气道阻塞.</Chinesesimp>
-            <Czech>King LT je používán na záchranu dýchacích cest</Czech>
-            <Korean>게델튜브는 응급처치현장에서 신속하며 간편하게 기도를 확보하기 위해 사용됩니다</Korean>
-            <French>La canule de Guedel est utilisée pour protéger les voies aériennes</French>
-            <Turkish>Guedel Tüpü, hava yollarını kurtarmak için kullanılır</Turkish>
-            <Italian>La canula di Guedel viene usata per salvare le vie aeree</Italian>
-            <Russian>Трубка Геделя используется для сохранения дыхательных путей.</Russian>
-            <Japanese>Guedelチューブは気道を保護するために使用されます</Japanese>
-        </Key>
-        <Key ID="STR_kat_airway_Accuvac_Desc_Use">
-            <English>ACCUVAC is a medical suction device for airway suction with battery drive for mobile use in emergency medicine.</English>
-            <German>Der ACCUVAC ist ein medizinisches Absauggerät zur Atemwegsabsaugung mit Akkubetrieb für den mobilen Einsatz in der Notfallmedizin.</German>
-            <Polish>ACCUVAC jest to ssak elektryczny do użytku mobilnego.</Polish>
-            <Spanish>ACCUVAC es un equipo de succión médica para vías aéreas alimentado por una batería, permitiendo movilidad ante una emergencia médica.</Spanish>
-            <Chinese>電動抽吸器是一款使用電池驅動的一臺在緊急狀況時拯救呼吸道可攜式醫療裝置</Chinese>
-            <Chinesesimp>ACCUVAC是紧急情况下使用的电池驱动的便携式医疗抽吸装置</Chinesesimp>
-            <Czech>ACCUVAC je lékařské odsávací zařízení pro odsávání dýchacích cest s pohonem na baterky pro mobilní použití v pohotovostní medicíně.</Czech>
-            <Korean>전기흡인기는 응급상황에서 목에 걸린 이물질을 흡인하기 위한 휴대용 의료석션입니다.</Korean>
-            <French>L’ACCUVAC est un dispositif médical mobile d’aspiration pour libérer les voies aériennes supérieures des patients en cas d'encombrement ou d'obstruction</French>
-            <Turkish>ACCUVAC, acil tıpta mobil kullanım için pilli hava yolu emişine yönelik tıbbi bir emme cihazıdır.</Turkish>
-            <Italian>L'ACCUVAC è un dispositivo medico portatile di suzione a batterie per aspirare le vie aeree in caso di emergenza</Italian>
-            <Russian>ACCUVAC — это медицинский отсасыватель для отсасывания из дыхательных путей с аккумуляторным приводом для мобильного использования в неотложной медицине.</Russian>
-            <Japanese>ACCUVACは、救急医療で携帯使用するための電源を備えた気道吸引用の医療用吸引装置です。</Japanese>
+            <Japanese>ゲデルチューブ (口咽頭エアウェイ)は気道を確保するために使用されます</Japanese>
+            <Portuguese>A Cânula de Guedel evita obstruções</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Accuvac_Desc_Short">
             <English>ACCUVAC is a medical suction device for airway suction with battery drive for mobile use in emergency medicine.</English>
@@ -660,36 +579,7 @@
             <Italian>L'ACCUVAC è un dispositivo medico portatile di suzione a batterie per aspirare le vie aeree in caso di emergenza</Italian>
             <Russian>ACCUVAC — это медицинский отсасыватель для отсасывания из дыхательных путей с аккумуляторным приводом для мобильного использования в неотложной медицине.</Russian>
             <Japanese>ACCUVACは、救急医療で携帯使用するための電源を備えた気道吸引用の医療用吸引装置です。</Japanese>
-        </Key>
-        <Key ID="STR_kat_airway_intubating">
-            <English>Intubating</English>
-            <German>Intubieren</German>
-            <Polish>Intubowanie</Polish>
-            <Spanish>Intubando</Spanish>
-            <Chinese>插管</Chinese>
-            <Chinesesimp>插管</Chinesesimp>
-            <Czech>Intubace</Czech>
-            <Korean>삽관</Korean>
-            <French>Intubation</French>
-            <Turkish>Entübe Ediliyor</Turkish>
-            <Italian>Intubando</Italian>
-            <Russian>Интубация</Russian>
-            <Japanese>挿管</Japanese>
-        </Key>
-        <Key ID="STR_kat_airway_vacuum">
-            <English>Medical suction</English>
-            <German>Medizinisches Absaugen</German>
-            <Polish>Odsysanie medyczne</Polish>
-            <Spanish>Succión médica</Spanish>
-            <Chinese>醫療抽吸</Chinese>
-            <Chinesesimp>医疗抽吸(ACCUVAC)</Chinesesimp>
-            <Czech>Lékařské odsávání</Czech>
-            <Korean>흡인</Korean>
-            <French>Aspiration médicale</French>
-            <Turkish>Tıbbi emme</Turkish>
-            <Italian>Aspirazione medica</Italian>
-            <Russian>Медицинский отсос</Russian>
-            <Japanese>医療吸引</Japanese>
+            <Portuguese>ACCUVAC é uma unidade de sucção portátil utilizada para tratar vias aéreas em caso de emergência médica.</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Vomit_Display">
             <English>Vomit (Small)</English>
@@ -705,6 +595,7 @@
             <Italian>Vomito</Italian>
             <Russian>Рвота (маленькая)</Russian>
             <Japanese>吐瀉物 (小)</Japanese>
+            <Portuguese>Vômito (Pequeno)</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_SUCCES_HEADTURNING">
             <English>Success probability for head-turning</English>
@@ -720,6 +611,7 @@
             <Italian>Probabilità di successo della rotazione della testa</Italian>
             <Russian>Вероятность успеха для поворота головы</Russian>
             <Japanese>異物の除去の成功確率</Japanese>
+            <Portuguese>Probabilidade de sucesso ao virar a cabeça</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_SUCCES_HEADTURNING_DESC">
             <English>Higher, the better the probability of success</English>
@@ -735,6 +627,7 @@
             <Italian>Più alto è, migliori sono le probabilità di successo</Italian>
             <Russian>Чем выше, тем выше вероятность успеха</Russian>
             <Japanese>高いほど、成功の可能性が高くなります</Japanese>
+            <Portuguese>Quanto maior, melhor a probabilidade de sucesso</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_ALLOW_LARYNXTUBUS">
             <English>Allow Larynxtubus</English>
@@ -749,7 +642,8 @@
             <Turkish>Laringeal Tüp'e izin ver</Turkish>
             <Italian>Permetti il tubo laringeo</Italian>
             <Russian>Разрешить гортанную трубку</Russian>
-            <Japanese>King LTの許可</Japanese>
+            <Japanese>喉頭エアウェイ(King LT)の許可</Japanese>
+            <Portuguese>Permitir Tubo Laríngeo</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_ALLOW_LARYNXTUBUS_DESC">
             <English>Training level required to use a Larynxtubus - KingLT</English>
@@ -764,7 +658,8 @@
             <Turkish>Laringeal Tüp'ü kullanmak için gerekli eğitim seviyesi</Turkish>
             <Italian>Livello d'addestramento richiesto per utilizzare il tubo laringeo</Italian>
             <Russian>Уровень подготовки, необходимый для использования гортанной трубки</Russian>
-            <Japanese>King LTの使用に訓練レベルを必要とさせます。</Japanese>
+            <Japanese>喉頭エアウェイ(King LT)の使用に訓練レベルを必要とさせます。</Japanese>
+            <Portuguese>Nível de treinamento necessário para usar um Tubo Laríngeo</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_ALLOW_GUEDELTUBUS">
             <English>Allow Guedeltubus</English>
@@ -779,7 +674,8 @@
             <Turkish>Guedel Tüp'e izin ver</Turkish>
             <Italian>Permetti la canula di Guedel</Italian>
             <Russian>Разрешить гедельтубус</Russian>
-            <Japanese>Guedelチューブの許可</Japanese>
+            <Japanese>口咽頭エアウェイ(ゲデルチューブ)の許可</Japanese>
+            <Portuguese>Permitir Cânula de Guedel</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_ALLOW_GUEDELTUBUS_DESC">
             <English>Training level required to use a Guedeltubus</English>
@@ -794,7 +690,8 @@
             <Turkish>Guedel Tüp'ü kullanmak için gerekli eğitim seviyesi</Turkish>
             <Italian>Livello d'addestramento richiesto per utilizzare la canula di Guedel</Italian>
             <Russian>Уровень подготовки, необходимый для использования тубуса Геделя.</Russian>
-            <Japanese>Guedelチューブの使用に訓練レベルを必要とさせます。</Japanese>
+            <Japanese>口咽頭エアウェイ(ゲデルチューブ)の使用に訓練レベルを必要とさせます。</Japanese>
+            <Portuguese>Nível de treinamento necessário para usar uma Cânula de Guedel</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_ALLOW_ACCUVAC">
             <English>Allow Accuvac</English>
@@ -810,6 +707,7 @@
             <Italian>Permetti l'ACCUVAC</Italian>
             <Russian>Разрешить Аккувак</Russian>
             <Japanese>Accuvacの許可</Japanese>
+            <Portuguese>Permitir ACCUVAC</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_ALLOW_ACCUVAC_DESC">
             <English>Training level required to use an Accuvac</English>
@@ -825,6 +723,7 @@
             <Italian>Livello d'addestramento richiesto per utilizzare l'ACCUVAC</Italian>
             <Russian>Уровень подготовки, необходимый для использования Accuvac</Russian>
             <Japanese>Accuvacの使用に訓練レベルを必要とさせます。</Japanese>
+            <Portuguese>Nível de treinamento necessário para usar um ACCUVAC</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_CHECKAIRWAY">
             <English>Time to check Airways</English>
@@ -840,6 +739,7 @@
             <Italian>Tempo per controllare le vie aeree</Italian>
             <Russian>Время проверить дыхательные пути</Russian>
             <Japanese>気道の確認にかかる時間</Japanese>
+            <Portuguese>Tempo para verificar as vias aéreas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_CHECKAIRWAY_DESC">
             <English>How long it will take to check Airways</English>
@@ -855,6 +755,7 @@
             <Italian>Quanto tempo si impiega per controllare le vie aeree</Italian>
             <Russian>Сколько времени займет проверка дыхательных путей</Russian>
             <Japanese>気道の確認を完了するのにどのくらい時間がかかるか設定します</Japanese>
+            <Portuguese>Quanto tempo levará para verificar as vias aéreas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_HEADTURNING">
             <English>Time for head turning</English>
@@ -870,6 +771,7 @@
             <Italian>Tempo per ruotare la testa</Italian>
             <Russian>Время для поворота головы</Russian>
             <Japanese>異物の除去にかかる時間</Japanese>
+            <Portuguese>Tempo para virar a cabeça</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_OVERSTRETCH">
             <English>Time for overstretch the head</English>
@@ -885,6 +787,7 @@
             <Italian>Tempo per iperestendere la testa</Italian>
             <Russian>Время перенапрягать голову</Russian>
             <Japanese>気道確保にかかる時間</Japanese>
+            <Portuguese>Tempo para hiperextender a cabeça</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_OVERSTRETCH_DESC">
             <English>How long it will take to overstretch the head</English>
@@ -900,6 +803,7 @@
             <Italian>Quanto tempo si impiega per iperestendere la testa</Italian>
             <Russian>Сколько времени потребуется, чтобы перетянуть голову</Russian>
             <Japanese>気道確保 (頭部後屈あご先挙上法) を完了するのにどのくらい時間がかかるか設定します</Japanese>
+            <Portuguese>Quanto tempo demorará para hiperextender a cabeça</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_HEADTURNING_DESC">
             <English>How long it will take to turn head</English>
@@ -915,6 +819,7 @@
             <Italian>Quanto tempo si impiega per ruotare la testa</Italian>
             <Russian>Сколько времени потребуется, чтобы повернуть голову</Russian>
             <Japanese>異物の除去を完了するのにどのくらい時間がかかるか設定します</Japanese>
+            <Portuguese>Quanto tempo demorará para virar a cabeça</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_ACCUVAC">
             <English>Time for Accuvac</English>
@@ -930,6 +835,7 @@
             <Italian>Tempo per l'ACCUVAC</Italian>
             <Russian>Время Аккувака</Russian>
             <Japanese>Accuvacにかかる時間</Japanese>
+            <Portuguese>Tempo para ACCUVAC</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_ACCUVAC_DESC">
             <English>How long it will take to use Accuvac</English>
@@ -945,6 +851,7 @@
             <Italian>Quanto tempo si impiega per usare l'ACCUVAC</Italian>
             <Russian>Сколько времени потребуется, чтобы использовать Аккувака</Russian>
             <Japanese>Accuvacを使用するのにどのくらい時間がかかるか設定します</Japanese>
+            <Portuguese>Quanto tempo demorará para usar ACCUVAC</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_LARYNXTUBUS">
             <English>Time for Larynxtubus</English>
@@ -959,7 +866,8 @@
             <Turkish>Laringeal Tüp için Zaman</Turkish>
             <Italian>Tempo per il tubo laringeo</Italian>
             <Russian>Время гортанной трубки</Russian>
-            <Japanese>King LTにかかる時間</Japanese>
+            <Japanese>喉頭エアウェイ(King LT)にかかる時間</Japanese>
+            <Portuguese>Tempo para Tubo Laríngeo</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_LARYNXTUBUS_DESC">
             <English>How long it will take to use Larynxtubus</English>
@@ -974,7 +882,8 @@
             <Turkish>Laringeal Tüp'ü kullanmak ne kadar sürecek</Turkish>
             <Italian>Quanto tempo si impiega per posizionare il tubo laringeo</Italian>
             <Russian>Сколько времени потребуется, чтобы использовать гортанную трубку</Russian>
-            <Japanese>King LTを使用するのにどのくらい時間がかかるか設定します</Japanese>
+            <Japanese>喉頭エアウェイ(King LT)を使用するのにどのくらい時間がかかるか設定します</Japanese>
+            <Portuguese>Quanto tempo demorará para usar um Tubo Laríngeo</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_GUEDELTUBUS">
             <English>Time for Geudeltubus</English>
@@ -989,7 +898,8 @@
             <Turkish>Geudel Tüp zamanı</Turkish>
             <Italian>Tempo per la canula di Guedel</Italian>
             <Russian>Время для Гедель Тубус</Russian>
-            <Japanese>Guedelチューブにかかる時間</Japanese>
+            <Japanese>口咽頭エアウェイ(ゲデルチューブ)にかかる時間</Japanese>
+            <Portuguese>Tempo para usar uma Cânula de Guedel</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_GUEDELTUBUS_DESC">
             <English>How long it will take to use Guedeltubus</English>
@@ -1004,7 +914,8 @@
             <Turkish>Guedel Tüp'ü kullanmak ne kadar sürecek</Turkish>
             <Italian>Quanto tempo si impiega per posizionare una canula di Guedel</Italian>
             <Russian>Сколько времени потребуется, чтобы использовать Гедель Тубус</Russian>
-            <Japanese>Guedelチューブを使用するのにどのくらい時間がかかるか設定します</Japanese>
+            <Japanese>口咽頭エアウェイ(ゲデルチューブ)を使用するのにどのくらい時間がかかるか設定します</Japanese>
+            <Portuguese>Quanto tempo demorará para usar uma Cânula de Guedel</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_COLORED_LOGS">
             <English>Colored activitylogs (AED-X/Pulseoximeter)</English>
@@ -1020,6 +931,7 @@
             <Italian>Logs di attività colorati (AED-X/Pulsossimetro)</Italian>
             <Russian>Цветные журналы активности (AED-X/пульсоксиметр)</Russian>
             <Japanese>色付きの活動ログ(AED-X /パルスオキシメーター)</Japanese>
+            <Portuguese>Registros de atividade colorizados (DEA-X\Oxímetro)</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_COLORED_LOGS_DESC">
             <English>Colors the Activitylogs of AED-X or Pulseoximeter red, if any value is critical</English>
@@ -1035,6 +947,7 @@
             <Italian>Colora gli Logs di attività di AED-X o il rosso del pulsossimetro, se un valore è critico</Italian>
             <Russian>Окрашивает журналы активности AED-X или пульсоксиметра в красный цвет, если какое-либо значение является критическим.</Russian>
             <Japanese>値が重要な場合は、AED-Xまたはパルスオキシメーターのアクティビティログを赤に着色します</Japanese>
+            <Portuguese>Exibe os registros de atividade em vermelhos se algum valor for crítico</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_RecoveryPosition">
             <English>Established in recovery position</English>
@@ -1045,9 +958,10 @@
             <Korean>회복자세 교정</Korean>
             <French>En position latérale de sécurité</French>
             <Turkish>Kurtarma pozisyonu oluşturuldu</Turkish>
-            <Italian>In posizione laterale di sicurezza.</Italian>
+            <Italian>In posizione laterale di sicurezza</Italian>
             <Czech>Uveden do stabilizované polohy</Czech>
             <Spanish>Posición lateral de seguridad establecida</Spanish>
+            <Portuguese>Posição de recuperação estabelecida</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_RecoveryPosition_displayName">
             <English>Establish recovery position</English>
@@ -1058,9 +972,10 @@
             <Korean>회복자세 교정해주기</Korean>
             <French>Mettre en position latérale de sécurité</French>
             <Turkish>Kurtarma pozisyonu oluşturun</Turkish>
-            <Italian>Metti in posizione laterale di sicurezza.</Italian>
+            <Italian>Metti in posizione laterale di sicurezza</Italian>
             <Czech>Uvést do stabilizované polohy</Czech>
             <Spanish>Establecer posición lateral de seguridad</Spanish>
+            <Portuguese>Estabelecer posição de recuperação</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_RecoveryPosition_displayNameProgress">
             <English>Establishing recovery position</English>
@@ -1071,9 +986,10 @@
             <Korean>회복자세 교정 중</Korean>
             <French>Mise en position latérale de sécurité</French>
             <Turkish>Kurtarma pozisyonu oluşturuluyor</Turkish>
-            <Italian>Mettendo in posizione laterale di sicurezza.</Italian>
+            <Italian>Mettendo in posizione laterale di sicurezza</Italian>
             <Czech>Uvádím do stabilizované polohy</Czech>
             <Spanish>Moviendo a posición lateral de seguridad</Spanish>
+            <Portuguese>Estabelecendo posição de recuperação</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Recovery_Info">
             <English>Recovery position established successfully</English>
@@ -1084,9 +1000,10 @@
             <Korean>회복자세 교정 성공</Korean>
             <French>Mise en position latérale de sécurité réussie</French>
             <Turkish>Kurtarma pozisyonu başarıyla kuruldu</Turkish>
-            <Italian>Messo in posizione laterale di sicurezza. </Italian>
+            <Italian>Messo in posizione laterale di sicurezza </Italian>
             <Czech>Stabilizovaná poloha uvedena úspěšně</Czech>
             <Spanish>Posición lateral de seguridad establecida</Spanish>
+            <Portuguese>Posição de recuperação estabelecida com sucesso</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_Recovery_Cancel">
             <English>Recovery position cancelled</English>
@@ -1097,9 +1014,10 @@
             <Korean>회복자세 교정 취소됨</Korean>
             <French>Mise en position latérale de sécurité annulée</French>
             <Turkish>Kurtarma pozisyonu iptal edildi</Turkish>
-            <Italian>Posizione laterale di sicurezza annullata.</Italian>
+            <Italian>Posizione laterale di sicurezza annullata</Italian>
             <Czech>Stabilizovaná poloha zrušena</Czech>
             <Spanish>Cambio de posición cancelado</Spanish>
+            <Portuguese>Posição de recuperação cancelada</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_RecoveryPosition_Log">
             <English>%1 established recovery position</English>
@@ -1110,9 +1028,10 @@
             <Korean>%1 이(가) 회복자세를 교정했습니다</Korean>
             <French>%1 a mis en place la position latérale de sécurité</French>
             <Turkish>Kurtarma pozisyonu %1 oluşturuldu</Turkish>
-            <Italian>%1 messo in posizione laterale di sicurezza. </Italian>
+            <Italian>%1 messo in posizione laterale di sicurezza</Italian>
             <Czech>%1 uvedl do stabilizované polohy</Czech>
             <Spanish>%1 estableció la posición lateral de seguridad</Spanish>
+            <Portuguese>%1 estabeleceu a posição de recuperação</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_RECOVERY">
             <English>Time for recovery position</English>
@@ -1123,9 +1042,10 @@
             <Korean>회복자세 교정 시간</Korean>
             <French>Temps pour mettre en position latérale de sécurité</French>
             <Turkish>Kurtarma pozisyonu için zaman</Turkish>
-            <Italian>Tempo per mettere in posizione laterale di sicurezza. </Italian>
+            <Italian>Tempo per mettere in posizione laterale di sicurezza</Italian>
             <Czech>Doba pro stabilizovanou polohu</Czech>
             <Spanish>Tiempo para establecer en posición lateral de seguridad</Spanish>
+            <Portuguese>Tempo para estabelecimento de posição de recuperação</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_RECOVERY_DESC">
             <English>How long it will take to establish recovery position</English>
@@ -1136,9 +1056,10 @@
             <Korean>회복자세를 교정해주는 데 걸리는 시간입니다.</Korean>
             <French>Temps nécessaire pour mettre en position latérale de sécurité</French>
             <Turkish>Kurtarma pozisyonunun oluşturulması ne kadar sürer?</Turkish>
-            <Italian>Tempo necessario per mettere in posizione laterale di sicurezza. </Italian>
+            <Italian>Tempo necessario per mettere in posizione laterale di sicurezza</Italian>
             <Czech>Jak dlouho potrvá zavést stabilizovanou polohu</Czech>
             <Spanish>Cuanto tiempo tomará establecer la posición de lateral de seguridad</Spanish>
+            <Portuguese>Quanto tempo demora para estabelecer a posição de recuperação</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_CancelRecoveryPosition_displayName">
             <English>Cancel recovery position</English>
@@ -1149,9 +1070,10 @@
             <Korean>회복자세 교정 취소</Korean>
             <French>Annuler la position latérale de sécurité</French>
             <Turkish>Kurtarma pozisyonunu iptal et</Turkish>
-            <Italian>Cancella la posizione laterale di sicurezza. </Italian>
+            <Italian>Cancella la posizione laterale di sicurezza </Italian>
             <Czech>Zrušit stabilizovanou polohu</Czech>
             <Spanish>Cancelar posición lateral de seguridad</Spanish>
+            <Portuguese>Cancelar posição de recuperação</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_CancelRecoveryPosition_displayNameProgress">
             <English>Cancelling recovery position</English>
@@ -1162,9 +1084,10 @@
             <Korean>회복자세 교정 취소 중</Korean>
             <French>Annulation de la position latérale de sécurité</French>
             <Turkish>Kurtarma pozisyonu iptal ediliyor</Turkish>
-            <Italian>Cancellando la posizione laterale di sicurezza.</Italian>
+            <Italian>Cancellando la posizione laterale di sicurezza</Italian>
             <Czech>Ruším stabilizovanou polohu</Czech>
             <Spanish>Cancelando la posición lateral de seguridad</Spanish>
+            <Portuguese>Cancelando posição de recuperação</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_CANCELRECOVERY">
             <English>Time for cancelling recovery position</English>
@@ -1175,9 +1098,10 @@
             <Korean>회복자세 교정 취소 시간</Korean>
             <French>Temps pour annuler la position latérale de sécurité</French>
             <Turkish>Kurtarma pozisyonunu iptal etmek için zaman</Turkish>
-            <Italian>Tempo per cancellare la  posizione laterale di sicurezza. </Italian>
+            <Italian>Tempo per cancellare la  posizione laterale di sicurezza </Italian>
             <Czech>Doba pro zrušení stabilizované polohy</Czech>
             <Spanish>Tiempo para cancelar la posición lateral de seguridad</Spanish>
+            <Portuguese>Tempo para cancelamento de posição de recuperação</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_TIME_CANCELRECOVERY_DESC">
             <English>How long it will take to establish recovery position</English>
@@ -1188,9 +1112,10 @@
             <Korean>회복자세 교정을 취소하는 데 걸리는 시간입니다</Korean>
             <French>Temps nécessaire pour annuler la position latérale de sécurité</French>
             <Turkish>Kurtarma pozisyonunun oluşturulması ne kadar sürer?</Turkish>
-            <Italian>Tempo necessario per annullare la posizione laterale di sicurezza. </Italian>
+            <Italian>Tempo necessario per annullare la posizione laterale di sicurezza </Italian>
             <Czech>Jak dlouho potrvá zavést stabilizovanou polohu</Czech>
             <Spanish>Cuanto tiempo tomará cancelar la posición lateral de seguridad</Spanish>
+            <Portuguese>Quanto tempo demora para cancelar a posição de recuperação</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_noObstruction">
             <English>Not obstructed</English>
@@ -1205,6 +1130,7 @@
             <Italian>No ostruita</Italian>
             <Japanese>閉塞無し</Japanese>
             <Chinesesimp>无阻塞</Chinesesimp>
+            <Portuguese>Não obstruída</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_noOccluded">
             <English>Not occluded</English>
@@ -1219,6 +1145,7 @@
             <Italian>No occlusa</Italian>
             <Japanese>異物無し</Japanese>
             <Chinesesimp>无闭塞</Chinesesimp>
+            <Portuguese>Não ocluída</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_SubCategory_Basic">
             <English>Basic Settings</English>
@@ -1231,6 +1158,7 @@
             <Chinesesimp>基础设置</Chinesesimp>
             <Japanese>基本設定</Japanese>
             <Spanish>Parámetros básicos</Spanish>
+            <Portuguese>Configurações básicas</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_SubCategory_RecoveryPositionOverstretch">
             <English>Recovery position + Overstretch Settings</English>
@@ -1238,14 +1166,15 @@
             <Czech>Nastavení stabilizované polohy a narovnávání hlavy</Czech>
             <French>Paramètres de position latérale de sécurité + hyperextension</French>
             <Korean>회복 자세 + 머리 젖히기 설정</Korean>
-            <German>Wiederherstellungsposition + Überdehnungseinstellungen</German>
+            <German>Einstellungen der stabilen Seitenlage + Überstreckung</German>
             <Chinesesimp>恢复体态设置</Chinesesimp>
             <Japanese>回復体位設定</Japanese>
             <Spanish>Parámetros de posición lateral de seguridad e hiperextensión de cabeza</Spanish>
+            <Portuguese>Configurações de posição de recuperação + hiperextensão de cabeça</Portuguese>
         </Key>
         <Key ID="STR_kat_airway_SubCategory_Items">
             <English>Airway items Settings</English>
-            <Italian>Impostazione oggetti vie aeree.</Italian>
+            <Italian>Impostazione oggetti vie aeree</Italian>
             <Czech>Nastavení předmětů dýchacích cest</Czech>
             <French>Paramètres des objets des voies aériennes</French>
             <Korean>기도 관련 아이템 설정</Korean>
@@ -1253,6 +1182,7 @@
             <Chinesesimp>气道物品设置</Chinesesimp>
             <Japanese>気道アイテム設定</Japanese>
             <Spanish>Parámetros de las herramientas (vias aéreas)</Spanish>
+            <Portuguese>Configurações de itens de vias aéreas</Portuguese>
         </Key>
     </Package>
 </Project>
