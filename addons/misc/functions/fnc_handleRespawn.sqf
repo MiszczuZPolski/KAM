@@ -37,17 +37,18 @@ _unit setVariable [QEGVAR(breathing,pneumothorax), false, true];
 _unit setVariable [QEGVAR(breathing,hemopneumothorax), false, true];
 _unit setVariable [QEGVAR(breathing,tensionpneumothorax), false, true];
 _unit setVariable [QEGVAR(breathing,activeChestSeal), false, true];
+_unit setVariable [QEGVAR(breathing,PneumoBreathCooldownOn), false, true];
 
 _unit setVariable ["kat_breathing_pulseoximeter", false, true];
 _unit setVariable ["kat_PulseoxiInUse_PFH", nil];
+_unit setVariable ["kat_O2Breathing_PFH", nil];
 
 // KAT Circulation
 
-_unit setVariable [QEGVAR(circulation,IV_counts), 0, true];
 _unit setVariable [QEGVAR(circulation,X), false, true];
 _unit setVariable ["kat_AEDXPatient_PFH", nil];
-_unit setVariable ["KAT_circulation_X_sound1", "x\kat\addons\circulation\sounds\noheartrate.wav", true];
-_unit setVariable ["KAT_circulation_X_sound2", "x\kat\addons\circulation\sounds\heartrate.wav", true];
+_unit setVariable [QEGVAR(circulation,X_sound1), "x\kat\addons\circulation\sounds\noheartrate.wav", true];
+_unit setVariable [QEGVAR(circulation,X_sound2), "x\kat\addons\circulation\sounds\heartrate.wav", true];
 _unit setVariable [QEGVAR(circulation,use), false, true];
 _unit setVariable [QEGVAR(circulation,returnedAED), false, true];
 _unit setVariable [QEGVAR(circulation,asystole), 1, true];
@@ -62,7 +63,6 @@ _unit setVariable [QEGVAR(pharma,IVpfh), [0,0,0,0,0,0], true];
 _unit setVariable [QEGVAR(pharma,active), false, true];
 _unit setVariable [QEGVAR(pharma,IVPharma_PFH), nil, true];
 
-_unit setVariable ["kat_pharma_ondUse", false, true];
 
 _unit setVariable [QEGVAR(pharma,pH), 1500, true];
 _unit setVariable [QEGVAR(pharma,kidneyFail), false, true];
@@ -75,6 +75,23 @@ _unit setVariable [QEGVAR(surgery,fractures), [0,0,0,0,0,0], true];
 _unit setVariable [QEGVAR(surgery,lidocaine), false, true];
 _unit setVariable [QEGVAR(surgery,etomidate), false, true];
 _unit setVariable [QEGVAR(surgery,sedated), false, true];
+
+//KAT Chemical
+
+_unit setVariable [QEGVAR(chemical,enteredPoison), false, true];
+_unit setVariable [QEGVAR(chemical,timeleft), missionNamespace getVariable [QEGVAR(chemical,infectionTime),60], true];
+_unit setVariable [QEGVAR(chemical,poisenType), "", true];
+_unit setVariable [QEGVAR(chemical,airPoisoning), false, true];
+_unit setVariable [QEGVAR(chemical,CS), false, true];
+_unit setVariable [QEGVAR(chemical,gasmask_durability), 10, true];
+
+"kat_CHEM_DETECTOR" cutRsc ["RscWeaponChemicalDetector", "PLAIN", 1, false];
+private _ui = uiNamespace getVariable "RscWeaponChemicalDetector";
+private _obj = _ui displayCtrl 101;
+_obj ctrlAnimateModel ["Threat_Level_Source", 0, true];
+if (_unit getVariable [QEGVAR(chemical,painEffect),0] != 0) then {
+    KAT_PAIN_EFFECT ppEffectEnable false;
+};
 
 
 // Part of KAT Airway: This is a temp workaround till the adjustSPO2 part is rewritten
@@ -95,7 +112,7 @@ _unit spawn {
         [_idPFH] call CBA_fnc_removePerFrameHandler;
     };
 
-    private _medicationArray = _unit getVariable ["ace_medical_medications", []];
+    private _medicationArray = _unit getVariable [QACEGVAR(medical,medications), []];
     private _action = false;
 
     {
@@ -136,7 +153,7 @@ if (EGVAR(pharma,kidneyAction)) then {
                 private _random = random 1;
 
                 if (_random >= 0.5) then {
-                    ["ace_medical_FatalVitals", _unit] call CBA_fnc_localEvent;
+                    [QACEGVAR(medical,FatalVitals), _unit] call CBA_fnc_localEvent;
                     _unit setVariable [QEGVAR(pharma,kidneyArrest), true, true];
                 };
             };
@@ -148,7 +165,7 @@ if (EGVAR(pharma,kidneyAction)) then {
 
             if !(_kidneyPressure) then {
                 _unit setVariable [QEGVAR(pharma,kidneyPressure), true, true];
-                [_unit, "KIDNEY", 15, 1200, 30, 0, 15] call ace_medical_status_fnc_addMedicationAdjustment;
+                [_unit, "KIDNEY", 15, 1200, 30, 0, 15] call ACEFUNC(medical_status,addMedicationAdjustment);
             };
         };
 
@@ -176,7 +193,7 @@ if (EGVAR(pharma,coagulation)) then {
         if (_pulse < 20) exitWith {};
         if (_coagulationFactor == 0) exitWith {};
 
-        private _count = [_unit, "TXA"] call ace_medical_status_fnc_getMedicationCount;
+        private _count = [_unit, "TXA"] call ACEFUNC(medical_status,getMedicationCount);
 
         if (_count == 0) exitWith {
             {
@@ -184,7 +201,7 @@ if (EGVAR(pharma,coagulation)) then {
 
                 if (_amount * _bleeding > 0) exitWith {
                     private _part = ALL_BODY_PARTS select _bodyPart;
-                    ["ace_medical_treatment_bandageLocal", [_unit, _part, "UnstableClot"], _unit] call CBA_fnc_targetEvent;
+                    [QACEGVAR(medical_treatment,bandageLocal), [_unit, _part, "UnstableClot"], _unit] call CBA_fnc_targetEvent;
                     _unit setVariable [QEGVAR(pharma,coagulationFactor), (_coagulationFactor - 1), true];
                 };
             } forEach _openWounds;
@@ -196,10 +213,66 @@ if (EGVAR(pharma,coagulation)) then {
 
                 if (_amount * _bleeding > 0) exitWith {
                     private _part = ALL_BODY_PARTS select _bodyPart;
-                    ["ace_medical_treatment_bandageLocal", [_unit, _part, "PackingBandage"], _unit] call CBA_fnc_targetEvent;
+                    [QACEGVAR(medical_treatment,bandageLocal), [_unit, _part, "PackingBandage"], _unit] call CBA_fnc_targetEvent;
                     _unit setVariable [QEGVAR(pharma,coagulationFactor), (_coagulationFactor - 1), true];
                 };
             } forEach _openWounds;
         };
     }, 8, [_unit]] call CBA_fnc_addPerFrameHandler;
+};
+
+/// Clear Stamina & weapon sway
+if (ACEGVAR(advanced_fatigue,enabled)) then {
+    
+    ["PDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
+	["EDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
+    ["LSDF"] call ACEFUNC(advanced_fatigue,removeDutyFactor);
+    ACEGVAR(advanced_fatigue,swayFactor) = EGVAR(pharma,originalSwayFactor);
+
+} else {
+
+    _unit enableStamina true;
+	_unit setAnimSpeedCoef 1;
+    _unit setCustomAimCoef 1;
+
+};
+
+/// Clear chroma effect & camera shake
+
+resetCamShake;
+["ChromAberration", 200, [ 0, 0, true ]] spawn
+{
+    params["_name", "_priority", "_effect", "_handle"];
+    while
+    {
+        _handle = ppEffectCreate[_name, _priority];
+        _handle < 0
+    }
+    do
+    {
+        _priority = _priority + 1;
+    };
+    _handle ppEffectEnable true;
+    _handle ppEffectAdjust _effect;
+    _handle ppEffectCommit 0;
+    [
+        {
+            params["_handle"];
+            ppEffectCommitted _handle
+        },
+        {
+            params["_handle"];
+            _handle ppEffectEnable false;
+            ppEffectDestroy _handle;
+        },
+    [_handle]] call CBA_fnc_waitUntilAndExecute;
+};
+
+// Reenable ace fatige animationspeed override
+
+if (!isNil QACEGVAR(advanced_fatigue,setAnimExclusions)) then {
+    _index = ACEGVAR(advanced_fatigue,setAnimExclusions) find "PervitinOverride";
+    if (_index != -1) then {
+        ACEGVAR(advanced_fatigue,setAnimExclusions) deleteAt _index;
+    };
 };
