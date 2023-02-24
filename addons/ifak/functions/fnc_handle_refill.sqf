@@ -16,7 +16,7 @@
  */
  
  params [
-	["_caller",player,[objNull]]
+    ["_caller",player,[objNull]]
 ];
 
 if ((_caller getVariable "flf_bandage1_Amount_namespace" == 0) && (_caller getVariable "flf_bandage2_Amount_namespace" == 0) && (_caller getVariable "flf_bandage3_Amount_namespace" == 0) && (_caller getVariable "flf_injector1_Amount_namespace" == 0) && (_caller getVariable "flf_injector2_Amount_namespace" == 0) && (_caller getVariable "flf_misc1_Amount_namespace" == 0) && (_caller getVariable "flf_misc2_Amount_namespace" == 0) && (!(_caller getVariable "flf_pain_type_namespace"))) then 

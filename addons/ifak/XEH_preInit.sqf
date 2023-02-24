@@ -17,7 +17,7 @@ PREP_RECOMPILE_END;
     [["ACE_quikclot", "ACE_fieldDressing","ACE_elasticBandage","ACE_packingBandage"], ["STR_ACE_Medical_Treatment_Actions_QuikClot", "STR_ACE_Medical_Treatment_Actions_FieldDressing","STR_ACE_Medical_Treatment_Actions_ElasticBandage","STR_ACE_Medical_Treatment_Actions_PackingBandage"], 1],
     nil,
     {
-		  player setVariable [QGVAR(bandagePouch1_type), _this];
+          player setVariable [QGVAR(bandagePouch1_type), _this];
     }
 ] call CBA_fnc_addSetting;
 
@@ -29,7 +29,7 @@ PREP_RECOMPILE_END;
     [0, 5, 3, 0],
     nil,
     {
-		  player setVariable [QGVAR(bandagePouch1_amount), round _this];
+          player setVariable [QGVAR(bandagePouch1_amount), round _this];
     }
 ] call CBA_fnc_addSetting;
 
@@ -42,7 +42,7 @@ PREP_RECOMPILE_END;
     [["ACE_quikclot", "ACE_fieldDressing","ACE_elasticBandage","ACE_packingBandage"], ["STR_ACE_Medical_Treatment_Actions_QuikClot", "STR_ACE_Medical_Treatment_Actions_FieldDressing","STR_ACE_Medical_Treatment_Actions_ElasticBandage","STR_ACE_Medical_Treatment_Actions_PackingBandage"], 1],
     nil,
     {
-		  player setVariable [QGVAR(bandagePouch2_type), _this];
+          player setVariable [QGVAR(bandagePouch2_type), _this];
     }
 ] call CBA_fnc_addSetting;
 
@@ -54,7 +54,7 @@ PREP_RECOMPILE_END;
     [0, 5, 3, 0],
     nil,
     {
-		  player setVariable [QGVAR(bandagePouch2_amount), round _this];
+          player setVariable [QGVAR(bandagePouch2_amount), round _this];
     }
 ] call CBA_fnc_addSetting;
 
@@ -67,7 +67,7 @@ PREP_RECOMPILE_END;
     [["ACE_quikclot", "ACE_fieldDressing","ACE_elasticBandage","ACE_packingBandage"], ["STR_ACE_Medical_Treatment_Actions_QuikClot", "STR_ACE_Medical_Treatment_Actions_FieldDressing","STR_ACE_Medical_Treatment_Actions_ElasticBandage","STR_ACE_Medical_Treatment_Actions_PackingBandage"], 1],
     nil,
     {
-		  player setVariable [QGVAR(bandagePouch3_type), _this];
+          player setVariable [QGVAR(bandagePouch3_type), _this];
     }
 ] call CBA_fnc_addSetting;
 
@@ -79,7 +79,7 @@ PREP_RECOMPILE_END;
     [0, 5, 3, 0],
     nil,
     {
-		  player setVariable [QGVAR(bandagePouch3_amount), round _this];
+          player setVariable [QGVAR(bandagePouch3_amount), round _this];
     }
 ] call CBA_fnc_addSetting;
 
@@ -92,7 +92,7 @@ PREP_RECOMPILE_END;
     [["ACE_adenosine", "ACE_epinephrine","ACE_morphine"], ["STR_ACE_Medical_Treatment_Adenosine_Display", "STR_ACE_Medical_Treatment_Epinephrine_Display","STR_ACE_Medical_Treatment_Morphine_Display"], 2],
     nil,
     {
-		  player setVariable [QGVAR(injectorPouch1_type), _this];
+          player setVariable [QGVAR(injectorPouch1_type), _this];
     }
 ] call CBA_fnc_addSetting;
 
@@ -104,7 +104,7 @@ PREP_RECOMPILE_END;
     [0, 5, 3, 0],
     nil,
     {
-		  player setVariable [QGVAR(injectorPouch1_amount), round _this];
+          player setVariable [QGVAR(injectorPouch1_amount), round _this];
     }
 ] call CBA_fnc_addSetting;
 
@@ -117,7 +117,7 @@ PREP_RECOMPILE_END;
     [["ACE_adenosine", "ACE_epinephrine","ACE_morphine"], ["STR_ACE_Medical_Treatment_Adenosine_Display", "STR_ACE_Medical_Treatment_Epinephrine_Display","STR_ACE_Medical_Treatment_Morphine_Display"], 2],
     nil,
     {
-		  player setVariable [QGVAR(injectorPouch2_type), _this];
+          player setVariable [QGVAR(injectorPouch2_type), _this];
     }
 ] call CBA_fnc_addSetting;
 
@@ -129,7 +129,7 @@ PREP_RECOMPILE_END;
     [0, 5, 3, 0],
     nil,
     {
-		  player setVariable [QGVAR(injectorPouch2_amount), round _this];
+          player setVariable [QGVAR(injectorPouch2_amount), round _this];
     }
 ] call CBA_fnc_addSetting;
 

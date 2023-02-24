@@ -28,9 +28,9 @@ _ifak_items sort false;
 _selectedIfak = _ifak_items # 0;
 
 if (_selectedIfak == "kat_ifak") then {
-	_selectedIfakNumber = 30;
+    _selectedIfakNumber = 30;
 } else {
-	_selectedIfakNumber = parseNumber (_selectedIfak select [9,11]);
+    _selectedIfakNumber = parseNumber (_selectedIfak select [9,11]);
 };
 
 _newIfakNumber = _selectedIfakNumber + _change;
@@ -45,9 +45,9 @@ _newIfakItem = "kat_ifak";
 [_caller, _newIfakItem] remoteExec ["addItem",0];
 _newIfakItem
 } else {
-	if (_newIfakNumber <= 0) then {
-	_caller removeItem _selectedIfak;
-	};
+    if (_newIfakNumber <= 0) then {
+    _caller removeItem _selectedIfak;
+    };
 _newIfakItem = "kat_ifak_" + str _newIfakNumber;
 _caller removeItem _selectedIfak;
 _caller addItem _newIfakItem;

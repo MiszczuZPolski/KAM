@@ -178,12 +178,12 @@ PREP_RECOMPILE_END;
 
 //Lorazepam Settings Category
 [
-	QGVAR(medLvl_Lorazepam),
-	"LIST",
-	[LLSTRING(medLvl_Lorazepam)],
-	[CBA_SETTINGS_CAT, LSTRING(SubCategory_Lorazepam)],
-	[[0, 1, 2], ["STR_ACE_Medical_Treatment_Anyone", "STR_ACE_Medical_Treatment_Medics", "STR_ACE_Medical_Treatment_Doctors"], 0],
-	true
+    QGVAR(medLvl_Lorazepam),
+    "LIST",
+    [LLSTRING(medLvl_Lorazepam)],
+    [CBA_SETTINGS_CAT, LSTRING(SubCategory_Lorazepam)],
+    [[0, 1, 2], ["STR_ACE_Medical_Treatment_Anyone", "STR_ACE_Medical_Treatment_Medics", "STR_ACE_Medical_Treatment_Doctors"], 0],
+    true
 ] call CBA_Settings_fnc_init;
 
 [
@@ -197,12 +197,12 @@ PREP_RECOMPILE_END;
 
 //Etomidate Settings Category
 [
-	QGVAR(medLvl_Etomidate),
-	"LIST",
-	[LLSTRING(medLvl_Etomidate)],
-	[CBA_SETTINGS_CAT, LSTRING(SubCategory_Etomidate)],
-	[[0, 1, 2], ["STR_ACE_Medical_Treatment_Anyone", "STR_ACE_Medical_Treatment_Medics", "STR_ACE_Medical_Treatment_Doctors"], 0],
-	true
+    QGVAR(medLvl_Etomidate),
+    "LIST",
+    [LLSTRING(medLvl_Etomidate)],
+    [CBA_SETTINGS_CAT, LSTRING(SubCategory_Etomidate)],
+    [[0, 1, 2], ["STR_ACE_Medical_Treatment_Anyone", "STR_ACE_Medical_Treatment_Medics", "STR_ACE_Medical_Treatment_Doctors"], 0],
+    true
 ] call CBA_Settings_fnc_init;
 
 [
@@ -216,12 +216,12 @@ PREP_RECOMPILE_END;
 
 //FLumazenil Settings Category
 [
-	QGVAR(medLvl_Flumezenil),
-	"LIST",
-	[LLSTRING(medLvl_Flumazenil)],
-	[CBA_SETTINGS_CAT, LSTRING(SubCategory_Flumazenil)],
-	[[0, 1, 2], ["STR_ACE_Medical_Treatment_Anyone", "STR_ACE_Medical_Treatment_Medics", "STR_ACE_Medical_Treatment_Doctors"], 0],
-	true
+    QGVAR(medLvl_Flumezenil),
+    "LIST",
+    [LLSTRING(medLvl_Flumazenil)],
+    [CBA_SETTINGS_CAT, LSTRING(SubCategory_Flumazenil)],
+    [[0, 1, 2], ["STR_ACE_Medical_Treatment_Anyone", "STR_ACE_Medical_Treatment_Medics", "STR_ACE_Medical_Treatment_Doctors"], 0],
+    true
 ] call CBA_Settings_fnc_init;
 
 [
@@ -462,30 +462,30 @@ PREP_RECOMPILE_END;
 ] call CBA_Settings_fnc_init;
 
 [
-	QGVAR(kidneyAction),
-	"CHECKBOX",
-	[LLSTRING(SETTING_Kidney_Action), LLSTRING(SETTING_Kidney_Action_DESC)],
-	[CBA_SETTINGS_CAT],
-	[false],
-	true
+    QGVAR(kidneyAction),
+    "CHECKBOX",
+    [LLSTRING(SETTING_Kidney_Action), LLSTRING(SETTING_Kidney_Action_DESC)],
+    [CBA_SETTINGS_CAT],
+    [false],
+    true
 ] call CBA_Settings_fnc_init;
 
 [
-	QGVAR(blockChance),
-	"SLIDER",
-	[LLSTRING(SETTING_Block_Chance), LLSTRING(SETTING_Block_Chance_DESC)],
-	CBA_SETTINGS_CAT,
-	[0, 100, 20, 0],
-	true
+    QGVAR(blockChance),
+    "SLIDER",
+    [LLSTRING(SETTING_Block_Chance), LLSTRING(SETTING_Block_Chance_DESC)],
+    CBA_SETTINGS_CAT,
+    [0, 100, 20, 0],
+    true
 ] call CBA_Settings_fnc_init;
 
 [
-	QGVAR(coagulation),
-	"CHECKBOX",
-	[LLSTRING(SETTING_Coagulation), LLSTRING(SETTING_Coagulation_DESC)],
-	CBA_SETTINGS_CAT,
-	[false],
-	true
+    QGVAR(coagulation),
+    "CHECKBOX",
+    [LLSTRING(SETTING_Coagulation), LLSTRING(SETTING_Coagulation_DESC)],
+    CBA_SETTINGS_CAT,
+    [false],
+    true
 ] call CBA_Settings_fnc_init;
 
 ADDON = true;
