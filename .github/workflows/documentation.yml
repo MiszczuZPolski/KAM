@@ -56,5 +56,5 @@ jobs:
         run: |
           python tools/update_wiki.py
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
