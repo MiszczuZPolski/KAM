@@ -31,4 +31,30 @@ jobs:
         uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pygithub
+
+      - name: Scan for Class Occurrences
+        run: |
+          python tools/scan_classes.py
+
+      - name: Update Wiki
+        run: |
+          python tools/update_wiki.py
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
     
