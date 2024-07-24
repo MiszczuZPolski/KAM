@@ -14,7 +14,7 @@ REPONAME = "KAM"
 REPOPATH = "{}/{}".format(REPOUSER,REPONAME)
 
 def update_wiki(repo):
-    diag = sp.check_output(["python3", "tools/scan_classes.py", "--markdown"])
+    diag = sp.check_output(["python3", "tools/search_classes.py", "--markdown"])
     diag = str(diag, "utf-8")
     wiki_page = repo.get_wiki_page("Classnames")
     wiki_page.edit(body=CLASSNAMEBODY.format(diag))

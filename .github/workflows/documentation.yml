@@ -50,7 +50,7 @@ jobs:
 
       - name: Scan for Class Occurrences
         run: |
-          python tools/scan_classes.py
+          python tools/search_classes.py
 
       - name: Update Wiki
         run: |
