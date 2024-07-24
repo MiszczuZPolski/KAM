@@ -30,7 +30,7 @@ Big thanks to
 ---------
 + [Kellerkompanie](http://kellerkompanie.com/)
 
-## Core features
+## Core featuressss
 
 - Airway
   - [x] Airwaymanagement for unconscious patients
