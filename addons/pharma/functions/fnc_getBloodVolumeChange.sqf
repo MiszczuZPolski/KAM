@@ -98,13 +98,8 @@ if (!isNil {_unit getVariable [QACEGVAR(medical,ivBags),[]]}) then {
     if (_hypothermia) then {
         { _fluidHeat = _fluidHeat + _x; } forEach _incomingVolumeChange;
 
-        if (_fluidHeat > 0) then {
-            private _totalHeat = _unit getVariable [QEGVAR(hypothermia,warmingImpact), 0];
-            _unit setVariable [QEGVAR(hypothermia,warmingImpact), _totalHeat + _fluidHeat, _syncValues];
-        } else {
-            private _totalCooling = _unit getVariable [QEGVAR(hypothermia,warmingImpact), 0];
-            _unit setVariable [QEGVAR(hypothermia,warmingImpact), _totalCooling + _fluidHeat, _syncValues];
-        };
+        private _totalHeat = _unit getVariable [QEGVAR(hypothermia,warmingImpact), 0];
+        _unit setVariable [QEGVAR(hypothermia,warmingImpact), _totalHeat + _fluidHeat, _syncValues];
     };
 };
 

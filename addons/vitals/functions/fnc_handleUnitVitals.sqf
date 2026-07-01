@@ -142,8 +142,9 @@ if (EGVAR(breathing,enable)) then {
 
 private _woundBloodLoss = GET_WOUND_BLEEDING(_unit);
 
-// Vasoconstriction from Wound Blood Loss and Alpha Adjustment
-_vasoconstriction = 1 + (0.5 * _woundBloodLoss) + _alphaFactorAdjustment;
+// Vasoconstriction from Wound Blood Loss, Hypovolemia, and Alpha Adjustment
+private _hypovolemiaFactor = 1.0 - (_bloodVolume / 6.0); // ranges from 0 (healthy) to ~0.7 (severe blood loss)
+private _vasoconstriction = 1 + (0.5 * _woundBloodLoss) + (0.8 * _hypovolemiaFactor) + _alphaFactorAdjustment;
 _unit setVariable [VAR_VASOCONSTRICTION, (1.8 min (0.2 max _vasoconstriction)), _syncValues];
 
 private _bloodPressure = [_unit] call EFUNC(circulation,getBloodPressure);

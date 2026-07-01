@@ -76,12 +76,24 @@ if (GVAR(kidneyAction)) then {
         private _kidneyArrest = _unit getVariable [QGVAR(kidneyArrest), false];
         private _kidneyPressure = _unit getVariable [QGVAR(kidneyPressure), false];
 
+        // Pressure-dependent kidney function (GFR / MAP perfusion relation)
+        private _bloodPressure = [_unit] call EFUNC(circulation,getBloodPressure);
+        _bloodPressure params ["_diastolic", "_systolic"];
+        private _map = (_systolic + 2 * _diastolic) / 3;
+
+        // Autoregulation holds down to MAP 75; filtration fails between 65 and 75; ceases below 65
+        private _rEff = linearConversion [65, 75, _map, 0.0, 1.0, true];
+
+        // Urine output tracking (modeled around 0.5 - 1.0 mL/min normal rate; loop runs every 20s)
+        private _urineStep = (random [0.5, 0.8, 1.0]) * (20 / 60) * _rEff;
+        private _urineVolume = _unit getVariable [QGVAR(urineVolume), 0];
+        _unit setVariable [QGVAR(urineVolume), _urineVolume + _urineStep, true];
+
         switch true do {
-            case(_ph == 3000): {
-                if (_ph == 3000) exitWith {
-                    _unit setVariable [QGVAR(kidneyFail), true, true];
-                    _unit setVariable [QGVAR(kidneyArrest), true, true];
-                };
+            case (_ph >= 3000): {
+                _unit setVariable [QGVAR(kidneyFail), true, true];
+                _unit setVariable [QGVAR(kidneyArrest), true, true];
+                [QACEGVAR(medical,FatalVitals), _unit] call CBA_fnc_localEvent;
             };
             case (_ph >= 2000): {
                 _unit setVariable [QGVAR(kidneyFail), true, true];
@@ -96,7 +108,7 @@ if (GVAR(kidneyAction)) then {
                 };
             };
             case (_ph >= 1000): {
-                _ph = (_ph - 30) max 0;
+                _ph = (_ph - (30 * _rEff)) max 0;
                 _unit setVariable [QGVAR(externalPh), _ph, true];
     
                 if !(_kidneyPressure) then {
@@ -105,7 +117,7 @@ if (GVAR(kidneyAction)) then {
                 };
             };
             default {
-                _ph = (_ph - 60) max 0;
+                _ph = (_ph - (60 * _rEff)) max 0;
                 _unit setVariable [QGVAR(externalPh), _ph, true];
             };
         };

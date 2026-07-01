@@ -35,7 +35,6 @@ params ["_unit", "_actualHeartRate", "_anerobicPressure", "_bloodGas", "_tempera
 #define MINIMUM_DEPTH 0.2
 
 private _respiratoryRate = 0;
-private _respiratoryDepression = 0;
 private _respiratoryDepth = 0;
 private _demandVentilation = 0;
 private _actualVentilation = 0;
@@ -45,7 +44,6 @@ private _previousCyclePao2 = (_bloodGas select 1);
 if (IN_CRDC_ARRST(_unit)) then { 
     // When in arrest, there should be no effecive breaths but still a minimum O2 demand. Zero O2 demand would mean a dead patient. Actual ventilation is 1 to prevent issues in the gas tension functions
     _demandVentilation = MINIMUM_VENTILATION;
-    _respiratoryDepression = 1;
     _respiratoryRate = [0, 20] select (_unit getVariable [QEGVAR(breathing,BVMInUse), false]);
     _respiratoryDepth = [0, 10] select (_unit getVariable [QEGVAR(breathing,BVMInUse), false]);
     _actualVentilation = 1;
@@ -69,8 +67,15 @@ if (IN_CRDC_ARRST(_unit)) then {
 private _paco2 = 40;
 
 if (EGVAR(breathing,paco2Active)) then {
-    // The greater the imbalance between CO2 explusion and O2 intake, the higher PaCO2 gets
-    _paco2 = if ((_demandVentilation / _actualVentilation) == 1) then { _previousCyclePaco2 + (PACO2_MAX_CHANGE min (-PACO2_MAX_CHANGE max ((DEFAULT_PACO2 + ((_anerobicPressure max 1) - 1) * 150) - _previousCyclePaco2))) } else { [ _previousCyclePaco2 - (PACO2_MAX_CHANGE * _deltaT), _previousCyclePaco2 + (PACO2_MAX_CHANGE * _deltaT)] select ((_demandVentilation / _actualVentilation) > 1) };                                    
+    _paco2 = if ((_demandVentilation / _actualVentilation) == 1) then {
+        _previousCyclePaco2 + (PACO2_MAX_CHANGE min (-PACO2_MAX_CHANGE max ((DEFAULT_PACO2 + ((_anerobicPressure max 1) - 1) * 150) - _previousCyclePaco2)))
+    } else {
+        if ((_demandVentilation / _actualVentilation) > 1) then {
+            _previousCyclePaco2 + (PACO2_MAX_CHANGE * _deltaT)
+        } else {
+            _previousCyclePaco2 - (PACO2_MAX_CHANGE * _deltaT)
+        };
+    };
 };
 
 private _etco2 = 37;
@@ -123,12 +128,21 @@ private _pao2 = (DEFAULT_PAO2 - ((DEFAULT_ECB / ((GET_BODY_FLUID(_unit) select 0
 // PaO2 is shifted by the difference between PALVO2 and PaO2, capped by PALVO2
 _pao2 = (((linearConversion[-50, 50, (_pALVo2 - _pao2), -20, 20, false]) + _pao2) min _pALVo2) max 0;
 
-private _arrestPerfusion = [1, (1 * EGVAR(breathing,SpO2_PerfusionMultiplier))] select ((IN_CRDC_ARRST(_unit)) && (EGVAR(breathing,SpO2_perfusion)));
+private _arrestPerfusion = [1, EGVAR(breathing,SpO2_PerfusionMultiplier)] select ((IN_CRDC_ARRST(_unit)) && (EGVAR(breathing,SpO2_perfusion)));
 // PaO2 moves in controlled steps to prevent hard movements when Ventilation Demand spikes
-_pao2 = if (_previousCyclePao2 != _pao2) then { ([ (_previousCyclePao2 - ((PAO2_MAX_CHANGE * EGVAR(breathing,SpO2_MultiplyNegative) * _arrestPerfusion) * _deltaT)) , (_previousCyclePao2 + ((PAO2_MAX_CHANGE * EGVAR(breathing,SpO2_MultiplyPositive)) * _deltaT))] select ((_previousCyclePao2 - _pao2) < 0)) } else { _pao2 };
+_pao2 = if (_previousCyclePao2 != _pao2) then {
+    if ((_previousCyclePao2 - _pao2) < 0) then {
+        _previousCyclePao2 + ((PAO2_MAX_CHANGE * EGVAR(breathing,SpO2_MultiplyPositive)) * _deltaT)
+    } else {
+        _previousCyclePao2 - ((PAO2_MAX_CHANGE * EGVAR(breathing,SpO2_MultiplyNegative) * _arrestPerfusion) * _deltaT)
+    }
+} else {
+    _pao2
+};
 
-// Oxy-Hemo Dissociation Curve, driven by PaO2 with shaping done by pH.
-private _o2Sat = (((_pao2 max 1)^2.7 / ((25 - (((_pH / DEFAULT_PH) - 1) * 150))^2.7 + _pao2^2.7))) min 0.999;
+// Oxy-Hemo Dissociation Curve using real-world Kelman/Severinghaus P50 shift and Hill equation
+private _p50 = 26.8 * (10 ^ ( (0.4 * (7.4 - _pH)) + (0.06 * (log ((_paco2 max 1) / 40) / log 10)) + (0.024 * (_temperature - 37)) ));
+private _o2Sat = (((_pao2 max 0.001) ^ 2.7) / ((_p50 ^ 2.7) + ((_pao2 max 0.001) ^ 2.7))) min 0.999;
 
 _unit setVariable [VAR_BREATHING_RATE, (_respiratoryRate max 0), _syncValues];
 _unit setVariable [VAR_BLOOD_GAS, [_paco2, _pao2, _o2Sat, 24, _pH, _etco2], _syncValues];

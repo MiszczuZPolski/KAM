@@ -24,14 +24,39 @@ params ["_unit", "_altitudeAdjustment", "_bloodVolume", "_deltaT", "_syncValue"]
 private _positionTemperature = EGVAR(hypothermia,positionTemperature);
 _positionTemperature params ["_lattitude", "_projectedTemperature"];
 
-// Diurnal Width increases as lattitudes increase, generally
+// Diurnal ambient temperature calculations
 private _mapTemperature = _projectedTemperature - ((linearConversion [0, 90, _lattitude, 15, 5, true]) * (linearConversion [0, 1, sunOrMoon, 1, 0, true]));
+private _ambientTemp = _mapTemperature + _altitudeAdjustment;
 
-private _warmingImpact = (_unit getVariable [QEGVAR(hypothermia,warmingImpact), 0]) / ML_TO_LITERS; 
-private _pointTemperature = linearConversion [0, 40, (-3.5 * (0.95 ^ _mapTemperature + _altitudeAdjustment)), 12, -9, true];
-private _initialBodyTemperature = DEFAULT_TEMPERATURE min (((-0.3392 * (_bloodVolume^2)) + (6.00357 * _bloodVolume) + 13.3));
+// Get current body temperature (stored state variable)
+private _currentTemperature = _unit getVariable [QEGVAR(hypothermia,unitTemperature), DEFAULT_TEMPERATURE];
 
-private _currentTemperature = _initialBodyTemperature + _warmingImpact - (_pointTemperature / _bloodVolume);
+// Active warming from transfused fluids (instant mixing effect)
+private _warmingImpact = _unit getVariable [QEGVAR(hypothermia,warmingImpact), 0];
+if (_warmingImpact != 0) then {
+    // warmingImpact is fluid-degree value, divide by ML_TO_LITERS to convert to core temp shift
+    _currentTemperature = _currentTemperature + (_warmingImpact / ML_TO_LITERS);
+    _unit setVariable [QEGVAR(hypothermia,warmingImpact), 0, true];
+};
+
+// Calculate heat contribution from active hand warmers
+private _handWarmers = _unit getVariable [QEGVAR(hypothermia,handWarmers), [0,0,0,0,0,0]];
+private _activeWarmersCount = { _x > 0 } count _handWarmers;
+private _rateWarmers = _activeWarmersCount * 0.00015; // each warmer generates 0.00015 C/s
+
+// Newton's Law of Cooling: cooling rate increases as blood volume (thermal mass) falls
+private _kEnv = 0.00008 * (6 / (_bloodVolume max 1));
+private _rateEnv = - _kEnv * (_currentTemperature - _ambientTemp);
+
+// Metabolic heat production: body strives to maintain 37C setpoint.
+// Metabolic efficiency falls with hemorrhagic shock (blood loss).
+private _rateMetabolic = 0.00025 * (DEFAULT_TEMPERATURE - _currentTemperature) * ((_bloodVolume / 6) max 0);
+
+// Integrate rates over deltaT
+_currentTemperature = _currentTemperature + ((_rateEnv + _rateMetabolic + _rateWarmers) * _deltaT);
+
+// Clamp to survivable physiological limits (25C to 43C)
+_currentTemperature = 25 max (43 min _currentTemperature);
 
 _unit setVariable [QEGVAR(hypothermia,unitTemperature), _currentTemperature, _syncValue];
 

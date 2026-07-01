@@ -35,7 +35,7 @@ if (_syncValues) then {
 private _bloodVolume = GET_SIMPLE_BLOOD_VOLUME(_unit);
 private _woundBloodLoss = GET_WOUND_BLEEDING(_unit);
 
-private _bloodVolume = _bloodVolume - (_woundBloodLoss / 100);
+_bloodVolume = _bloodVolume - (_woundBloodLoss / 100);
 _unit setVariable [VAR_BLOOD_VOL, _bloodVolume, _syncValues];
 
 private _inPain = GET_PAIN_PERCEIVED(_unit) > 0;
@@ -108,6 +108,7 @@ switch (true) do {
 
 #ifdef DEBUG_MODE_FULL
 if (!isPlayer _unit) then {
+    private _cardiacOutput = [_unit] call ACEFUNC(medical_status,getCardiacOutput);
     private _painLevel = _unit getVariable [VAR_PAIN, 0];
     hintSilent format["blood volume: %1, blood loss: [%2, %3]\nhr: %4, bp: %5, pain: %6", round(_bloodVolume * 100) / 100, round(_woundBloodLoss * 1000) / 1000, round((_woundBloodLoss / (0.001 max _cardiacOutput)) * 100) / 100, round(_heartRate), _bloodPressure, round(_painLevel * 100) / 100];
 };
