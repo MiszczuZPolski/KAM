@@ -22,6 +22,6 @@ params ["_ctrl", "_target", "_selectionN", "_entries"];
 
 private _eyeInjuries = _target getVariable [QGVAR(eyeInjuries), [1,1]];
 
-if ((({_x != 1} count _eyeInjuries) > 0) && (_selectionN == 0)) then {
+if (((_eyeInjuries findIf {_x != 1}) isNotEqualTo -1) && (_selectionN == 0)) then {
     _entries pushBack [LLSTRING(eyeInjuryPresent), [0.36, 0.58, 0.23, 1]];
 };

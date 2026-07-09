@@ -51,8 +51,13 @@ if (IN_CRDC_ARRST(_unit)) then {
     // Ventilatory Demand comes from Heart Rate with increase demand from PaCO2 levels 
     _demandVentilation = ((((_actualHeartRate * HEART_RATE_CO2_MULTIPLIER) / _anerobicPressure) + ((_previousCyclePaco2 - DEFAULT_PACO2) * 200)) max MINIMUM_VENTILATION);
 
-    // Tidal Volume is modified by respiratory depth which can be supressed by opioids and pneumothroax
-    _respiratoryDepth = [((DEFAULT_RESPIRATORY_DEPTH) - (_opioidDepression / 1.5)), 10] select (_unit getVariable [QEGVAR(breathing,BVMInUse), false]);
+    // Tidal Volume is modified by respiratory depth which can be supressed by opioids, pneumothorax, and unconsciousness
+    private _isAwake = [_unit] call ACEFUNC(common,isAwake);
+    private _baseDepth = DEFAULT_RESPIRATORY_DEPTH;
+    if !(_isAwake) then {
+        _baseDepth = _baseDepth - 2.5; // Unconsciousness decreases breathing depth (hypoventilation)
+    };
+    _respiratoryDepth = [((_baseDepth) - (_opioidDepression / 1.5)), 10] select (_unit getVariable [QEGVAR(breathing,BVMInUse), false]);
     private _tidalVolume = GET_KAT_SURFACE_AREA(_unit) * (_respiratoryDepth / 10);
     
     // Respiratory Rate Calculation

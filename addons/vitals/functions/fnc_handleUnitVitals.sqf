@@ -150,6 +150,70 @@ _unit setVariable [VAR_VASOCONSTRICTION, (1.8 min (0.2 max _vasoconstriction)), 
 private _bloodPressure = [_unit] call EFUNC(circulation,getBloodPressure);
 _unit setVariable [VAR_BLOOD_PRESS, _bloodPressure, _syncValues];
 
+if (EGVAR(pharma,kidneyAction)) then {
+    private _ph = _unit getVariable [QEGVAR(pharma,externalPh), 0];
+    private _kidneyFail = _unit getVariable [QEGVAR(pharma,kidneyFail), false];
+    private _kidneyArrest = _unit getVariable [QEGVAR(pharma,kidneyArrest), false];
+    private _kidneyPressure = _unit getVariable [QEGVAR(pharma,kidneyPressure), false];
+
+    _bloodPressure params ["_diastolic", "_systolic"];
+    private _map = (_systolic + 2 * _diastolic) / 3;
+    private _rEff = linearConversion [65, 75, _map, 0.0, 1.0, true];
+
+    // Urine output tracking (modeled around 0.5 - 1.0 mL/min normal rate; loop runs every _deltaT seconds)
+    private _urineStep = (random [0.5, 0.8, 1.0]) * (_deltaT / 60) * _rEff;
+    private _urineVolume = _unit getVariable [QEGVAR(pharma,urineVolume), 0];
+    _unit setVariable [QEGVAR(pharma,urineVolume), _urineVolume + _urineStep, true];
+
+    switch true do {
+        case (_ph >= 3000): {
+            _unit setVariable [QEGVAR(pharma,kidneyFail), true, true];
+            _unit setVariable [QEGVAR(pharma,kidneyArrest), true, true];
+            [QACEGVAR(medical,FatalVitals), _unit] call CBA_fnc_localEvent;
+        };
+        case (_ph >= 2000): {
+            _unit setVariable [QEGVAR(pharma,kidneyFail), true, true];
+            if !(_kidneyArrest) then {
+                private _probArrest = 1 - (0.75 ^ (_deltaT / 20));
+                if (random 1 < _probArrest) then {
+                    [QACEGVAR(medical,FatalVitals), _unit] call CBA_fnc_localEvent;
+                    _unit setVariable [QEGVAR(pharma,kidneyArrest), true, true];
+                };
+            };
+        };
+        case (_ph >= 1000): {
+            _ph = (_ph - (1.5 * _rEff * _deltaT)) max 0; // scaled clear rate: 30 / 20 = 1.5 per second
+            _unit setVariable [QEGVAR(pharma,externalPh), _ph, true];
+            if !(_kidneyPressure) then {
+                _unit setVariable [QEGVAR(pharma,kidneyPressure), true, true];
+                [_unit, "KIDNEY", 15, 1200, 30, 0, 15] call ACEFUNC(medical_status,addMedicationAdjustment);
+            };
+        };
+        default {
+            _ph = (_ph - (3.0 * _rEff * _deltaT)) max 0; // scaled clear rate: 60 / 20 = 3.0 per second
+            _unit setVariable [QEGVAR(pharma,externalPh), _ph, true];
+        };
+    };
+};
+
+if (EGVAR(breathing,enable)) then {
+    if (((_unit getVariable [QEGVAR(breathing,pneumothorax), 0] > 0) || {_unit getVariable [QEGVAR(breathing,hemopneumothorax), false] || {_unit getVariable [QEGVAR(breathing,tensionpneumothorax), false]}}) && {!(IN_CRDC_ARRST(_unit))}) then {
+        if !(_unit getVariable [QEGVAR(breathing,PneumoBreathCooldownOn), false]) then {
+            _unit setVariable [QEGVAR(breathing,PneumoBreathCooldownOn), true, true];
+
+            private _soundTargets = allPlayers inAreaArray [ASLToAGL getPosASL _unit, 15, 15, 0, false, 15];
+            if (_soundTargets isNotEqualTo []) then {
+                [QEGVAR(breathing,playCough), [_unit], _soundTargets] call CBA_fnc_targetEvent;
+            };
+
+            [{
+                params ["_unit"];
+                _unit setVariable [QEGVAR(breathing,PneumoBreathCooldownOn), false, true];
+            }, [_unit], 30] call CBA_fnc_waitAndExecute;
+        };
+    };
+};
+
 _bloodPressure params ["_bloodPressureL", "_bloodPressureH"];
 
 // Statements are ordered by most lethal first.

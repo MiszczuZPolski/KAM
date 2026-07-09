@@ -6,12 +6,13 @@
  * Arguments:
  * 0: Medic <OBJECT>
  * 1: Patient <OBJECT>
+ * 2: Body Part <STRING>
  *
  * Return Value:
  * None
  *
  * Example:
- * call kat_breathing_fnc_treatmentAdvanced_removePulseoximeter;
+ * [player, cursorTarget, "LeftArm"] call kat_breathing_fnc_treatmentAdvanced_removePulseoximeter;
  *
  * Public: No
  */

@@ -97,6 +97,19 @@ if (!local _unit) then {
 
     // Unconscious
     if !(_isAwake) exitWith {
+        // Dynamic airway obstruction check for unmanaged unconscious patients
+        if (!(_unit getVariable [QEGVAR(airway,airway), false]) && 
+            {!(_unit getVariable [QEGVAR(airway,recovery), false]) && 
+            {!(_unit getVariable [QEGVAR(airway,overstretch), false]) &&
+            {!(_unit getVariable [QEGVAR(airway,obstruction), false])}}}) then {
+            
+            // 2% chance every 3 seconds (~33% chance per minute) of tongue airway obstruction
+            if (random 1 < 0.02) then {
+                _unit setVariable [QEGVAR(airway,obstruction), true, true];
+                _airway = false;
+            };
+        };
+
         _output = -0.2; // Not breathing/blocked airway
 
         if (_breathing) then { // Breathing

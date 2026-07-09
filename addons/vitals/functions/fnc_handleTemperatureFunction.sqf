@@ -49,8 +49,10 @@ private _kEnv = 0.00008 * (6 / (_bloodVolume max 1));
 private _rateEnv = - _kEnv * (_currentTemperature - _ambientTemp);
 
 // Metabolic heat production: body strives to maintain 37C setpoint.
-// Metabolic efficiency falls with hemorrhagic shock (blood loss).
-private _rateMetabolic = 0.00025 * (DEFAULT_TEMPERATURE - _currentTemperature) * ((_bloodVolume / 6) max 0);
+// Metabolic efficiency falls with hemorrhagic shock (blood loss) and unconsciousness.
+private _isAwake = [_unit] call ACEFUNC(common,isAwake);
+private _awakeFactor = [0.75, 1.0] select _isAwake;
+private _rateMetabolic = 0.00025 * (DEFAULT_TEMPERATURE - _currentTemperature) * ((_bloodVolume / 6) max 0) * _awakeFactor;
 
 // Integrate rates over deltaT
 _currentTemperature = _currentTemperature + ((_rateEnv + _rateMetabolic + _rateWarmers) * _deltaT);

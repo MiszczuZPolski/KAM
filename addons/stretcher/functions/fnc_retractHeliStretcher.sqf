@@ -51,12 +51,12 @@ private _ropes = _target getVariable [QGVAR(ropes), []];
 
     deleteVehicle _stretcher;
 
-    private _stretcher = createVehicle ["kat_stretcher", (_target modelToWorld [0,0,-5])];
-    _stretcher attachTo [_target, [0,0,-.1], "slingload0"];
-    [_stretcher, false] call ACEFUNC(dragging,setCarryable);
-    [_stretcher, false] call ACEFUNC(dragging,setDraggable);
+    private _newStretcher = createVehicle ["kat_stretcher", (_target modelToWorld [0,0,-5])];
+    _newStretcher attachTo [_target, [0,0,-.1], "slingload0"];
+    [_newStretcher, false] call ACEFUNC(dragging,setCarryable);
+    [_newStretcher, false] call ACEFUNC(dragging,setDraggable);
     _target setVariable [QGVAR(isStretcherAttached), true, true];
-    _target setVariable [QGVAR(stretcher), _stretcher, true];
+    _target setVariable [QGVAR(stretcher), _newStretcher, true];
     _target setVariable [QGVAR(stretcherDeployed), false, true];
 
 }, [_target, _stretcher, _ropes]] call CBA_fnc_waitUntilAndExecute;

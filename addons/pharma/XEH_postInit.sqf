@@ -46,7 +46,7 @@
             }, [_patient], 120] call CBA_fnc_waitAndExecute;
 
         } else {
-            _defaultAnimSpeed = getAnimSpeedCoef _patient;
+            private _defaultAnimSpeed = getAnimSpeedCoef _patient;
             _patient setAnimSpeedCoef (_defaultAnimSpeed * 1.25);
             _patient setStamina 180;
 

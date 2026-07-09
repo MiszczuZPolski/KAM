@@ -3,13 +3,15 @@
 * Author: DiGii
 *
 * Arguments:
-* 0: Position <ARRAY>
+* 0: Position X <NUMBER>
+* 1: Position Y <NUMBER>
+* 2: Position Z <NUMBER>
 *
 * Return Value:
 * NONE
 *
 * Example:
-* [getPos player] call kat_chemical_fnc_CASCreateGas;
+* [0, 0, 0] call kat_chemical_fnc_CASCreateGas;
 *
 * Public: No
 *

@@ -5,13 +5,14 @@
  * Main function
  *
  * Arguments:
- * 0: Patient <OBJECT>
+ * 0: Medic <OBJECT>
+ * 1: Patient <OBJECT>
  *
  * Return Value:
  * None
  *
  * Example:
- * [player] call kat_breathing_fnc_removeOxygenMask;
+ * [player, cursorTarget] call kat_breathing_fnc_removeOxygenMask;
  *
  * Public: No
  */

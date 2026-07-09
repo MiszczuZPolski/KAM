@@ -5,12 +5,13 @@
  *
  * Arguments:
  * 0: The Unit <OBJECT>
+ * 1: Is Respawn? <BOOL> (optional, default true)
  *
  * Return Value:
  * None
  *
  * Example:
- * [bob] call kat_breathing_fnc_init
+ * [bob, true] call kat_breathing_fnc_init
  *
  * Public: No
  */

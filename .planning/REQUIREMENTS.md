@@ -112,5 +112,25 @@ This document tracks the requirements, features, and specs for the KAT Advanced 
 - [x] **Hypovolemia-Driven Vasoconstriction:** Include a blood volume deficit term to represent persistent vasoconstriction after active bleeding has stopped:
   $$\text{Constriction} = 1 + 0.5 \cdot \text{BleedLoss} + 0.8 \cdot \left( 1 - \frac{\text{bloodVolume}}{6.0} \right) + \text{DrugsAdjustment}$$
 
+## 8. Unconscious Casualty Degradation Upgrades
+
+- [x] **Dynamic Airway Obstruction Check:** Check unconscious patient state every 3 seconds: if they have no airway device, are not in recovery position, and head is not hyperextended, roll a 2% chance of airway tongue obstruction.
+- [x] **Comatose Hypoventilation:** Depress respiratory depth by 2.5 points if the patient is unconscious, reducing ventilation and naturally accumulating $PCO_2$ and respiratory acidosis.
+- [x] **Comatose Metabolic Depression:** Scale metabolic heat production rate down by 25% for unconscious patients, increasing susceptibility to ambient cooling.
+
+## 9. Vitals Loop Integration
+
+- [x] **Consolidated Loops:** Relocate the renal filtration (GFR, acid clearance, urine tracking) logic and pneumothorax coughing logic into `fnc_handleUnitVitals.sqf`.
+- [x] **Remove Old PFH:** Delete/comment out the standalone 20-second kidney PFH in `fnc_init.sqf` to prevent duplicate processing.
+- [x] **Temporal Scaling:** Scale GFR and clearance formulas by `_deltaT` to guarantee smooth, continuous integration in the core vitals update loop.
+
+## 10. Code Modernization & Performance Optimizations
+
+- [x] **O(1) HashMap Lookups:** Convert linear gasmask lookups to native `createHashMap` lookups, optimizing high-frequency check loops.
+- [x] **Scope Safety:** Enforce proper `private` variable scoping inside `pharma/XEH_postInit.sqf`, `fnc_treatmentAdvanced_ReorientationLocal.sqf`, `fnc_treatmentAdvanced_PervitinLocal.sqf`, and `fnc_fullHealLocal.sqf`.
+- [x] **Shadowing Prevention:** Rename local variables in `fnc_retractHeliStretcher.sqf` to prevent scope shadowing of parameters.
+- [x] **Array Loop Optimization:** Convert sequential array count checks inside `fnc_gui_updateInjuryListPart.sqf` to short-circuiting `findIf` lookups.
+- [x] **Logical Standardization:** Replace unneeded logical negations in `watch/XEH_postInit.sqf` with standard `isEqualTo false` boolean evaluations.
+
 
 

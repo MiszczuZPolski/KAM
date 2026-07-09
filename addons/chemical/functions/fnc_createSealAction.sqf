@@ -4,12 +4,14 @@
  *
  * Arguments:
  * 0: Target <OBJECT>
+ * 1: Logic <OBJECT>
+ * 2: Key <STRING>
  *
  * Return Value:
  * NONE
  *
  * Example:
- * [] call kat_chemical_fnc_createSealAction;
+ * [cursorTarget, myLogic, "my_key"] call kat_chemical_fnc_createSealAction;
  *
  * Public: No
 */

@@ -39,6 +39,10 @@ private _items = missionNamespace getVariable [QGVAR(availGasmask), "'G_AirPurif
 private _array = [_items, "CfgGlasses"] call FUNC(getList);
 missionNamespace setVariable [QGVAR(availGasmaskList), _array, true];
 
+private _gasMaskHash = createHashMap;
+{ _gasMaskHash set [_x, true]; } forEach _array;
+missionNamespace setVariable [QGVAR(availGasmaskHash), _gasMaskHash, true];
+
 [CBA_SETTINGS_CAT, QGVAR(showChemDetector), "Show Chemical Detector", {
     // Conditions: canInteract
     if (!([ACE_player, objNull, ["isNotEscorting", "isNotInside"]] call ACEFUNC(common,canInteractWith)) || {!('KAT_ChemicalDetector' in assignedItems ACE_player)}) exitWith { false };

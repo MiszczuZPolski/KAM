@@ -71,7 +71,42 @@ This roadmap outlines completed development milestones, active tasks, and future
 
 ---
 
-## Phase 10: CI/CD & Build Environment Optimizations (Ongoing)
+## Phase 10: Unconscious Casualty Degradation Upgrades (Completed)
+- [x] **Dynamic Tongue Obstruction:** Checked unmanaged comatose casualties every 3 seconds for a 2% chance of tongue occlusion.
+- [x] **Comatose Hypoventilation:** Reduced respiratory depth by 2.5 points during unconsciousness to trigger hypercapnia and respiratory acidosis.
+- [x] **Metabolic Rate Drop:** Reduced unconscious metabolic heat production rate by 25%.
+
+---
+
+## Phase 11: Vitals Loop Integration (Completed)
+- [x] **Consolidated updates:** Moved kidney (GFR, pH clearance, urine tracking) and pneumothorax coughing calculations out of separate CBA PFH loops and placed them directly into `fnc_handleUnitVitals.sqf`.
+- [x] **Removed Standalone Loops:** Removed the standalone kidney PFH loop from `fnc_init.sqf` to prevent duplicate updates.
+- [x] **Delta-T Integration:** Mathematically scaled renal and urinary rates by `_deltaT` to guarantee a smooth, continuous integration.
+
+---
+
+## Phase 12: Repository Knowledge Base Updates (Completed)
+- [x] **Function Inventory Mapping:** Scanned and indexed SQF function definitions across all 17 addons.
+- [x] **Addon Overviews:** Documented clinical, physical, and gameplay roles of each individual module.
+- [x] **Custom Knowledge Base:** Wrote detailed state variables and key mechanics mapping into `.planning/KNOWLEDGE_BASE.md`.
+
+---
+
+## Phase 13: Code Modernization & Performance Optimizations (Completed)
+- [x] **HashMap Lookups:** Initialized and implemented optimized gasmask lookup HashMaps in `breathing` and `chemical` modules.
+- [x] **Scoping & Shadowing:** Corrected local private variables and parameter shadowing warnings in `pharma` and `stretcher` addons.
+- [x] **Logical & Array Optimizations:** Converted linear array loops to `findIf` and standardized negated if-checks to `isEqualTo false`.
+
+---
+
+## Phase 14: Function Header Inspections & Verification (Completed)
+- [x] **Parameter Auditing:** Analyzed mismatching function argument numbers and Example usage blocks across the repository.
+- [x] **Header Alignment:** Updated headers in initialization (`pharma`, `breathing`), mask removal, and chemical zone logic to correctly represent parameters.
+- [x] **Static Verification:** Verified compilation syntax safety of documentation updates via HEMTT check runner.
+
+---
+
+## Phase 15: CI/CD & Build Environment Optimizations (Ongoing)
 - [x] **Build System Migration:** Migrate to HEMTT build runner.
 - [x] **SQF Compliers:** Enable SQFC integration for static analysis checks.
 - [ ] **Automated Tests:** Add syntax/linting workflow tests to GitHub Actions.
