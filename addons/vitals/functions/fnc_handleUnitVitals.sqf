@@ -152,7 +152,6 @@ _unit setVariable [VAR_BLOOD_PRESS, _bloodPressure, _syncValues];
 
 if (EGVAR(pharma,kidneyAction)) then {
     private _ph = _unit getVariable [QEGVAR(pharma,externalPh), 0];
-    private _kidneyFail = _unit getVariable [QEGVAR(pharma,kidneyFail), false];
     private _kidneyArrest = _unit getVariable [QEGVAR(pharma,kidneyArrest), false];
     private _kidneyPressure = _unit getVariable [QEGVAR(pharma,kidneyPressure), false];
 

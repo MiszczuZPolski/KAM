@@ -27,13 +27,9 @@ if (GVAR(opioidEffect) != -1) then { GVAR(opioidEffect) ppEffectEnable true; };
 private _showNextTick = missionNamespace getVariable [QGVAR(showOpioidNextTick), true];
 GVAR(showOpioidNextTick) = !_showNextTick;
 if (_showNextTick) exitWith {};
-
-private _initialAdjust = [];
-private _delayedAdjust = [];
-
 _intensity     = linearConversion [0, 1, _intensity, 0, 1, true];
-_initialAdjust = [_intensity       , _intensity       , true];
-_delayedAdjust = [_intensity * 0.15, _intensity * 0.15, true];
+private _initialAdjust = [_intensity       , _intensity       , true];
+private _delayedAdjust = [_intensity * 0.15, _intensity * 0.15, true];
 
 GVAR(opioidEffect) ppEffectAdjust _initialAdjust;
 GVAR(opioidEffect) ppEffectCommit FX_OPIOD_FADE_IN;

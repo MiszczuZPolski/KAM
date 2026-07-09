@@ -52,7 +52,6 @@ private _fnc_onUnload = {
 
 private _fnc_sliderMove_ptx = {
     params ["_slider","_curPTX"];
-    private _idc = ctrlIDC _slider;
     private _logic = GETMVAR(BIS_fnc_initCuratorAttributes_target,objNull);
     private _unit = attachedTo _logic;
     private _curVal = _unit getVariable [QEGVAR(breathing,pneumothorax), 0];
@@ -69,7 +68,6 @@ _sliderPTX ctrlAddEventHandler ["SliderPosChanged", _fnc_sliderMove_ptx];
 
 private _fnc_sliderMove_SPO2 = {
     params ["_slider","_curSpO2Val"];
-    private _idc = ctrlIDC _slider;
     private _logic = GETMVAR(BIS_fnc_initCuratorAttributes_target,objNull);
     private _unit = attachedTo _logic;
     private _curVal = GET_PAO2(_unit);
@@ -118,8 +116,6 @@ private _fnc_onConfirm = {
 
         _unit setVariable [_x, _targetState, true];
     } forEach [QEGVAR(airway,obstruction), QEGVAR(airway,occluded), QEGVAR(breathing,hemopneumothorax), QEGVAR(breathing,tensionpneumothorax)];
-    
-    private _curSpO2Val = GET_PAO2(_unit);    
     private _pneumothorax = round(sliderPosition (_display displayCtrl 16105));
 
     _unit setVariable [QEGVAR(breathing,pneumothorax), _pneumothorax, true];

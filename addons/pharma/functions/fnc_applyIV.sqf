@@ -24,7 +24,6 @@ params ["_medic", "_patient", "_bodyPart", "_usedItem"];
 
 private _partIndex = ALL_BODY_PARTS find toLower _bodyPart;
 private _IVarray = _patient getVariable [QGVAR(IV), [0,0,0,0,0,0]];
-private _IVactual = _IVarray select _partIndex;
 private _IVpfh = _patient getVariable [QGVAR(IVpfh), [0,0,0,0,0,0]];
 private _IVpfhActual = _IVpfh select _partIndex;
 
@@ -59,7 +58,6 @@ if (_usedItem isEqualTo "kat_IV_16") then {
         [_patient] call EFUNC(gui,handleIVShow);
     };
     private _medStack = _patient call ACEFUNC(medical_status,getAllMedicationCount);
-    private _medsToCheck = ["fentanyl", "ketamine", "nalbuphine", "morphine", "lidocaine"];
     private _fentanylEffectiveness = 0;
     private _ketamineEffectiveness = 0;
     private _nalbuphineEffectiveness = 0;

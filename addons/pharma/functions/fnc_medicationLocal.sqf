@@ -99,7 +99,6 @@ _hrIncrease params ["_minIncrease", "_maxIncrease"];
 private _heartRateChange = _minIncrease + random (_maxIncrease - _minIncrease);
 
 private _presentPain = GET_PAIN(_patient);
-private _presentReduce = 0;
 if (_maxRelief > 0) then {
     if (_presentPain > _maxRelief) then {
         _painReduce = _painReduce / 4;

@@ -39,7 +39,7 @@ switch (_targetBlood) do {
     case "AB_N": {_targetBlood = "AB-"};
 };
 
-private _dogTagData = [
+_dogTagData = [
     _targetName,
     _targetBlood, //EDIT by Katalam switch name to target objective //EDIT 2 changed called function, old: ace_dogtags_fnc_bloodType //EDIT 3 working solution for added rhesus factor
     _target call FUNC(groupID) //EDIT changed called function, old: ace_dogtags_fnc_ssns

@@ -47,13 +47,9 @@ if (!(_unit getVariable [QEGVAR(chemical,CoughCooldown), false])) then {
 private _showNextTick = missionNamespace getVariable [QGVAR(showCoughNextTick), true];
 GVAR(showCoughNextTick) = !_showNextTick;
 if (_showNextTick) exitWith {};
-
-private _initialAdjust = [];
-private _delayedAdjust = [];
-
 private _intensity = linearConversion [0, 1, 0.5, 0, 0.06, true];
-_initialAdjust = [_intensity, _intensity, true];
-_delayedAdjust = [_intensity * 0.15, _intensity * 0.15, true];
+private _initialAdjust = [_intensity, _intensity, true];
+private _delayedAdjust = [_intensity * 0.15, _intensity * 0.15, true];
 
 GVAR(airPoisoning) ppEffectAdjust _initialAdjust;
 GVAR(airPoisoning) ppEffectCommit FX_COUGH_FADE_IN;

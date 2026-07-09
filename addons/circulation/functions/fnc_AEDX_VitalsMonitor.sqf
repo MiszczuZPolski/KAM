@@ -63,8 +63,7 @@ if (_patient getVariable ["kat_AEDXPatient_PFH", -1] isEqualTo -1) then {
         private _pr = 0;
         private _bp = [0,0];
         private _spO2 = 0;
-        private _etco2 = 0;
-        private _breathrate = 0;
+        private ["_etco2", "_breathrate"];
 
         private _hasEtco2Monitor = ["_HasEtco2Monitor",""] select (_patient getVariable [QEGVAR(breathing,etco2Monitor),[]] isEqualTo []); //check for etco2 monitoring apparatus
         _hasEtco2Monitor = ["",_hasEtco2Monitor] select (EGVAR(breathing,Etco2_Enabled)); //check etco2 monitoring is enabled
@@ -94,9 +93,8 @@ if (_patient getVariable ["kat_AEDXPatient_PFH", -1] isEqualTo -1) then {
         } else {
             _spO2 = GET_KAT_SPO2(_patient);
         };
-        
-        private _etco2 = GET_ETCO2(_patient);
-        private _breathrate = GET_BREATHING_RATE(_patient);
+        _etco2 = GET_ETCO2(_patient);
+        _breathrate = GET_BREATHING_RATE(_patient);
 
         // List vitals depending on if AED pads and vitals monitoring (pressure cuff + pulse oximeter) is connected
         if (_patient getVariable [QGVAR(AED_X_VitalsMonitor_Connected), false] && _patient getVariable [QGVAR(DefibrillatorPads_Connected), false]) then {
@@ -290,7 +288,6 @@ if (_patient getVariable [QGVAR(AED_X_VitalsMonitor_Connected), false] && {(_pat
 
         if (_patient getVariable [QGVAR(DefibrillatorInUse), false] || !(_patient getVariable [QGVAR(AED_X_VitalsMonitor_VolumePatient), false])) then {
         } else {
-            private _hr = _patient getVariable [QACEGVAR(medical,heartRate), 80];
             private _spO2 = GET_KAT_SPO2(_patient);
             if (_spO2 < GVAR(AED_X_Monitor_SpO2Warning) || _tourniquetApplied) then {
                 playSound3D [QPATHTOF_SOUND(sounds\spo2warning.wav), _soundSource, false, getPosASL _soundSource, 5, 1, 15];

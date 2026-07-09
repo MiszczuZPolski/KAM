@@ -79,7 +79,7 @@ _ctrl ctrlCommit 0;
         _offsetX = _offsetX + POS_W(0.2);
     };
 
-    private _ctrl = _display displayCtrl _idc;
+    _ctrl = _display displayCtrl _idc;
     if (_enabled) then {
         _ctrl ctrlSetPositionX _offsetX;
         _ctrl ctrlCommit 0;
@@ -103,7 +103,7 @@ if (EGVAR(circulation,abgEnable)) then {
 };
 
 // Set toggle button icon and tooltip
-private _ctrl = _display displayCtrl IDC_TOGGLE;
+_ctrl = _display displayCtrl IDC_TOGGLE;
 if (ACEGVAR(medical_gui,target) == ACE_player) then {
     _ctrl ctrlSetText QACEPATHTOF(medical_gui,data\categories\toggle_to_other.paa);
     _ctrl ctrlSetTooltip ACELLSTRING(medical_gui,ToggleToOther);
