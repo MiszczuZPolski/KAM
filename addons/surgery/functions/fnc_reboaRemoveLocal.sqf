@@ -47,13 +47,18 @@ TRACE_1("clearConditionCaches: tourniquetRemove",_nearPlayers);
 private _occludedMedications = _patient getVariable [QACEGVAR(medical,occludedMedications), []];
 private _arrayModified = false;
 
+if (_partIndex == 1) then {
+    _partsToRelease = [1, 4, 5];
+};
+
 if (((_patient getVariable [QEGVAR(pharma,IV), [0,0,0,0,0,0]]) select _partIndex) isNotEqualTo 3) then {
     {
         _x params ["_bodyPartN", "_medication"];
 
-        if (_partIndex == _bodyPartN) then {
+        if (_bodyPartN in _partsToRelease) then {
+            private _releasePartStr = STRING_BODY_PARTS select _bodyPartN;
             TRACE_1("delayed medication call after tourniquet removal",_x);
-            [QEGVAR(pharma,medicationLocal), [_patient, _bodyPart, _medication], _patient] call CBA_fnc_targetEvent;
+            [QEGVAR(pharma,medicationLocal), [_patient, _releasePartStr, _medication], _patient] call CBA_fnc_targetEvent;
             _occludedMedications set [_forEachIndex, []];
             _arrayModified = true;
         };

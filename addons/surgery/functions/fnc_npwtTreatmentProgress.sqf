@@ -65,7 +65,7 @@ if (_woundIndex == -1) then {
 _patient setVariable [VAR_BANDAGED_WOUNDS, _bandagedWounds, true];
 _patient setVariable [VAR_STITCHED_WOUNDS, _stitchedWounds, true];
 
-private _partIndex = ALL_BODY_PARTS find _bodyPart;
+private _partIndex = ALL_BODY_PARTS find toLower _bodyPart;
 private _bodyPartDamage = _patient getVariable [QACEGVAR(medical,bodyPartDamage), []];
 private _damage = (_bodyPartDamage select _partIndex) - (_treatedDamageOf * _treatedAmountOf);
 if (_damage < 0.05) then {
