@@ -47,6 +47,7 @@ TRACE_1("clearConditionCaches: tourniquetRemove",_nearPlayers);
 private _occludedMedications = _patient getVariable [QACEGVAR(medical,occludedMedications), []];
 private _arrayModified = false;
 
+private _partsToRelease = [_partIndex];
 if (_partIndex == 1) then {
     _partsToRelease = [1, 4, 5];
 };
