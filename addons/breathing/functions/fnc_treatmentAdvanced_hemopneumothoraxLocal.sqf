@@ -12,7 +12,7 @@
  * None
  *
  * Example:
- * call kat_breathing_fnc_treatmentAdvanced_hemopneumothoraxLocal;
+ * [player, cursorTarget] call kat_breathing_fnc_treatmentAdvanced_hemopneumothoraxLocal;
  *
  * Public: No
  */

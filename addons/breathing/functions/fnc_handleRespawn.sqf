@@ -5,13 +5,13 @@
  *
  * Arguments:
  * 0: Unit <OBJECT>
- * 1: Corpse <OBJECT>
+ * 1: Dead Unit <OBJECT>
  *
  * Return Value:
  * None
  *
  * Example:
- * [alive, body] call kat_misc_fnc_handleRespawn;
+ * [player, corpse] call kat_breathing_fnc_handleRespawn;
  *
  * Public: No
  */
@@ -28,7 +28,7 @@ _unit setVariable [QGVAR(oxygenTankConnected), false, true];
 _unit setVariable [QGVAR(oxygenTankPreferred), "", true];
 
 _unit setVariable [QGVAR(pulseoximeter), false, true];
-_unit setVariable [QGVAR(PulseOximeter_Volume), false, true];
+_unit setVariable [QGVAR(PulseOximeter_Volume), true, true];
 _unit setVariable [QGVAR(PulseOximeter_VolumePatient), false, true];
 _unit setVariable [QGVAR(PulseOximeter_Attached), [0,0], true];
 

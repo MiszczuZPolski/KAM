@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
  * Author: MiszczuZPolski
- * Set patient into recovery position preventing further airway occlusion.
+ * Cancel patient recovery position.
  *
  * Arguments:
  * 0: Medic <OBJECT>

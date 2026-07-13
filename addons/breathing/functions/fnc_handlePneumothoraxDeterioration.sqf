@@ -40,8 +40,7 @@ params ["_unit", "_chanceIncrease"];
 
                     if (GVAR(PneumothoraxArrest)) then {
                         [{
-                            params ["_args", "_idPFH"];
-                            _args params ["_unit"];
+                            params ["_unit"];
 
                             if ((_unit getVariable [QGVAR(pneumothorax), 0]) == 4) then {
                                 private _ht = _unit getVariable [QEGVAR(circulation,ht), []];

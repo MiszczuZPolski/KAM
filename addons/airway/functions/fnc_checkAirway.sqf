@@ -4,8 +4,8 @@
  * Checks need of airway management
  *
  * Arguments:
- * 0: Unit <OBJECT>
- * 1: Target <OBJECT>
+ * 0: Medic <OBJECT>
+ * 1: Patient <OBJECT>
  *
  * Return Value:
  * None
@@ -45,7 +45,7 @@ if (_patient getVariable [QGVAR(occluded), false]) then {
         _patient setVariable [QACEGVAR(medical,triageLevel), 3, true];
     };
 };
-if (!(_patient getVariable [QGVAR(occluded), false] && _patient getVariable [QGVAR(obstruction), false]) && GVAR(autoTriage)) then {_patient setVariable [QACEGVAR(medical,triageLevel), 0, true]};
+if (!(_patient getVariable [QGVAR(occluded), false]) && !(_patient getVariable [QGVAR(obstruction), false]) && GVAR(autoTriage)) then {_patient setVariable [QACEGVAR(medical,triageLevel), 0, true]};
 
 private _message = format ["%1<br />%2", _hintAirwayObstruction, _hintAirwayOcclusion];
 

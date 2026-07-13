@@ -5,13 +5,13 @@
  *
  * Arguments:
  * 0: Unit <OBJECT>
- * 1: Corpse <OBJECT>
+ * 1: Dead Unit <OBJECT>
  *
  * Return Value:
  * None
  *
  * Example:
- * [alive, body] call kat_misc_fnc_handleRespawn;
+ * [player, corpse] call kat_airway_fnc_handleRespawn;
  *
  * Public: No
  */
@@ -20,7 +20,4 @@ params ["_unit","_dead"];
 TRACE_2("handleRespawn",_unit,_dead);
 
 [_unit] call FUNC(fullHealLocal);
-// Can these go in fullHealLocal?
-_unit setVariable [QEGVAR(airway,airway), false, true];
-_unit setVariable [QEGVAR(airway,airway_item), "", true];
 KAT_forceWakeup = false;

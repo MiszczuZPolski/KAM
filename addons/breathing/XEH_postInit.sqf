@@ -37,3 +37,11 @@ private _itemsHelmet = missionNamespace getVariable [QGVAR(availOxyHelmet), "'H_
 private _arrayHelmet = [_itemsHelmet, "CfgWeapons"] call EFUNC(chemical,getList);
 
 missionNamespace setVariable [QGVAR(availOxyHelmetList), _arrayHelmet, true];
+
+private _oxyMaskHash = createHashMap;
+{ _oxyMaskHash set [_x, true] } forEach _array;
+missionNamespace setVariable [QGVAR(availOxyMaskHash), _oxyMaskHash, true];
+
+private _oxyHelmetHash = createHashMap;
+{ _oxyHelmetHash set [_x, true] } forEach _arrayHelmet;
+missionNamespace setVariable [QGVAR(availOxyHelmetHash), _oxyHelmetHash, true];

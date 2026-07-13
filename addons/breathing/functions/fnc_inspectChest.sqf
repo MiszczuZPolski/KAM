@@ -4,7 +4,7 @@
  * Inspect chest for injuries
  *
  * Arguments:
- * 0: Unit <OBJECT>
+ * 0: Medic <OBJECT>
  * 1: Patient <OBJECT>
  *
  * Return Value:

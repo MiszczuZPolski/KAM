@@ -17,7 +17,7 @@
 
 params ["_patient"];
 
-if (GVAR(enableEverythingOxymask) || (goggles _patient in (missionNamespace getVariable [QGVAR(availOxyMaskList), []])) || (headgear _patient in (missionNamespace getVariable [QGVAR(availOxyHelmetList), []]))) exitWith {
+if (GVAR(enableEverythingOxymask) || (goggles _patient in (missionNamespace getVariable [QGVAR(availOxyMaskHash), createHashMap])) || (headgear _patient in (missionNamespace getVariable [QGVAR(availOxyHelmetHash), createHashMap]))) exitWith {
     true
 };
 

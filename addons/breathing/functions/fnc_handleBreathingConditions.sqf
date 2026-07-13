@@ -10,7 +10,7 @@
  * None
  *
  * Example:
- * [player] call kat_breathing_fnc_handleBreathingConcidtions;
+ * [player] call kat_breathing_fnc_handleBreathingConditions;
  *
  * Public: No
  */
