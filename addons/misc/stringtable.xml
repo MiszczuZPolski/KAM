@@ -13,9 +13,9 @@
             <Japanese>AFAKは開梱することで有用な医療品を入手出来る</Japanese>
             <Chinese>AFAK 可以拆開以提供有用的醫療物品</Chinese>
             <Chinesesimp>AFAK可以拆开包装，提供有用的医疗用品</Chinesesimp>
+            <Turkish>AFAK, faydalı tıbbi eşyalar sağlamak için açılabilir</Turkish>
             <Finnish>AFAK voidaan purkaa pakkauksestaan hyödyllisten lääketieteellisten tarvikkeiden saamiseksi</Finnish>
             <Dutch>de AFAK kan uitgepakt worden om nuttige producten te verschaffen</Dutch>
-            <Turkish>AFAK, faydalı tıbbi eşyalar sağlamak için açılabilir</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_AFAK_Display">
             <English>Advanced First Aid Kit</English>
@@ -29,9 +29,9 @@
             <Japanese>高度応急処置キット (AFAK)</Japanese>
             <Chinese>高級急救包 (AFAK)</Chinese>
             <Chinesesimp>高级急救包 (AFAK)</Chinesesimp>
+            <Turkish>Gelişmiş İlk Yardım Kiti (AFAK)</Turkish>
             <Finnish>Edistyksellinen ensiapulaukku</Finnish>
             <Dutch>Geadvanceerde Eerste hulpskit</Dutch>
-            <Turkish>Gelişmiş İlk Yardım Kiti (AFAK)</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_AFAK_Unpack">
             <English>AFAK</English>
@@ -44,9 +44,9 @@
             <German>AFAK</German>
             <Japanese>AFAK</Japanese>
             <Chinesesimp>AFAK</Chinesesimp>
+            <Turkish>AFAK</Turkish>
             <Finnish>AFAK</Finnish>
             <Dutch>AFAK</Dutch>
-            <Turkish>AFAK</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Action_add_IV">
             <English>Attaching IV</English>
@@ -133,9 +133,9 @@
             <Japanese>識別帯 (医師)</Japanese>
             <Chinese>醫師臂章</Chinese>
             <Chinesesimp>医生Doctor臂章</Chinesesimp>
+            <Turkish>Kol Bandı – Doktor</Turkish>
             <Finnish>Käsivarsinauha lääkärille</Finnish>
             <Dutch>Armband doktor</Dutch>
-            <Turkish>Kol Bandı – Doktor</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_Kat_ItemName">
             <English>Armband KAT</English>
@@ -150,9 +150,9 @@
             <Japanese>識別帯 (KAT)</Japanese>
             <Chinese>KAT臂章</Chinese>
             <Chinesesimp>KAT臂章</Chinesesimp>
+            <Turkish>Kol Bandı – KAT</Turkish>
             <Finnish>Käsivarsinauha KAT</Finnish>
             <Dutch>Armband KAT</Dutch>
-            <Turkish>Kol Bandı – KAT</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_Medic_ItemName">
             <English>Armband Medic</English>
@@ -167,9 +167,9 @@
             <Japanese>識別帯 (衛生兵)</Japanese>
             <Chinese>醫務兵臂章</Chinese>
             <Chinesesimp>医务兵臂章</Chinesesimp>
+            <Turkish>Kol Bandı – Medik</Turkish>
             <Finnish>Käsivarsinauha taistelulääkärille</Finnish>
             <Dutch>Armband medici</Dutch>
-            <Turkish>Kol Bandı – Medik</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_Red_Cross_ItemName">
             <English>Armband Red Cross</English>
@@ -184,9 +184,9 @@
             <Japanese>識別帯 (赤十字)</Japanese>
             <Chinese>紅十字臂章</Chinese>
             <Chinesesimp>红十字臂章</Chinesesimp>
+            <Turkish>Kol Bandı – Kızıl Haç</Turkish>
             <Finnish>Käsivarsinauha punainen risti</Finnish>
             <Dutch>Armband Rode kruiz</Dutch>
-            <Turkish>Kol Bandı – Kızıl Haç</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_Sling">
             <English>Armband</English>
@@ -201,9 +201,9 @@
             <Japanese>識別帯</Japanese>
             <Chinese>臂章</Chinese>
             <Chinesesimp>臂章</Chinesesimp>
+            <Turkish>Kol Bandı</Turkish>
             <Finnish>Käsivarsinauha</Finnish>
             <Dutch>Armband</Dutch>
-            <Turkish>Kol Bandı</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_Sling_Left_Arm">
             <English>Sling to left arm</English>
@@ -218,9 +218,9 @@
             <Japanese>左腕に着ける</Japanese>
             <Chinese>佩戴在左臂</Chinese>
             <Chinesesimp>吊至左臂</Chinesesimp>
+            <Turkish>Sol kola askı tak</Turkish>
             <Finnish>Ripusta vasempaan käsivarteen</Finnish>
             <Dutch>Bind aan linkerarm</Dutch>
-            <Turkish>Sol kola askı tak</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_Sling_Left_Leg">
             <English>Sling to left leg</English>
@@ -235,9 +235,9 @@
             <Japanese>左足に着ける</Japanese>
             <Chinese>佩戴在左腿</Chinese>
             <Chinesesimp>吊至左腿</Chinesesimp>
+            <Turkish>Sol bacağa askı tak</Turkish>
             <Finnish>Ripusta vasemmassa jalassa</Finnish>
             <Dutch>Bind aan linkerbeen</Dutch>
-            <Turkish>Sol bacağa askı tak</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_Sling_Right_Arm">
             <English>Sling to right arm</English>
@@ -252,9 +252,9 @@
             <Japanese>右腕に着ける</Japanese>
             <Chinese>佩戴在右臂</Chinese>
             <Chinesesimp>吊至右臂</Chinesesimp>
+            <Turkish>Sol bacağa askı tak</Turkish>
             <Finnish>Ripusta oikeaan käsivarteen</Finnish>
             <Dutch>Bind aan rechterarm</Dutch>
-            <Turkish>Sol bacağa askı tak</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_Sling_Right_Leg">
             <English>Sling to right leg</English>
@@ -269,9 +269,9 @@
             <Japanese>右足に着ける</Japanese>
             <Chinese>佩戴在右腿</Chinese>
             <Chinesesimp>吊至右腿</Chinesesimp>
+            <Turkish>Sağ kola askı tak</Turkish>
             <Finnish>Ripusta oikeaan jalkaan</Finnish>
             <Dutch>Bind aan rechterbeen</Dutch>
-            <Turkish>Sağ kola askı tak</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_UnSling_Left_Arm">
             <English>Unsling left arm</English>
@@ -286,9 +286,9 @@
             <Japanese>左腕から外す</Japanese>
             <Chinese>從左臂移除</Chinese>
             <Chinesesimp>从左臂移除</Chinesesimp>
+            <Turkish>Sol kol askısını çıkar</Turkish>
             <Finnish>Irrotus vasemmasta kädestä</Finnish>
             <Dutch>Van linkerarm losmaken</Dutch>
-            <Turkish>Sol kol askısını çıkar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_UnSling_Left_Leg">
             <English>Unsling left leg</English>
@@ -303,9 +303,9 @@
             <Japanese>左足から外す</Japanese>
             <Chinese>從左腿移除</Chinese>
             <Chinesesimp>从左腿移除</Chinesesimp>
+            <Turkish>Sol kol askısını çıkar</Turkish>
             <Finnish>Irrotus vasemmasta jalasta</Finnish>
             <Dutch>Van linkerbeen losmaken</Dutch>
-            <Turkish>Sol kol askısını çıkar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_UnSling_Right_Arm">
             <English>Unsling right arm</English>
@@ -320,9 +320,9 @@
             <Japanese>右腕から外す</Japanese>
             <Chinese>從右臂移除</Chinese>
             <Chinesesimp>从右臂移除</Chinesesimp>
+            <Turkish>Sağ kol askısını çıkar</Turkish>
             <Finnish>Irrotus oikeasta kädestä</Finnish>
             <Dutch>Van rechterarm losmaken</Dutch>
-            <Turkish>Sağ kol askısını çıkar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Armband_UnSling_Right_Leg">
             <English>Unsling right leg</English>
@@ -337,9 +337,9 @@
             <Japanese>右足から外す</Japanese>
             <Chinese>從右腿移除</Chinese>
             <Chinesesimp>从右腿移除</Chinesesimp>
+            <Turkish>Sağ kol askısını çıkar</Turkish>
             <Finnish>Irrotus oikeasta jalasta</Finnish>
             <Dutch>Van rechterbeen losmaken</Dutch>
-            <Turkish>Sağ kol askısını çıkar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_BloodGroupPatch_0_N">
             <English>Blood Group Patch 0-</English>
@@ -354,9 +354,9 @@
             <Japanese>血液型パッチ O-</Japanese>
             <Chinese>血型臂章 O-</Chinese>
             <Chinesesimp>血型臂章 O-</Chinesesimp>
+            <Turkish>Kan Grubu Yaması 0-</Turkish>
             <Finnish>Veriryhmälaastari O-</Finnish>
             <Dutch>Bloedgroep lapje 0-</Dutch>
-            <Turkish>Kan Grubu Yaması 0-</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_BloodGroupPatch_0_P">
             <English>Blood Group Patch 0+</English>
@@ -371,9 +371,9 @@
             <Japanese>血液型パッチ O+</Japanese>
             <Chinese>血型臂章 O+</Chinese>
             <Chinesesimp>血型臂章 O+</Chinesesimp>
+            <Turkish>Kan Grubu Yaması 0+</Turkish>
             <Finnish>Veriryhmälaastari O+</Finnish>
             <Dutch>Bloedgroep lapje 0+</Dutch>
-            <Turkish>Kan Grubu Yaması 0+</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_BloodGroupPatch_AB_N">
             <English>Blood Group Patch AB-</English>
@@ -388,9 +388,9 @@
             <Japanese>血液型パッチ AB-</Japanese>
             <Chinese>血型臂章 AB-</Chinese>
             <Chinesesimp>血型臂章 AB-</Chinesesimp>
+            <Turkish>Kan Grubu Yaması AB-</Turkish>
             <Finnish>Veriryhmälaastari AB-</Finnish>
             <Dutch>Bloedgroep lapje AB-</Dutch>
-            <Turkish>Kan Grubu Yaması AB-</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_BloodGroupPatch_AB_P">
             <English>Blood Group Patch AB+</English>
@@ -405,9 +405,9 @@
             <Japanese>血液型パッチ AB+</Japanese>
             <Chinese>血型臂章 AB+</Chinese>
             <Chinesesimp>血型臂章 AB+</Chinesesimp>
+            <Turkish>Kan Grubu Yaması AB+</Turkish>
             <Finnish>Veriryhmälaastari AB+</Finnish>
             <Dutch>Bloedgroep lapje AB+</Dutch>
-            <Turkish>Kan Grubu Yaması AB+</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_BloodGroupPatch_A_N">
             <English>Blood Group Patch A-</English>
@@ -422,9 +422,9 @@
             <Japanese>血液型パッチ A-</Japanese>
             <Chinese>血型臂章 A-</Chinese>
             <Chinesesimp>血型臂章 A-</Chinesesimp>
+            <Turkish>Kan Grubu Yaması A-</Turkish>
             <Finnish>Veriryhmälaastari A-</Finnish>
             <Dutch>Bloedgroep lapje A-</Dutch>
-            <Turkish>Kan Grubu Yaması A-</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_BloodGroupPatch_A_P">
             <English>Blood Group Patch A+</English>
@@ -439,9 +439,9 @@
             <Japanese>血液型パッチ A+</Japanese>
             <Chinese>血型臂章 A+</Chinese>
             <Chinesesimp>血型臂章 A+</Chinesesimp>
+            <Turkish>Kan Grubu Yaması A+</Turkish>
             <Finnish>Veriryhmälaastari A+</Finnish>
             <Dutch>Bloedgroep lapje A+</Dutch>
-            <Turkish>Kan Grubu Yaması A+</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_BloodGroupPatch_B_N">
             <English>Blood Group Patch B-</English>
@@ -456,9 +456,9 @@
             <Japanese>血液型パッチ B-</Japanese>
             <Chinese>血型臂章 B-</Chinese>
             <Chinesesimp>血型臂章 B-</Chinesesimp>
+            <Turkish>Kan Grubu Yaması B-</Turkish>
             <Finnish>Veriryhmälaastari B-</Finnish>
             <Dutch>Bloedgroep lapje B-</Dutch>
-            <Turkish>Kan Grubu Yaması B-</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_BloodGroupPatch_B_P">
             <English>Blood Group Patch B+</English>
@@ -473,9 +473,9 @@
             <Japanese>血液型パッチ B+</Japanese>
             <Chinese>血型臂章 B+</Chinese>
             <Chinesesimp>血型臂章 B+</Chinesesimp>
+            <Turkish>Kan Grubu Yaması B+</Turkish>
             <Finnish>Veriryhmälaastari B+</Finnish>
             <Dutch>Bloedgroep lapje B+</Dutch>
-            <Turkish>Kan Grubu Yaması B+</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Bubble_Wrap_Ace_Action">
             <English>Pop a Bubble</English>
@@ -490,9 +490,9 @@
             <Japanese>プチプチする</Japanese>
             <Chinese>戳破一個氣泡</Chinese>
             <Chinesesimp>戳破一个气泡</Chinesesimp>
+            <Turkish>Balon Patlat</Turkish>
             <Finnish>Poksauta</Finnish>
             <Dutch>Pop een luchtbel</Dutch>
-            <Turkish>Balon Patlat</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Bubble_Wrap_Desc">
             <English>A Bubble Wrap that you can squeeze to relive some pain</English>
@@ -507,9 +507,9 @@
             <Japanese>気泡緩衝材を捻ることで痛みを紛らわすことが出来る</Japanese>
             <Chinese>可以捏破的泡泡紙，以舒緩疼痛。</Chinese>
             <Chinesesimp>一个你可以挤压的泡泡膜来舒缓一些痛苦</Chinesesimp>
+            <Turkish>Biraz ağrıyı hafifletmek için sıkabileceğin balonlu naylon</Turkish>
             <Finnish>Kuplakääre, jota voit puristaa lievittääksesi kipua</Finnish>
             <Dutch>Noppenfolie, wat je kan gebruiken om pijn te verlichten</Dutch>
-            <Turkish>Biraz ağrıyı hafifletmek için sıkabileceğin balonlu naylon</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Bubble_Wrap_Display">
             <English>Bubble Wrap</English>
@@ -524,9 +524,9 @@
             <Japanese>気泡緩衝材</Japanese>
             <Chinese>泡泡紙</Chinese>
             <Chinesesimp>气泡膜</Chinesesimp>
+            <Turkish>Balonlu Naylon</Turkish>
             <Finnish>Kuplamuovia</Finnish>
             <Dutch>Noppenfolie</Dutch>
-            <Turkish>Balonlu Naylon</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_CancelCarrying">
             <English>Cancel Carrying</English>
@@ -541,9 +541,9 @@
             <Japanese>担がれるのを止める</Japanese>
             <Chinese>取消搬運</Chinese>
             <Chinesesimp>取消携带</Chinesesimp>
+            <Turkish>Taşımayı İptal Et</Turkish>
             <Finnish>Peruuta potilaan kuljettaminen</Finnish>
             <Dutch>Dragen annuleren</Dutch>
-            <Turkish>Taşımayı İptal Et</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_CarryPatient">
             <English>Carry Patient</English>
@@ -558,9 +558,9 @@
             <Japanese>患者を担ぐ</Japanese>
             <Chinese>搬運病人</Chinese>
             <Chinesesimp>携带患者</Chinesesimp>
+            <Turkish>Hastayı Taşı</Turkish>
             <Finnish>Kanna potilasta</Finnish>
             <Dutch>Draag patiënt</Dutch>
-            <Turkish>Hastayı Taşı</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Display_IVStand">
             <English>Stand: Saline IV (1000ml)</English>
@@ -628,8 +628,8 @@
             <Japanese>内容物リストを見る</Japanese>
             <Chinese>查看裝箱清單</Chinese>
             <Chinesesimp>查看装箱清单</Chinesesimp>
-            <Dutch>Zie paklijst</Dutch>
             <Turkish>Paketleme Listesini Görüntüle</Turkish>
+            <Dutch>Zie paklijst</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_1">
             <English>Unpack Trauma Section</English>
@@ -643,8 +643,8 @@
             <Japanese>外傷枠を 開梱する</Japanese>
             <Chinese>拆封創傷部分</Chinese>
             <Chinesesimp>打开创伤部分</Chinesesimp>
-            <Dutch>Pak trauma sectie uit</Dutch>
             <Turkish>Travma Bölümünü Aç</Turkish>
+            <Dutch>Pak trauma sectie uit</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_1_Hint">
             <English>Trauma Section:</English>
@@ -658,8 +658,8 @@
             <Japanese>外傷枠:</Japanese>
             <Chinese>創傷部分:</Chinese>
             <Chinesesimp>创伤部分:</Chinesesimp>
-            <Dutch>Trauma sectie:</Dutch>
             <Turkish>Travma Bölümü:</Turkish>
+            <Dutch>Trauma sectie:</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_1_Repack">
             <English>Repack Trauma Section</English>
@@ -673,8 +673,8 @@
             <Japanese>外傷枠を 再梱包する</Japanese>
             <Chinese>裝回創傷部分</Chinese>
             <Chinesesimp>重装创伤部分</Chinesesimp>
-            <Dutch>Herpak trauma sectie</Dutch>
             <Turkish>Travma Bölümünü Yeniden Paketle</Turkish>
+            <Dutch>Herpak trauma sectie</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_2">
             <English>Unpack Bandage Section</English>
@@ -688,8 +688,8 @@
             <Japanese>包帯枠を 開梱する</Japanese>
             <Chinese>拆封繃帶部分</Chinese>
             <Chinesesimp>拆包绷带部分</Chinesesimp>
-            <Dutch>Pak verbandssectie uit</Dutch>
             <Turkish>Bandaj Bölümünü Aç</Turkish>
+            <Dutch>Pak verbandssectie uit</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_2_Hint">
             <English>Bandage Section:</English>
@@ -703,8 +703,8 @@
             <Japanese>包帯枠:</Japanese>
             <Chinese>繃帶部分:</Chinese>
             <Chinesesimp>绷带部分:</Chinesesimp>
-            <Dutch>Verbandssectie:</Dutch>
             <Turkish>Bandaj Bölümü:</Turkish>
+            <Dutch>Verbandssectie:</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_2_Repack">
             <English>Repack Bandage Section</English>
@@ -718,8 +718,8 @@
             <Japanese>包帯枠を 再梱包する</Japanese>
             <Chinese>裝回繃帶部分</Chinese>
             <Chinesesimp>重装绷带部分</Chinesesimp>
-            <Dutch>Herpak verbandssectie</Dutch>
             <Turkish>Bandaj Bölümünü Aç</Turkish>
+            <Dutch>Herpak verbandssectie</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_3">
             <English>Unpack Pain Management Section</English>
@@ -733,8 +733,8 @@
             <Japanese>鎮痛枠を 開梱する</Japanese>
             <Chinese>拆封疼痛管理部分</Chinese>
             <Chinesesimp>打开疼痛管理部分</Chinesesimp>
-            <Dutch>Pak pijnbestrijdingssectie uit</Dutch>
             <Turkish>Ağrı Yönetimi Bölümünü Aç</Turkish>
+            <Dutch>Pak pijnbestrijdingssectie uit</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_3_Hint">
             <English>Pain Management Section:</English>
@@ -748,8 +748,8 @@
             <Japanese>鎮痛枠:</Japanese>
             <Chinese>疼痛管理部分:</Chinese>
             <Chinesesimp>疼痛管理部分:</Chinesesimp>
-            <Dutch>Pijnbestrijdingssectie:</Dutch>
             <Turkish>Ağrı Yönetimi Bölümü:</Turkish>
+            <Dutch>Pijnbestrijdingssectie:</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_3_Repack">
             <English>Repack Pain Management Section</English>
@@ -763,8 +763,8 @@
             <Japanese>鎮痛枠を 再梱包する</Japanese>
             <Chinese>裝回疼痛管理部分</Chinese>
             <Chinesesimp>重装疼痛管理部分</Chinesesimp>
-            <Dutch>Herpack pijnbestrijdingssectie</Dutch>
             <Turkish>Ağrı Yönetimi Bölümünü Yeniden Paketle</Turkish>
+            <Dutch>Herpack pijnbestrijdingssectie</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_4">
             <English>Unpack Breathing Section</English>
@@ -778,8 +778,8 @@
             <Japanese>呼吸枠を 開梱する</Japanese>
             <Chinese>拆封呼吸部分</Chinese>
             <Chinesesimp>打开呼吸部分</Chinesesimp>
-            <Dutch>Pak ademhalingssectie uit</Dutch>
             <Turkish>Solunum Bölümünü Aç</Turkish>
+            <Dutch>Pak ademhalingssectie uit</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_4_Hint">
             <English>Breathing Section:</English>
@@ -793,8 +793,8 @@
             <Japanese>呼吸枠:</Japanese>
             <Chinese>呼吸部分:</Chinese>
             <Chinesesimp>呼吸部分:</Chinesesimp>
-            <Dutch>Ademhalingssectie:</Dutch>
             <Turkish>Solunum Bölümü:</Turkish>
+            <Dutch>Ademhalingssectie:</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_4_Repack">
             <English>Repack Breathing Section</English>
@@ -808,8 +808,8 @@
             <Japanese>呼吸枠を 再梱包する</Japanese>
             <Chinese>裝回呼吸部分</Chinese>
             <Chinesesimp>重新包装呼吸部分</Chinesesimp>
-            <Dutch>Herpack ademhalingssectie</Dutch>
             <Turkish>Solunum Bölümünü Yeniden Paketle</Turkish>
+            <Dutch>Herpack ademhalingssectie</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_5">
             <English>Unpack Airway Section</English>
@@ -823,8 +823,8 @@
             <Japanese>気道枠を 開梱する</Japanese>
             <Chinese>拆封氣道部分</Chinese>
             <Chinesesimp>打开气道部分</Chinesesimp>
-            <Dutch>Pak luchtweg sectie uit</Dutch>
             <Turkish>Hava Yolu Bölümünü Aç</Turkish>
+            <Dutch>Pak luchtweg sectie uit</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_5_Hint">
             <English>Airway Section:</English>
@@ -838,8 +838,8 @@
             <Japanese>気道枠:</Japanese>
             <Chinese>呼吸道部分:</Chinese>
             <Chinesesimp>气道部分:</Chinesesimp>
-            <Dutch>Luchtweg sectie:</Dutch>
             <Turkish>Hava Yolu Bölümü:</Turkish>
+            <Dutch>Luchtweg sectie:</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_5_Repack">
             <English>Repack Airway Section</English>
@@ -853,8 +853,8 @@
             <Japanese>気道枠を 再梱包する</Japanese>
             <Chinese>裝回氣道部分</Chinese>
             <Chinesesimp>重新包装气道部分</Chinesesimp>
-            <Dutch>Herpack luchtweg sectie</Dutch>
             <Turkish>Hava Yolu Bölümünü Yeniden Paketle</Turkish>
+            <Dutch>Herpack luchtweg sectie</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_6">
             <English>Unpack Pharmaceutical Section</English>
@@ -868,8 +868,8 @@
             <Japanese>薬品枠を 開梱する</Japanese>
             <Chinese>拆封藥劑部分</Chinese>
             <Chinesesimp>拆包药剂部分</Chinesesimp>
-            <Dutch>Pak pharmaceutische sectie uit</Dutch>
             <Turkish>Farmasötik Bölümü Aç</Turkish>
+            <Dutch>Pak pharmaceutische sectie uit</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_6_Hint">
             <English>Pharmaceutical Section:</English>
@@ -883,8 +883,8 @@
             <Japanese>薬品枠:</Japanese>
             <Chinese>藥物部分:</Chinese>
             <Chinesesimp>药物部分:</Chinesesimp>
-            <Dutch>Pharmaceutische sectie:</Dutch>
             <Turkish>Farmasötik Bölüm:</Turkish>
+            <Dutch>Pharmaceutische sectie:</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_6_Repack">
             <English>Repack Pharmaceutical Section</English>
@@ -898,8 +898,8 @@
             <Japanese>薬品枠を 再梱包する</Japanese>
             <Chinese>裝回藥劑部分</Chinese>
             <Chinesesimp>再包装药剂部分</Chinesesimp>
-            <Dutch>Herpak pharmaceutische sectie</Dutch>
             <Turkish>Farmasötik Bölümü Yeniden Paketle</Turkish>
+            <Dutch>Herpak pharmaceutische sectie</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_7">
             <English>Unpack Fluid Section</English>
@@ -913,8 +913,8 @@
             <Japanese>輸液枠を 開梱する</Japanese>
             <Chinese>拆封液體部分</Chinese>
             <Chinesesimp>解封流体部分</Chinesesimp>
-            <Dutch>Pak vloeistoffen sectie uit</Dutch>
             <Turkish>Sıvı Bölümünü Aç</Turkish>
+            <Dutch>Pak vloeistoffen sectie uit</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_7_Hint">
             <English>Fluid Section:</English>
@@ -928,8 +928,8 @@
             <Japanese>輸液枠:</Japanese>
             <Chinese>液體部分:</Chinese>
             <Chinesesimp>液体部分:</Chinesesimp>
-            <Dutch>Vloeistofsectie:</Dutch>
             <Turkish>Sıvı Bölümü:</Turkish>
+            <Dutch>Vloeistofsectie:</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_7_Repack">
             <English>Repack Fluid Section</English>
@@ -943,8 +943,8 @@
             <Japanese>輸液枠を 再梱包する</Japanese>
             <Chinese>裝回液體部分</Chinese>
             <Chinesesimp>重新充填流体部分</Chinesesimp>
-            <Dutch>Herpak vloeistoffen sectie</Dutch>
             <Turkish>Sıvı Bölümünü Yeniden Paketle</Turkish>
+            <Dutch>Herpak vloeistoffen sectie</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_8">
             <English>Unpack Miscellaneous Section</English>
@@ -958,8 +958,8 @@
             <Japanese>雑多枠を 開梱する</Japanese>
             <Chinese>拆封雜項部分</Chinese>
             <Chinesesimp>拆包杂项部分</Chinesesimp>
-            <Dutch>Pak overige sectie uit</Dutch>
             <Turkish>Çeşitli Bölümünü Aç</Turkish>
+            <Dutch>Pak overige sectie uit</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_8_Hint">
             <English>Miscellaneous Section:</English>
@@ -973,8 +973,8 @@
             <Japanese>雑多枠:</Japanese>
             <Chinese>雜項部分:</Chinese>
             <Chinesesimp>杂项部分:</Chinesesimp>
-            <Dutch>Overige sectie:</Dutch>
             <Turkish>Çeşitli Bölümü:</Turkish>
+            <Dutch>Overige sectie:</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_FAK_Slot_8_Repack">
             <English>Repack Miscellaneous Section</English>
@@ -988,8 +988,8 @@
             <Japanese>雑多枠を 再梱包する</Japanese>
             <Chinese>裝回雜項部分</Chinese>
             <Chinesesimp>重新包装及杂项部分</Chinesesimp>
-            <Dutch>Herpak overige sectie</Dutch>
             <Turkish>Çeşitli Bölümünü Yeniden Paketle</Turkish>
+            <Dutch>Herpak overige sectie</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_IFAK_DESC">
             <English>The IFAK can be unpacked to provide useful medical items</English>
@@ -1003,9 +1003,9 @@
             <Japanese>IFAKは開梱することで有用な医療品を入手出来る</Japanese>
             <Chinese>IFAK 可以拆開以提供有用的醫療物品</Chinese>
             <Chinesesimp>IFAK可以拆开包装，提供有用的医疗用品</Chinesesimp>
+            <Turkish>IFAK, faydalı tıbbi eşyalar sağlamak için açılabilir</Turkish>
             <Finnish>IFAK voidaan purkaa pakkauksesta hyödyllisten lääketieteellisten tarvikkeiden saamiseksi</Finnish>
             <Dutch>De IFAK kan uitgepakt worden om nuttige producten te verschaffen</Dutch>
-            <Turkish>IFAK, faydalı tıbbi eşyalar sağlamak için açılabilir</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_IFAK_Display">
             <English>Individual First Aid Kit</English>
@@ -1019,9 +1019,9 @@
             <Japanese>個人用応急処置キット (IFAK)</Japanese>
             <Chinese>個人急救包 (IFAK)</Chinese>
             <Chinesesimp>个人急救箱</Chinesesimp>
+            <Turkish>Bireysel İlk Yardım Kiti (IFAK)</Turkish>
             <Finnish>Yksilöllinen ensiapulaukku</Finnish>
             <Dutch>Individuele Eerste hulpskit</Dutch>
-            <Turkish>Bireysel İlk Yardım Kiti (IFAK)</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_IFAK_Unpack">
             <English>IFAK</English>
@@ -1034,9 +1034,9 @@
             <German>IFAK</German>
             <Japanese>IFAK</Japanese>
             <Chinesesimp>IFAK</Chinesesimp>
+            <Turkish>IFAK</Turkish>
             <Finnish>IFAK</Finnish>
             <Dutch>IFAK</Dutch>
-            <Turkish>IFAK</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_Kat_Equipment">
             <English>KAT Equipment</English>
@@ -1050,8 +1050,8 @@
             <Japanese>KAT 装備品</Japanese>
             <Chinese>KAT 裝備</Chinese>
             <Chinesesimp>KAT设备</Chinesesimp>
-            <Dutch>KAT apparatuur</Dutch>
             <Turkish>KAT Ekipmanları</Turkish>
+            <Dutch>KAT apparatuur</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_MFAK_DESC">
             <English>The MFAK can be unpacked to provide useful medical items</English>
@@ -1065,9 +1065,9 @@
             <Japanese>MFAKは開梱することで有用な医療品を入手出来る</Japanese>
             <Chinese>MFAK 可以拆開以提供有用的醫療物品</Chinese>
             <Chinesesimp>MFAK可以拆开包装，提供有用的医疗用品</Chinesesimp>
+            <Turkish>MFAK, faydalı tıbbi eşyalar sağlamak için açılabilir</Turkish>
             <Finnish>MFAK voidaan purkaa pakkauksesta hyödyllisten lääketieteellisten tarvikkeiden saamiseksi</Finnish>
             <Dutch>De MFAK kan uitgepakt worden om nuttige producten te verschaffen</Dutch>
-            <Turkish>MFAK, faydalı tıbbi eşyalar sağlamak için açılabilir</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_MFAK_Display">
             <English>Multiple First Aid Kit</English>
@@ -1081,9 +1081,9 @@
             <Japanese>多用途応急処置キット (MFAK)</Japanese>
             <Chinese>多功能急救包 (MFAK)</Chinese>
             <Chinesesimp>多重急救包</Chinesesimp>
+            <Turkish>Çoklu İlk Yardım Kiti (MFAK)</Turkish>
             <Finnish>Useita ensiapulaukkuja</Finnish>
             <Dutch>Meervoudige Eerste hulpskit</Dutch>
-            <Turkish>Çoklu İlk Yardım Kiti (MFAK)</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_MFAK_Unpack">
             <English>MFAK</English>
@@ -1096,9 +1096,9 @@
             <German>MFAK</German>
             <Japanese>MFAK</Japanese>
             <Chinesesimp>MFAK</Chinesesimp>
+            <Turkish>MFAK</Turkish>
             <Finnish>MFAK</Finnish>
             <Dutch>MFAK</Dutch>
-            <Turkish>MFAK</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftArmPos_Desc">
             <English>Defines the position (x, y, z) where the armband is slung to the left arm.</English>
@@ -1113,9 +1113,9 @@
             <Japanese>左腕に着けられる識別帯の位置 (x,y,z) を定義します</Japanese>
             <Chinese>定義臂章在左臂上的位置 (x, y, z)。</Chinese>
             <Chinesesimp>定义臂章挂在左臂上的位置(x，y，z)。</Chinesesimp>
+            <Turkish>Kol bandının sol kola takıldığı konumu (x, y, z) tanımlar</Turkish>
             <Finnish>Määrittää paikan (x, y, z), jossa käsivarsinauha on ripustettu vasempaan käsivarteen.</Finnish>
             <Dutch>Bepaald de positie (x, y, z) waar de armband om de linkerarm zit.</Dutch>
-            <Turkish>Kol bandının sol kola takıldığı konumu (x, y, z) tanımlar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftArmPos_Display">
             <English>Armband position left arm</English>
@@ -1130,9 +1130,9 @@
             <Japanese>左腕の識別帯の位置</Japanese>
             <Chinese>左臂臂章位置</Chinese>
             <Chinesesimp>左臂臂带位置</Chinesesimp>
+            <Turkish>Kol bandı konumu – sol kol</Turkish>
             <Finnish>Käsivarsinauhan asento vasen käsi</Finnish>
             <Dutch>Armband positie linkerarm</Dutch>
-            <Turkish>Kol bandı konumu – sol kol</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftArmRot_Desc">
             <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the left arm.</English>
@@ -1147,9 +1147,9 @@
             <Japanese>左腕に着けられる識別帯の回転 (ヨー,ピッチ,ロール) を定義します</Japanese>
             <Chinese>定義佩戴在左臂上的臂章的旋轉角度（偏航、俯仰、滾轉）。</Chinese>
             <Chinesesimp>定义挂在左臂上的臂章的旋转(偏航、俯仰、滚转)。</Chinesesimp>
+            <Turkish>Sol kola takılan kol bandının dönüşünü (yaw, pitch, roll) tanımlar</Turkish>
             <Finnish>Määrittää vasempaan käsivarteen ripustetun käsivarsinauhan kiertoliikkeen (kääntö, kallistus, rullaus).</Finnish>
             <Dutch>Bepaald de rotatie (draaiing, helling en kanteling) van de armband die om de linkerarm zit</Dutch>
-            <Turkish>Sol kola takılan kol bandının dönüşünü (yaw, pitch, roll) tanımlar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftArmRot_Display">
             <English>Armband rotation left arm</English>
@@ -1164,9 +1164,9 @@
             <Japanese>左腕の識別帯の回転</Japanese>
             <Chinese>左臂臂章旋轉</Chinese>
             <Chinesesimp>臂带旋转左臂</Chinesesimp>
+            <Turkish>Kol bandı dönüşü – sol kol</Turkish>
             <Finnish>Käsivarsinauhan kierto vasemmassa kädessä</Finnish>
             <Dutch>Armband rotatie linkerarm</Dutch>
-            <Turkish>Kol bandı dönüşü – sol kol</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftLegPos_Desc">
             <English>Defines the position (x, y, z) where the armband is slung to the left leg.</English>
@@ -1181,9 +1181,9 @@
             <Japanese>左足に着けられる識別帯の位置 (x,y,z) を定義します</Japanese>
             <Chinese>定義臂章在左腿上的位置 (x, y, z)。</Chinese>
             <Chinesesimp>定义臂章挂在左腿上的位置(x，y，z)。</Chinesesimp>
+            <Turkish>Kol bandının sol bacağa takıldığı konumu (x, y, z) tanımlar</Turkish>
             <Finnish>Määrittää vasempaan jalkaan kiinnitetyn käsivarsinauhan kiertoliikkeen (kääntö, nousu, rullaus).</Finnish>
             <Dutch>Bepaald de positie (x, y, z) waar de armband om de linkerbeen zit.</Dutch>
-            <Turkish>Kol bandının sol bacağa takıldığı konumu (x, y, z) tanımlar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftLegPos_Display">
             <English>Armband position left leg</English>
@@ -1198,9 +1198,9 @@
             <Japanese>左足の識別帯の位置</Japanese>
             <Chinese>左腿臂章位置</Chinese>
             <Chinesesimp>左腿臂带位置</Chinesesimp>
+            <Turkish>Kol bandı konumu – sol bacak</Turkish>
             <Finnish>Käsivarsinauhan asento vasemmalla jalalla</Finnish>
             <Dutch>Armband positie linkerbeen</Dutch>
-            <Turkish>Kol bandı konumu – sol bacak</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftLegRot_Desc">
             <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the left leg.</English>
@@ -1215,9 +1215,9 @@
             <Japanese>左足に着けられる識別帯の回転 (ヨー,ピッチ,ロール) を定義します</Japanese>
             <Chinese>定義佩戴在左腿上的臂章的旋轉角度（偏航、俯仰、滾轉）。</Chinese>
             <Chinesesimp>定义挂在左腿上的臂章的旋转(偏航、俯仰、滚转)。</Chinesesimp>
+            <Turkish>Sol bacağa takılan kol bandının dönüşünü (yaw, pitch, roll) tanımlar</Turkish>
             <Finnish>Määrittää vasempaan jalkaan kiinnitetyn käsivarsinauhan kiertoliikkeen (kääntö, nousu, rullaus).</Finnish>
             <Dutch>Bepaald de rotatie (draaiing, helling en kanteling) van de armband die om de linkerbeen zit</Dutch>
-            <Turkish>Sol bacağa takılan kol bandının dönüşünü (yaw, pitch, roll) tanımlar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingLeftLegRot_Display">
             <English>Armband rotation left leg</English>
@@ -1232,9 +1232,9 @@
             <Japanese>左足の識別帯の回転</Japanese>
             <Chinese>左腿臂章旋轉</Chinese>
             <Chinesesimp>左腿臂带旋转</Chinesesimp>
+            <Turkish>Kol bandı dönüşü – sol bacak</Turkish>
             <Finnish>Käsivarsinauhan kierto vasen jalka</Finnish>
             <Dutch>Armband rotatie linkerbeen</Dutch>
-            <Turkish>Kol bandı dönüşü – sol bacak</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightArmPos_Desc">
             <English>Defines the position (x, y, z) where the armband is slung to the right arm.</English>
@@ -1249,9 +1249,9 @@
             <Japanese>右腕に着けられる識別帯の位置 (x,y,z) を定義します</Japanese>
             <Chinese>定義臂章在右臂上的位置 (x, y, z)。</Chinese>
             <Chinesesimp>定义臂章挂在右臂上的位置(x，y，z)。</Chinesesimp>
+            <Turkish>Kol bandının sağ kola takıldığı konumu (x, y, z) tanımlar</Turkish>
             <Finnish>Määrittää paikan (x, y, z), jossa käsivarsinauha on ripustettu oikeaan käsivarteen.</Finnish>
             <Dutch>Bepaald de positie (x, y, z) waar de armband om de rechterarm zit.</Dutch>
-            <Turkish>Kol bandının sağ kola takıldığı konumu (x, y, z) tanımlar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightArmPos_Display">
             <English>Armband position right arm</English>
@@ -1266,9 +1266,9 @@
             <Japanese>右腕の識別帯の位置</Japanese>
             <Chinese>右臂臂章位置</Chinese>
             <Chinesesimp>右臂臂带位置</Chinesesimp>
+            <Turkish>Kol bandı konumu – sağ kol</Turkish>
             <Finnish>Käsivarsinauhan asento oikea käsi</Finnish>
             <Dutch>Armbandpositie rechterarm</Dutch>
-            <Turkish>Kol bandı konumu – sağ kol</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightArmRot_Desc">
             <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the right arm.</English>
@@ -1283,9 +1283,9 @@
             <Japanese>右腕に着けられる識別帯の回転 (ヨー,ピッチ,ロール) を定義します</Japanese>
             <Chinese>定義佩戴在右臂上的臂章的旋轉角度（偏航、俯仰、滾轉）。</Chinese>
             <Chinesesimp>定义挂在右臂上的臂章的旋转(偏航、俯仰、滚转)。</Chinesesimp>
+            <Turkish>Sağ kola takılan kol bandının dönüşünü (yaw, pitch, roll) tanımlar</Turkish>
             <Finnish>Määrittää oikeaan käsivarteen kiinnitetyn käsivarsinauhan kiertoliikkeen (kääntö, nousu, rullaus).</Finnish>
             <Dutch>Bepaald de rotatie (draaiing, helling en kanteling) van de armband die om de rechterarm zit</Dutch>
-            <Turkish>Sağ kola takılan kol bandının dönüşünü (yaw, pitch, roll) tanımlar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightArmRot_Display">
             <English>Armband rotation right arm</English>
@@ -1300,9 +1300,9 @@
             <Japanese>右腕の識別帯の回転</Japanese>
             <Chinese>右臂臂章旋轉</Chinese>
             <Chinesesimp>右臂臂带旋转</Chinesesimp>
+            <Turkish>Kol bandı dönüşü – sağ kol</Turkish>
             <Finnish>Käsivarsinauhan kierto oikealla kädellä.</Finnish>
             <Dutch>Armband rotatie rechterarm</Dutch>
-            <Turkish>Kol bandı dönüşü – sağ kol</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightLegPos_Desc">
             <English>Defines the position (x, y, z) where the armband is slung to the right leg.</English>
@@ -1317,9 +1317,9 @@
             <Japanese>右足に着けられる識別帯の位置 (x,y,z) を定義します</Japanese>
             <Chinese>定義臂章在右腿上的位置 (x, y, z)。</Chinese>
             <Chinesesimp>定义臂章挂在右腿上的位置(x，y，z)。</Chinesesimp>
+            <Turkish>Kol bandının sağ bacağa takıldığı konumu (x, y, z) tanımlar</Turkish>
             <Finnish>Määrittää paikan (x, y, z), jossa käsivarsinauha on ripustettu oikeaan jalkaan</Finnish>
             <Dutch>Bepaald de rotatie (draaiing, helling en kanteling) van de armband die om de rechterbeen zit</Dutch>
-            <Turkish>Kol bandının sağ bacağa takıldığı konumu (x, y, z) tanımlar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightLegPos_Display">
             <English>Armband position right leg</English>
@@ -1334,9 +1334,9 @@
             <Japanese>右足の識別帯の位置</Japanese>
             <Chinese>右腿臂章位置</Chinese>
             <Chinesesimp>右腿臂带位置</Chinesesimp>
+            <Turkish>Kol bandı konumu – sağ bacak</Turkish>
             <Finnish>Käsivarsinauhan asento oikea jalka.</Finnish>
             <Dutch>Armbandpositie rechterbeen</Dutch>
-            <Turkish>Kol bandı konumu – sağ bacak</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightLegRot_Desc">
             <English>Defines the rotation (yaw, pitch, roll) of the armband that is slung to the right leg.</English>
@@ -1351,9 +1351,9 @@
             <Japanese>右足に着けられる識別帯の回転 (ヨー,ピッチ,ロール) を定義します</Japanese>
             <Chinese>定義佩戴在右腿上的臂章的旋轉角度（偏航、俯仰、滾轉）。</Chinese>
             <Chinesesimp>定义挂在右腿上的臂章的旋转(偏航、俯仰、滚转)。</Chinesesimp>
+            <Turkish>Sağ bacağa takılan kol bandının dönüşünü (yaw, pitch, roll) tanımlar</Turkish>
             <Finnish>Määrittää oikeaan jalkaan kiinnitetyn käsivarsinauhan kiertoliikkeen (kääntö, nousu, rullaus).</Finnish>
             <Dutch>Bepaald de positie (x, y, z) waar de armband om de rechterbeen zit.</Dutch>
-            <Turkish>Sağ bacağa takılan kol bandının dönüşünü (yaw, pitch, roll) tanımlar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ArmbandSlingRightLegRot_Display">
             <English>Armband rotation right leg</English>
@@ -1368,9 +1368,9 @@
             <Japanese>右足の識別帯の回転</Japanese>
             <Chinese>右腿臂章旋轉</Chinese>
             <Chinesesimp>右臂臂带旋转</Chinesesimp>
+            <Turkish>Kol bandı dönüşü – sağ bacak</Turkish>
             <Finnish>Käsivarsinauhan kierto oikealla jalalla</Finnish>
             <Dutch>Armband rotatie rechterbeen</Dutch>
-            <Turkish>Kol bandı dönüşü – sağ bacak</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_Container_Backpack">
             <English>Backpack</English>
@@ -1383,9 +1383,9 @@
             <Japanese>バックパック</Japanese>
             <Chinese>背包</Chinese>
             <Chinesesimp>背包</Chinesesimp>
+            <Turkish>Sırt Çantası</Turkish>
             <Finnish>Reppu</Finnish>
             <Dutch>Rugzak</Dutch>
-            <Turkish>Sırt Çantası</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_Container_Default">
             <English>Default</English>
@@ -1398,9 +1398,9 @@
             <Japanese>デフォルト</Japanese>
             <Chinese>預設</Chinese>
             <Chinesesimp>预设</Chinesesimp>
+            <Turkish>Varsayılan</Turkish>
             <Finnish>Oletus</Finnish>
             <Dutch>Standaard</Dutch>
-            <Turkish>Varsayılan</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_Container_Uniform">
             <English>Uniform</English>
@@ -1413,9 +1413,9 @@
             <Japanese>ユニフォーム</Japanese>
             <Chinese>制服</Chinese>
             <Chinesesimp>制服</Chinesesimp>
+            <Turkish>Üniforma</Turkish>
             <Finnish>Univormu</Finnish>
             <Dutch>Uniform</Dutch>
-            <Turkish>Üniforma</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_Container_Vest">
             <English>Vest</English>
@@ -1428,9 +1428,9 @@
             <Japanese>ベスト</Japanese>
             <Chinese>背心</Chinese>
             <Chinesesimp>背心</Chinesesimp>
+            <Turkish>Zırh</Turkish>
             <Finnish>Liivi</Finnish>
             <Dutch>Vest</Dutch>
-            <Turkish>Zırh</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ENABLE">
             <English>ACE-Misc activated?</English>
@@ -1469,8 +1469,8 @@
             <Japanese>雑多枠のアイテムと数量</Japanese>
             <Chinese>雜項物品與數量</Chinese>
             <Chinesesimp>杂项部分项目和数量</Chinesesimp>
-            <Dutch>Overige sectie items &amp; hoeveelheden</Dutch>
             <Turkish>Çeşitli Bölümü Eşyaları ve Miktarı</Turkish>
+            <Dutch>Overige sectie items &amp; hoeveelheden</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_EnableStitchFullBody">
             <English>Enable Full Body Stitching</English>
@@ -1483,8 +1483,8 @@
             <Japanese>全身縫合を有効化</Japanese>
             <Chinese>啟用全身縫合</Chinese>
             <Chinesesimp>启用全身缝合</Chinesesimp>
-            <Dutch>Schakel hechten van het volledige lichaam in</Dutch>
             <Turkish>Tam Vücut Dikişini Etkinleştir</Turkish>
+            <Dutch>Schakel hechten van het volledige lichaam in</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_EnableStitchFullBody_DESC">
             <English>Adds a full-body stitching option alongside the individual body part stitching, using ACE's established settings and values for consistency</English>
@@ -1497,8 +1497,8 @@
             <Japanese>身体部位毎に縫合するアクションに加え、ACEの設定値と同様の動きを保ったままの、全身を一括で縫合するオプションを追加します。</Japanese>
             <Chinese>除了單獨縫合身體各部位之外，還新增了全身縫合的選項，並且為了保持一致性，使用了 ACE 既有的設定和數值。</Chinese>
             <Chinesesimp>使用ACE的既定设置和值，在单个身体部位缝合的同时添加全身缝合选项，以保持一致性</Chinesesimp>
-            <Dutch>Voegt een hechtingsactie toe voor het gehele lichaam, naast de standaard individuele hechtingsopties, die de waarden en instellingen van ACE gebruikt voor consistentie</Dutch>
             <Turkish>ACE’nin yerleşik ayar ve değerlerini kullanarak, tekil vücut bölgesi dikişine ek olarak tam vücut dikişi seçeneği ekler</Turkish>
+            <Dutch>Voegt een hechtingsactie toe voor het gehele lichaam, naast de standaard individuele hechtingsopties, die de waarden en instellingen van ACE gebruikt voor consistentie</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_FAK_Container">
             <English>Items unload Container</English>
@@ -1511,9 +1511,9 @@
             <Japanese>アイテムの開梱先</Japanese>
             <Chinese>物品卸載容器</Chinese>
             <Chinesesimp>物品拆包</Chinesesimp>
+            <Turkish>Eşyaların Boşaltılacağı Konteyner</Turkish>
             <Finnish>Säiliö tavaroiden purkamiseen</Finnish>
             <Dutch>Items ontlaad container</Dutch>
-            <Turkish>Eşyaların Boşaltılacağı Konteyner</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_FAK_Container_DESC">
             <English>Defines where the items from the First Aid Kit are added into. If there is no space left they will be dropped on the ground. \n Default: Items are added where space is left.</English>
@@ -1526,9 +1526,9 @@
             <Japanese>応急処置キット(FAK)のアイテムを開梱するインベントリの場所を定義します。 空きスペースがない場合は地面に落とします。\nデフォルト: 空きスペースのある場所に開梱。</Japanese>
             <Chinese>定義急救包中的物品被新增到哪個容器中。如果沒有空間，它們將會掉在地上。\n預設：物品會被新增到有空間的地方。</Chinese>
             <Chinesesimp>定义急救箱中物品的添加位置。如果没有剩余的空间，它们就会掉到地上。\n默认值：在留出空间的地方添加项目。</Chinesesimp>
+            <Turkish>İlk Yardım Kiti’nden çıkan eşyaların nereye ekleneceğini tanımlar. Yer kalmazsa eşyalar yere düşer. \n Varsayılan: Eşyalar boş alan olan yere eklenir.</Turkish>
             <Finnish>Määrittää, mihin ensiapulaukun tuotteet lisätään. jos tilaa ei ole jäljellä, ne pudotetaan maahan. \n Oletus: kohteet lisätään sinne, missä on vielä tilaa.</Finnish>
             <Dutch>Bepaald waar de items van een Eerste hulpkit worden geplaatst. Als er geen plek is, worden ze op de grond geplaatst. \n Standaard: Items worden geplaatst waar plek is.</Dutch>
-            <Turkish>İlk Yardım Kiti’nden çıkan eşyaların nereye ekleneceğini tanımlar. Yer kalmazsa eşyalar yere düşer. \n Varsayılan: Eşyalar boş alan olan yere eklenir.</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_FAK_ItemColor">
             <English>Hint Item Color</English>
@@ -1541,8 +1541,8 @@
             <Japanese>ヒントのアイテムの文字色</Japanese>
             <Chinese>"Hint"項目顏色</Chinese>
             <Chinesesimp>提示项目颜色</Chinesesimp>
-            <Dutch>kleur van itemhint</Dutch>
             <Turkish>İpucu Metni – Eşya Rengi</Turkish>
+            <Dutch>kleur van itemhint</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_FAK_ItemColor_DESC">
             <English>The item color of the text that is displayed via a hint</English>
@@ -1555,8 +1555,8 @@
             <Japanese>ヒントで表示されるポケット内アイテムの文章の文字色</Japanese>
             <Chinese>透過"Hint"顯示的文字的項目顏色</Chinese>
             <Chinesesimp>通过提示显示的文本的项目颜色</Chinesesimp>
-            <Dutch>De kleur van de tekstitem die weergeven wordt via een hint</Dutch>
             <Turkish>İpucu ile gösterilen metnin eşya rengi</Turkish>
+            <Dutch>De kleur van de tekstitem die weergeven wordt via een hint</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_FAK_RemoveWhenEmpty">
             <English>Remove when empty</English>
@@ -1568,9 +1568,9 @@
             <German>Lösche wenn leer</German>
             <Japanese>空になったら削除する</Japanese>
             <Chinesesimp>空时删除</Chinesesimp>
+            <Turkish>Boşalınca kaldır</Turkish>
             <Finnish>Poista tyhjänä</Finnish>
             <Dutch>Verwijder wanneer leeg</Dutch>
-            <Turkish>Boşalınca kaldır</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_FAK_RemoveWhenEmpty_DESC">
             <English>Automatically removes first aid kits from inventory when they become empty</English>
@@ -1591,8 +1591,8 @@
             <Japanese>ヒントの種類枠の文字色</Japanese>
             <Chinese>"Hint"區塊顏色</Chinese>
             <Chinesesimp>提示部分颜色</Chinesesimp>
-            <Dutch>Hint sectie kleur</Dutch>
             <Turkish>İpucu Bölüm Rengi</Turkish>
+            <Dutch>Hint sectie kleur</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_FAK_SlotColor_DESC">
             <English>The Section color of the text that is displayed via a hint</English>
@@ -1605,8 +1605,8 @@
             <Japanese>ヒントで表示されるポケット種類枠の文章の文字色</Japanese>
             <Chinese>透過"Hint"顯示的文字的區塊顏色</Chinese>
             <Chinesesimp>通过提示显示的文本的截面颜色</Chinesesimp>
-            <Dutch>De kleur van de sectie die weergeven wordt met een hint</Dutch>
             <Turkish>İpucu ile gösterilen metnin bölüm rengi</Turkish>
+            <Dutch>De kleur van de sectie die weergeven wordt met een hint</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_FifthSlot_Item">
             <English>Airway Section Items &amp; Quantity</English>
@@ -1619,8 +1619,8 @@
             <Japanese>気道枠のアイテムと数量</Japanese>
             <Chinese>呼吸道物品與數量</Chinese>
             <Chinesesimp>气道部分项目和数量</Chinesesimp>
-            <Dutch>Luchtweg sectie items &amp; hoeveelheden</Dutch>
             <Turkish>Hava Yolu Bölümü Eşyaları ve Miktarı</Turkish>
+            <Dutch>Luchtweg sectie items &amp; hoeveelheden</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_FirstSlot_Item">
             <English>Trauma Section Items &amp; Quantity</English>
@@ -1633,8 +1633,8 @@
             <Japanese>外傷枠のアイテムと数量</Japanese>
             <Chinese>創傷物品與數量</Chinese>
             <Chinesesimp>创伤部分项目和数量</Chinesesimp>
-            <Dutch>Trauma sectie items &amp; hoeveelheden</Dutch>
             <Turkish>Travma Bölümü Eşyaları ve Miktarı</Turkish>
+            <Dutch>Trauma sectie items &amp; hoeveelheden</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_FourthSlot_Item">
             <English>Breathing Section Items &amp; Quantity</English>
@@ -1647,8 +1647,8 @@
             <Japanese>呼吸枠のアイテムと数量</Japanese>
             <Chinese>呼吸物品與數量</Chinese>
             <Chinesesimp>呼吸部分项目和数量</Chinesesimp>
-            <Dutch>Ademhalingssectie items &amp; hoeveelheden</Dutch>
             <Turkish>Solunum Bölümü Eşyaları ve Miktarı</Turkish>
+            <Dutch>Ademhalingssectie items &amp; hoeveelheden</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ItemSlot_DESC">
             <English>The items &amp; quantity that is given to the player.\n If you want to add/change items remove existing entry &amp; insert item name-tag &amp; quantity you want. \n Example: [['ACE_packingBandage', 10], ['ACE_quikclot', 15]]  TO  [['ACE_packingBandage', 10], ['ACE_quikclot', 15], ['ACE_Banana', 10]]</English>
@@ -1661,9 +1661,9 @@
             <Japanese>プレイヤーに与えられるアイテムとその数量。\n追加/変更する場合は既存の入力内容を削除し、必要なアイテムのクラスネームと数量を挿入してください。 \n例: [['ACE_packingBandage', 10], ['ACE_quikclot', 15]] から [['ACE_packingBandage', 10], ['ACE_quikclot', 15], ['ACE_Banana', 10]] のように変更。</Japanese>
             <Chinese>給予玩家的物品與數量。\n若要新增/變更物品，移除現有條目並插入您想要的物品名稱標籤與數量。\n範例：[['ACE_packingBandage', 10], ['ACE_quikclot', 15]] 變更為 [['ACE_packingBandage', 10], ['ACE_quikclot', 15], ['ACE_Banana', 10]]</Chinese>
             <Chinesesimp>给玩家的物品和数量。\n如果要添加/更改项目，请删除现有条目并插入所需的项目名称标签和数量。\n示例:  [['ACE_packingBandage', 10], ['ACE_quikclot', 15]]  TO  [['ACE_packingBandage', 10], ['ACE_quikclot', 15], ['ACE_Banana', 10]]</Chinesesimp>
+            <Turkish>Oyuncuya verilen eşyalar ve miktarları.\n Eşya eklemek/değiştirmek için mevcut girdiyi kaldırın ve istediğiniz eşya ad-etiketini ve miktarı ekleyin. \n Örnek: [['ACE_packingBandage', 10], ['ACE_quikclot', 15]] TO [['ACE_packingBandage', 10], ['ACE_quikclot', 15], ['ACE_Banana', 10]]</Turkish>
             <Finnish>Pelaajalle annetut tuotteet ja määrä. \n Jos haluat lisätä/muuttaa kohteita, poista olemassa oleva merkintä ja lisää haluamasi nimikkeen nimilappu ja nimikemäärä. \n Esimerkki: [[`ACE_packingBandage`, 10].</Finnish>
             <Dutch>De items en de hoeveelheid dat gegeven wordt aan de speler. \n Als je items wilt toevoegen of veranderen, verwijder dan de bestaande entree en voeg item naam en de hoeveelheid die je wilt in. \n Voorbeeld: [['ACE_packingBandage', 10], ['ACE_quikclot', 15]]  NAAR  [['ACE_packingBandage', 10], ['ACE_quikclot', 15], ['ACE_Banana', 10]]</Dutch>
-            <Turkish>Oyuncuya verilen eşyalar ve miktarları.\n Eşya eklemek/değiştirmek için mevcut girdiyi kaldırın ve istediğiniz eşya ad-etiketini ve miktarı ekleyin. \n Örnek: [['ACE_packingBandage', 10], ['ACE_quikclot', 15]] TO [['ACE_packingBandage', 10], ['ACE_quikclot', 15], ['ACE_Banana', 10]]</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_SecondSlot_Item">
             <English>Bandage Section Items &amp; Quantity</English>
@@ -1676,8 +1676,8 @@
             <Japanese>包帯枠のアイテムと数量</Japanese>
             <Chinese>繃帶物品與數量</Chinese>
             <Chinesesimp>绷带部分项目和数量</Chinesesimp>
-            <Dutch>Verbandssectie items &amp; hoeveelheden</Dutch>
             <Turkish>Bandaj Bölümü Eşyaları ve Miktarı</Turkish>
+            <Dutch>Verbandssectie items &amp; hoeveelheden</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_SeventhSlot_Item">
             <English>Fluid Section Items &amp; Quantity</English>
@@ -1690,8 +1690,8 @@
             <Japanese>輸液枠のアイテムと数量</Japanese>
             <Chinese>液體物品與數量</Chinese>
             <Chinesesimp>流体部分项目和数量</Chinesesimp>
-            <Dutch>Vloeistofsectie items &amp; hoeveelheden</Dutch>
             <Turkish>Sıvı Bölümü Eşyaları ve Miktarı</Turkish>
+            <Dutch>Vloeistofsectie items &amp; hoeveelheden</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_SixthSlot_Item">
             <English>Pharmaceutical Section Items &amp; Quantity</English>
@@ -1704,8 +1704,8 @@
             <Japanese>薬品枠のアイテムと数量</Japanese>
             <Chinese>藥物物品與數量</Chinese>
             <Chinesesimp>药品部分项目和数量</Chinesesimp>
-            <Dutch>Pharmaceutische sectie items &amp; hoeveelheden</Dutch>
             <Turkish>Farmasötik Bölüm Eşyaları ve Miktarı</Turkish>
+            <Dutch>Pharmaceutische sectie items &amp; hoeveelheden</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_ThirdSlot_Item">
             <English>Pain Management Section Items &amp; Quantity</English>
@@ -1718,8 +1718,8 @@
             <Japanese>鎮痛枠のアイテムと数量</Japanese>
             <Chinese>止痛物品與數量</Chinese>
             <Chinesesimp>疼痛管理部分项目和数量</Chinesesimp>
-            <Dutch>Pijnbestrijdingssectie items &amp; hoeveelheden</Dutch>
             <Turkish>Ağrı Yönetimi Bölümü Eşyaları ve Miktarı</Turkish>
+            <Dutch>Pijnbestrijdingssectie items &amp; hoeveelheden</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_allowSharedVehicleEquipment">
             <English>Allow Shared Vehicle Equipment</English>
@@ -1734,9 +1734,9 @@
             <Japanese>車両物資の共有を許可</Japanese>
             <Chinese>允許共用車輛裝備</Chinese>
             <Chinesesimp>允许共享车辆设备</Chinesesimp>
+            <Turkish>Paylaşılan Araç Ekipmanına İzin Ver</Turkish>
             <Finnish>Salli jaetut ajoneuvovarusteet</Finnish>
             <Dutch>Sta het delen van apparatuur in voertuigen toe</Dutch>
-            <Turkish>Paylaşılan Araç Ekipmanına İzin Ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_allowSharedVehicleEquipment_DESC">
             <English>Sets whether vehicle's medical supplies can be used while treating and in which order</English>
@@ -1751,9 +1751,9 @@
             <Japanese>車両の医療物資を治療時に使用可能か、およびその使用順を設定します</Japanese>
             <Chinese>設定治療時是否可以使用車輛的醫療用品，以及使用順序。</Chinese>
             <Chinesesimp>设置治疗时是否可以使用车辆的医疗用品以及使用顺序</Chinesesimp>
+            <Turkish>Tedavi sırasında araçtaki tıbbi malzemelerin kullanılıp kullanılamayacağını ve sırasını belirler</Turkish>
             <Finnish>Asettaa, voidaanko ajoneuvon lääketieteellisiä tarvikkeita käyttää hoidon aikana ja missä järjestyksessä</Finnish>
             <Dutch>Bepaald of de medische middelen in een voertuig gebruikt kan worden voor behandelingen en in welke volgorde</Dutch>
-            <Turkish>Tedavi sırasında araçtaki tıbbi malzemelerin kullanılıp kullanılamayacağını ve sırasını belirler</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleAlways">
             <English>Vehicle's Equipment First (Always)</English>
@@ -1768,9 +1768,9 @@
             <Japanese>車両の装備を優先(常に優先使用)</Japanese>
             <Chinese>始終優先使用車輛裝備</Chinese>
             <Chinesesimp>车辆设备优先(始终)</Chinesesimp>
+            <Turkish>Önce Araç Ekipmanı (Her Zaman)</Turkish>
             <Finnish>Ajoneuvon varusteita käytetään ensin (aina)</Finnish>
             <Dutch>Voertuigsmiddelen eerst (altijd)</Dutch>
-            <Turkish>Önce Araç Ekipmanı (Her Zaman)</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleExceptSelfTreatment">
             <English>Vehicle's Equipment First (Except self-treatment)</English>
@@ -1785,9 +1785,9 @@
             <Japanese>車両の装備を優先(優先しない-自己治療時は)</Japanese>
             <Chinese>優先使用車輛裝備（自我治療除外）</Chinese>
             <Chinesesimp>车辆设备优先(自我处理除外)</Chinesesimp>
+            <Turkish>Önce Araç Ekipmanı (Kendi kendine tedavi hariç)</Turkish>
             <Finnish>Ajoneuvon varusteet käytetään ensin (paitsi itsehoito)</Finnish>
             <Dutch>Voertuigsmiddelen eers (behalve bij zelfbehandeling)</Dutch>
-            <Turkish>Önce Araç Ekipmanı (Kendi kendine tedavi hariç)</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_allowSharedVehicleEquipment_PriorityVehicleNoSelfTreatment">
             <English>Vehicle's Equipment First (No self-treatment)</English>
@@ -1802,9 +1802,9 @@
             <Japanese>車両の装備を優先(使用しない-自己治療時は)</Japanese>
             <Chinese>優先使用車輛裝備（不包括自我治療）</Chinese>
             <Chinesesimp>车辆设备优先(非自我处理)</Chinesesimp>
+            <Turkish>Önce Araç Ekipmanı (Kendi kendine tedavi yok)</Turkish>
             <Finnish>Ajoneuvon varusteet käytetään ensin (ei itsehoitoa)</Finnish>
             <Dutch>Voertuigsmiddelen eerst (geen zelfbehandeling)</Dutch>
-            <Turkish>Önce Araç Ekipmanı (Kendi kendine tedavi yok)</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_incompatibilityWarning">
             <English>Incompatible addon warning</English>
@@ -1820,9 +1820,9 @@
             <Japanese>互換性のないアドオンの警告</Japanese>
             <Chinese>不相容的插件警告</Chinese>
             <Chinesesimp>不兼容插件警告</Chinesesimp>
+            <Turkish>Uyumsuz eklenti uyarısı</Turkish>
             <Finnish>Yhteensopimaton lisäosien varoitus</Finnish>
             <Dutch>Waarschuwing voor onverenigbare mods</Dutch>
-            <Turkish>Uyumsuz eklenti uyarısı</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_incompatibilityWarning_Desc">
             <English>Throws a warning and add line to RPT log if incompatible addons(Listed by us - developers) that could negatively affect correct functionality of KAT are used. \nWarning disappears after 60 seconds.</English>
@@ -1838,9 +1838,9 @@
             <Japanese>KATの正常な動作に悪影響を与える可能性のある互換性のない (開発チームによりリストされた) アドオンが使用された場合、警告を表示してRPTログに行を追加します。 \n警告は60秒後に消えます。</Japanese>
             <Chinese>若使用可能對KAT正常功能造成負面影響的不相容插件（由我們－開發人員列出），則會發出警告，並在RPT日誌中新增一行。\n警告會在60秒後消失。</Chinese>
             <Chinesesimp>如果使用了可能对KAT的正确功能产生负面影响的不兼容插件(由我们开发人员列出)，则会发出警告并在RPT日志中添加行。\n 60秒后警告消失。</Chinesesimp>
+            <Turkish>KAT’in doğru çalışmasını olumsuz etkileyebilecek (geliştiriciler tarafından listelenen) uyumsuz eklentiler kullanıldığında uyarı verir ve RPT günlüğüne satır ekler. \nUyarı 60 saniye sonra kaybolur.</Turkish>
             <Finnish>Lähettää varoituksen ja lisää rivin RPT-lokiin, jos käytössä on yhteensopimattomia lisäosia (me, kehittäjät ovat luetteloineet), jotka voivat vaikuttaa negatiivisesti KAT:n oikeaan toimintaan. \nVaroitus häviää 60 sekunnin kuluttua.</Finnish>
             <Dutch>Gooit een waarschuwing op en voegt een lijn toe aan de RPT als er onverenigbare mods (Genoemd door ons, de developers) die KAM negatief kunnen beïnvloeden worden gebruikt. \nWaarschuwing verdwijnt na 60 seconden.</Dutch>
-            <Turkish>KAT’in doğru çalışmasını olumsuz etkileyebilecek (geliştiriciler tarafından listelenen) uyumsuz eklentiler kullanıldığında uyarı verir ve RPT günlüğüne satır ekler. \nUyarı 60 saniye sonra kaybolur.</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_tourniquetEffects_Enable">
             <English>Enable tourniquet effects</English>
@@ -1854,8 +1854,8 @@
             <Japanese>止血帯の副作用を有効化</Japanese>
             <Chinese>啟用止血帶效果</Chinese>
             <Chinesesimp>启用止血带效果</Chinesesimp>
-            <Dutch>Schakel tourniquet effecten in</Dutch>
             <Turkish>Turnike etkilerini etkinleştir</Turkish>
+            <Dutch>Schakel tourniquet effecten in</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_tourniquetEffects_Enable_DESC">
             <English>Enables tourniquet effects on patient health and stamina</English>
@@ -1877,9 +1877,9 @@
             <Japanese>止血帯の副作用の負の乗数</Japanese>
             <Chinese>止血帶效果負向乘數</Chinese>
             <Chinesesimp>止血带效应负乘数</Chinesesimp>
+            <Turkish>Turnike negatif etki çarpanı</Turkish>
             <Finnish>Tourniquet-vaikutusten negatiivinen kerroin</Finnish>
             <Dutch>Negatieve multiplicator voor tourniquet effecten</Dutch>
-            <Turkish>Turnike negatif etki çarpanı</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_tourniquetEffects_NegativeMultiplier_DESC">
             <English>Multiplier for negative tourniquet effects</English>
@@ -1901,8 +1901,8 @@
             <Japanese>止血帯の副作用の正の乗数</Japanese>
             <Chinese>止血帶效果正向乘數</Chinese>
             <Chinesesimp>止血带效果正乘数</Chinesesimp>
-            <Dutch>Positieve multiplicator voor tourniquet effecten</Dutch>
             <Turkish>Turnike pozitif etki çarpanı</Turkish>
+            <Dutch>Positieve multiplicator voor tourniquet effecten</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_tourniquetEffects_PositiveMultiplier_DESC">
             <English>Multiplier for positive tourniquet effects</English>
@@ -1926,9 +1926,9 @@
             <Japanese>止血帯の取り外しの所要時間</Japanese>
             <Chinese>移除止血帶的時間</Chinese>
             <Chinesesimp>移除止血带的时间</Chinesesimp>
+            <Turkish>Turnikeyi çıkarma süresi</Turkish>
             <Finnish>Aika ottaa kiristysside pois</Finnish>
             <Dutch>Benodigde tijd om een tourniquet af te nemen</Dutch>
-            <Turkish>Turnikeyi çıkarma süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SETTING_treatmentTimeDetachTourniquet_DESC">
             <English>Time required to detach a tourniquet from a patient</English>
@@ -1950,9 +1950,9 @@
             <Japanese>(AFAK) 高等応急処置キット</Japanese>
             <Chinese>(AFAK) 高級急救包</Chinese>
             <Chinesesimp>(AFAK)高级急救包</Chinesesimp>
+            <Turkish>(AFAK) Gelişmiş İlk Yardım Kiti</Turkish>
             <Finnish>(AFAK) Edistyksellinen ensiapulaukku</Finnish>
             <Dutch>(AFAK) Geadvanceerde Eerste hulpkit</Dutch>
-            <Turkish>(AFAK) Gelişmiş İlk Yardım Kiti</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SubCategory_Armband">
             <English>Armband</English>
@@ -1967,9 +1967,9 @@
             <Japanese>識別帯</Japanese>
             <Chinese>臂章</Chinese>
             <Chinesesimp>臂章</Chinesesimp>
+            <Turkish>Kol Bandı</Turkish>
             <Finnish>Käsivarsinauha</Finnish>
             <Dutch>Armband</Dutch>
-            <Turkish>Kol Bandı</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SubCategory_IFAK">
             <English>(IFAK) Individual First Aid Kit</English>
@@ -1983,9 +1983,9 @@
             <Japanese>(IFAK) 個人用応急処置キット</Japanese>
             <Chinese>(IFAK) 個人急救包</Chinese>
             <Chinesesimp>(IFAK)个人急救包</Chinesesimp>
+            <Turkish>(IFAK) Bireysel İlk Yardım Kiti</Turkish>
             <Finnish>(IFAK) Yksilöllinen ensiapulaukku</Finnish>
             <Dutch>(IFAK) Individuele Eerste hulpkit</Dutch>
-            <Turkish>(IFAK) Bireysel İlk Yardım Kiti</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SubCategory_MFAK">
             <English>(MFAK) Multiple First Aid Kit</English>
@@ -1999,9 +1999,9 @@
             <Japanese>(MFAK) 多用途応急処置キット</Japanese>
             <Chinese>(MFAK) 多功能急救包</Chinese>
             <Chinesesimp>(MFAK)多功能急救箱</Chinesesimp>
+            <Turkish>(MFAK) Çoklu İlk Yardım Kiti</Turkish>
             <Finnish>(MFAK) Useita ensiapulaukkuja</Finnish>
             <Dutch>(MFAK) Meervoudige Eerste hulpkit</Dutch>
-            <Turkish>(MFAK) Çoklu İlk Yardım Kiti</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_SubCategory_Tourniquet">
             <English>Tourniquet Settings</English>
@@ -2015,8 +2015,8 @@
             <Japanese>止血帯設定</Japanese>
             <Chinese>止血帶設定</Chinese>
             <Chinesesimp>止血带设置</Chinesesimp>
-            <Dutch>Tourniquet instellingen</Dutch>
             <Turkish>Turnike Ayarları</Turkish>
+            <Dutch>Tourniquet instellingen</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_Use_SurgicalKitFullBody">
             <English>Use Surgical Kit (Full Body)</English>
@@ -2030,8 +2030,8 @@
             <Japanese>手術キットを使う (全身縫合)</Japanese>
             <Chinese>使用手術包（全身）</Chinese>
             <Chinesesimp>全身缝合</Chinesesimp>
-            <Dutch>Gebruik chirurgische kit (volledig lichaam)</Dutch>
             <Turkish>Cerrahi Kiti Kullan (Tam Vücut)</Turkish>
+            <Dutch>Gebruik chirurgische kit (volledig lichaam)</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_basicSupplyCrate_display">
             <English>[KAM] General Items</English>
@@ -2047,9 +2047,9 @@
             <Japanese>[KAM] 一般物資箱</Japanese>
             <Chinese>[KAM] 一般物品</Chinese>
             <Chinesesimp>[KAM]一般项目</Chinesesimp>
+            <Turkish>[KAM] Genel Eşyalar</Turkish>
             <Finnish>[KAM] Yleiset kohteet</Finnish>
             <Dutch>[KAM] Algemene items</Dutch>
-            <Turkish>[KAM] Genel Eşyalar</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_cba_name">
             <English>KAT - ADV Medical: Misc</English>
@@ -2058,8 +2058,8 @@
             <Italian>KAT- ADV Medica: Vari</Italian>
             <German>KAT - ADV Medical: Sonstiges</German>
             <Japanese>KAM - その他</Japanese>
-            <Dutch>KAT - ADV Medical: Overig</Dutch>
             <Turkish>KAT – Gelişmiş Tıp: Çeşitli</Turkish>
+            <Dutch>KAT - ADV Medical: Overig</Dutch>
         </Key>
         <Key ID="STR_KAT_Misc_incompatibilityWarning_Desc">
             <English>[KAM WARNING] Incompatible addon(s) that could negatively affect correct functionality detected. KAT - Advanced Medical REWRITE Development Team strongly advises to remove these addons: %1</English>
@@ -2075,9 +2075,9 @@
             <Japanese>[KAM WARNING] 動作に悪影響を及ぼす可能性のある互換性のないアドオンが検出されました。KAM開発チームはこれらのアドオンをアンロードすることを強く推奨します:%1</Japanese>
             <Chinese>[KAM 警告] 偵測到可能對正確功能產生負面影響的不相容插件。KAT - 高級醫療重寫開發團隊強烈建議移除以下插件：%1</Chinese>
             <Chinesesimp>[KAM警告]检测到可能对正确功能产生负面影响的不兼容插件。KAT-高级医疗重写开发团队强烈建议删除这些插件：%1</Chinesesimp>
+            <Turkish>[KAM UYARI] Doğru işleyişi olumsuz etkileyebilecek uyumsuz eklenti(ler) tespit edildi. KAT - Advanced Medical REWRITE Geliştirme Ekibi bu eklentilerin kaldırılmasını şiddetle tavsiye eder: %1</Turkish>
             <Finnish>[KAM WARNING] Havaittiin yhteensopimattomia lisäosia, jotka voivat vaikuttaa oikeaan toimintaan. KAT - Advanced Medical REWRITE -kehitystiimi suosittelee näiden lisäosien poistamista: %1</Finnish>
             <Dutch>[KAM WAARSCHUWING] Onverenigbare mods die de ervaring negatief kunnen beïnvloeden gedetecteerd. KAT - Advanced Medical REWRITE development team raadt je sterk aan om de volgende mods te verwijderen: %1</Dutch>
-            <Turkish>[KAM UYARI] Doğru işleyişi olumsuz etkileyebilecek uyumsuz eklenti(ler) tespit edildi. KAT - Advanced Medical REWRITE Geliştirme Ekibi bu eklentilerin kaldırılmasını şiddetle tavsiye eder: %1</Turkish>
         </Key>
         <Key ID="STR_KAT_Misc_miscSupplyCrate_display">
             <English>[KAM] Misc Items</English>
@@ -2085,8 +2085,8 @@
             <Spanish>[KAM] Objetos Variados</Spanish>
             <Italian>[KAM] Oggetti vari</Italian>
             <Japanese>[KAM] その他物資箱</Japanese>
-            <Dutch>[KAM] Overige items</Dutch>
             <Turkish>[KAM] Çeşitli Eşyalar</Turkish>
+            <Dutch>[KAM] Overige items</Dutch>
         </Key>
     </Package>
 </Project>

@@ -43,7 +43,7 @@ private _previousCyclePaco2 = (_bloodGas select 0);
 private _previousCyclePao2 = (_bloodGas select 1);
 private _cprActive = alive (_unit getVariable [QACEGVAR(medical,CPR_provider), objNull]);
 // When the setting is enabled, CPR without a BVM lets SpO2 recover through chest compressions alone
-private _cprAssistSpO2 = _cprActive && {EGVAR(breathing,SpO2_CPR_Rise)} && {!(_unit getVariable [QEGVAR(breathing,BVMInUse), false])};
+private _cprAssistSpO2 = _cprActive && EGVAR(breathing,SpO2_CPR_Rise) && {!(_unit getVariable [QEGVAR(breathing,BVMInUse), false])};
 
 switch (true) do {
     case ((IN_CRDC_ARRST(_unit)) && _cprAssistSpO2): {
@@ -52,7 +52,6 @@ switch (true) do {
         // ventilation is pushed above demand so oxygenation recovers without RR swinging on PaCO2. The boost
         // is scaled by a setting so the recovery speed can be tuned.
         _demandVentilation = MINIMUM_VENTILATION;
-        _respiratoryDepression = 1;
         _respiratoryRate = 0;
         _respiratoryDepth = 0;
         _actualVentilation = MINIMUM_VENTILATION + (CPR_VENTILATION_BOOST * EGVAR(breathing,SpO2_CPR_RiseMultiplier));
@@ -60,7 +59,6 @@ switch (true) do {
     case (IN_CRDC_ARRST(_unit)): {
         // When in arrest, there should be no effecive breaths but still a minimum O2 demand. Zero O2 demand would mean a dead patient. Actual ventilation is 1 to prevent issues in the gas tension functions
         _demandVentilation = MINIMUM_VENTILATION;
-        _respiratoryDepression = 1;
         _respiratoryRate = [0, 20] select (_unit getVariable [QEGVAR(breathing,BVMInUse), false]);
         _respiratoryDepth = [0, 10] select (_unit getVariable [QEGVAR(breathing,BVMInUse), false]);
         _actualVentilation = 1;

@@ -11,8 +11,8 @@
             <Japanese>輸液ウォーマーを取り付ける</Japanese>
             <Chinese>連接輸液加溫器</Chinese>
             <Chinesesimp>连接油液加热器</Chinesesimp>
-            <Dutch>Maak vloeistofverwarmer vast</Dutch>
             <Turkish>Sıvı Isıtıcıyı Tak</Turkish>
+            <Dutch>Maak vloeistofverwarmer vast</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_Check_Hand_Warmers">
             <English>Check Hand Warmers</English>
@@ -24,8 +24,8 @@
             <Japanese>ハンドウォーマーを確認</Japanese>
             <Chinese>正在檢查暖暖包</Chinese>
             <Chinesesimp>检查暖手器</Chinesesimp>
-            <Dutch>Check handwarmers</Dutch>
             <Turkish>El Isıtıcılarını Kontrol Et</Turkish>
+            <Dutch>Check handwarmers</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_Check_Temperature">
             <English>Check Temperature</English>
@@ -37,8 +37,8 @@
             <Japanese>体温を検査</Japanese>
             <Chinese>測量體溫</Chinese>
             <Chinesesimp>检查温度</Chinesesimp>
-            <Dutch>Check temperatuur</Dutch>
             <Turkish>Sıcaklığı Kontrol Et</Turkish>
+            <Dutch>Check temperatuur</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_Check_Temperature_Progress">
             <English>Checking Temperature</English>
@@ -50,8 +50,8 @@
             <Japanese>体温を検査中</Japanese>
             <Chinese>正在測量體溫</Chinese>
             <Chinesesimp>检查温度</Chinesesimp>
-            <Dutch>Temperatuur wordt gecheckt</Dutch>
             <Turkish>Sıcaklık Kontrol Ediliyor</Turkish>
+            <Dutch>Temperatuur wordt gecheckt</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_ENABLE_HYPOTHERMIA">
             <English>Enable Hypothermia</English>
@@ -63,8 +63,8 @@
             <Japanese>低体温症を有効化</Japanese>
             <Chinese>啟用身溫降低</Chinese>
             <Chinesesimp>启用低温</Chinesesimp>
-            <Dutch>Schakel hypothermie in</Dutch>
             <Turkish>Hipotermiyi Etkinleştir</Turkish>
+            <Dutch>Schakel hypothermie in</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_ENABLE_HYPOTHERMIA_DESC">
             <English>Enables the hypothermia system</English>
@@ -84,8 +84,8 @@
             <Japanese>IVの輸液を温めます。既存のライン上に配置する必要があります</Japanese>
             <Chinese>為IV輸液加溫。必須置於現有輸液管線上。</Chinese>
             <Chinesesimp>为静脉输液提供加热。必须放置在已存在的线上</Chinesesimp>
-            <Dutch>Verwarmt IV-vloeistoffen. Moet geplaatst worden op een al aangelegde lijn.</Dutch>
             <Turkish>IV sıvılara ısı sağlar. Mevcut bir hatta takılmalıdır</Turkish>
+            <Dutch>Verwarmt IV-vloeistoffen. Moet geplaatst worden op een al aangelegde lijn.</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_FluidWarmer_displayName">
             <English>Fluid Line Warmer</English>
@@ -97,8 +97,8 @@
             <Japanese>輸液ラインウォーマー</Japanese>
             <Chinese>輸液管加溫器</Chinese>
             <Chinesesimp>流体管路加热器</Chinesesimp>
-            <Dutch>IV-lijn verwarmers</Dutch>
             <Turkish>Sıvı Hat Isıtıcısı</Turkish>
+            <Dutch>IV-lijn verwarmers</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_Body">
             <English>Body: %1</English>
@@ -110,8 +110,8 @@
             <Japanese>胴体: %1</Japanese>
             <Chinese>軀幹：%1</Chinese>
             <Chinesesimp>躯干：%1</Chinesesimp>
-            <Dutch>Torso: %1</Dutch>
             <Turkish>Sıvı Hat Isıtıcısı</Turkish>
+            <Dutch>Torso: %1</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_Body_None">
             <English>Body: None</English>
@@ -123,8 +123,8 @@
             <Japanese>胴体: なし</Japanese>
             <Chinese>軀幹：無</Chinese>
             <Chinesesimp>躯干：无</Chinesesimp>
-            <Dutch>Torso: Geen</Dutch>
             <Turkish>Vücut: Yok</Turkish>
+            <Dutch>Torso: Geen</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_DescShort">
             <English>Small hand warmers to provide warmth in colder climates</English>
@@ -136,8 +136,8 @@
             <Japanese>寒冷地でも体を温めることが出来る小さなハンドウォーマー (懐炉)</Japanese>
             <Chinese>在寒冷氣候下提供溫暖的小型暖暖包</Chinese>
             <Chinesesimp>小型暖手器，在寒冷气候下提供温暖</Chinesesimp>
-            <Dutch>Kleine handwarmers die warmte bieden in koude klimaten</Dutch>
             <Turkish>Soğuk iklimlerde ısı sağlamak için küçük el ısıtıcıları</Turkish>
+            <Dutch>Kleine handwarmers die warmte bieden in koude klimaten</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_LArm">
             <English>Left Arm: %1</English>
@@ -149,8 +149,8 @@
             <Japanese>左腕: %1</Japanese>
             <Chinese>左臂：%1</Chinese>
             <Chinesesimp>左臂：%1</Chinesesimp>
-            <Dutch>Linkerarm: %1</Dutch>
             <Turkish>Sol Kol: %1</Turkish>
+            <Dutch>Linkerarm: %1</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_LArm_None">
             <English>Left Arm: None</English>
@@ -162,8 +162,8 @@
             <Japanese>左腕: なし</Japanese>
             <Chinese>左臂：無</Chinese>
             <Chinesesimp>左臂：无</Chinesesimp>
-            <Dutch>Linkerarm: Geen</Dutch>
             <Turkish>Sol Kol: Yok</Turkish>
+            <Dutch>Linkerarm: Geen</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_LLeg">
             <English>Left Leg: %1</English>
@@ -175,8 +175,8 @@
             <Japanese>左脚: %1</Japanese>
             <Chinese>左腳：%1</Chinese>
             <Chinesesimp>左腿：%1</Chinesesimp>
-            <Dutch>Linkerbeen: %1</Dutch>
             <Turkish>Sol Bacak: %1</Turkish>
+            <Dutch>Linkerbeen: %1</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_LLeg_None">
             <English>Left Leg: None</English>
@@ -188,8 +188,8 @@
             <Japanese>左脚: なし</Japanese>
             <Chinese>左腳：無</Chinese>
             <Chinesesimp>左腿：无</Chinesesimp>
-            <Dutch>Linkerbeen: Geen</Dutch>
             <Turkish>Sol Bacak: Yok</Turkish>
+            <Dutch>Linkerbeen: Geen</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_None">
             <English>No Hand Warmers are active at this time</English>
@@ -201,8 +201,8 @@
             <Japanese>現在ハンドウォーマーは使っていません</Japanese>
             <Chinese>目前沒有啟動任何暖暖包</Chinese>
             <Chinesesimp>此时没有激活的暖手器</Chinesesimp>
-            <Dutch>Momenteel zijn er geen handwarmers actief</Dutch>
             <Turkish>Şu anda aktif el ısıtıcısı yok</Turkish>
+            <Dutch>Momenteel zijn er geen handwarmers actief</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_RArm">
             <English>Right Arm: %1</English>
@@ -214,8 +214,8 @@
             <Japanese>右腕: %1</Japanese>
             <Chinese>右臂：%1</Chinese>
             <Chinesesimp>右臂：%1</Chinesesimp>
-            <Dutch>Rechterarm: %1</Dutch>
             <Turkish>Sağ Kol: %1</Turkish>
+            <Dutch>Rechterarm: %1</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_RArm_None">
             <English>Right Arm: None</English>
@@ -226,8 +226,8 @@
             <German>Rechter Arm: Nichts</German>
             <Japanese>右腕: なし</Japanese>
             <Chinesesimp>右臂：无</Chinesesimp>
-            <Dutch>Rechterarm: Geen</Dutch>
             <Turkish>Sağ Kol: Yok</Turkish>
+            <Dutch>Rechterarm: Geen</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_RLeg">
             <English>Right Leg: %1</English>
@@ -239,8 +239,8 @@
             <Japanese>右脚: %1</Japanese>
             <Chinese>右腳：%1</Chinese>
             <Chinesesimp>右腿：%1</Chinesesimp>
-            <Dutch>Rechterbeen: %1</Dutch>
             <Turkish>Sağ Bacak: %1</Turkish>
+            <Dutch>Rechterbeen: %1</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_RLeg_None">
             <English>Right Leg: None</English>
@@ -252,8 +252,8 @@
             <Japanese>右脚: なし</Japanese>
             <Chinese>右腳：無</Chinese>
             <Chinesesimp>右腿：无</Chinesesimp>
-            <Dutch>Rechterbeen: Geen</Dutch>
             <Turkish>Sağ Bacak: Yok</Turkish>
+            <Dutch>Rechterbeen: Geen</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_HandWarmer_displayName">
             <English>Hand Warmer</English>
@@ -265,8 +265,8 @@
             <Japanese>ハンドウォーマー</Japanese>
             <Chinese>暖暖包</Chinese>
             <Chinesesimp>暖手器</Chinesesimp>
-            <Dutch>Handwarmers</Dutch>
             <Turkish>El Isıtıcısı</Turkish>
+            <Dutch>Handwarmers</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_LineWarmer">
             <English>Line Warmer Active</English>
@@ -278,8 +278,8 @@
             <Japanese>ラインウォーマーを利用中</Japanese>
             <Chinese>輸液加溫器已啟動</Chinese>
             <Chinesesimp>线路加热器已激活</Chinesesimp>
-            <Dutch>Lijnwarmer actief</Dutch>
             <Turkish>Hat Isıtıcısı Aktif</Turkish>
+            <Dutch>Lijnwarmer actief</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_Other_Handwarmer_Output">
             <English>This patient has handwarmers and they will probably last this many more minutes at this locations: %1, %2, %3, %4, %5</English>
@@ -291,8 +291,8 @@
             <Japanese>この患者が使用中の ハンドウォーマーの 位置と残り持続時間は 次の通りです (分単位): %1, %2, %3, %4, %5</Japanese>
             <Chinese>該患者目前使用的暖暖包位置及剩餘可用時間（分鐘）：%1、%2、%3、%4、%5</Chinese>
             <Chinesesimp>该患者有暖手器，他们还有多长的持续时间：%1、%2、%3、%4、%5</Chinesesimp>
-            <Dutch>Deze patient heeft handwarmers op deze locaties en dit is hoelang ze ongeveer nog werken: %1, %2, %3, %4, %5</Dutch>
             <Turkish>Bu hastada el ısıtıcıları var ve şu bölgelerde yaklaşık şu kadar dakika daha dayanacaklar: %1, %2, %3, %4, %5</Turkish>
+            <Dutch>Deze patient heeft handwarmers op deze locaties en dit is hoelang ze ongeveer nog werken: %1, %2, %3, %4, %5</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_Remove_Warmer">
             <English>Remove Fluid Warmer</English>
@@ -304,8 +304,8 @@
             <Japanese>輸液ウォーマーを取り外す</Japanese>
             <Chinese>移除輸液加溫器</Chinese>
             <Chinesesimp>拆下油液加热器</Chinesesimp>
-            <Dutch>Maak vloeistofverwarmer los</Dutch>
             <Turkish>Sıvı Isıtıcıyı Çıkar</Turkish>
+            <Dutch>Maak vloeistofverwarmer los</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_Self_Handwarmer_Output">
             <English>This is where you have handwarmers and how much longer you think they have in minutes: %1, %2, %3, %4, %5</English>
@@ -317,8 +317,8 @@
             <Japanese>あなたが使用中の ハンドウォーマーの 位置と残り持続時間は 次の通りです (分単位): %1, %2, %3, %4, %5</Japanese>
             <Chinese>您目前使用的暖暖包位置及剩餘可用時間（分鐘）：%1、%2、%3、%4、%5</Chinese>
             <Chinesesimp>这是您有暖手器的地方，以及您认为他们还有多长的持续时间：%1、%2、%3、%4、%5</Chinesesimp>
-            <Dutch>Dit is waar je handwarmers hebt en hoelang je denkt dat ze nog werken in minuten: %1, %2, %3, %4, %5</Dutch>
             <Turkish>El ısıtıcılarının bulunduğu yerler ve tahmini kalan süreleri (dakika): %1, %2, %3, %4, %5</Turkish>
+            <Dutch>Dit is waar je handwarmers hebt en hoelang je denkt dat ze nog werken in minuten: %1, %2, %3, %4, %5</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_SubCategory_Hypothermia">
             <English>Hypothermia Settings</English>
@@ -327,8 +327,8 @@
             <Italian>Impostazioni Ipotermia</Italian>
             <German>Hypothermieeinstellungen</German>
             <Japanese>低体温症設定</Japanese>
-            <Dutch>Hypothermie instellingen</Dutch>
             <Turkish>Hipotermi Ayarları</Turkish>
+            <Dutch>Hypothermie instellingen</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_Use_Handwarmer">
             <English>Use Hand Warmer</English>
@@ -340,8 +340,8 @@
             <Japanese>ハンドウォーマーを使用する</Japanese>
             <Chinese>使用暖暖包</Chinese>
             <Chinesesimp>使用暖手器</Chinesesimp>
-            <Dutch>Gebruik handwarmer</Dutch>
             <Turkish>El Isıtıcısı Kullan</Turkish>
+            <Dutch>Gebruik handwarmer</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_Using">
             <English>Using</English>
@@ -368,8 +368,8 @@
             <Italian>KAT - ADV Medica: Ipotermia</Italian>
             <German>KAT - ADV Medical: Hypothermie</German>
             <Japanese>KAM - 低体温症 (Hypothermia)</Japanese>
-            <Dutch>KAT - ADV Medical: Hypothermie</Dutch>
             <Turkish>KAT – Gelişmiş Tıp: Hipotermi</Turkish>
+            <Dutch>KAT - ADV Medical: Hypothermie</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_perform">
             <English>Performing</English>
@@ -381,8 +381,8 @@
             <Japanese>適用中</Japanese>
             <Chinese>正在執行</Chinese>
             <Chinesesimp>执行</Chinesesimp>
-            <Dutch>Wordt uitgevoerd</Dutch>
             <Turkish>Uygulanıyor</Turkish>
+            <Dutch>Wordt uitgevoerd</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_temperature_cold">
             <English>Patient feels remarkably cold</English>
@@ -394,8 +394,8 @@
             <Japanese>患者は著しく冷たい</Japanese>
             <Chinese>患者感到非常寒冷</Chinese>
             <Chinesesimp>患者感觉非常冷</Chinesesimp>
-            <Dutch>Patiënt voel opmerkelijk koud aan</Dutch>
             <Turkish>Hasta aşırı derecede üşüyor</Turkish>
+            <Dutch>Patiënt voel opmerkelijk koud aan</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_temperature_cool">
             <English>Patient feels moderately cold</English>
@@ -407,8 +407,8 @@
             <Japanese>患者は少し冷たい</Japanese>
             <Chinese>患者感到有些寒冷</Chinese>
             <Chinesesimp>患者感觉中度寒冷</Chinesesimp>
-            <Dutch>Patiënt voelt redelijk koud aan</Dutch>
             <Turkish>Hasta orta derecede üşüyor</Turkish>
+            <Dutch>Patiënt voelt redelijk koud aan</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_temperature_dead">
             <English>Patient feels frigid</English>
@@ -420,8 +420,8 @@
             <Japanese>患者は凍ったように冷たい</Japanese>
             <Chinese>患者感到極度寒冷</Chinese>
             <Chinesesimp>患者感觉发冷</Chinesesimp>
-            <Dutch>Patiënt voelt ijskoud aan</Dutch>
             <Turkish>Hasta donacak kadar soğuk hissediyor</Turkish>
+            <Dutch>Patiënt voelt ijskoud aan</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_temperature_hot">
             <English>Patient feels hot</English>
@@ -432,8 +432,8 @@
             <German>Der Patient fühlt sich heiß an</German>
             <Japanese>患者は熱を帯びている</Japanese>
             <Chinese>患者覺得熱</Chinese>
-            <Dutch>Patiënt voelt heet aan</Dutch>
             <Turkish>Hasta donacak kadar soğuk hissediyor</Turkish>
+            <Dutch>Patiënt voelt heet aan</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_temperature_mild">
             <English>Patient feels mildly cool</English>
@@ -445,8 +445,8 @@
             <Japanese>患者は少しひんやりしている</Japanese>
             <Chinese>患者感到稍微涼爽</Chinese>
             <Chinesesimp>患者感觉有点凉</Chinesesimp>
-            <Dutch>Patiënt voelt een klein beetje koud aan</Dutch>
             <Turkish>Hasta hafif serin hissediyor</Turkish>
+            <Dutch>Patiënt voelt een klein beetje koud aan</Dutch>
         </Key>
         <Key ID="STR_KAT_Hypothermia_temperature_warm">
             <English>Patient feels warm</English>
@@ -458,8 +458,8 @@
             <Japanese>患者は暖かい</Japanese>
             <Chinese>患者感到溫暖</Chinese>
             <Chinesesimp>患者感觉温暖</Chinesesimp>
-            <Dutch>Patiënt voelt warm aan</Dutch>
             <Turkish>Hasta sıcak hissediyor</Turkish>
+            <Dutch>Patiënt voelt warm aan</Dutch>
         </Key>
     </Package>
 </Project>

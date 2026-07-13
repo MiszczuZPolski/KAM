@@ -15,9 +15,9 @@
             <Japanese>高度な骨折を有効化</Japanese>
             <Chinese>啟用高級骨折</Chinese>
             <Chinesesimp>启用高级骨折</Chinesesimp>
+            <Turkish>Gelişmiş kırıkları etkinleştirir</Turkish>
             <Finnish>Mahdollistaa pitkälle edenneet murtumat</Finnish>
             <Dutch>Activeert geadvanceerde breuken</Dutch>
-            <Turkish>Gelişmiş kırıkları etkinleştirir</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_CLAMPED">
             <English>clamped</English>
@@ -33,9 +33,9 @@
             <Japanese>クランプした</Japanese>
             <Chinese>夾緊</Chinese>
             <Chinesesimp>夹紧</Chinesesimp>
+            <Turkish>klemplenmiş</Turkish>
             <Finnish>Kiinnitetty</Finnish>
             <Dutch>Vastgeklemd</Dutch>
-            <Turkish>klemplenmiş</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_CLOSED_LOCATION">
             <English>Locations Closed Reduction</English>
@@ -51,9 +51,9 @@
             <Japanese>非観血的整復の可能な場所</Japanese>
             <Chinese>閉合復位的位置</Chinese>
             <Chinesesimp>封闭复位的位置</Chinesesimp>
+            <Turkish>Kapalı Redüksiyon Konumları</Turkish>
             <Finnish>Suljettujen paikkojen vähennys</Finnish>
             <Dutch>Locaties waar een gesloten reductie uitgevoerd kan worden</Dutch>
-            <Turkish>Kapalı Redüksiyon Konumları</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_CLOSED_REDUCTION_FAIL">
             <English>Closed reduction fail chance</English>
@@ -69,9 +69,9 @@
             <Japanese>非観血的整復術の失敗率</Japanese>
             <Chinese>封閉復位失敗機率</Chinese>
             <Chinesesimp>封闭式减少失败几率</Chinesesimp>
+            <Turkish>Kapalı Redüksiyon Başarısızlık Olasılığı</Turkish>
             <Finnish>Suljettu vähennys epäonnistuu</Finnish>
             <Dutch>Kans dat een gesloten reductie faalt</Dutch>
-            <Turkish>Kapalı Redüksiyon Başarısızlık Olasılığı</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_CLOSED_REDUCTION_FAIL_DESC">
             <English>Chance that closed reduction will fail. Default value 10%</English>
@@ -87,9 +87,9 @@
             <Japanese>非観血的整復術の失敗率を設定します。 デフォルト値は10%です</Japanese>
             <Chinese>封閉復位失敗的機率。默認值為10％</Chinese>
             <Chinesesimp>封闭式缩减失败的可能性。默认值10%</Chinesesimp>
+            <Turkish>Kapalı redüksiyonun başarısız olma olasılığı. Varsayılan değer %10</Turkish>
             <Finnish>Mahdollisuus, että suljettu vähennys epäonnistuu. Oletusarvo 10 %</Finnish>
             <Dutch>Kans dat een gesloten reductie faalt. Standaard waarde is 10%</Dutch>
-            <Turkish>Kapalı redüksiyonun başarısız olma olasılığı. Varsayılan değer %10</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_CLOSED_REDUCTION_MEDLEVEL">
             <English>Allow Closed Reduction</English>
@@ -105,9 +105,9 @@
             <Japanese>非観血的整復術の許可</Japanese>
             <Chinese>閉合復位需要的醫療等級</Chinese>
             <Chinesesimp>闭合复位所需的医疗水平</Chinesesimp>
+            <Turkish>Kapalı Redüksiyona İzin Ver</Turkish>
             <Finnish>Salli suljettu pienennys</Finnish>
             <Dutch>Benodigde training om een gesloten reductie uit te voeren</Dutch>
-            <Turkish>Kapalı Redüksiyona İzin Ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_CLOSED_TIMER">
             <English>Closed Reduction Time</English>
@@ -123,9 +123,9 @@
             <Japanese>非観血的整復術の所要時間</Japanese>
             <Chinese>執行封閉傷口的時間</Chinese>
             <Chinesesimp>执行封闭伤口的时间</Chinesesimp>
+            <Turkish>Kapalı Redüksiyon Süresi</Turkish>
             <Finnish>Suljettu vähennysaika</Finnish>
             <Dutch>Benodigde tijd om een gesloten reductie uit te voeren</Dutch>
-            <Turkish>Kapalı Redüksiyon Süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_COMMINUTED_FRACTURE">
             <English>Comminuted Fracture</English>
@@ -141,9 +141,9 @@
             <Japanese>粉砕骨折</Japanese>
             <Chinese>粉碎性骨折</Chinese>
             <Chinesesimp>粉碎性骨折</Chinesesimp>
+            <Turkish>Parçalı kırık</Turkish>
             <Finnish>Hienonnettu murtuma</Finnish>
             <Dutch>Verbrijzeld fractuur</Dutch>
-            <Turkish>Parçalı kırık</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_COMPOUND_FRACTURE">
             <English>Compound Fracture</English>
@@ -159,9 +159,9 @@
             <Japanese>開放骨折</Japanese>
             <Chinese>複合性骨折</Chinese>
             <Chinesesimp>复合性骨折</Chinesesimp>
+            <Turkish>Açık kırık</Turkish>
             <Finnish>Avomurtuma</Finnish>
             <Dutch>Open fractuur</Dutch>
-            <Turkish>Açık kırık</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_COMPOUND_FRACTURE_CHANCE">
             <English>Compound fracture chance</English>
@@ -177,9 +177,9 @@
             <Japanese>開放骨折の確率</Japanese>
             <Chinese>複合骨折機率</Chinese>
             <Chinesesimp>复合骨折机率</Chinesesimp>
+            <Turkish>Açık kırık olasılığı</Turkish>
             <Finnish>Yhdistelmämurtuman mahdollisuus</Finnish>
             <Dutch>Waarschijnlijkheid van een open fractuur</Dutch>
-            <Turkish>Açık kırık olasılığı</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_COMPOUND_FRACTURE_CHANCE_DESC">
             <English>Sets the chance for compound fractures. Also sets the chance for comminuted fractures (60% Compound = 40% Comminuted)</English>
@@ -195,9 +195,9 @@
             <Japanese>開放骨折の可能性を設定します。粉砕骨折の可能性も設定します (開放骨折60% = 粉砕骨折40%)</Japanese>
             <Chinese>設置複合骨折的機率,同時設置粉碎性骨折的機率 (60% 複合 = 40% 粉碎)</Chinese>
             <Chinesesimp>设置复合骨折的几率,同时设置粉碎骨折的几率 (60% 复合 = 40% 粉碎)</Chinesesimp>
+            <Turkish>Açık kırık olasılığını ayarlar. Ayrıca parçalı kırık olasılığını da belirler (%60 Açık = %40 parçalı)</Turkish>
             <Finnish>Asettaa yhdistelmämurtumien mahdollisuuden. Asettaa myös murtumien mahdollisuuden (60 % yhdiste = 40 % hienonnettu)</Finnish>
             <Dutch>Bepaald de kans voor open botbreuken. Bepaald ook de kans op een verbrijzeld fractuur vast (60% open = 40% verbrijzeld)</Dutch>
-            <Turkish>Açık kırık olasılığını ayarlar. Ayrıca parçalı kırık olasılığını da belirler (%60 Açık = %40 parçalı)</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Clamp_Action">
             <English>Clamping</English>
@@ -213,9 +213,9 @@
             <Japanese>クランプ中</Japanese>
             <Chinese>夾緊中</Chinese>
             <Chinesesimp>夹紧中</Chinesesimp>
+            <Turkish>Klempleme</Turkish>
             <Finnish>Kiinnitys</Finnish>
             <Dutch>Vast klemmen</Dutch>
-            <Turkish>Klempleme</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Clamp_DescShort">
             <English>Used to clamp comminuted fractures</English>
@@ -231,9 +231,9 @@
             <Japanese>粉砕骨折を留めるために使用される</Japanese>
             <Chinese>用於夾緊粉碎性骨折</Chinese>
             <Chinesesimp>用于夹紧粉碎性骨折</Chinesesimp>
+            <Turkish>Parçalı kırıkları klemplemek için kullanılır</Turkish>
             <Finnish>Käytetään murtumien kiinnittämiseen</Finnish>
             <Dutch>Wordt gebruikt om verbrijzelde fracturen vast te klemmen</Dutch>
-            <Turkish>Parçalı kırıkları klemplemek için kullanılır</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Clamp_Use">
             <English>Clamp Fracture</English>
@@ -249,9 +249,9 @@
             <Japanese>骨折をクランプする</Japanese>
             <Chinese>夾緊骨折</Chinese>
             <Chinesesimp>夹紧骨折</Chinesesimp>
+            <Turkish>Kırığı Klemple</Turkish>
             <Finnish>Puristimen murtuma</Finnish>
             <Dutch>Klem fractuur vast</Dutch>
-            <Turkish>Kırığı Klemple</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Clamp_displayName">
             <English>Clamp</English>
@@ -267,9 +267,9 @@
             <Japanese>鉗子 (クランプ)</Japanese>
             <Chinese>夾鉗</Chinese>
             <Chinesesimp>夹钳</Chinesesimp>
+            <Turkish>Klemple</Turkish>
             <Finnish>Puristin</Finnish>
             <Dutch>Klem</Dutch>
-            <Turkish>Klemple</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_EXPOSED">
             <English>exposed</English>
@@ -285,9 +285,9 @@
             <Japanese>露出させた</Japanese>
             <Chinese>暴露</Chinese>
             <Chinesesimp>暴露</Chinesesimp>
+            <Turkish>açığa çıkarılmış</Turkish>
             <Finnish>paljastettu</Finnish>
             <Dutch>Vrijgelegd</Dutch>
-            <Turkish>açığa çıkarılmış</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_FRACTURE_CHECK_MEDLEVEL">
             <English>Allow Check Fracture</English>
@@ -303,9 +303,9 @@
             <Japanese>骨折診断の許可</Japanese>
             <Chinese>檢查骨折需要的醫療等級</Chinese>
             <Chinesesimp>检查骨折所需的医疗水平</Chinesesimp>
+            <Turkish>Kırık Kontrolüne İzin Ver</Turkish>
             <Finnish>Salli murtuman tarkistaminen</Finnish>
             <Dutch>Benodigde training om een fractuur te controleren</Dutch>
-            <Turkish>Kırık Kontrolüne İzin Ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_FRACTURE_CHECK_TIMER">
             <English>Fracture Check Time</English>
@@ -321,9 +321,9 @@
             <Japanese>骨折診断の所要時間</Japanese>
             <Chinese>骨折檢查時間</Chinese>
             <Chinesesimp>骨折检查时间</Chinesesimp>
+            <Turkish>Kırık Kontrol Süresi</Turkish>
             <Finnish>Murtuman tarkistusaika</Finnish>
             <Dutch>Benodigde tijd om een fractuur te controleren</Dutch>
-            <Turkish>Kırık Kontrol Süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_INCISION_TIMER">
             <English>Perform Incision Time</English>
@@ -339,9 +339,9 @@
             <Japanese>切開の所要時間</Japanese>
             <Chinese>進行切口的時間</Chinese>
             <Chinesesimp>进行切口的时间</Chinesesimp>
+            <Turkish>İnsizyon Yapma Süresi</Turkish>
             <Finnish>Suorita viiltoaika</Finnish>
             <Dutch>Benodigde tijd om een incisie te maken</Dutch>
-            <Turkish>İnsizyon Yapma Süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_INTERMEDIATE_TIMER">
             <English>Time to perform intermediate actions</English>
@@ -357,9 +357,9 @@
             <Japanese>中間処置の所要時間</Japanese>
             <Chinese>進行中間操作的時間</Chinese>
             <Chinesesimp>进行中间操作的时间</Chinesesimp>
+            <Turkish>Ara işlemleri yapma süresi</Turkish>
             <Finnish>Aika suorittaa välitoimia</Finnish>
             <Dutch>Benodigde tijd om tussenliggende acties uit te voeren</Dutch>
-            <Turkish>Ara işlemleri yapma süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_INTERMEDIATE_TIMER_DESC">
             <English>Sets how long it takes to perform intermediate surgical actions such as exposing and irrigation</English>
@@ -375,9 +375,9 @@
             <Japanese>露出や灌注などの中間の外科的処置を実行するのにかかる時間を設定します</Japanese>
             <Chinese>設置執行手術中間操作（例如暴露和沖洗）所需的時間</Chinese>
             <Chinesesimp>设置执行手术中间操作（例如暴露和冲洗）所需的时间</Chinesesimp>
+            <Turkish>Açığa çıkarma ve irrigasyon gibi ara cerrahi işlemlerin ne kadar süreceğini belirler</Turkish>
             <Finnish>Asettaa, kuinka kauan kirurgisten välitoimenpiteiden, kuten valotuksen ja kastelun, suorittaminen kestää</Finnish>
             <Dutch>Bepaald hoe lang het doet om tussentijdse chirurgische acties uit te voeren, zoals het vrijleggen en irrigeren van een fractuur</Dutch>
-            <Turkish>Açığa çıkarma ve irrigasyon gibi ara cerrahi işlemlerin ne kadar süreceğini belirler</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_IRRIGATED">
             <English>irrigated</English>
@@ -393,9 +393,9 @@
             <Japanese>灌注した</Japanese>
             <Chinese>已沖洗</Chinese>
             <Chinesesimp>已冲洗</Chinesesimp>
+            <Turkish>irige edilmiş</Turkish>
             <Finnish>Kasteltu</Finnish>
             <Dutch>Geïrrigeerd</Dutch>
-            <Turkish>irige edilmiş</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Irrigate_Action">
             <English>Irrigating</English>
@@ -411,9 +411,9 @@
             <Japanese>灌注中</Japanese>
             <Chinese>沖洗中</Chinese>
             <Chinesesimp>冲洗中</Chinesesimp>
+            <Turkish>irige ediliyor</Turkish>
             <Finnish>Kastelu</Finnish>
             <Dutch>Irrigeren</Dutch>
-            <Turkish>irige ediliyor</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Irrigate_Use">
             <English>Irrigate Wound</English>
@@ -429,9 +429,9 @@
             <Japanese>創面を灌注</Japanese>
             <Chinese>沖洗傷口</Chinese>
             <Chinesesimp>冲洗伤口</Chinesesimp>
+            <Turkish>Yarayı İrige Et</Turkish>
             <Finnish>Huuhtele haava</Finnish>
             <Dutch>Irrigeer wond</Dutch>
-            <Turkish>Yarayı İrige Et</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_NPWT_ACTION_MEDLEVEL">
             <English>Allow NPWT</English>
@@ -445,8 +445,8 @@
             <Japanese>NPWTの許可</Japanese>
             <Chinese>NPWT需要的醫療等級</Chinese>
             <Chinesesimp>NPWT所需的医疗水平</Chinesesimp>
-            <Dutch>Benodigde training voor het gebruik van een vacuümverband</Dutch>
             <Turkish>NPWT’ye İzin Ver</Turkish>
+            <Dutch>Benodigde training voor het gebruik van een vacuümverband</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_NPWT_LOCATION">
             <English>Locations NPWT</English>
@@ -460,8 +460,8 @@
             <Japanese>NPWTの可能な場所</Japanese>
             <Chinese>NPWT的使用位置</Chinese>
             <Chinesesimp>NPWT的使用位置</Chinesesimp>
-            <Dutch>Locaties waar een vacuümverband aangelegd kan worden</Dutch>
             <Turkish>NPWT Konumları</Turkish>
+            <Dutch>Locaties waar een vacuümverband aangelegd kan worden</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_OPEN_TIMER">
             <English>Open Reduction Time</English>
@@ -477,9 +477,9 @@
             <Japanese>観血的整復術の所要時間</Japanese>
             <Chinese>執行開放傷口的時間</Chinese>
             <Chinesesimp>执行开放伤口的时间</Chinesesimp>
+            <Turkish>Açık Redüksiyon Süresi</Turkish>
             <Finnish>Avoin vähennysaika</Finnish>
             <Dutch>Benodigde tijd om een open reductie uit te voeren</Dutch>
-            <Turkish>Açık Redüksiyon Süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_PERICARDIALTAP_ACTION_MEDLEVEL">
             <English>Allow Pericardial Tap</English>
@@ -491,8 +491,8 @@
             <Japanese>心膜穿刺術の許可</Japanese>
             <Chinese>心包穿刺術需要的醫療等級</Chinese>
             <Chinesesimp>心包穿刺术所需的医疗水平</Chinesesimp>
-            <Dutch>Benodigde training voor pericardiale drainage</Dutch>
             <Turkish>Pericardial Tap’e İzin Ver</Turkish>
+            <Dutch>Benodigde training voor pericardiale drainage</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_PERICARDIALTAP_LOCATION">
             <English>Locations for Pericardial Tap</English>
@@ -504,8 +504,8 @@
             <Japanese>心膜穿刺術が使用できる場所</Japanese>
             <Chinese>心包穿刺術的使用位置</Chinese>
             <Chinesesimp>心包穿刺术的使用位置</Chinesesimp>
-            <Dutch>Locaties waar een pericardiale drainage uitgevoerd kan worden</Dutch>
             <Turkish>Pericardial Tap Konumları</Turkish>
+            <Dutch>Locaties waar een pericardiale drainage uitgevoerd kan worden</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_PERICARDIALTAP_TIMER">
             <English>Time to perform Pericardial Tap</English>
@@ -517,8 +517,8 @@
             <Japanese>心膜穿刺術の所要時間</Japanese>
             <Chinese>執行心包穿刺術的時間</Chinese>
             <Chinesesimp>执行心包穿刺术的时间</Chinesesimp>
-            <Dutch>Benodigde tijd om een pericard drainage uit te voeren</Dutch>
             <Turkish>Pericardial Tap süresi</Turkish>
+            <Dutch>Benodigde tijd om een pericard drainage uit te voeren</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_PERICARDIALTAP_TIMER_DESC">
             <English>Sets how long it takes to perform a Pericardial Tap</English>
@@ -530,8 +530,8 @@
             <Japanese>心膜穿刺術にかかる時間を設定します</Japanese>
             <Chinese>設置執行心包穿刺術所需的時間</Chinese>
             <Chinesesimp>设置执行心包穿刺术所需的时间</Chinesesimp>
-            <Dutch>Bepaald hoe lang het uitvoeren van een pericard drainage duurt</Dutch>
             <Turkish>Pericardial Tap işleminin ne kadar süreceğini belirler</Turkish>
+            <Dutch>Bepaald hoe lang het uitvoeren van een pericard drainage duurt</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Pericardial_Tap_Action">
             <English>Performing</English>
@@ -545,8 +545,8 @@
             <Japanese>施術中</Japanese>
             <Chinese>實施中</Chinese>
             <Chinesesimp>操作中</Chinesesimp>
-            <Dutch>Wordt uitgevoerd</Dutch>
             <Turkish>Yapılıyor</Turkish>
+            <Dutch>Wordt uitgevoerd</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Pericardial_Tap_Log">
             <English>%1 performed a pericardial tap</English>
@@ -560,8 +560,8 @@
             <Japanese>%1 が心膜穿刺を施術</Japanese>
             <Chinese>%1 進行了心包穿刺術</Chinese>
             <Chinesesimp>%1 对患者进行了心包穿刺</Chinesesimp>
-            <Dutch>%1 heeft een pericard drainage uitgevoerd</Dutch>
             <Turkish>%1 bir pericardial tap yaptı</Turkish>
+            <Dutch>%1 heeft een pericard drainage uitgevoerd</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Pericardial_Tap_Use">
             <English>Pericardial Tap</English>
@@ -575,8 +575,8 @@
             <Japanese>心膜穿刺術</Japanese>
             <Chinese>心包穿刺術</Chinese>
             <Chinesesimp>心包穿刺</Chinesesimp>
-            <Dutch>Pericard drainage</Dutch>
             <Turkish>Pericardial Tap</Turkish>
+            <Dutch>Pericard drainage</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Plate_DescShort">
             <English>Used to complete all complex fracture types</English>
@@ -592,9 +592,9 @@
             <Japanese>あらゆる開放骨折に対応可能</Japanese>
             <Chinese>用於完成所有複雜骨折類型</Chinese>
             <Chinesesimp>用于完成所有复杂骨折类型</Chinesesimp>
+            <Turkish>Tüm kompleks kırık tiplerini tamamlamak için kullanılır</Turkish>
             <Finnish>Käytetään viimeistelemään kaikki monimutkaiset fraktit</Finnish>
             <Dutch>Wordt gebruikt om alle complexe fracturen te voltooien</Dutch>
-            <Turkish>Tüm kompleks kırık tiplerini tamamlamak için kullanılır</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Plate_Display">
             <English>Bone Plate</English>
@@ -610,9 +610,9 @@
             <Japanese>骨接合板</Japanese>
             <Chinese>骨板</Chinese>
             <Chinesesimp>骨板</Chinesesimp>
+            <Turkish>Bone Plate</Turkish>
             <Finnish>Luulevy</Finnish>
             <Dutch>Botplaat</Dutch>
-            <Turkish>Bone Plate</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_REBOA_ACTION_MEDLEVEL">
             <English>Allow REBOA</English>
@@ -624,8 +624,8 @@
             <Japanese>REBOAの許可</Japanese>
             <Chinese>REBOA需要的醫療等級</Chinese>
             <Chinesesimp>REBOA所需的医疗水平</Chinesesimp>
-            <Dutch>Benodigde Training om een REBOA toe te dienen</Dutch>
             <Turkish>REBOA’ya İzin Ver</Turkish>
+            <Dutch>Benodigde Training om een REBOA toe te dienen</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_REBOA_LOCATION">
             <English>Locations for REBOA</English>
@@ -637,8 +637,8 @@
             <Japanese>REBOAが使用できる場所</Japanese>
             <Chinese>REBOA的使用位置</Chinese>
             <Chinesesimp>REBOA的使用位置</Chinesesimp>
-            <Dutch>Locaties waar een REBOA toegediend kan worden</Dutch>
             <Turkish>REBOA Konumları</Turkish>
+            <Dutch>Locaties waar een REBOA toegediend kan worden</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_REBOA_TIMER">
             <English>Time to perform REBOA actions</English>
@@ -650,8 +650,8 @@
             <Japanese>REBOA各動作の所要時間</Japanese>
             <Chinese>執行REBOA操作的時間</Chinese>
             <Chinesesimp>执行REBOA操作的时间</Chinesesimp>
-            <Dutch>Benodigde tijd om REBOA acties uit te voeren</Dutch>
             <Turkish>REBOA işlemleri süresi</Turkish>
+            <Dutch>Benodigde tijd om REBOA acties uit te voeren</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_REBOA_TIMER_DESC">
             <English>Sets how long it takes to perform REBOA actions (Placing, Advancing, Removing)</English>
@@ -663,8 +663,8 @@
             <Japanese>REBOAの各動作(挿入、前進、抜去)にかかる時間を設定します</Japanese>
             <Chinese>設置執行REBOA操作（放置、推進、移除）所需的時間</Chinese>
             <Chinesesimp>设置执行REBOA操作（放置、推进、移除）所需的时间</Chinesesimp>
-            <Dutch>Bepaald hoe lang het duurt om REBOA acties uit te voeren (Plaatsen, doorvoeren en verwijderen)</Dutch>
             <Turkish>REBOA işlemlerinin (Placing, Advancing, Removing) ne kadar süreceğini belirler</Turkish>
+            <Dutch>Bepaald hoe lang het duurt om REBOA acties uit te voeren (Plaatsen, doorvoeren en verwijderen)</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Reboa_Action">
             <English>Placing</English>
@@ -678,8 +678,8 @@
             <Japanese>挿入中</Japanese>
             <Chinese>放置中</Chinese>
             <Chinesesimp>放置</Chinesesimp>
-            <Dutch>Wordt geplaatst</Dutch>
             <Turkish>Yerleştiriliyor</Turkish>
+            <Dutch>Wordt geplaatst</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Reboa_Deep_Action">
             <English>Advancing</English>
@@ -693,8 +693,8 @@
             <Japanese>奥へと送っています</Japanese>
             <Chinese>推進中</Chinese>
             <Chinesesimp>推进中</Chinesesimp>
-            <Dutch>Wordt opgevoerd</Dutch>
             <Turkish>İlerletiliyor</Turkish>
+            <Dutch>Wordt opgevoerd</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Reboa_Deep_Use">
             <English>Advance REBOA Unit</English>
@@ -708,8 +708,8 @@
             <Japanese>REBOAユニットを奥へ送る</Japanese>
             <Chinese>進階REBOA設備</Chinese>
             <Chinesesimp>高级REBOA单元</Chinesesimp>
-            <Dutch>Voer REBOA eenheid op</Dutch>
             <Turkish>REBOA Unit’i İlerlet</Turkish>
+            <Dutch>Voer REBOA eenheid op</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Reboa_DescShort">
             <English>Used to block the aorta and prevent bleeding below the heart</English>
@@ -723,8 +723,8 @@
             <Japanese>大動脈を遮断し、心臓より下の出血を防ぐために使用される</Japanese>
             <Chinese>用於阻斷主動脈，防止心臟以下的出血</Chinese>
             <Chinesesimp>用于阻断主动脉，防止心脏以下出血</Chinesesimp>
-            <Dutch>Wordt gebruikt om de aorta te blokkeren, en bloedingen onder het hart te stelpen</Dutch>
             <Turkish>Aortayı bloke ederek kalbin altındaki kanamayı önlemek için kullanılır</Turkish>
+            <Dutch>Wordt gebruikt om de aorta te blokkeren, en bloedingen onder het hart te stelpen</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Reboa_DisplayName">
             <English>REBOA Unit</English>
@@ -738,8 +738,8 @@
             <Japanese>REBOAユニット</Japanese>
             <Chinese>REBOA 設備</Chinese>
             <Chinesesimp>REBOA单元</Chinesesimp>
-            <Dutch>ROBOA eenheid</Dutch>
             <Turkish>REBOA Unit</Turkish>
+            <Dutch>ROBOA eenheid</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Reboa_Remove_Action">
             <English>Removing</English>
@@ -753,8 +753,8 @@
             <Japanese>抜去中</Japanese>
             <Chinese>移除中</Chinese>
             <Chinesesimp>移除中</Chinesesimp>
-            <Dutch>Wordt verwijderd</Dutch>
             <Turkish>Çıkarılıyor</Turkish>
+            <Dutch>Wordt verwijderd</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Reboa_Remove_Use">
             <English>Remove REBOA Unit</English>
@@ -768,8 +768,8 @@
             <Japanese>REBOAユニットを抜去</Japanese>
             <Chinese>移除 REBOA 設備</Chinese>
             <Chinesesimp>拆除REBOA装置</Chinesesimp>
-            <Dutch>Verwijder REBOA eenheid</Dutch>
             <Turkish>REBOA Unit’i Çıkar</Turkish>
+            <Dutch>Verwijder REBOA eenheid</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Reboa_Status">
             <English>REBOA</English>
@@ -783,8 +783,8 @@
             <Japanese>REBOA</Japanese>
             <Chinese>REBOA</Chinese>
             <Chinesesimp>雷博亚</Chinesesimp>
-            <Dutch>REBOA</Dutch>
             <Turkish>REBOA</Turkish>
+            <Dutch>REBOA</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Reboa_Use">
             <English>Place REBOA Unit</English>
@@ -798,8 +798,8 @@
             <Japanese>REBOAユニットを挿入</Japanese>
             <Chinese>放置 REBOA 設備</Chinese>
             <Chinesesimp>放置REBOA单元</Chinesesimp>
-            <Dutch>Plaats REBOA eenheid</Dutch>
             <Turkish>REBOA Unit’i Yerleştir</Turkish>
+            <Dutch>Plaats REBOA eenheid</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Reset_Surgery">
             <English>Close Incision</English>
@@ -811,8 +811,8 @@
             <Japanese>切開口を閉じる</Japanese>
             <Chinese>封閉切口</Chinese>
             <Chinesesimp>闭合切口</Chinesesimp>
-            <Dutch>Sluit incisie</Dutch>
             <Turkish>İnsizyonu Kapat</Turkish>
+            <Dutch>Sluit incisie</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Retractor_Action">
             <English>Exposing</English>
@@ -828,9 +828,9 @@
             <Japanese>露出させています</Japanese>
             <Chinese>暴露</Chinese>
             <Chinesesimp>暴露</Chinesesimp>
+            <Turkish>Açığa çıkarılıyor</Turkish>
             <Finnish>Paljastaminen</Finnish>
             <Dutch>Vrijleggen</Dutch>
-            <Turkish>Açığa çıkarılıyor</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Retractor_DescShort">
             <English>Used to expand and expose fractures</English>
@@ -846,9 +846,9 @@
             <Japanese>切開口を広げ骨折部を露出させるために使用される</Japanese>
             <Chinese>用於擴大和暴露骨折創面</Chinese>
             <Chinesesimp>用于扩大和暴露骨折创面</Chinesesimp>
+            <Turkish>Kırıkları genişletmek ve açığa çıkarmak için kullanılır</Turkish>
             <Finnish>Käytetään murtumien laajentamiseen ja paljastamiseen</Finnish>
             <Dutch>Wordt gebruikt om incisies te spreiden en fracturen vrij te leggen</Dutch>
-            <Turkish>Kırıkları genişletmek ve açığa çıkarmak için kullanılır</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Retractor_Use">
             <English>Expose Fracture</English>
@@ -864,9 +864,9 @@
             <Japanese>骨折を露出させる</Japanese>
             <Chinese>暴露骨折</Chinese>
             <Chinesesimp>暴露骨折</Chinesesimp>
+            <Turkish>Kırığı Açığa Çıkar</Turkish>
             <Finnish>Paljasta murtuma</Finnish>
             <Dutch>Leg fractuur vrij</Dutch>
-            <Turkish>Kırığı Açığa Çıkar</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Retractor_displayName">
             <English>Retractor</English>
@@ -882,9 +882,9 @@
             <Japanese>開創器 (レトラクター)</Japanese>
             <Chinese>擴張器</Chinese>
             <Chinesesimp>扩张器</Chinesesimp>
+            <Turkish>Retractor</Turkish>
             <Finnish>Kelauslaite</Finnish>
             <Dutch>Retractor</Dutch>
-            <Turkish>Retractor</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SETTING_Anesthesia">
             <English>Surgery Anesthesia</English>
@@ -899,9 +899,9 @@
             <Japanese>手術を麻酔下で行う</Japanese>
             <Chinese>手術在麻醉下進行</Chinese>
             <Chinesesimp>手术在麻醉下进行</Chinesesimp>
+            <Turkish>Cerrahi Anestezi</Turkish>
             <Finnish>Leikkauksen anestesia</Finnish>
             <Dutch>Operatie met anesthesie</Dutch>
-            <Turkish>Cerrahi Anestezi</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SETTING_Causes_Unconsciousness">
             <English>Surgery Causes Unconsciousness</English>
@@ -916,9 +916,9 @@
             <Japanese>手術で意識喪失する</Japanese>
             <Chinese>手術導致意識喪失</Chinese>
             <Chinesesimp>手术导致意识丧失</Chinesesimp>
+            <Turkish>Cerrahi Bilinç Kaybına Neden Olur</Turkish>
             <Finnish>Leikkaus aiheuttaa tajuttomuuden</Finnish>
             <Dutch>Operatie veroorzaakt bewustijnsverlies</Dutch>
-            <Turkish>Cerrahi Bilinç Kaybına Neden Olur</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SETTING_ConsciousnessRequirement">
             <English>Surgery Consciousness Controls</English>
@@ -933,9 +933,9 @@
             <Japanese>手術時の意識状態管理</Japanese>
             <Chinese>手術意識控制</Chinese>
             <Chinesesimp>手术意识控制</Chinesesimp>
+            <Turkish>Cerrahi Bilinç Kontrolleri</Turkish>
             <Finnish>Kirurginen tajunta</Finnish>
             <Dutch>Operatie bewustzijninstellingen</Dutch>
-            <Turkish>Cerrahi Bilinç Kontrolleri</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SETTING_ConsciousnessRequirement_DESC">
             <English>Surgery Causes Unconsciousness: Surgery without anesthesia and sedation results in unconsciousness from CA. \nUnconsciousness Required for Surgery: Surgery requires patient to be unconscious. \nNo Unconsciousness from Surgery: Surgery doesn't induce unconsciousness, causes pain. \nSurgery Anesthesia: Patient stays awake during surgery if given Etomidate, if not they will go into CA.</English>
@@ -950,9 +950,9 @@
             <Japanese>手術で意識喪失する: 麻酔と鎮静剤を使用しないで手術すると、心停止が発生し意識喪失します。 \n手術に無意識を要求: 手術するには患者が意識を失っていることが必要になります。 \n手術による意識喪失なし: 手術で意識喪失しなくなりますが、痛みが発生します。 \n手術を麻酔下で行う: エトミデートを投与すると、手術中も患者が起きたままになります。投与しない場合は心停止します。</Japanese>
             <Chinese>手術導致意識喪失：未進行麻醉和鎮靜的手術會導致因心搏停止而意識喪失。\n手術需要意識喪失：手術需要患者處於無意識狀態。\n手術不會導致意識喪失：手術不會引起意識喪失，但會引起疼痛。\n手術麻醉：如果給予依托咪酯，患者在手術期間會保持清醒；如果沒有，他們將進入心搏停止狀態。</Chinese>
             <Chinesesimp>手术导致意识丧失：未进行麻醉和镇静的手术会导致因心搏停止而意识丧失。\n手术需要意识丧失：手术需要患者处于无意识状态。\n手术不会导致意识丧失：手术不会引起意识丧失，但会引起疼痛。\n手术麻醉：如果给予依托咪酯，患者在手术期间会保持清醒；如果没有，他们将进入心搏停止状态。</Chinesesimp>
+            <Turkish>Surgery Causes Unconsciousness: Anestezi ve sedasyon olmadan yapılan cerrahi, CA nedeniyle bilinç kaybına yol açar. \nUnconsciousness Required for Surgery: Cerrahi için hastanın bilinçsiz olması gerekir. \nNo Unconsciousness from Surgery: Cerrahi bilinç kaybı oluşturmaz, ağrıya neden olur. \nSurgery Anesthesia: Etomidate verilirse hasta cerrahi sırasında uyanık kalır; verilmezse CA’ya girer.</Turkish>
             <Finnish>Leikkaus aiheuttaa tajuttomuuden: leikkaus ilman anestesiaa ja sedaatiota johtaa tajuttomuuteen sydämenpysähdyksestä. \nLeikkaukseen tarvitaan tajuttomuus: leikkaus ei aiheuta tajuttomuutta, aiheuttaa kipua. \nLeikkauksen anestesia: Potilas pysyy hereillä leikkauksen aikana, jos hänelle annetaan etomidaattia, jos ei, hän menettää sydämenpysähdyksen.</Finnish>
             <Dutch>Operatie veroorzaakt bewustzijnsverlies: Operaties zonder anesthesie en sedatie lijdt tot bewustzijnsverlies door hartstilstand. \n Bewusteloosheid benodigd voor operatie: Operaties vereisen dat de patiënt bewusteloos is. \n Geen bewustzijnsverlies door operaties: Operaties lijden niet tot bewustzijnsverlies, maar veroorzaken pijn. \n Operatie met anesthesie: Patiënt blijft wakker tijdens de operatie als etomidaat gegeven is, anders lijdt de operatie tot een hartstilstand.</Dutch>
-            <Turkish>Surgery Causes Unconsciousness: Anestezi ve sedasyon olmadan yapılan cerrahi, CA nedeniyle bilinç kaybına yol açar. \nUnconsciousness Required for Surgery: Cerrahi için hastanın bilinçsiz olması gerekir. \nNo Unconsciousness from Surgery: Cerrahi bilinç kaybı oluşturmaz, ağrıya neden olur. \nSurgery Anesthesia: Etomidate verilirse hasta cerrahi sırasında uyanık kalır; verilmezse CA’ya girer.</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SETTING_NPWTTime">
             <English>Apply NPWT Dressing Time</English>
@@ -968,9 +968,9 @@
             <Japanese>NPWT被覆の所要時間</Japanese>
             <Chinese>應用NPWT敷料時間</Chinese>
             <Chinesesimp>应用NPWT敷料时间</Chinesesimp>
+            <Turkish>NPWT Dressing Uygulama Süresi</Turkish>
             <Finnish>Levitä NPWT-sidos tu</Finnish>
             <Dutch>Benodigde tijd om een vacuümverband aan te leggen</Dutch>
-            <Turkish>NPWT Dressing Uygulama Süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SETTING_No_Unconsciousness">
             <English>No Unconsciousness from Surgery</English>
@@ -985,9 +985,9 @@
             <Japanese>手術で意識喪失しない</Japanese>
             <Chinese>手術期間不會失去意識</Chinese>
             <Chinesesimp>手术期间不会失去意识</Chinesesimp>
+            <Turkish>Cerrahiden Bilinç Kaybı Yok</Turkish>
             <Finnish>Ei tajuttomuutta leikkauksesta</Finnish>
             <Dutch>Geen Bewustzijnsverlies door operaties</Dutch>
-            <Turkish>Cerrahiden Bilinç Kaybı Yok</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SETTING_SELF_CHECKFRACTURE">
             <English>Allow self check fracture</English>
@@ -1003,9 +1003,9 @@
             <Japanese>骨折の自己診断を許可</Japanese>
             <Chinese>允許自行檢查骨折</Chinese>
             <Chinesesimp>允许自行检查骨折</Chinesesimp>
+            <Turkish>Kendi kendine kırık kontrolüne izin ver</Turkish>
             <Finnish>Salli itsetarkastuksen murtuma</Finnish>
             <Dutch>Sta zelfcontrole van fracturen toe</Dutch>
-            <Turkish>Kendi kendine kırık kontrolüne izin ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SETTING_Unconsciousness_Required">
             <English>Unconsciousness Required for Surgery</English>
@@ -1020,9 +1020,9 @@
             <Japanese>手術に無意識を要求</Japanese>
             <Chinese>手術需要意識喪失</Chinese>
             <Chinesesimp>手术需要昏迷</Chinesesimp>
+            <Turkish>Cerrahi için bilinç kaybı gerekli</Turkish>
             <Finnish>Leikkaukseen tarvitaan tajuttomuus</Finnish>
             <Dutch>Bewusteloosheid</Dutch>
-            <Turkish>Cerrahi için bilinç kaybı gerekli</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SIMPLE_FRACTURE">
             <English>Simple Fracture</English>
@@ -1038,9 +1038,9 @@
             <Japanese>単純骨折</Japanese>
             <Chinese>簡單骨折</Chinese>
             <Chinesesimp>简单骨折</Chinesesimp>
+            <Turkish>Basit kırık</Turkish>
             <Finnish>Yksinkertainen murtuma</Finnish>
             <Dutch>Simpel fractuur</Dutch>
-            <Turkish>Basit kırık</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SIMPLE_FRACTURE_CHANCE">
             <English>Simple fracture chance</English>
@@ -1056,9 +1056,9 @@
             <Japanese>単純骨折の確率</Japanese>
             <Chinese>簡單骨折機率</Chinese>
             <Chinesesimp>简单骨折机率</Chinesesimp>
+            <Turkish>Basit kırık olasılığı</Turkish>
             <Finnish>Yksinkertainen murtuman mahdollisuus</Finnish>
             <Dutch>Kans op een simpel fractuur</Dutch>
-            <Turkish>Basit kırık olasılığı</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SIMPLE_FRACTURE_CHANCE_DESC">
             <English>Sets the chance for simple fractures. Also sets the chance for complex fractures (60% Simple = 40% Complex)</English>
@@ -1074,9 +1074,9 @@
             <Japanese>単純骨折の可能性を設定します。また、開放骨折の可能性を設定します (単純骨折60% = 開放骨折40%)</Japanese>
             <Chinese>設置簡單骨折的機率,同時設置了複合骨折的機率 (60% 簡單 = 40% 複雜)</Chinese>
             <Chinesesimp>设置简单骨折的机率,同时设置了复合骨折的机率 (60% 简单 = 40% 复杂)</Chinesesimp>
+            <Turkish>Basit kırık olasılığını ayarlar. Ayrıca kompleks kırık olasılığını da belirler (%60 Simple = %40 Complex)</Turkish>
             <Finnish>Asettaa mahdollisuuden yksinkertaisiin murtumiin. Asettaa myös mahdollisuuden monimutkaisiin murtumiin (60 % yksinkertainen = 40 % monimutkainen)</Finnish>
             <Dutch>Bepaald de kans voor simpele fracturen. Bepaald ook de kans voor geadvanceerde fracturen (60% simpel = 40% geadvanceerd).</Dutch>
-            <Turkish>Basit kırık olasılığını ayarlar. Ayrıca kompleks kırık olasılığını da belirler (%60 Simple = %40 Complex)</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SURGICAL_ACTION_MEDLEVEL">
             <English>Allow Surgery</English>
@@ -1092,9 +1092,9 @@
             <Japanese>手術の許可</Japanese>
             <Chinese>手術需要的醫療等級</Chinese>
             <Chinesesimp>手术所需的医疗水平</Chinesesimp>
+            <Turkish>Cerrahiye izin ver</Turkish>
             <Finnish>Salli leikkaus</Finnish>
             <Dutch>Benodigde training om chirurgische acties uit te voeren</Dutch>
-            <Turkish>Cerrahiye izin ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SURGICAL_LOCATION">
             <English>Locations Surgery</English>
@@ -1110,9 +1110,9 @@
             <Japanese>観血的整復術・手術の可能な場所</Japanese>
             <Chinese>切開復位/手術的地點</Chinese>
             <Chinesesimp>切开复位/手术的地点</Chinesesimp>
+            <Turkish>Cerrahi Konumları</Turkish>
             <Finnish>Paikkakirurgia</Finnish>
             <Dutch>Locaties waar chirurgische acties uitgevoerd kan worden</Dutch>
-            <Turkish>Cerrahi Konumları</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Scalpel_DescShort">
             <English>Used for creating incisions</English>
@@ -1128,9 +1128,9 @@
             <Japanese>切開するのに使用される</Japanese>
             <Chinese>用於創建切口和傷口清創</Chinese>
             <Chinesesimp>用于创建切口和伤口清创</Chinesesimp>
+            <Turkish>İnsizyon oluşturmak için kullanılır</Turkish>
             <Finnish>Käytetään viiltojen tekemiseen</Finnish>
             <Dutch>Wordt gebruikt om incisies te maken</Dutch>
-            <Turkish>İnsizyon oluşturmak için kullanılır</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Scalpel_Use">
             <English>Perform Incision</English>
@@ -1146,9 +1146,9 @@
             <Japanese>切開を行う</Japanese>
             <Chinese>創建切口</Chinese>
             <Chinesesimp>创建切口</Chinesesimp>
+            <Turkish>İnsizyon Yap</Turkish>
             <Finnish>Suorita viilto</Finnish>
             <Dutch>Maak incisie</Dutch>
-            <Turkish>İnsizyon Yap</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Scalpel_displayName">
             <English>Scalpel</English>
@@ -1164,9 +1164,9 @@
             <Japanese>メス</Japanese>
             <Chinese>手術刀</Chinese>
             <Chinesesimp>手术刀</Chinesesimp>
+            <Turkish>Scalpel</Turkish>
             <Finnish>Skalpelli</Finnish>
             <Dutch>Scalpel</Dutch>
-            <Turkish>Scalpel</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SubCategory_Fractures">
             <English>Fractures Settings</English>
@@ -1182,9 +1182,9 @@
             <Japanese>骨折設定</Japanese>
             <Chinese>骨折設定</Chinese>
             <Chinesesimp>骨折设置</Chinesesimp>
+            <Turkish>Kırık Ayarları</Turkish>
             <Finnish>Murtumien asetukset</Finnish>
             <Dutch>Instellingen voor fracturen</Dutch>
-            <Turkish>Kırık Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_SubCategory_NPWT">
             <English>Dressing Vacuum (NPWT) Settings</English>
@@ -1198,8 +1198,8 @@
             <Japanese>吸引被覆(NPWT)設定</Japanese>
             <Chinese>負壓傷口治療（NPWT）設定</Chinese>
             <Chinesesimp>负压伤口治疗（NPWT）设置</Chinesesimp>
-            <Dutch>Vacuümverband instellingen</Dutch>
             <Turkish>Dressing Vacuum (NPWT) Ayarları</Turkish>
+            <Dutch>Vacuümverband instellingen</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_SubCategory_SurgicalActions">
             <English>Surgical actions Settings</English>
@@ -1215,9 +1215,9 @@
             <Japanese>手術設定</Japanese>
             <Chinese>手術操作設定</Chinese>
             <Chinesesimp>手术操作设置</Chinesesimp>
+            <Turkish>Cerrahi İşlemler Ayarları</Turkish>
             <Finnish>Kirurgisten toimien asetukset</Finnish>
             <Dutch>Instellingen voor chirurgische acties</Dutch>
-            <Turkish>Cerrahi İşlemler Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_ULTRASOUND_ACTION_MEDLEVEL">
             <English>Allow Ultrasound</English>
@@ -1229,8 +1229,8 @@
             <Japanese>超音波スキャナーの許可</Japanese>
             <Chinese>超音波檢查需要的醫療等級</Chinese>
             <Chinesesimp>超声检查所需的医疗水平</Chinesesimp>
-            <Dutch>Benodigde training voor gebruik mobiele echograaf</Dutch>
             <Turkish>Ultrasound’a İzin Ver</Turkish>
+            <Dutch>Benodigde training voor gebruik mobiele echograaf</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_ULTRASOUND_LOCATION">
             <English>Locations for Ultrasound</English>
@@ -1242,8 +1242,8 @@
             <Japanese>超音波スキャナーが使用できる場所</Japanese>
             <Chinese>超音波檢查的使用位置</Chinese>
             <Chinesesimp>超声检查的使用位置</Chinesesimp>
-            <Dutch>Locaties waar een mobiele echograaf gebruikt kan worden</Dutch>
             <Turkish>Ultrasound Konumları</Turkish>
+            <Dutch>Locaties waar een mobiele echograaf gebruikt kan worden</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_ULTRASOUND_TIMER">
             <English>Time to perform Ultrasound actions</English>
@@ -1255,8 +1255,8 @@
             <Japanese>超音波スキャナーの所要時間</Japanese>
             <Chinese>執行 超音波 檢查的時間</Chinese>
             <Chinesesimp>执行超声检查的时间</Chinesesimp>
-            <Dutch>Benodigde tijd voor het gebruik van een mobiele echograaf</Dutch>
             <Turkish>Ultrasound işlemleri süresi</Turkish>
+            <Dutch>Benodigde tijd voor het gebruik van een mobiele echograaf</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_ULTRASOUND_TIMER_DESC">
             <English>Sets how long it takes to perform an ultrasound exam</English>
@@ -1268,8 +1268,8 @@
             <Japanese>超音波スキャナーの動作にかかる時間を設定します</Japanese>
             <Chinese>設置執行 超音波 檢查所需的時間</Chinese>
             <Chinesesimp>设置执行超声检查所需的时间</Chinesesimp>
-            <Dutch>Bepaald hoe lang het gebruik van een mobiele echograaf duurt</Dutch>
             <Turkish>Ultrasound muayenesinin ne kadar süreceğini belirler</Turkish>
+            <Dutch>Bepaald hoe lang het gebruik van een mobiele echograaf duurt</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Action">
             <English>Assessing</English>
@@ -1283,8 +1283,8 @@
             <Japanese>評定中</Japanese>
             <Chinese>評估中</Chinese>
             <Chinesesimp>评估中</Chinesesimp>
-            <Dutch>Aan het evalueren</Dutch>
             <Turkish>Değerlendiriliyor</Turkish>
+            <Dutch>Aan het evalueren</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Airway">
             <English>Airway Status: %1</English>
@@ -1298,8 +1298,8 @@
             <Japanese>気道の状態: %1</Japanese>
             <Chinese>氣道狀態：%1</Chinese>
             <Chinesesimp>气道状态：%1</Chinesesimp>
-            <Dutch>Luchtwegstatus: %1</Dutch>
             <Turkish>Airway Durumu: %1</Turkish>
+            <Dutch>Luchtwegstatus: %1</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Airway_Compromise">
             <English>Compromised</English>
@@ -1309,8 +1309,8 @@
             <Italian>Compromesso</Italian>
             <German>Kompromittiert</German>
             <Japanese>機能不全</Japanese>
-            <Dutch>Gecomprimeerd</Dutch>
             <Turkish>Bozulmuş</Turkish>
+            <Dutch>Gecomprimeerd</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Airway_NoActivity">
             <English>No Activity</English>
@@ -1320,8 +1320,8 @@
             <Italian>Nessuna attività</Italian>
             <German>Keine Aktivität</German>
             <Japanese>活動なし</Japanese>
-            <Dutch>Geen activiteit</Dutch>
             <Turkish>Aktivite Yok</Turkish>
+            <Dutch>Geen activiteit</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Airway_Normal">
             <English>Normal</English>
@@ -1335,8 +1335,8 @@
             <Japanese>正常</Japanese>
             <Chinese>正常</Chinese>
             <Chinesesimp>正常</Chinesesimp>
-            <Dutch>Normaal</Dutch>
             <Turkish>Normal</Turkish>
+            <Dutch>Normaal</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Cardiac">
             <English>Cardiac Status: %1</English>
@@ -1350,8 +1350,8 @@
             <Japanese>心臓の状態: %1</Japanese>
             <Chinese>心臟狀態：%1</Chinese>
             <Chinesesimp>心脏状态：%1</Chinesesimp>
-            <Dutch>Cardiale status: %1</Dutch>
             <Turkish>Kardiyak Durum: %1</Turkish>
+            <Dutch>Cardiale status: %1</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Cardiac_Shockable">
             <English>Arrest - Shockable</English>
@@ -1365,8 +1365,8 @@
             <Japanese>心停止 - ショック可能</Japanese>
             <Chinese>心臟驟停 - 可電擊</Chinese>
             <Chinesesimp>心脏骤停 - 可电击</Chinesesimp>
-            <Dutch>Hartstilstand - Schokbaar</Dutch>
             <Turkish>Arrest - Şoklanabilir</Turkish>
+            <Dutch>Hartstilstand - Schokbaar</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Cardiac_Tamponade">
             <English>Tamponade</English>
@@ -1380,8 +1380,8 @@
             <Japanese>タンポナーデ</Japanese>
             <Chinese>心包填塞</Chinese>
             <Chinesesimp>心包填塞</Chinesesimp>
-            <Dutch>Harttamponade</Dutch>
             <Turkish>Tamponad</Turkish>
+            <Dutch>Harttamponade</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Cardiac_Unshockable">
             <English>Arrest - Not Shockable</English>
@@ -1395,8 +1395,8 @@
             <Japanese>心停止 - ショック不要</Japanese>
             <Chinese>心臟驟停 - 不可電擊</Chinese>
             <Chinesesimp>心脏骤停 - 不可电击</Chinesesimp>
-            <Dutch>Hartstilstand - Niet schokbaar</Dutch>
             <Turkish>Arrest - Şoklanamaz</Turkish>
+            <Dutch>Hartstilstand - Niet schokbaar</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_DescShort">
             <English>Used to assess internal injuries</English>
@@ -1410,8 +1410,8 @@
             <Japanese>内損傷の評定に使用</Japanese>
             <Chinese>用於評估內部損傷</Chinese>
             <Chinesesimp>用于评估内部损伤</Chinesesimp>
-            <Dutch>Wordt gebruikt om interne verwondingen te evalueren</Dutch>
             <Turkish>İç yaralanmaları değerlendirmek için kullanılır</Turkish>
+            <Dutch>Wordt gebruikt om interne verwondingen te evalueren</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_DisplayName">
             <English>Handheld Ultrasound</English>
@@ -1425,8 +1425,8 @@
             <Japanese>手持ち式超音波スキャナー</Japanese>
             <Chinese>手持式超音波</Chinese>
             <Chinesesimp>手持式超声</Chinesesimp>
-            <Dutch>Mobiele echograaf</Dutch>
             <Turkish>El Tipi Ultrasound</Turkish>
+            <Dutch>Mobiele echograaf</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Thorasic">
             <English>Lung Status: %1</English>
@@ -1440,8 +1440,8 @@
             <Japanese>肺の状態: %1</Japanese>
             <Chinese>肺部狀態：%1</Chinese>
             <Chinesesimp>肺部状态：%1</Chinesesimp>
-            <Dutch>Longstatus: %1</Dutch>
             <Turkish>Akciğer Durumu: %1</Turkish>
+            <Dutch>Longstatus: %1</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Thorasic_Hemo">
             <English>Hemopneumothorax</English>
@@ -1455,8 +1455,8 @@
             <Japanese>血気胸</Japanese>
             <Chinese>血氣胸</Chinese>
             <Chinesesimp>血气胸</Chinesesimp>
-            <Dutch>Hemopneumothorax</Dutch>
             <Turkish>Hemopnömotoraks</Turkish>
+            <Dutch>Hemopneumothorax</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Thorasic_NoActivity">
             <English>No Activity</English>
@@ -1467,8 +1467,8 @@
             <German>Keine Aktivität</German>
             <Japanese>活動なし</Japanese>
             <Chinese>無活動</Chinese>
-            <Dutch>Geen activiteit</Dutch>
             <Turkish>Aktivite Yok</Turkish>
+            <Dutch>Geen activiteit</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Thorasic_PTX">
             <English>Pneumothorax</English>
@@ -1482,8 +1482,8 @@
             <Japanese>気胸</Japanese>
             <Chinese>氣胸</Chinese>
             <Chinesesimp>气胸</Chinesesimp>
-            <Dutch>Pneumothorax</Dutch>
             <Turkish>Pnömotoraks</Turkish>
+            <Dutch>Pneumothorax</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Thorasic_Tension">
             <English>Tension Pneumothorax</English>
@@ -1497,8 +1497,8 @@
             <Japanese>緊張性気胸</Japanese>
             <Chinese>張力性氣胸</Chinese>
             <Chinesesimp>张力性气胸</Chinesesimp>
-            <Dutch>Tensiepneumothorax</Dutch>
             <Turkish>Gergin Pnömotoraks</Turkish>
+            <Dutch>Tensiepneumothorax</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Ultra_Use">
             <English>Conduct Ultrasound Assessment</English>
@@ -1512,8 +1512,8 @@
             <Japanese>超音波評定を実施</Japanese>
             <Chinese>進行超音波評估</Chinese>
             <Chinesesimp>进行超声评估</Chinesesimp>
-            <Dutch>Voer echo evaluatie uit</Dutch>
             <Turkish>Ultrasound Değerlendirmesi Yap</Turkish>
+            <Dutch>Voer echo evaluatie uit</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_Vacuum_Action">
             <English>Applying</English>
@@ -1529,9 +1529,9 @@
             <Japanese>施術中</Japanese>
             <Chinese>施用中</Chinese>
             <Chinesesimp>施用中</Chinesesimp>
+            <Turkish>Uygulanıyor</Turkish>
             <Finnish>Hakeminen</Finnish>
             <Dutch>Wordt aangelegd</Dutch>
-            <Turkish>Uygulanıyor</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Vacuum_DescShort">
             <English>Used to completely dress and seal wounds</English>
@@ -1547,9 +1547,9 @@
             <Japanese>傷を完全に包んで密封する陰圧閉鎖療法のために使用される</Japanese>
             <Chinese>用於完全包紮和密封傷口</Chinese>
             <Chinesesimp>用于完全包扎和密封伤口</Chinesesimp>
+            <Turkish>Yaraları tamamen kapatmak ve mühürlemek için kullanılır</Turkish>
             <Finnish>Käytetään haavojen täydelliseen pukemiseen ja sulkemiseen</Finnish>
             <Dutch>Wordt gebruikt om alle wonden te dichten en verbinden</Dutch>
-            <Turkish>Yaraları tamamen kapatmak ve mühürlemek için kullanılır</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Vacuum_Use">
             <English>Apply Vacuum Dressing</English>
@@ -1565,9 +1565,9 @@
             <Japanese>吸引被覆(NPWT)を行う</Japanese>
             <Chinese>施用 NPWT 敷料</Chinese>
             <Chinesesimp>施用 NPWT 敷料</Chinesesimp>
+            <Turkish>Vacuum Dressing Uygula</Turkish>
             <Finnish>Levitä NPWT-sidosta</Finnish>
             <Dutch>Vacuümverband aanleggen</Dutch>
-            <Turkish>Vacuum Dressing Uygula</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_Vacuum_displayName">
             <English>Dressing Vacuum (NPWT)</English>
@@ -1583,9 +1583,9 @@
             <Japanese>吸引被覆 (NPWT)</Japanese>
             <Chinese>NPWT 敷料</Chinese>
             <Chinesesimp>NPWT 敷料</Chinesesimp>
+            <Turkish>Dressing Vacuum (NPWT)</Turkish>
             <Finnish>Pukeutumistyhjiö</Finnish>
             <Dutch>Vacuümverband (NPWT)</Dutch>
-            <Turkish>Dressing Vacuum (NPWT)</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_cba_name">
             <English>KAT - ADV Medical: Surgery</English>
@@ -1594,8 +1594,8 @@
             <Italian>KAT - ADV Medica: Chirurgia</Italian>
             <German>KAT - ADV Medical: Chirurgie</German>
             <Japanese>KAM - 外科 (Surgery)</Japanese>
-            <Dutch>KAT - ADV Medical: Chirurgie</Dutch>
             <Turkish>KAT – Gelişmiş Tıp: Cerrahi</Turkish>
+            <Dutch>KAT - ADV Medical: Chirurgie</Dutch>
         </Key>
         <Key ID="STR_KAT_Surgery_fracture_check">
             <English>Check Fracture</English>
@@ -1611,9 +1611,9 @@
             <Japanese>骨折を診断</Japanese>
             <Chinese>檢查骨折</Chinese>
             <Chinesesimp>检查骨折</Chinesesimp>
+            <Turkish>Kırığı Kontrol Et</Turkish>
             <Finnish>Tarkista murtuma</Finnish>
             <Dutch>Check fractuur</Dutch>
-            <Turkish>Kırığı Kontrol Et</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_fracture_checking">
             <English>Checking</English>
@@ -1629,9 +1629,9 @@
             <Japanese>確認中</Japanese>
             <Chinese>檢查中</Chinese>
             <Chinesesimp>检查中</Chinesesimp>
+            <Turkish>Kontrol Ediliyor</Turkish>
             <Finnish>Tarkistetaan</Finnish>
             <Dutch>Checking</Dutch>
-            <Turkish>Kontrol Ediliyor</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_fracture_closed">
             <English>Perform Closed Reduction</English>
@@ -1647,9 +1647,9 @@
             <Japanese>非観血的整復術を実行</Japanese>
             <Chinese>閉合復位</Chinese>
             <Chinesesimp>封闭复位</Chinesesimp>
+            <Turkish>Kapalı Redüksiyon Uygula</Turkish>
             <Finnish>Suorita suljettu pienennys</Finnish>
             <Dutch>Voer gesloten reductie uit</Dutch>
-            <Turkish>Kapalı Redüksiyon Uygula</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_fracture_fail">
             <English>Surgical Action Failed</English>
@@ -1665,9 +1665,9 @@
             <Japanese>手術に失敗した</Japanese>
             <Chinese>手術失敗</Chinese>
             <Chinesesimp>手术失败</Chinesesimp>
+            <Turkish>Cerrahi İşlem Başarısız</Turkish>
             <Finnish>Kirurginen toimenpide: epäonnistunut</Finnish>
             <Dutch>Chirurgische actie is gefaald</Dutch>
-            <Turkish>Cerrahi İşlem Başarısız</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_fracture_log">
             <English>%1 present on %2</English>
@@ -1683,9 +1683,9 @@
             <Japanese>%2に%1がある</Japanese>
             <Chinese>%1 存在於 %2</Chinese>
             <Chinesesimp>%1 存在于 %2</Chinesesimp>
+            <Turkish>%1, %2 üzerinde mevcut</Turkish>
             <Finnish>%1 läsnä %2</Finnish>
             <Dutch>%1 aanwezig op %2</Dutch>
-            <Turkish>%1, %2 üzerinde mevcut</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_fracture_open">
             <English>Perform Open Reduction</English>
@@ -1701,9 +1701,9 @@
             <Japanese>観血的整復術を実行</Japanese>
             <Chinese>開放復位</Chinese>
             <Chinesesimp>开放复位</Chinesesimp>
+            <Turkish>Açık Redüksiyon Uygula</Turkish>
             <Finnish>Suorita avoin pienennys</Finnish>
             <Dutch>Voer open reductie uit</Dutch>
-            <Turkish>Açık Redüksiyon Uygula</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_incision_log">
             <English>%1 made an incision on the %2</English>
@@ -1719,9 +1719,9 @@
             <Japanese>%1 が%2を切開した</Japanese>
             <Chinese>%1 在 %2 上做了一個切口</Chinese>
             <Chinesesimp>%1 在 %2 上做了一个切口</Chinesesimp>
+            <Turkish>%1, %2 üzerinde bir insizyon yaptı</Turkish>
             <Finnish>%1 teki viillon %2</Finnish>
             <Dutch>%1 heeft een incisie gemaakt op %2</Dutch>
-            <Turkish>%1, %2 üzerinde bir insizyon yaptı</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_perform">
             <English>Performing</English>
@@ -1737,9 +1737,9 @@
             <Japanese>実行中</Japanese>
             <Chinese>實施中</Chinese>
             <Chinesesimp>透析中</Chinesesimp>
+            <Turkish>Yapılıyor</Turkish>
             <Finnish>Suorietaan</Finnish>
             <Dutch>Wordt uitgevoerd</Dutch>
-            <Turkish>Yapılıyor</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_surgeryToolbox">
             <English>[KAM] Surgery Box</English>
@@ -1755,9 +1755,9 @@
             <Japanese>[KAM] 手術用品箱</Japanese>
             <Chinese>[KAM] 手術箱</Chinese>
             <Chinesesimp>[KAM]手术箱</Chinesesimp>
+            <Turkish>[KAM] Surgery Box</Turkish>
             <Finnish>[KAM] Leikkauslaatikko</Finnish>
             <Dutch>[KAM] Chirurgiedoos</Dutch>
-            <Turkish>[KAM] Surgery Box</Turkish>
         </Key>
         <Key ID="STR_KAT_Surgery_surgery_log">
             <English>%1 %2 the fracture on the %3</English>
@@ -1773,9 +1773,9 @@
             <Japanese>%1 が%3の骨折を%2</Japanese>
             <Chinese>在 %3 上有一處 %1 %2</Chinese>
             <Chinesesimp>在 %3 上有一处 %1 %2</Chinesesimp>
+            <Turkish>%1, %3 üzerindeki kırığı %2</Turkish>
             <Finnish>%1 %2 murtuma %3</Finnish>
             <Dutch>%1 %2 de breuk op %3</Dutch>
-            <Turkish>%1, %3 üzerindeki kırığı %2</Turkish>
         </Key>
     </Package>
 </Project>

@@ -32,9 +32,9 @@
             <Japanese>無脈性電気活動(PEA)</Japanese>
             <Chinese>無脈性電氣活動(PEA)</Chinese>
             <Chinesesimp>无脉冲电活动(PEA)</Chinesesimp>
+            <Turkish>Nabızsız Elektriksel Aktivite (PEA)</Turkish>
             <Finnish>Pulssiton sähköinen toiminta:</Finnish>
             <Dutch>Polsloze electrische activiteit (PEA)</Dutch>
-            <Turkish>Nabızsız Elektriksel Aktivite (PEA)</Turkish>
         </Key>
         <Key ID="STR_KAT_Zeus_CardiacState_Module_State">
             <English>State:</English>
@@ -67,9 +67,9 @@
             <Japanese>心室細動(VF)</Japanese>
             <Chinese>心室顫動(VF)</Chinese>
             <Chinesesimp>心室颤动(VF)</Chinesesimp>
+            <Turkish>Ventriküler Fibrilasyon</Turkish>
             <Finnish>Kammiovärinä:</Finnish>
             <Dutch>Ventriculaire fibrillatie</Dutch>
-            <Turkish>Ventriküler Fibrilasyon</Turkish>
         </Key>
         <Key ID="STR_KAT_Zeus_CardiacState_Module_VT">
             <English>Ventricular Tachycardia</English>
@@ -84,9 +84,9 @@
             <Japanese>心室頻拍(VT)</Japanese>
             <Chinese>室性心跳過速(VT)</Chinese>
             <Chinesesimp>室性心动过速(VT)</Chinesesimp>
+            <Turkish>Ventriküler Taşikardi</Turkish>
             <Finnish>Ventrikulaarinen takykardia:</Finnish>
             <Dutch>Ventriculaire tachycardie</Dutch>
-            <Turkish>Ventriküler Taşikardi</Turkish>
         </Key>
         <Key ID="STR_KAT_Zeus_CardiacState_Module_displayname">
             <English>Change Cardiac State</English>
@@ -101,9 +101,9 @@
             <Japanese>心臓の状態を変更</Japanese>
             <Chinese>更改心臟狀態</Chinese>
             <Chinesesimp>改变心脏状态</Chinesesimp>
+            <Turkish>Kardiyak Durumu Değiştir</Turkish>
             <Finnish>Muuta sydämen tilaa</Finnish>
             <Dutch>Verander cardiale staat</Dutch>
-            <Turkish>Kardiyak Durumu Değiştir</Turkish>
         </Key>
         <Key ID="STR_KAT_Zeus_ModuleManageAirway_Hemopneumothorax">
             <English>Hemopneumothorax:</English>
@@ -189,8 +189,8 @@
             <Japanese>気胸の悪化:</Japanese>
             <Chinese>氣胸惡化：</Chinese>
             <Chinesesimp>气胸恶化:</Chinesesimp>
-            <Dutch>Verslechterende pneumothorax:</Dutch>
             <Turkish>Pnömotoraks Kötüleşmesi:</Turkish>
+            <Dutch>Verslechterende pneumothorax:</Dutch>
         </Key>
         <Key ID="STR_KAT_Zeus_ModuleManageAirway_SpO2Value">
             <English>PaO2 value:</English>
@@ -277,9 +277,9 @@
             <Japanese>ユニットはAIである必要があります</Japanese>
             <Chinese>單位必須是AI</Chinese>
             <Chinesesimp>单位必须是AI</Chinesesimp>
+            <Turkish>Birim bir AI olmalıdır</Turkish>
             <Finnish>Yksikön on oltava AI</Finnish>
             <Dutch>Eenheid moet een KI / AI zijn</Dutch>
-            <Turkish>Birim bir AI olmalıdır</Turkish>
         </Key>
         <Key ID="STR_KAT_Zeus_bloodType_Module_displayname">
             <English>Change blood group / volume</English>
@@ -348,9 +348,9 @@
             <Japanese>このAIユニットの即死は %1 になりました</Japanese>
             <Chinese>AI單位即時死亡 %1</Chinese>
             <Chinesesimp>AI单位即时死亡 %1</Chinesesimp>
+            <Turkish>Birim için Anında AI Ölümü: %1</Turkish>
             <Finnish>Välitön AI-kuolema %1 yksikölle</Finnish>
             <Dutch>Onmiddelijke dood voor KI / AI %1 voor eenheid</Dutch>
-            <Turkish>Birim için Anında AI Ölümü: %1</Turkish>
         </Key>
         <Key ID="STR_KAT_Zeus_toggleAIDeath_Module_displayname">
             <English>Toggle Instant AI Death</English>
@@ -365,9 +365,9 @@
             <Japanese>AIの即死を切り替え</Japanese>
             <Chinese>開關AI即時死亡</Chinese>
             <Chinesesimp>切换AI即时死亡</Chinesesimp>
+            <Turkish>Anında AI Ölümünü Aç/Kapat</Turkish>
             <Finnish>Valitse välitön AI-kuolema</Finnish>
             <Dutch>Schakel onmiddelijke KI / AI dood om</Dutch>
-            <Turkish>Anında AI Ölümünü Aç/Kapat</Turkish>
         </Key>
     </Package>
 </Project>

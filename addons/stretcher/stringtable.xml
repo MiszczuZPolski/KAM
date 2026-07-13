@@ -30,8 +30,8 @@
             <Japanese>担架を展開する</Japanese>
             <Chinese>展開擔架</Chinese>
             <Chinesesimp>展开担架</Chinesesimp>
-            <Dutch>Ontplooi brancard</Dutch>
             <Turkish>Sedyeyi Aç</Turkish>
+            <Dutch>Ontplooi brancard</Dutch>
         </Key>
         <Key ID="STR_KAT_Stretcher_DetachHeliStretcher">
             <English>Detach Stretcher</English>
@@ -44,8 +44,8 @@
             <Japanese>担架を取り外す</Japanese>
             <Chinese>釋放擔架</Chinese>
             <Chinesesimp>分离担架</Chinesesimp>
-            <Dutch>Maak brancard los</Dutch>
             <Turkish>Sedyeyi Sök</Turkish>
+            <Dutch>Maak brancard los</Dutch>
         </Key>
         <Key ID="STR_KAT_Stretcher_Helistretcher_Desc">
             <English>Allows you to attach a Stretcher to a helicopter (Double click)</English>
@@ -93,8 +93,8 @@
             <Japanese>KAT ヘリコプター用担架</Japanese>
             <Chinese>KAT 直升機擔架</Chinese>
             <Chinesesimp>KAT Helistretcher</Chinesesimp>
-            <Dutch>KAT helibrancard</Dutch>
             <Turkish>KAT Helistretcher</Turkish>
+            <Dutch>KAT helibrancard</Dutch>
         </Key>
         <Key ID="STR_KAT_Stretcher_LowerHeliStretcher">
             <English>Lower Stretcher</English>
@@ -125,8 +125,8 @@
             <Japanese>バックパックとして畳む</Japanese>
             <Chinese>裝進背包</Chinese>
             <Chinesesimp>装进背包</Chinesesimp>
-            <Dutch>Verpak naar een rugzak</Dutch>
             <Turkish>Sırt çantasına yerleştir</Turkish>
+            <Dutch>Verpak naar een rugzak</Dutch>
         </Key>
         <Key ID="STR_KAT_Stretcher_PackIntoBag">
             <English>Pack into bag</English>
@@ -139,8 +139,8 @@
             <Japanese>ランチャーとして畳む</Japanese>
             <Chinese>打包到包裡</Chinese>
             <Chinesesimp>装进袋子里</Chinesesimp>
-            <Dutch>Verpak naar een tas</Dutch>
             <Turkish>Çantaya yerleştir</Turkish>
+            <Dutch>Verpak naar een tas</Dutch>
         </Key>
         <Key ID="STR_KAT_Stretcher_PickupStretcher_progressBar">
             <English>Packing Stretcher...</English>
@@ -153,8 +153,8 @@
             <Japanese>担架を折り畳んでいます・・・</Japanese>
             <Chinese>正在打包擔架...</Chinese>
             <Chinesesimp>正在打包担架...</Chinesesimp>
-            <Dutch>Brancard wordt verpakt</Dutch>
             <Turkish>Sedye paketleniyor...</Turkish>
+            <Dutch>Brancard wordt verpakt</Dutch>
         </Key>
         <Key ID="STR_KAT_Stretcher_PlaceStretcher_progressBar">
             <English>Placing Stretcher...</English>
@@ -167,8 +167,8 @@
             <Japanese>担架を設置しています・・・</Japanese>
             <Chinese>正在放置擔架...</Chinese>
             <Chinesesimp>正在放置担架...</Chinesesimp>
-            <Dutch>Brancard wordt geplaatst</Dutch>
             <Turkish>Sedye paketleniyor...</Turkish>
+            <Dutch>Brancard wordt geplaatst</Dutch>
         </Key>
         <Key ID="STR_KAT_Stretcher_RaiseHeliStretcher">
             <English>Raise Stretcher</English>
@@ -199,8 +199,8 @@
             <Japanese>担架を収容する</Japanese>
             <Chinese>收回擔架</Chinese>
             <Chinesesimp>缩回担架</Chinesesimp>
-            <Dutch>Trek brancard terug</Dutch>
             <Turkish>Sedyeyi Topla</Turkish>
+            <Dutch>Trek brancard terug</Dutch>
         </Key>
         <Key ID="STR_KAT_Stretcher_StretcherPacked_Display">
             <English>Stretcher (Packed)</English>
@@ -249,8 +249,8 @@
             <Japanese>担架を展開する</Japanese>
             <Chinese>部屬擔架</Chinese>
             <Chinesesimp>展开担架</Chinesesimp>
-            <Dutch>Ontplooi brancard</Dutch>
             <Turkish>Sedyeyi Aç</Turkish>
+            <Dutch>Ontplooi brancard</Dutch>
         </Key>
     </Package>
 </Project>

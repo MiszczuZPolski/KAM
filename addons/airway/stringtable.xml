@@ -127,9 +127,9 @@
             <Japanese>手動吸引器の許可</Japanese>
             <Chinese>允許 手動抽吸器</Chinese>
             <Chinesesimp>允许手动抽吸泵</Chinesesimp>
+            <Turkish>Manuel Aspiratöre izin ver</Turkish>
             <Finnish>Salli manuaalinen imupumppu</Finnish>
             <Dutch>Sta handmatige suctiepomp toe</Dutch>
-            <Turkish>Manuel Aspiratöre izin ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_ALLOW_SUCTION_DESC">
             <English>Training level required to use a Manual Suction Pump</English>
@@ -143,9 +143,9 @@
             <Japanese>手動吸引器の使用に必要な医療スキルのレベルを設定します。</Japanese>
             <Chinese>使用 手動抽吸器 所需的訓練水平</Chinese>
             <Chinesesimp>使用手动抽吸泵所需的培训水平</Chinesesimp>
+            <Turkish>Manuel Aspiratör kullanmak için gereken eğitim seviyesi</Turkish>
             <Finnish>Aika tarkistaa hengitystiet</Finnish>
             <Dutch>Trainingsniveau benodigd om een handmatige suctiepomp te gebruiken</Dutch>
-            <Turkish>Manuel Aspiratör kullanmak için gereken eğitim seviyesi</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_AccuvacTreatment_displayName">
             <English>Airway Suction</English>
@@ -159,9 +159,9 @@
             <Japanese>気道吸引</Japanese>
             <Chinese>呼吸道抽吸</Chinese>
             <Chinesesimp>呼吸道抽吸</Chinesesimp>
+            <Turkish>Hava yolu Aspirasyonu</Turkish>
             <Finnish>Ilmateiden imu</Finnish>
             <Dutch>Luchtweg suctie</Dutch>
-            <Turkish>Hava yolu Aspirasyonu</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Accuvac_Desc_Short">
             <English>ACCUVAC is a medical suction device for airway suction with battery drive for mobile use in emergency medicine.</English>
@@ -194,8 +194,8 @@
             <Japanese>アキュバック</Japanese>
             <Chinese>ACCUVAC（電動抽吸器）</Chinese>
             <Chinesesimp>ACCUVAC</Chinesesimp>
-            <Dutch>ACCUVAC</Dutch>
             <Turkish>ACCUVAC</Turkish>
+            <Dutch>ACCUVAC</Dutch>
         </Key>
         <Key ID="STR_KAT_Airway_Accuvac_NA">
             <English>Medical suction not needed</English>
@@ -228,9 +228,9 @@
             <Japanese>医療吸引が完了し、 異物が除去されました</Japanese>
             <Chinese>醫療抽吸已完成，阻塞物已移除</Chinese>
             <Chinesesimp>医用抽吸完成，封堵物移除</Chinesesimp>
+            <Turkish>Tıbbi aspirasyon tamamlandı, tıkanıklık giderildi</Turkish>
             <Finnish>Lääketieteellinen imu suoritettu, okkluusio poistettu</Finnish>
             <Dutch>Medische suctie voltooid, Verstopping verwijderd</Dutch>
-            <Turkish>Tıbbi aspirasyon tamamlandı, tıkanıklık giderildi</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Activity_HeadTurning">
             <English>%1 finished head turning (x%2)</English>
@@ -245,10 +245,10 @@
             <Japanese>%1 が指拭法で異物除去を行った (x%2)</Japanese>
             <Chinese>%1 已完成 轉動頭部(清除異物) (x%2)</Chinese>
             <Chinesesimp>%1 完成头部旋转（x %2）</Chinesesimp>
+            <Turkish>%1 kafa çevirme işlemini tamamladı (x%2)</Turkish>
             <Norwegian>%1 fullførte vending av hode (%2%).</Norwegian>
             <Finnish>%1 lopetti pään kääntämisen (x%2)</Finnish>
             <Dutch>%1 heeft het hoofd gedraaid (x%2)</Dutch>
-            <Turkish>%1 kafa çevirme işlemini tamamladı (x%2)</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_AirwayStatus_Clear">
             <English>Airway is clear</English>
@@ -300,10 +300,10 @@
             <Japanese>気道は閉塞しています、 気道管理が必要です</Japanese>
             <Chinese>呼吸道阻塞，需要管控呼吸道</Chinese>
             <Chinesesimp>气道阻塞，需要气道管理</Chinesesimp>
+            <Turkish>Hava yolu tıkalı, havayolu yönetimi gerekli</Turkish>
             <Norwegian>Luftvei er blokkert, behov for luftveishåndtering</Norwegian>
             <Finnish>Hengitystiet ovat tukossa, hengityshoitoa tarvitaan</Finnish>
             <Dutch>Luchtweg is geblokkeerd, luchtwegmanagement is vereist</Dutch>
-            <Turkish>Hava yolu tıkalı, havayolu yönetimi gerekli</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_AirwayStatus_Obstruction_short">
             <English>Obstruction</English>
@@ -336,10 +336,10 @@
             <Japanese>気道に異物があります、 医療吸引が必要です</Japanese>
             <Chinese>呼吸道內有異物，需要真空幫浦 (抽吸)</Chinese>
             <Chinesesimp>气道堵塞，需要吸痰</Chinesesimp>
+            <Turkish>Hava yolu kapalı, havayolu yönetimi gerekli</Turkish>
             <Norwegian>Luftveien er okkludert, behov for medisinsk suging</Norwegian>
             <Finnish>Hengitystiet ovat likaiset, tarvitaan lääkärin imu</Finnish>
             <Dutch>Luchtweg is verstopt, medische suctie is vereist</Dutch>
-            <Turkish>Hava yolu kapalı, havayolu yönetimi gerekli</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_AirwayStatus_Occlusion_short">
             <English>Occluded</English>
@@ -370,8 +370,8 @@
             <Japanese>気道はひどく水膨れしている</Japanese>
             <Chinese>氣道嚴重膨脹</Chinese>
             <Chinesesimp>气道严重膨胀</Chinesesimp>
-            <Dutch>De luchtwegen hebben een sterke blaarvorming</Dutch>
             <Turkish>Hava yolu ciddi şekilde hasar görmüş</Turkish>
+            <Dutch>De luchtwegen hebben een sterke blaarvorming</Dutch>
         </Key>
         <Key ID="STR_KAT_Airway_AirwayStatus_mitigatedObstruction">
             <English>Obstruction is temporarily mitigated</English>
@@ -387,10 +387,10 @@
             <Japanese>閉塞は一時的に軽減されています</Japanese>
             <Chinese>阻塞暫時緩解</Chinese>
             <Chinesesimp>阻塞暂时减轻</Chinesesimp>
+            <Turkish>Tıkanıklık geçici olarak azaltıldı</Turkish>
             <Norwegian>Obstruksjon er midlertidig redusert</Norwegian>
             <Finnish>Tukos on väliaikaisesti lievennetty</Finnish>
             <Dutch>Blokkade is tijdelijk verzacht</Dutch>
-            <Turkish>Tıkanıklık geçici olarak azaltıldı</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_AirwayStatus_mitigatedObstruction_short">
             <English>Mitigated obstruction</English>
@@ -406,10 +406,10 @@
             <Japanese>軽減された閉塞あり</Japanese>
             <Chinese>緩解阻塞</Chinese>
             <Chinesesimp>减轻阻塞</Chinesesimp>
+            <Turkish>Azaltılmış tıkanıklık</Turkish>
             <Norwegian>Reduserte obstruksjonen</Norwegian>
             <Finnish>Vähentynyt tukos</Finnish>
             <Dutch>Blokkade tijdelijk verzacht</Dutch>
-            <Turkish>Azaltılmış tıkanıklık</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_AirwayStatus_noObstruction">
             <English>Airway is not obstructed</English>
@@ -423,10 +423,10 @@
             <Japanese>気道は閉塞していない</Japanese>
             <Chinese>氣道未阻塞</Chinese>
             <Chinesesimp>气道未被阻塞</Chinesesimp>
+            <Turkish>Hava yolu tıkalı değil</Turkish>
             <Norwegian>Luftvei er ikke blokkert</Norwegian>
             <Finnish>Ilmatiet eivät ole tukossa</Finnish>
             <Dutch>Luchtweg is niet geblokkeerd</Dutch>
-            <Turkish>Hava yolu tıkalı değil</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_AirwayStatus_noObstruction_short">
             <English>Not obstructed</English>
@@ -459,10 +459,10 @@
             <Japanese>気道に異物はありません</Japanese>
             <Chinese>呼吸道內無異物</Chinese>
             <Chinesesimp>气道未闭塞</Chinesesimp>
+            <Turkish>Hava yolu tamamen kapalı değil</Turkish>
             <Norwegian>Luftvei er ikke okkludert</Norwegian>
             <Finnish>Ilmatiet eivät ole likaisia</Finnish>
             <Dutch>Luchtweg is niet verstopt</Dutch>
-            <Turkish>Hava yolu tamamen kapalı değil</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_AirwayStatus_noOcclusion_short">
             <English>Not occluded</English>
@@ -496,10 +496,10 @@
             <Japanese>気道状態による自動トリアージ</Japanese>
             <Chinese>根據呼吸道狀態 自動分類</Chinese>
             <Chinesesimp>自动分流气道</Chinesesimp>
+            <Turkish>Otomatik Triaj – Hava yolu</Turkish>
             <Norwegian>Auto Triage Luftveier</Norwegian>
             <Finnish>Luokittelee hengitystiet automaattisesti</Finnish>
             <Dutch>Auto triage van de luchtwegen</Dutch>
-            <Turkish>Otomatik Triaj – Hava yolu</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_AutoTriage_Desc">
             <English>Sets if checking airways can override current triage level</English>
@@ -514,10 +514,10 @@
             <Japanese>気道の検査をすることで現在のトリアージレベルを自動で上書き設定します</Japanese>
             <Chinese>透過檢查呼吸道自動覆蓋當前 診斷級別</Chinese>
             <Chinesesimp>设置检查气道是否可以覆盖当前的分诊级别</Chinesesimp>
+            <Turkish>Hava yolu kontrolünün mevcut triaj seviyesini geçersiz kılıp kılamayacağını ayarlar</Turkish>
             <Norwegian>Setter om sjekking av luftveier kan overstyre gjeldende triage-nivå</Norwegian>
             <Finnish>Määrittää, voiko hengitysteiden tarkistaminen muuttaa nykyistä luokitusta</Finnish>
             <Dutch>Zet of het checken van de luchtwegen het huidige triage niveau overschrijft</Dutch>
-            <Turkish>Hava yolu kontrolünün mevcut triaj seviyesini geçersiz kılıp kılamayacağını ayarlar</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_BLOCK_HEADTURNING">
             <English>Block head turning</English>
@@ -532,10 +532,10 @@
             <Japanese>顔を横に向ける (指拭法で異物除去) の阻害</Japanese>
             <Chinese>阻止轉動頭部 (清除異物)</Chinese>
             <Chinesesimp>堵头转动</Chinesesimp>
+            <Turkish>Kafa çevirmeyi engelle</Turkish>
             <Norwegian>Blokker vending av hode</Norwegian>
             <Finnish>Estä pään kääntyminen</Finnish>
             <Dutch>Blokkeer het draaien van het hoofd</Dutch>
-            <Turkish>Kafa çevirmeyi engelle</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_BLOCK_HEADTURNING_DESC">
             <English>Blocks head turning if patient has Guedel Tube inserted</English>
@@ -550,10 +550,10 @@
             <Japanese>患者にゲデルチューブが挿管されている時に顔を横に向ける (指拭法で異物除去) を実施出来ないようにします</Japanese>
             <Chinese>如果病人插入了Guedel（口腔通氣管），來阻止 轉動頭部 (清除異物)</Chinese>
             <Chinesesimp>如果患者插入口咽通气道管，则会阻止头部转动</Chinesesimp>
+            <Turkish>Hastada Guedel Tüpü takılıysa kafa çevirmeyi engeller</Turkish>
             <Norwegian>Blokkerer vending av hode hvis pasienten har en Guedel Tube satt inn</Norwegian>
             <Finnish>Estää pään pyörimisen, jos potilaalla on guedel-putki</Finnish>
             <Dutch>Blokkeert het draaien van het hoofd als de patiënt een Guedel-tube in heeft</Dutch>
-            <Turkish>Hastada Guedel Tüpü takılıysa kafa çevirmeyi engeller</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_CancelRecoveryPosition_Log">
             <English>%1 cancelled recovery position</English>
@@ -567,10 +567,10 @@
             <Japanese>%1 が回復体位を崩した</Japanese>
             <Chinese>%1 取消了 復甦姿勢</Chinese>
             <Chinesesimp>%1 已取消恢复体位</Chinesesimp>
+            <Turkish>%1 kurtarma pozisyonunu iptal etti</Turkish>
             <Norwegian>%1 kansellerte stabilt sideleie</Norwegian>
             <Finnish>%1 peruutettu lepoasento</Finnish>
             <Dutch>%1 stopte de stabiele zijligging</Dutch>
-            <Turkish>%1 kurtarma pozisyonunu iptal etti</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_CancelRecoveryPosition_displayName">
             <English>Cancel recovery position</English>
@@ -623,10 +623,10 @@
             <Japanese>ゲデルチューブを取り除く</Japanese>
             <Chinese>移除 Guedel（口腔通氣管）</Chinese>
             <Chinesesimp>移除口咽通气道管</Chinesesimp>
+            <Turkish>Guedel Tüpünü çıkar</Turkish>
             <Norwegian>Fjern Guedeltubus</Norwegian>
             <Finnish>Irrota guedel-putki</Finnish>
             <Dutch>Verwijder Guedel-tube</Dutch>
-            <Turkish>Guedel Tüpünü çıkar</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Cancel_Larynxtubus">
             <English>Remove King LT</English>
@@ -641,10 +641,10 @@
             <Japanese>King LTを取り除く</Japanese>
             <Chinese>移除 喉管（King LT-D）</Chinese>
             <Chinesesimp>移除喉管(King LT-D)</Chinesesimp>
+            <Turkish>King LT’yi çıkar</Turkish>
             <Norwegian>Fjern Larynkstube</Norwegian>
             <Finnish>Irrota kurkunpään putki</Finnish>
             <Dutch>Verwijder King LT</Dutch>
-            <Turkish>King LT’yi çıkar</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Guedel_Desc_Short">
             <English>The Guedel Tube is used to maintain the airway</English>
@@ -715,8 +715,8 @@
             <Japanese>%1 は %2 を頭部後屈させた</Japanese>
             <Chinese>%1 讓 %2 頭部後仰</Chinese>
             <Chinesesimp>%1 头部过度伸展 %2</Chinesesimp>
-            <Dutch>%1 overstrekte %2s hoofd</Dutch>
             <Turkish>%1, %2’nin kafasını aşırı gerdi</Turkish>
+            <Dutch>%1 overstrekte %2s hoofd</Dutch>
         </Key>
         <Key ID="STR_KAT_Airway_Hyperextend_Ready">
             <English>Head hyperextended successfully</English>
@@ -730,10 +730,10 @@
             <Japanese>頭部後屈させた</Japanese>
             <Chinese>成功後仰</Chinese>
             <Chinesesimp>头部拉伸成功</Chinesesimp>
+            <Turkish>Kafa başarıyla aşırı gerildi</Turkish>
             <Norwegian>hyperforlengelse av hodet fullført</Norwegian>
             <Finnish>Pään ylivenyttely onnistui</Finnish>
             <Dutch>Hoofd succesvol overstrekt</Dutch>
-            <Turkish>Kafa başarıyla aşırı gerildi</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Hyperextend_Time">
             <English>Time for overstretch the head</English>
@@ -785,10 +785,10 @@
             <Japanese>患者は既に頭部後屈されています</Japanese>
             <Chinese>已經把病人頭往後仰了</Chinese>
             <Chinesesimp>病人的头部已经过度伸展</Chinesesimp>
+            <Turkish>Hastanın kafası zaten aşırı gerilmiş</Turkish>
             <Norwegian>Pasientens hode er allerede hyperforlenget</Norwegian>
             <Finnish>Potilaan pää on jo yli ojentunut</Finnish>
             <Dutch>Patiënts hoofd is al overstrekt</Dutch>
-            <Turkish>Hastanın kafası zaten aşırı gerilmiş</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Hyperextend_displayName">
             <English>Hyperextending Head</English>
@@ -1011,10 +1011,10 @@
             <Japanese>%1 がゲデルチューブを取り除いた</Japanese>
             <Chinese>%1 移除了 Guedel（口腔通氣管）</Chinese>
             <Chinesesimp>%1 已移除口咽通气道管</Chinesesimp>
+            <Turkish>%1 Guedel Tüpünü çıkardı</Turkish>
             <Norwegian>%1 fjernet Guedeltubus</Norwegian>
             <Finnish>%1 guedel-putki poistettu</Finnish>
             <Dutch>%1 verwijdderde Guedel-tube</Dutch>
-            <Turkish>%1 Guedel Tüpünü çıkardı</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_RemoveLarynxtubus_Log">
             <English>%1 removed KingLT</English>
@@ -1029,10 +1029,10 @@
             <Japanese>%1 がKing LTを取り除いた</Japanese>
             <Chinese>%1 移除了 喉管（King LT-D）</Chinese>
             <Chinesesimp>%1 已移除喉管(King LT-D)</Chinesesimp>
+            <Turkish>%1 King LT’yi çıkardı</Turkish>
             <Norwegian>%1 fjernet Larynkstube</Norwegian>
             <Finnish>%1 kurkunpään putki poistettu</Finnish>
             <Dutch>%1 verwijdderde King LT</Dutch>
-            <Turkish>%1 King LT’yi çıkardı</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Reusable_AirwayItems">
             <English>Reusable Airway Items</English>
@@ -1047,10 +1047,10 @@
             <Japanese>気道アイテムの再利用</Japanese>
             <Chinese>可重複使用的 呼吸道物品</Chinese>
             <Chinesesimp>可重复使用的气道物品</Chinesesimp>
+            <Turkish>Yeniden Kullanılabilir Hava Yolu Ekipmanları</Turkish>
             <Norwegian>Gjennbrukbare lufvei gjennstander</Norwegian>
             <Finnish>Uudelleenkäytettävät henkitorvilaitteet</Finnish>
             <Dutch>Herbruikbare luchtwegmiddelen</Dutch>
-            <Turkish>Yeniden Kullanılabilir Hava Yolu Ekipmanları</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Reusable_AirwayItems_DESC">
             <English>Regain the KingLT or Guedel Tube when manually removing them</English>
@@ -1065,10 +1065,10 @@
             <Japanese>King LTまたはゲデルチューブを取り除いた後、再利用できるようにします。</Japanese>
             <Chinese>手動移除時取得 喉管（King LT-D）或 Guedel（口腔通氣管）</Chinese>
             <Chinesesimp>手动拆卸喉管(King LT-D)或口咽通气道管时重新打开它们</Chinesesimp>
+            <Turkish>Manuel olarak çıkarıldığında King LT veya Guedel Tüpü geri kazanılır</Turkish>
             <Norwegian>Gjenopprett larynkstube eller Guedeltubus når du fjerner dem manuelt</Norwegian>
             <Finnish>Ota kurkunpää- tai guedelputki takaisin, kun poistat ne manuaalisesti</Finnish>
             <Dutch>Krijg de King LT of de Guedel-tube terug wanneer deze handmatig verwijderd worden</Dutch>
-            <Turkish>Manuel olarak çıkarıldığında King LT veya Guedel Tüpü geri kazanılır</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SETTING_CancelRecoveryPosition_Time">
             <English>Time for cancelling recovery position</English>
@@ -1101,10 +1101,10 @@
             <Japanese>回復体位を崩すのにどのくらい時間がかかるか設定します</Japanese>
             <Chinese>手動取消 復甦姿勢 的時間</Chinese>
             <Chinesesimp>手动取消恢复位置需要多长时间</Chinesesimp>
+            <Turkish>Kurtarma pozisyonunu manuel olarak iptal etmenin ne kadar süreceği</Turkish>
             <Norwegian>Hvor lang tid det vil ta å manuelt kansellere stabilt sideleie</Norwegian>
             <Finnish>Kuinka kauan lepoasennon manuaalinen peruuttaminen kestää</Finnish>
             <Dutch>Hoe lang het gaat duren om de stabiele zijligging te stoppen</Dutch>
-            <Turkish>Kurtarma pozisyonunu manuel olarak iptal etmenin ne kadar süreceği</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SETTING_ENABLE">
             <English>ACE-Airway injuries activated?</English>
@@ -1138,10 +1138,10 @@
             <Japanese>顔を横に向ける (指拭法で異物除去) の間隔</Japanese>
             <Chinese>轉動頭部的間隔 (清除異物)</Chinese>
             <Chinesesimp>头部转动间隔</Chinesesimp>
+            <Turkish>Kafa Çevirme Aralığı</Turkish>
             <Norwegian>Intervall for vending av hode</Norwegian>
             <Finnish>pään käännösväli</Finnish>
             <Dutch>Hoofddraaiing interval</Dutch>
-            <Turkish>Kafa Çevirme Aralığı</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SETTING_HeadTurning_Interval_DESC">
             <English>Time between head turning attempts</English>
@@ -1156,10 +1156,10 @@
             <Japanese>顔を横に向ける (指拭法で異物除去) を実行する間隔</Japanese>
             <Chinese>轉動頭部之間的嘗試間隔 (清除異物)</Chinese>
             <Chinesesimp>两次扭头尝试之间的时间</Chinesesimp>
+            <Turkish>Kafa çevirme denemeleri arasındaki süre</Turkish>
             <Norwegian>Tiden mellom forsøk på vending av hode</Norwegian>
             <Finnish>pään käännösyritysten välinen aika</Finnish>
             <Dutch>Tijd tussen hoofddraaiing pogingen</Dutch>
-            <Turkish>Kafa çevirme denemeleri arasındaki süre</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SETTING_RecoveryPosition_Time">
             <English>Time for recovery position</English>
@@ -1192,10 +1192,10 @@
             <Japanese>回復体位による異物排出にかかる時間</Japanese>
             <Chinese>復甦姿勢 清除異物所需時間</Chinese>
             <Chinesesimp>恢复体位引流闭塞的时间</Chinesesimp>
+            <Turkish>Kurtarma pozisyonunda tıkanıklığın boşalması için gereken süre</Turkish>
             <Norwegian>Tid i stabilt sideleie for å bli kvitt okklusjonen</Norwegian>
             <Finnish>Palautuminen Asento-aika tyhjennystukoksen poistamiseksi</Finnish>
             <Dutch>Stabiele zijligging: Benodigde tijd om zich te ontdoen van een verstopping</Dutch>
-            <Turkish>Kurtarma pozisyonunda tıkanıklığın boşalması için gereken süre</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SETTING_RecoveryPosition_TimeToDrain_DESC">
             <English>Maximum time required for patient in recovery position to be drained of occlusion.</English>
@@ -1209,10 +1209,10 @@
             <Japanese>回復体位にある患者の気道異物が排出されるまでに必要な最大時間。</Japanese>
             <Chinese>在 復甦姿勢 下，患者排出異物所需的最大時間。</Chinese>
             <Chinesesimp>处于恢复位置的患者排空闭塞所需的最长时间。</Chinesesimp>
+            <Turkish>Hastanın iyileşme pozisyonunda kapanıklığın tamamen boşalması için gereken maksimum süre</Turkish>
             <Norwegian>Maks nødvendig tid en pasient må være i stabilt sideleie for å bli kvitt okklusjonen.</Norwegian>
             <Finnish>Enimmäisaika, joka tarvitaan potilaan puhdistamiseen toipumisasennossa</Finnish>
             <Dutch>Maximale tijd die nodig is om een patiënt in de stabiele zijligging te ontdoen van een verstopping.</Dutch>
-            <Turkish>Hastanın iyileşme pozisyonunda kapanıklığın tamamen boşalması için gereken maksimum süre</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SETTING_RecoveryPosition_Time_DESC">
             <English>How long it will take to establish recovery position</English>
@@ -1284,10 +1284,10 @@
             <Japanese>気道閉塞の確率(%) 次の時に計算されます: \n- 意識不明になった時 \n- King LT/ゲデルチューブが外れた時</Japanese>
             <Chinese>呼吸道阻塞的機率 (%) 在以下情況下計算： \n- 當您失去知覺時 \n- 當正在移除 喉管(King LT) / Guedel 管。</Chinese>
             <Chinesesimp>气道阻塞的概率（以百分比表示）：\n-昏迷\n-拔除喉管(KingLT)/口咽通气道管</Chinesesimp>
+            <Turkish>Bilinç kaybı veya King LT / Guedel Tüpü çıkarıldığında yüzdelik havayolu tıkanıklığı olasılığı</Turkish>
             <Norwegian>Sannsynlighet for en blokkert luftvei i prosent som oppstår hver gang det skjer: \n- Bevisstløshet \n- Fjerning av Larynkstube / Guedel Tube</Norwegian>
             <Finnish>Tukkeutuneen hengitysteiden todennäköisyys prosentteina, joka pyörii joka kerta:\n- Putoaminen tajuttomuuteen poistaminen / Guedel putki</Finnish>
             <Dutch>Kans op geblokkeerde luchtweg in een percentage die gerold wordt elke: \n- Bewusteloos raken \n- KingLT / Guedel verwijderen</Dutch>
-            <Turkish>Bilinç kaybı veya King LT / Guedel Tüpü çıkarıldığında yüzdelik havayolu tıkanıklığı olasılığı</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SETTING_occluded">
             <English>Probability for airway occluding</English>
@@ -1321,10 +1321,10 @@
             <Japanese>気道異物の確率(%) [異物再発までの時間]の設定時間毎に計算されます (デフォルトでは60秒毎)</Japanese>
             <Chinese>呼吸道異物發生機率 (%) 每次在[異物復發前的時間]中設定的時間計算（預設為每 60 秒）</Chinese>
             <Chinesesimp>以滚动百分比表示的遮挡概率设置：[遮挡重复计时器]（默认每60秒一次）</Chinesesimp>
+            <Turkish>Son kapanıklık giderildikten sonra yeni kapanıklığın oluşamayacağı süre (saniye) (Temel değer her 60 saniye)</Turkish>
             <Norwegian>Sannsynligheten for en okklusjon i prosent som blir rullet i innstillingen for [Okklusjons repetisjonsintervall] (standard hver 60 sekunder).</Norwegian>
             <Finnish>Tukosten todennäköisyys prosentteina joka on satunnaisesti laskettu Asetukset: [Okkluusiotoistoajastin] (oletusarvo on kuusikymmentä sekuntia)</Finnish>
             <Dutch>Kans op een luchtwegverstopping in een percentage die gerold wordt elke Instelling:[Verstopping herhaling timer] (standaard elke 60 seconden)</Dutch>
-            <Turkish>Son kapanıklık giderildikten sonra yeni kapanıklığın oluşamayacağı süre (saniye) (Temel değer her 60 saniye)</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SETTING_occlusion_cooldownPeriod">
             <English>Occlusion Cooldown Period</English>
@@ -1339,10 +1339,10 @@
             <Japanese>異物再発のクールダウン期間</Japanese>
             <Chinese>異物復發的冷卻期間</Chinese>
             <Chinesesimp>闭塞冷却期</Chinesesimp>
+            <Turkish>Kapanıklık Bekleme Süresi</Turkish>
             <Norwegian>Avkjølingsperiode for okklusjon</Norwegian>
             <Finnish>Okkluusiojäähdytyssykli</Finnish>
             <Dutch>Verstoppings afkoelingsperiode</Dutch>
-            <Turkish>Kapanıklık Bekleme Süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SETTING_occlusion_cooldownPeriod_DESC">
             <English>Period in seconds during which patient cannot get another occlusion after last occlusion was cleared. Set to 0 to disable this feature.</English>
@@ -1366,10 +1366,10 @@
             <Japanese>異物再発までの時間</Japanese>
             <Chinese>異物復發的時間</Chinese>
             <Chinesesimp>气道异物再发冷却时间</Chinesesimp>
+            <Turkish>Kapanıklık Bekleme Süresi</Turkish>
             <Norwegian>Repetisjonsintervall for Okklusjon</Norwegian>
             <Finnish>Okkluusiotoistoajastin</Finnish>
             <Dutch>Verstoppings herhaling timer</Dutch>
-            <Turkish>Kapanıklık Bekleme Süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SETTING_occlusion_repeatTimer_DESC">
             <English>Time interval in seconds at which the system checks for new occlusion occurrences in unconscious patients.</English>
@@ -1458,10 +1458,10 @@
             <Japanese>気道アイテム設定</Japanese>
             <Chinese>呼吸道物品 設定</Chinese>
             <Chinesesimp>气道物品设置</Chinesesimp>
+            <Turkish>Hava Yolu Ekipmanları Ayarları</Turkish>
             <Norwegian>Instillinger for luftveis gjennstander</Norwegian>
             <Finnish>henkitorven laitteen asetukset</Finnish>
             <Dutch>Instelling voor luchtwegmiddelen</Dutch>
-            <Turkish>Hava Yolu Ekipmanları Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SubCategory_RecoveryPositionHyperextend">
             <English>Recovery Position + Head Hyperextend Settings</English>
@@ -1475,10 +1475,10 @@
             <Japanese>回復体位と頭部後屈設定</Japanese>
             <Chinese>復甦姿勢 + 後仰頭部 設定</Chinese>
             <Chinesesimp>恢复位置+头部超伸展设置</Chinesesimp>
+            <Turkish>Kurtarma Pozisyonu + Kafa Aşırı Germe Ayarları</Turkish>
             <Norwegian>Instillinger for stabil sideleie og Hyperforlengelse av hodet</Norwegian>
             <Finnish>Palautusasento + pään ylivenytysasetukset</Finnish>
             <Dutch>Stabiele zijliggings- en hoofd overstrekkings opties</Dutch>
-            <Turkish>Kurtarma Pozisyonu + Kafa Aşırı Germe Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SubCategory_Suction">
             <English>Suction devices Settings</English>
@@ -1492,9 +1492,9 @@
             <Japanese>気道吸引器設定</Japanese>
             <Chinese>呼吸道抽吸器 設定</Chinese>
             <Chinesesimp>抽吸装置设置</Chinesesimp>
+            <Turkish>Aspirasyon Cihazları Ayarları</Turkish>
             <Finnish>Imulaitteen asetukset</Finnish>
             <Dutch>Suctie apparaten instellingen</Dutch>
-            <Turkish>Aspirasyon Cihazları Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_SuctionTreatment_displayName">
             <English>Airway Suction (Manual)</English>
@@ -1508,9 +1508,9 @@
             <Japanese>気道吸引 (手動式)</Japanese>
             <Chinese>呼吸道抽吸 (手動)</Chinese>
             <Chinesesimp>气道吸气（手动）</Chinesesimp>
+            <Turkish>Hava yolu Aspirasyonu (Manuel)</Turkish>
             <Finnish>Ilmateiden imu (manuaalinen)</Finnish>
             <Dutch>Handmatige luchtweg suctie</Dutch>
-            <Turkish>Hava yolu Aspirasyonu (Manuel)</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Suction_Desc_Short">
             <English>Manual Suction Pump is a medical suction device for airway suction manually. This is an alternative to electrical devices.</English>
@@ -1524,9 +1524,9 @@
             <Japanese>手動式吸引器は、手動ポンプで動作する気道吸引の為の医療用吸引装置です。これは電気駆動の装置を代替することが可能です。</Japanese>
             <Chinese>手動抽吸器是一種透過手動泵浦的方式，用於氣道吸引的醫療抽吸裝置。這可以取代電動設備。</Chinese>
             <Chinesesimp>手动抽吸泵是一种用于手动气道抽吸的医用抽吸装置。这是电气设备的替代品。</Chinesesimp>
+            <Turkish>Manuel Aspiratör, havayolu aspirasyonu için kullanılan manuel bir tıbbi cihazdır.</Turkish>
             <Finnish>Manuaalinen imupumppu on lääketieteellinen imulaite hengitysteiden manuaaliseen imemiseen. tämä on vaihtoehto sähkölaitteille</Finnish>
             <Dutch>De handmatige suctiepomp is een apparaat om handmatig de luchtwegen af te zuigen. Dit is een alternatief voor electrische apparaten</Dutch>
-            <Turkish>Manuel Aspiratör, havayolu aspirasyonu için kullanılan manuel bir tıbbi cihazdır.</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Suction_Display">
             <English>Manual Suction Pump</English>
@@ -1540,9 +1540,9 @@
             <Japanese>手動式吸引器</Japanese>
             <Chinese>手動抽吸器</Chinese>
             <Chinesesimp>手动抽吸泵</Chinesesimp>
+            <Turkish>Manuel Aspiratör</Turkish>
             <Finnish>Manuaalinen imupumppu</Finnish>
             <Dutch>Handmatige suctiepomp</Dutch>
-            <Turkish>Manuel Aspiratör</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Suction_Log">
             <English>%1 did a medical suction using a %2</English>
@@ -1556,8 +1556,8 @@
             <Japanese>%1 は %2 で医療吸引を行った</Japanese>
             <Chinese>%1 使用 %2 進行了醫療抽吸</Chinese>
             <Chinesesimp>%1 使用 %2 进行了医用抽吸</Chinesesimp>
-            <Dutch>%1 voerde een medische suctie uit met een %2</Dutch>
             <Turkish>%1, %2 kullanarak tıbbi aspirasyon yaptı</Turkish>
+            <Dutch>%1 voerde een medische suctie uit met een %2</Dutch>
         </Key>
         <Key ID="STR_KAT_Airway_Suction_Reuse">
             <English>Reusable Manual Suction Pump</English>
@@ -1571,9 +1571,9 @@
             <Japanese>手動式吸引器の再利用</Japanese>
             <Chinese>手動抽吸泵浦 (可重複使用)</Chinese>
             <Chinesesimp>可重复使用的手动抽吸泵</Chinesesimp>
+            <Turkish>Yeniden Kullanılabilir Manuel Aspiratör</Turkish>
             <Finnish>Uudelleenkäytettävä manuaalinen imupumppu</Finnish>
             <Dutch>Herbruikbare handmatige suctiepomp</Dutch>
-            <Turkish>Yeniden Kullanılabilir Manuel Aspiratör</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Suction_Reuse_DESC">
             <English>Regain the Manual Suction Pump after use</English>
@@ -1587,9 +1587,9 @@
             <Japanese>手動式吸引器の使用後、再利用できるようにします。</Japanese>
             <Chinese>使用後已重新獲取 手動抽吸泵浦</Chinese>
             <Chinesesimp>使用后重新启动手动抽吸泵</Chinesesimp>
+            <Turkish>Kullanım sonrası Manuel Aspiratör geri kazanılır</Turkish>
             <Finnish>Ota manuaalinen imupumppu takaisin käytön jälkeen</Finnish>
             <Dutch>Krijg de handmatige suctiepomp terug na gebruik</Dutch>
-            <Turkish>Kullanım sonrası Manuel Aspiratör geri kazanılır</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_TIME_ACCUVAC">
             <English>Time for ACCUVAC</English>
@@ -1755,9 +1755,9 @@
             <Japanese>手動吸引器の所要時間</Japanese>
             <Chinese>手動抽吸器 使用時間</Chinese>
             <Chinesesimp>手吸泵所需时间</Chinesesimp>
+            <Turkish>Manuel Aspiratör kullanım süresi</Turkish>
             <Finnish>aika manuaaliselle imupumpulle</Finnish>
             <Dutch>Behandelstijd van een handmatige suctiepomp</Dutch>
-            <Turkish>Manuel Aspiratör kullanım süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_TIME_SUCTION_DESC">
             <English>How long it will take to use Manual Suction Pump</English>
@@ -1771,9 +1771,9 @@
             <Japanese>手動吸引器を使用するのにどのくらい時間がかかるか設定します</Japanese>
             <Chinese>使用 手動抽吸器 需要多長時間</Chinese>
             <Chinesesimp>使用手吸泵需要多长时间</Chinesesimp>
+            <Turkish>Manuel Aspiratör kullanmanın ne kadar süreceği</Turkish>
             <Finnish>Kuinka kauan manuaalisen imupumpun käyttö kestää</Finnish>
             <Dutch>Hoe lang het gaat duren om een handmatige suctiepomp te gebruiken</Dutch>
-            <Turkish>Manuel Aspiratör kullanmanın ne kadar süreceği</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_Vomit_Display">
             <English>Vomit (Small)</English>
@@ -1845,10 +1845,10 @@
             <Japanese>取り除いています</Japanese>
             <Chinese>正在移除</Chinese>
             <Chinesesimp>移除</Chinesesimp>
+            <Turkish>Çıkarılıyor</Turkish>
             <Norwegian>Fjerner</Norwegian>
             <Finnish>Poistaminen</Finnish>
             <Dutch>Verwijderen</Dutch>
-            <Turkish>Çıkarılıyor</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_airway_log">
             <English>%1 inserted a %2</English>
@@ -1876,8 +1876,8 @@
             <Italian>KAT - ADV Medicale: Vie Aeree</Italian>
             <German>KAT - ADV Medical: Atemwege</German>
             <Japanese>KAM - 気道 (Airway)</Japanese>
-            <Dutch>KAT - ADV Medical: Luchtwegen</Dutch>
             <Turkish>KAT – Gelişmiş Tıp: Havayolu</Turkish>
+            <Dutch>KAT - ADV Medical: Luchtwegen</Dutch>
         </Key>
         <Key ID="STR_KAT_Airway_checkAirway">
             <English>Check Airway</English>
@@ -1926,8 +1926,8 @@
             <German>%1 überprüfte die Atemwege: Starke Blasenbildung</German>
             <Japanese>%1 が気道を確認: ひどい水膨れ</Japanese>
             <Chinesesimp>%1 条检查气道: 严重起泡</Chinesesimp>
-            <Dutch>%1 heeft de luchtwegen gecheckt: Ernstige blaarvorming</Dutch>
             <Turkish>%1 havayolunu kontrol etti: Ciddi Hasarlı</Turkish>
+            <Dutch>%1 heeft de luchtwegen gecheckt: Ernstige blaarvorming</Dutch>
         </Key>
         <Key ID="STR_KAT_Airway_headTurning_begin">
             <English>Begin Head Turning</English>
@@ -1942,10 +1942,10 @@
             <Japanese>顔を横に向ける (指拭法で異物除去)</Japanese>
             <Chinese>進行頭部轉向</Chinese>
             <Chinesesimp>开始转头</Chinesesimp>
+            <Turkish>Kafa Çevirmeye Başla</Turkish>
             <Norwegian>Begynn vending av hode</Norwegian>
             <Finnish>Aloita potilaan pään kääntäminen</Finnish>
             <Dutch>Begin hoofddraaiing</Dutch>
-            <Turkish>Kafa Çevirmeye Başla</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_headTurning_cancelled">
             <English>Head turning cancelled</English>
@@ -1960,10 +1960,10 @@
             <Japanese>異物除去が中止された</Japanese>
             <Chinese>頭部轉向已取消</Chinese>
             <Chinesesimp>异物清除停止了</Chinesesimp>
+            <Turkish>Kafa çevirme iptal edildi</Turkish>
             <Norwegian>vewnding av hode ble avbrutt</Norwegian>
             <Finnish>pään kääntäminen peruttu</Finnish>
             <Dutch>Hoofddraaiing gestopt</Dutch>
-            <Turkish>Kafa çevirme iptal edildi</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_headTurning_info">
             <English>Head turn performed, airways are still not clear</English>
@@ -1996,10 +1996,10 @@
             <Japanese>異物除去を開始した</Japanese>
             <Chinese>頭部轉向已開始</Chinese>
             <Chinesesimp>开始清除异物</Chinesesimp>
+            <Turkish>Kafa Çevirme Başlatıldı</Turkish>
             <Norwegian>Startet vending av hode</Norwegian>
             <Finnish>pään kääntyminen alkoi</Finnish>
             <Dutch>Hoofddraaiing gestart</Dutch>
-            <Turkish>Kafa Çevirme Başlatıldı</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_headTurning_stop">
             <English>Stop head turning</English>
@@ -2014,10 +2014,10 @@
             <Japanese>異物除去を止める</Japanese>
             <Chinese>停止頭部轉向</Chinese>
             <Chinesesimp>停止清除异物</Chinesesimp>
+            <Turkish>Kafa çevirmeyi durdur</Turkish>
             <Norwegian>Stop vending av hode</Norwegian>
             <Finnish>Lopeta potilaan pään kääntäminen</Finnish>
             <Dutch>Stop de hoofddraaiing</Dutch>
-            <Turkish>Kafa çevirmeyi durdur</Turkish>
         </Key>
         <Key ID="STR_KAT_Airway_headTurning_success">
             <English>Occlusion removed</English>

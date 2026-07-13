@@ -156,8 +156,8 @@
             <Japanese>中枢神経を刺激し、活力を与える</Japanese>
             <Chinese>刺激中樞神經系統並使其充滿活力</Chinese>
             <Chinesesimp>刺激中枢神经系统并使其充满活力</Chinesesimp>
-            <Dutch>Stimuleert het centraal zenuwstelsel en geeft energie</Dutch>
             <Turkish>Merkezi sinir sistemini uyarır ve enerji verir</Turkish>
+            <Dutch>Stimuleert het centraal zenuwstelsel en geeft energie</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Caffeine_Bottle_Display">
             <English>Caffeine bottle</English>
@@ -173,9 +173,9 @@
             <Japanese>カフェインボトル</Japanese>
             <Chinese>咖啡因瓶</Chinese>
             <Chinesesimp>咖啡因瓶</Chinesesimp>
+            <Turkish>Kafein şişesi</Turkish>
             <Finnish>Kofeiinipullo</Finnish>
             <Dutch>Caffeïne doosje</Dutch>
-            <Turkish>Kafein şişesi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Carbonate_Box_Display">
             <English>Ammonium Carbonate</English>
@@ -224,8 +224,8 @@
             <Japanese>PT/INRを測定する</Japanese>
             <Chinese>測量 PT/INR</Chinese>
             <Chinesesimp>测量PT/INR</Chinesesimp>
-            <Dutch>Meet PT-INR</Dutch>
             <Turkish>PT/INR Ölç</Turkish>
+            <Dutch>Meet PT-INR</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_CheckCoag_DisplayNameProgress">
             <English>Taking Blood Sample,</English>
@@ -238,8 +238,8 @@
             <Japanese>血液サンプルを取得、</Japanese>
             <Chinese>略低於正常INR</Chinese>
             <Chinesesimp>采集血液样本，</Chinesesimp>
-            <Dutch>Bloedstaal wordt genomen</Dutch>
             <Turkish>Kan Örneği Alınıyor,</Turkish>
+            <Dutch>Bloedstaal wordt genomen</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_CheckCoag_highly_aboveINR">
             <English>Very high INR</English>
@@ -252,8 +252,8 @@
             <Japanese>正常INRよりかなり高い</Japanese>
             <Chinese>INR 非常高</Chinese>
             <Chinesesimp>INR非常高</Chinesesimp>
-            <Dutch>Zeer hoog INR</Dutch>
             <Turkish>Çok yüksek INR</Turkish>
+            <Dutch>Zeer hoog INR</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_CheckCoag_highly_lowINR">
             <English>Very Low INR</English>
@@ -266,8 +266,8 @@
             <Japanese>正常INRよりかなり低い</Japanese>
             <Chinese>INR 非常低</Chinese>
             <Chinesesimp>INR非常低</Chinesesimp>
-            <Dutch>Zeer laag INR</Dutch>
             <Turkish>Çok düşük INR</Turkish>
+            <Dutch>Zeer laag INR</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_CheckCoag_normalINR">
             <English>Normal INR</English>
@@ -280,8 +280,8 @@
             <Japanese>正常INR</Japanese>
             <Chinese>正常 INR</Chinese>
             <Chinesesimp>正常INR</Chinesesimp>
-            <Dutch>Normaal INR</Dutch>
             <Turkish>Normal INR</Turkish>
+            <Dutch>Normaal INR</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_CheckCoag_slightly_aboveINR">
             <English>Slightly Above normal INR</English>
@@ -294,8 +294,8 @@
             <Japanese>正常INRより少し高い</Japanese>
             <Chinese>略高於正常 INR</Chinese>
             <Chinesesimp>略高于正常INR</Chinesesimp>
-            <Dutch>Lichtelijk boven normaal INR</Dutch>
             <Turkish>Normalin biraz üzerinde INR</Turkish>
+            <Dutch>Lichtelijk boven normaal INR</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_CheckCoag_slightly_lowINR">
             <English>Slightly Below Normal INR</English>
@@ -308,8 +308,8 @@
             <Japanese>正常INRより少し低い</Japanese>
             <Chinese>略低於正常 INR</Chinese>
             <Chinesesimp>略低于正常INR</Chinesesimp>
-            <Dutch>Lichtelijk onder normaal INR</Dutch>
             <Turkish>Normalin biraz altında INR</Turkish>
+            <Dutch>Lichtelijk onder normaal INR</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Coag_Sense_Display">
             <English>Coag-Sense</English>
@@ -322,8 +322,8 @@
             <Japanese>Coag-Sense</Japanese>
             <Chinese>凝血酶原監測系統(Coag-Sense)</Chinese>
             <Chinesesimp>凝血酶原监测系统(Coag-Sense)</Chinesesimp>
-            <Dutch>Coag-Sense</Dutch>
             <Turkish>Coag-Sense</Turkish>
+            <Dutch>Coag-Sense</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Coag_Sense_Display_DESC">
             <English>The Coag-Sense is a PT/INR monitoring system that can measure the efficiency of your blood clotting</English>
@@ -336,8 +336,8 @@
             <Japanese>Coag-Senseは血液凝固の効率を測定できる PT/INR モニタリングシステムです。</Japanese>
             <Chinese>Coag-Sense 是一種 PT/INR 監測系統，可以測量您的凝血效率</Chinese>
             <Chinesesimp>Coag-Sense是一种PT/INR监测系统，可以测量您的凝血效率</Chinesesimp>
-            <Dutch>De Coag-Sense is een PT-INR monitoringssysteem dat de effectiviteit van jouw wondstolling kan bepalen</Dutch>
             <Turkish>Coag-Sense, kan pıhtılaşmasının etkinliğini ölçebilen bir PT/INR izleme sistemidir</Turkish>
+            <Dutch>De Coag-Sense is een PT-INR monitoringssysteem dat de effectiviteit van jouw wondstolling kan bepalen</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Coag_Sense_Log">
             <English>Coag-Sense concludes: %1</English>
@@ -350,8 +350,8 @@
             <Japanese>Coag-Senseの結果: %1</Japanese>
             <Chinese>Coag-Sense 得出結論：%1</Chinese>
             <Chinesesimp>Coag-Sense得出结论：%1</Chinesesimp>
-            <Dutch>Coag-Sense concludeerd: %1</Dutch>
             <Turkish>Coag-Sense sonucu: %1</Turkish>
+            <Dutch>Coag-Sense concludeerd: %1</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Dialysis_DisplayName">
             <English>Perform Dialysis</English>
@@ -367,9 +367,9 @@
             <Japanese>透析を行う</Japanese>
             <Chinese>進行透析</Chinese>
             <Chinesesimp>进行透析</Chinesesimp>
+            <Turkish>Diyaliz Uygula</Turkish>
             <Finnish>Suorita dialyysi</Finnish>
             <Dutch>Voer dialyse uit</Dutch>
-            <Turkish>Diyaliz Uygula</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Dialysis_DisplayNameProgress">
             <English>Performing</English>
@@ -385,9 +385,9 @@
             <Japanese>実施中</Japanese>
             <Chinese>執行</Chinese>
             <Chinesesimp>表演</Chinesesimp>
+            <Turkish>Yapılıyor</Turkish>
             <Finnish>esiintymässä</Finnish>
             <Dutch>Wordt uitgevoerd</Dutch>
-            <Turkish>Yapılıyor</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_EACA_DescShort">
             <English>Encourages clot formation</English>
@@ -403,9 +403,9 @@
             <Japanese>血液凝固を促進し、出血を抑えます</Japanese>
             <Chinese>促進血液凝固</Chinese>
             <Chinesesimp>促进凝块形成</Chinesesimp>
+            <Turkish>Pıhtı oluşumunu teşvik eder</Turkish>
             <Finnish>Edistää hyytymien muodostumista</Finnish>
             <Dutch>Bevorderd bloedstolling</Dutch>
-            <Turkish>Pıhtı oluşumunu teşvik eder</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_EACA_Display">
             <English>EACA</English>
@@ -421,9 +421,9 @@
             <Japanese>E-アミノカプロン酸 (EACA)</Japanese>
             <Chinese>EACA</Chinese>
             <Chinesesimp>EACA</Chinesesimp>
+            <Turkish>EACA</Turkish>
             <Finnish>EACA</Finnish>
             <Dutch>EACA</Dutch>
-            <Turkish>EACA</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_EpinephrineIV_DescShort">
             <English>IV Epinephrine</English>
@@ -435,8 +435,8 @@
             <Japanese>アドレナリン静脈注射 (IV)</Japanese>
             <Chinese>IV 腎上腺素</Chinese>
             <Chinesesimp>IV肾上腺素</Chinesesimp>
-            <Dutch>IV Adrenaline</Dutch>
             <Turkish>IV Epinefrin</Turkish>
+            <Dutch>IV Adrenaline</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_EpinephrineIV_displayName">
             <English>IV Epinephrine</English>
@@ -448,8 +448,8 @@
             <Japanese>アドレナリン静脈注射 (IV)</Japanese>
             <Chinese>IV 腎上腺素</Chinese>
             <Chinesesimp>IV肾上腺素</Chinesesimp>
-            <Dutch>IV Adrenaline</Dutch>
             <Turkish>IV Epinefrin</Turkish>
+            <Dutch>IV Adrenaline</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Etomidate_DescShort">
             <English>General Anesthetic</English>
@@ -465,9 +465,9 @@
             <Japanese>全身麻酔</Japanese>
             <Chinese>全身麻醉</Chinese>
             <Chinesesimp>全身麻醉</Chinesesimp>
+            <Turkish>Genel Anestezik</Turkish>
             <Finnish>Yleinen anestesia</Finnish>
             <Dutch>Algemeen anestheticum</Dutch>
-            <Turkish>Genel Anestezik</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Etomidate_DescUse">
             <English>Used as a general anesthetic for surgical procedures</English>
@@ -483,9 +483,9 @@
             <Japanese>外科的処置のための全身麻酔薬として使用される</Japanese>
             <Chinese>用作外科手術的全身麻醉劑</Chinese>
             <Chinesesimp>用作外科手术的全身麻醉剂</Chinesesimp>
+            <Turkish>Cerrahi işlemlerde genel anestezik olarak kullanılır</Turkish>
             <Finnish>Käytetään yleisanestesiana kirurgisissa toimenpiteissä</Finnish>
             <Dutch>Wordt gebruikt als algemeen anestheticum voor chirurgische procedures</Dutch>
-            <Turkish>Cerrahi işlemlerde genel anestezik olarak kullanılır</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Etomidate_Use">
             <English>Push Etomidate</English>
@@ -501,9 +501,9 @@
             <Japanese>エトミデートを注入</Japanese>
             <Chinese>注射依托咪酯</Chinese>
             <Chinesesimp>推注依托咪酯</Chinesesimp>
+            <Turkish>Etomidat Ver</Turkish>
             <Finnish>Työnnä etomidaattia</Finnish>
             <Dutch>Injecteer Etomidaat</Dutch>
-            <Turkish>Etomidat Ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Etomidate_displayName">
             <English>Etomidate</English>
@@ -519,9 +519,9 @@
             <Japanese>エトミデート</Japanese>
             <Chinese>依托咪酯</Chinese>
             <Chinesesimp>依托咪酯</Chinesesimp>
+            <Turkish>Etomidat</Turkish>
             <Finnish>Etomidaatti</Finnish>
             <Dutch>Etomidaat</Dutch>
-            <Turkish>Etomidat</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Fentanyl_Box_Display">
             <English>Fentanyl</English>
@@ -537,9 +537,9 @@
             <Japanese>フェンタニル</Japanese>
             <Chinese>芬太尼 (Fentanyl)</Chinese>
             <Chinesesimp>芬太尼</Chinesesimp>
+            <Turkish>Fentanil</Turkish>
             <Finnish>fentanyyli</Finnish>
             <Dutch>Fentanyl</Dutch>
-            <Turkish>Fentanil</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Fentanyl_DescShort">
             <English>Opioid analgesic, used to suppress severe pain</English>
@@ -552,8 +552,8 @@
             <Japanese>オピオイド鎮痛薬、 重度の痛みを抑えるのに使用される</Japanese>
             <Chinese>阿片類鎮痛藥，用於抑制劇烈疼痛</Chinese>
             <Chinesesimp>阿片类镇痛药，用于抑制剧烈疼痛</Chinesesimp>
-            <Dutch>Opïode analgeticum, wordt gebruikt om ernstige pijn te onderdrukken</Dutch>
             <Turkish>Şiddetli ağrıyı baskılamak için kullanılan opioid analjezik</Turkish>
+            <Dutch>Opïode analgeticum, wordt gebruikt om ernstige pijn te onderdrukken</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Flumazenil_DescShort">
             <English>Counter to Lorazepam</English>
@@ -569,9 +569,9 @@
             <Japanese>ロラゼパムへの拮抗薬</Japanese>
             <Chinese>用於對抗勞拉西泮</Chinese>
             <Chinesesimp>用于对抗劳拉西泮</Chinesesimp>
+            <Turkish>Lorazepam’a karşıt etki</Turkish>
             <Finnish>Loratsepaamin vastainen</Finnish>
             <Dutch>Antagonist van Lorazepam</Dutch>
-            <Turkish>Lorazepam’a karşıt etki</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Flumazenil_DescUse">
             <English>Used to bring patients out of sedation</English>
@@ -587,9 +587,9 @@
             <Japanese>患者を鎮静状態から解放するために使用</Japanese>
             <Chinese>用於使患者脫離鎮靜狀態</Chinese>
             <Chinesesimp>用于使患者脱离镇静状态</Chinesesimp>
+            <Turkish>Hastayı sedasyondan çıkarmak için kullanılır</Turkish>
             <Finnish>Käytetään potilaiden poistamiseen sedaatiosta</Finnish>
             <Dutch>Wordt gebruikt om patiënten uit sedatie te halen</Dutch>
-            <Turkish>Hastayı sedasyondan çıkarmak için kullanılır</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Flumazenil_Use">
             <English>Push Flumazenil</English>
@@ -605,9 +605,9 @@
             <Japanese>フルマゼニルを注入</Japanese>
             <Chinese>注射氟馬西尼</Chinese>
             <Chinesesimp>推注氟马西尼</Chinesesimp>
+            <Turkish>Flumazenil Ver</Turkish>
             <Finnish>Paina flumatseniiliä</Finnish>
             <Dutch>Injecteer Flumazenil</Dutch>
-            <Turkish>Flumazenil Ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Flumazenil_displayName">
             <English>Flumazenil</English>
@@ -623,9 +623,9 @@
             <Japanese>フルマゼニル</Japanese>
             <Chinese>氟馬西尼</Chinese>
             <Chinesesimp>氟马西尼</Chinesesimp>
+            <Turkish>Flumazenil</Turkish>
             <Finnish>Flumatseniili</Finnish>
             <Dutch>Flumazenil</Dutch>
-            <Turkish>Flumazenil</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Give_CWMP">
             <English>Use CWMP</English>
@@ -638,8 +638,8 @@
             <Japanese>戦闘傷病治療薬(CWMP)を投与</Japanese>
             <Chinese>使用 CWMP*(戰鬥藥物)</Chinese>
             <Chinesesimp>使用 CWMP*(战斗药物)</Chinesesimp>
-            <Dutch>Gebruik CWMP</Dutch>
             <Turkish>CWMP Kullan</Turkish>
+            <Dutch>Gebruik CWMP</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_IO_45_Display">
             <English>FAST IO</English>
@@ -709,9 +709,9 @@
             <Japanese>IV/IO脱落までの時間</Japanese>
             <Chinese>靜脈/骨內注射脫落時間</Chinese>
             <Chinesesimp>IV/IO 脱落时间</Chinesesimp>
+            <Turkish>IV/IO Düşme Süresi</Turkish>
             <Finnish>IV/IO pudotusaika</Finnish>
             <Dutch>IV/IO uitvaltijd</Dutch>
-            <Turkish>IV/IO Düşme Süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_IV_DROP_ENABLE">
             <English>Enables IV/IO drop times</English>
@@ -733,10 +733,10 @@
         </Key>
         <Key ID="STR_KAT_Pharma_IV_DROP_ENABLE_DESC">
             <English>Enable IV drop time simulation</English>
+            <French>Activer la simulation de la durée de perfusion</French>
             <German>IV-Tropfzeitensimulation aktivieren</German>
             <Japanese>IVが自然に脱落するようになる機能を有効化します</Japanese>
             <Turkish>IV düşme süresi simülasyonunu etkinleştir</Turkish>
-            <French>Activer la simulation de la durée de perfusion</French>
         </Key>
         <Key ID="STR_KAT_Pharma_IV_DROP_TIME_DESC">
             <English>Changes the time at which IVs/IOs fall out of a patient</English>
@@ -794,10 +794,10 @@
         </Key>
         <Key ID="STR_KAT_Pharma_IV_REUSE_DESC">
             <English>Allow reuse of IV Equipment</English>
+            <French>Autoriser la réutilisation du matériel de perfusion</French>
             <German>Wiederverwendung von IV Ausrüstung erlauben</German>
             <Japanese>IV装備品の再使用を許可します</Japanese>
             <Turkish>IV ekipmanının tekrar kullanımına izin ver</Turkish>
-            <French>Autoriser la réutilisation du matériel de perfusion</French>
         </Key>
         <Key ID="STR_KAT_Pharma_IVblock_clear">
             <English>Patient's IV is clear</English>
@@ -813,9 +813,9 @@
             <Japanese>患者のIVはクリアです</Japanese>
             <Chinese>患者的IV是乾淨的</Chinese>
             <Chinesesimp>患者的IV是干净的</Chinesesimp>
+            <Turkish>Hastanın IV’si açık</Turkish>
             <Finnish>Potilaan IV on selvä</Finnish>
             <Dutch>Patiënt's IV is niet geblokkeerd</Dutch>
-            <Turkish>Hastanın IV’si açık</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_IVblock_closed">
             <English>Patient's IV is blocked</English>
@@ -831,9 +831,9 @@
             <Japanese>患者のIVは閉塞している</Japanese>
             <Chinese>患者的IV受到阻塞</Chinese>
             <Chinesesimp>患者的IV受到阻塞</Chinesesimp>
+            <Turkish>Hastanın IV’si tıkalı</Turkish>
             <Finnish>Potilaan IV on tukossa</Finnish>
             <Dutch>Patiënt's IV is geblokkeerd</Dutch>
-            <Turkish>Hastanın IV’si tıkalı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Inspect_Catheter">
             <English>Inspect Catheter</English>
@@ -849,9 +849,9 @@
             <Japanese>カテーテルを検査する</Japanese>
             <Chinese>檢查導管</Chinese>
             <Chinesesimp>检查导管</Chinesesimp>
+            <Turkish>Kateteri İncele</Turkish>
             <Finnish>Tarkista katetri</Finnish>
             <Dutch>Inspecteer canule</Dutch>
-            <Turkish>Kateteri İncele</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Ketamine_Box_Display">
             <English>Ketamine</English>
@@ -867,9 +867,9 @@
             <Japanese>ケタミン</Japanese>
             <Chinese>氯胺酮 (Ketamine)</Chinese>
             <Chinesesimp>氯胺酮</Chinesesimp>
+            <Turkish>Ketamin</Turkish>
             <Finnish>Ketamiini</Finnish>
             <Dutch>Ketamine</Dutch>
-            <Turkish>Ketamin</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Ketamine_DescShort">
             <English>Dissociative anesthetics, used to suppress severe pain</English>
@@ -881,8 +881,8 @@
             <Japanese>解離性麻酔薬、 重度の痛みを抑えるのに使用される</Japanese>
             <Chinese>解離性麻醉劑，用於抑制劇烈疼痛</Chinese>
             <Chinesesimp>解离性麻醉剂，用于抑制剧烈疼痛</Chinesesimp>
-            <Dutch>Dissociatieve anestheticum, wordt gebruikt om ernstige pijn te onderdrukken</Dutch>
             <Turkish>Ketamin</Turkish>
+            <Dutch>Dissociatieve anestheticum, wordt gebruikt om ernstige pijn te onderdrukken</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Lidocaine_Box_Display">
             <English>Lidocaine</English>
@@ -934,9 +934,9 @@
             <Japanese>鎮静薬</Japanese>
             <Chinese>鎮靜藥物</Chinese>
             <Chinesesimp>镇静药物</Chinesesimp>
+            <Turkish>Sedasyon ilacı</Turkish>
             <Finnish>Rauhoittava lääkitys</Finnish>
             <Dutch>Sedatiemiddel</Dutch>
-            <Turkish>Sedasyon ilacı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Lorazepam_DescUse">
             <English>Used to sedate patients and prepare them for surgery</English>
@@ -952,9 +952,9 @@
             <Japanese>患者を鎮静させ、手術の準備をするために使用される</Japanese>
             <Chinese>用於鎮靜患者並為手術做好準備</Chinese>
             <Chinesesimp>用于镇静患者并为手术做好准备</Chinesesimp>
+            <Turkish>Sedasyon ilacı</Turkish>
             <Finnish>Käytetään potilaiden rauhoittamiseen ja valmistelemiseen leikkausta varten</Finnish>
             <Dutch>Wordt gebruikt om patiënten te sederen en ze voor te bereiden voor een operatie</Dutch>
-            <Turkish>Sedasyon ilacı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Lorazepam_Use">
             <English>Push Lorazepam</English>
@@ -970,9 +970,9 @@
             <Japanese>ロラゼパムを注入</Japanese>
             <Chinese>注射勞拉西泮</Chinese>
             <Chinesesimp>推注劳拉西泮</Chinesesimp>
+            <Turkish>Lorazepam Ver</Turkish>
             <Finnish>Paina loratsepaamia</Finnish>
             <Dutch>Injecteer Lorazepam</Dutch>
-            <Turkish>Lorazepam Ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Lorazepam_displayName">
             <English>Lorazepam</English>
@@ -988,9 +988,9 @@
             <Japanese>ロラゼパム</Japanese>
             <Chinese>勞拉西泮</Chinese>
             <Chinesesimp>劳拉西泮</Chinesesimp>
+            <Turkish>Lorazepam</Turkish>
             <Finnish>Loratsepaami</Finnish>
             <Dutch>Lorazepam</Dutch>
-            <Turkish>Lorazepam</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Nalbuphine_Box_Display">
             <English>Nalbuphine</English>
@@ -1006,9 +1006,9 @@
             <Japanese>ナルブフィン</Japanese>
             <Chinese>納布啡 (Nalbuphine)</Chinese>
             <Chinesesimp>纳布啡</Chinesesimp>
+            <Turkish>Nalbuphin</Turkish>
             <Finnish>Nalbufiini</Finnish>
             <Dutch>Nalbufine</Dutch>
-            <Turkish>Nalbuphin</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Nalbuphine_DescShort">
             <English>Opioid analgesic, used to suppress moderate pain</English>
@@ -1021,8 +1021,8 @@
             <Japanese>オピオイド鎮痛薬、 中程度の痛みを抑えるのに使用される</Japanese>
             <Chinese>阿片類鎮痛藥，用於抑制中度疼痛</Chinese>
             <Chinesesimp>阿片类镇痛药，用于抑制中度疼痛</Chinesesimp>
-            <Dutch>Opïode analgeticum, wordt gebruikt om matige pijn te onderdrukken</Dutch>
             <Turkish>Orta dereceli ağrıyı baskılamak için kullanılan opioid analjezik</Turkish>
+            <Dutch>Opïode analgeticum, wordt gebruikt om matige pijn te onderdrukken</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Naloxone_Box_Display">
             <English>Naloxone</English>
@@ -1143,8 +1143,8 @@
             <Japanese>戦闘治療薬パック(CWMP)</Japanese>
             <Chinese>戰鬥止痛藥 (PainKiller)</Chinese>
             <Chinesesimp>战斗药丸包</Chinesesimp>
-            <Dutch>Gevechtspillendoosje</Dutch>
             <Turkish>Combat Pill Pack</Turkish>
+            <Dutch>Gevechtspillendoosje</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Painkillers_DescShort">
             <English>Combat Wound Medication Pill Pack&lt;br/&gt;Used to suppress minor pain and relieve blood incompatibility symptoms</English>
@@ -1156,8 +1156,8 @@
             <Japanese>戦闘傷病治療薬パック(CWMP)&lt;br/&gt;軽度の痛みを抑え、血液不適合による症状を緩和するために使用される</Japanese>
             <Chinese>戰鬥傷口藥物藥丸包&lt;br/&gt;用於抑制輕微疼痛和緩解血液不相容症狀</Chinese>
             <Chinesesimp>战斗伤口药物药丸包&lt;br/&gt;用于抑制轻微疼痛和缓解血液不相容症状</Chinesesimp>
-            <Dutch>Gevechts wond medicatie pil pak&lt;br/&gt;Wordt gebruikt om milde pijn en bloed incompatibiliteit op te lossen</Dutch>
             <Turkish>Combat Wound Medication Pill Pack&lt;br/&gt;Hafif ağrıyı baskılamak ve kan uyumsuzluğu belirtilerini hafifletmek için kullanılır</Turkish>
+            <Dutch>Gevechts wond medicatie pil pak&lt;br/&gt;Wordt gebruikt om milde pijn en bloed incompatibiliteit op te lossen</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Penthrox_DescShort">
             <English>Volatile anesthetic, used to suppress moderate pain</English>
@@ -1169,8 +1169,8 @@
             <Japanese>揮発性麻酔薬、 中程度の痛みを抑えるのに使用される</Japanese>
             <Chinese>揮發性麻醉劑，用於減輕中度疼痛</Chinese>
             <Chinesesimp>挥发性麻醉剂，用于抑制中度疼痛</Chinesesimp>
-            <Dutch>volatiel anestheticum, wordt gebruik om stevige pijn te onderdrukken</Dutch>
             <Turkish>Orta dereceli ağrıyı baskılamak için kullanılan uçucu anestezik</Turkish>
+            <Dutch>volatiel anestheticum, wordt gebruik om stevige pijn te onderdrukken</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Penthrox_Display">
             <English>Penthrox Inhaler</English>
@@ -1185,9 +1185,9 @@
             <Japanese>ペンスロックス吸入器</Japanese>
             <Chinese>Penthrox 吸入器</Chinese>
             <Chinesesimp>Penthrox吸入器</Chinesesimp>
+            <Turkish>Penthrox Inhaler</Turkish>
             <Finnish>Penthrox inhalaattori</Finnish>
             <Dutch>Penthrox inhalator</Dutch>
-            <Turkish>Penthrox Inhaler</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Pervitin_Capsule_DescShort">
             <English>Performance enhancing drug, used to suppress moderate pain</English>
@@ -1200,8 +1200,8 @@
             <Japanese>疲労の防止と回復に! 疲労をポンと取ってくれます。 中程度の鎮痛作用がある。</Japanese>
             <Chinese>性能增強藥物，用於抑制中度疼痛</Chinese>
             <Chinesesimp>性能增强药物，用于抑制中度疼痛</Chinesesimp>
-            <Dutch>Prestatieverhogend medicijn, wordt gebruikt om matige pijn te onderdrukken</Dutch>
             <Turkish>Performans artırıcı ilaç, orta dereceli ağrıyı baskılamak için kullanılır</Turkish>
+            <Dutch>Prestatieverhogend medicijn, wordt gebruikt om matige pijn te onderdrukken</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Pervitin_Capsule_Display">
             <English>Pervitin capsule</English>
@@ -1217,9 +1217,9 @@
             <Japanese>ペルビチンカプセル</Japanese>
             <Chinese>柏飛汀(Pervitin)膠囊</Chinese>
             <Chinesesimp>柏飞汀(Pervitin)胶囊</Chinesesimp>
+            <Turkish>Pervitin kapsülü</Turkish>
             <Finnish>Pervitiini kapseli</Finnish>
             <Dutch>Pervitin capsule</Dutch>
-            <Turkish>Pervitin kapsülü</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Pervitin_chrom">
             <English>You start to see everything twice.</English>
@@ -1235,9 +1235,9 @@
             <Japanese>全てが二重に見える。</Japanese>
             <Chinese>你開始看到一切兩次。</Chinese>
             <Chinesesimp>你开始看到一切两次。</Chinesesimp>
+            <Turkish>Her şeyi çift görmeye başlıyorsun.</Turkish>
             <Finnish>Alat nähdä kaiken kahdesti.</Finnish>
             <Dutch>Je begint met alles dubbelzien</Dutch>
-            <Turkish>Her şeyi çift görmeye başlıyorsun.</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Pervitin_chrom2">
             <English>You start to twitch...</English>
@@ -1253,9 +1253,9 @@
             <Japanese>身体の震えが止まらなくなった...</Japanese>
             <Chinese>你開始抽搐。。。</Chinese>
             <Chinesesimp>你开始抽搐。。。</Chinesesimp>
+            <Turkish>Kasılmaya başlıyorsun…</Turkish>
             <Finnish>Alkaa nykimään</Finnish>
             <Dutch>Je begint te trillen</Dutch>
-            <Turkish>Kasılmaya başlıyorsun…</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Pervitin_chrom3">
             <English>Your head starts to clear up and you stop twitching...</English>
@@ -1271,9 +1271,9 @@
             <Japanese>震えがおさまり、頭がすっきりしてきた</Japanese>
             <Chinese>你的頭開始清醒，不再抽搐。。。</Chinese>
             <Chinesesimp>你的头开始清醒，不再抽搐。。。</Chinesesimp>
+            <Turkish>Başın netleşiyor ve kasılmalar duruyor…</Turkish>
             <Finnish>Pääsi alkaa selkiytyä ja lopetat nykimisen</Finnish>
             <Dutch>Je hoofd begint zich op te helderen, en je stopt met trillen</Dutch>
-            <Turkish>Başın netleşiyor ve kasılmalar duruyor…</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Pervitin_end">
             <English>You start to feel normal again</English>
@@ -1289,9 +1289,9 @@
             <Japanese>身体は元の落ち着きを取り戻した</Japanese>
             <Chinese>你又開始感覺正常了</Chinese>
             <Chinesesimp>你又开始感觉正常了</Chinesesimp>
+            <Turkish>Tekrar normal hissetmeye başlıyorsun</Turkish>
             <Finnish>Alkaa taas tuntua normaalilta</Finnish>
             <Dutch>Je begint je weer normaal te voelen</Dutch>
-            <Turkish>Tekrar normal hissetmeye başlıyorsun</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Pervitin_mid">
             <English>You begin to lose your breath...</English>
@@ -1307,9 +1307,9 @@
             <Japanese>あなたは急に息苦しさを感じはじめた...</Japanese>
             <Chinese>你開始喘不過氣來。。。</Chinese>
             <Chinesesimp>你开始喘不过气来。。。</Chinesesimp>
+            <Turkish>Nefesin kesilmeye başlıyor…</Turkish>
             <Finnish>Alkaa menettää hengitystä...</Finnish>
             <Dutch>Je begint je adem te verliezen...</Dutch>
-            <Turkish>Nefesin kesilmeye başlıyor…</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Pervitin_mid2">
             <English>You gain a sudden rush!</English>
@@ -1325,9 +1325,9 @@
             <Japanese>あなたを突如激しい動悸が襲う!</Japanese>
             <Chinese>你突然衝動起來！</Chinese>
             <Chinesesimp>你突然冲动起来！</Chinesesimp>
+            <Turkish>Ani bir enerji patlaması hissediyorsun!</Turkish>
             <Finnish>Saat äkillisen kiireen!</Finnish>
             <Dutch>Je krijgt een spontane boost!</Dutch>
-            <Turkish>Ani bir enerji patlaması hissediyorsun!</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Pervitin_mid3">
             <English>You gain another rush!</English>
@@ -1343,9 +1343,9 @@
             <Japanese>動悸は激しさを増してゆく!</Japanese>
             <Chinese>你獲得了另一個衝刺！</Chinese>
             <Chinesesimp>你获得了另一个冲刺！</Chinesesimp>
+            <Turkish>Bir enerji patlaması daha!</Turkish>
             <Finnish>Saat uuden kiireen!</Finnish>
             <Dutch>Je krijgt nog een boost!</Dutch>
-            <Turkish>Bir enerji patlaması daha!</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Pervitin_mid4">
             <English>The exhaustion starts to settle in...</English>
@@ -1361,9 +1361,9 @@
             <Japanese>動悸が落ち着き始めた...</Japanese>
             <Chinese>疲憊開始消退。。。</Chinese>
             <Chinesesimp>疲惫开始消退。。。</Chinesesimp>
+            <Turkish>Yorgunluk çökmeye başlıyor…</Turkish>
             <Finnish>Väsymys alkaa laskeutua...</Finnish>
             <Dutch>Je begint in te zakken</Dutch>
-            <Turkish>Yorgunluk çökmeye başlıyor…</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Pervitin_start">
             <English>The pervitin makes you feel awake and full of endless POWER</English>
@@ -1379,9 +1379,9 @@
             <Japanese>ペルビチンはあなたを覚醒させ、無限のチカラに満ち満ちた気分にしている!</Japanese>
             <Chinese>柏飛汀(Pervitin)讓你感到清醒，充滿無盡的力量</Chinese>
             <Chinesesimp>柏飞汀(Pervitin)让你感到清醒，充满无尽的力量</Chinesesimp>
+            <Turkish>Pervitin seni uyanık ve sonsuz GÜÇ dolu hissettiriyor</Turkish>
             <Finnish>Pervitiini saa sinut tuntemaan olosi hereille ja täynnä loputonta VOIMAA</Finnish>
             <Dutch>De Pervitin geeft je een wakker gevoel vol met oneinde ENERGIE</Dutch>
-            <Turkish>Pervitin seni uyanık ve sonsuz GÜÇ dolu hissettiriyor</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_PhenylAuto_Box_Display">
             <English>Phenylephrine Autoinjector</English>
@@ -1395,8 +1395,8 @@
             <Japanese>フェニレフリン自動注射器</Japanese>
             <Chinese>去氧腎上腺素自動注射器 (Phenylephrine)</Chinese>
             <Chinesesimp>苯肾上腺素自动注射器</Chinesesimp>
-            <Dutch>Fenylefrine autoinjector</Dutch>
             <Turkish>Fenilefrin Otoenjektör</Turkish>
+            <Dutch>Fenylefrine autoinjector</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_PhenylAuto_DescShort">
             <English>Used to raise blood pressure</English>
@@ -1408,8 +1408,8 @@
             <Japanese>血圧を上げるために使用される</Japanese>
             <Chinese>用於升高血壓</Chinese>
             <Chinesesimp>用于提高血压</Chinesesimp>
-            <Dutch>Wordt gebruikt om de bloeddruk te laten stijgen</Dutch>
             <Turkish>Kan basıncını yükseltmek için kullanılır</Turkish>
+            <Dutch>Wordt gebruikt om de bloeddruk te laten stijgen</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Phenyl_Box_Display">
             <English>Phenylephrine</English>
@@ -1605,9 +1605,9 @@
             <Japanese>IV閉塞の確率</Japanese>
             <Chinese>IV 阻塞機率</Chinese>
             <Chinesesimp>IV 阻塞几率</Chinesesimp>
+            <Turkish>IV Tıkanma Olasılığı</Turkish>
             <Finnish>Mahdollisuus estää IV:t</Finnish>
             <Dutch>IV blokkade kans</Dutch>
-            <Turkish>IV Tıkanma Olasılığı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Block_Chance_DESC">
             <English>Chance of IV blockage due to medication pushes without saline flush</English>
@@ -1623,9 +1623,9 @@
             <Japanese>生理食塩液を流さずに薬を注入することによるIV閉塞の可能性</Japanese>
             <Chinese>由於沒有鹽水協助的藥物注射導致 IV 阻塞的機會</Chinese>
             <Chinesesimp>由于没有盐水协助的药物注射导致 IV 阻塞的机会</Chinesesimp>
+            <Turkish>Salin flush yapılmadan ilaç verilmesi sonucu IV hattının tıkanma olasılığı</Turkish>
             <Finnish>IV-tukoksen mahdollisuus lääkityksen painamisesta ilman suolaliuosta</Finnish>
             <Dutch>Kans voor blokkade van IV's door medicaties zonder salinespoeling</Dutch>
-            <Turkish>Salin flush yapılmadan ilaç verilmesi sonucu IV hattının tıkanma olasılığı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_CheckCoag_Location">
             <English>Locations Coag-Sense</English>
@@ -1638,15 +1638,15 @@
             <Japanese>Coag-Senseが使用できる場所</Japanese>
             <Chinese>Coag-Sense 地點</Chinese>
             <Chinesesimp>Coag-Sense地点</Chinesesimp>
-            <Dutch>Locaties voor gebruik Coag-Sense</Dutch>
             <Turkish>Coag-Sense Konumları</Turkish>
+            <Dutch>Locaties voor gebruik Coag-Sense</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_CheckCoag_Location_DESC">
             <English>Locations where coagulation can be checked</English>
+            <French>Lieux où l'on peut vérifier la coagulation</French>
             <German>Orte, an denen die Gerinnung überprüft werden kann</German>
             <Japanese>凝固の検査が可能になる場所を設定します</Japanese>
             <Turkish>Koagülasyonun kontrol edilebileceği konumlar</Turkish>
-            <French>Lieux où l'on peut vérifier la coagulation</French>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_CheckCoag_MedLevel">
             <English>Medical level required for Coag-Sense</English>
@@ -1659,15 +1659,15 @@
             <Japanese>Coag-Senseの許可</Japanese>
             <Chinese>Coag-Sense 需要的醫療等級</Chinese>
             <Chinesesimp>Coag-Sense所需的医疗水平</Chinesesimp>
-            <Dutch>Vereist medisch niveau voor gebruik Coag-Sense</Dutch>
             <Turkish>Coag-Sense kullanımı için gerekli tıbbi seviye</Turkish>
+            <Dutch>Vereist medisch niveau voor gebruik Coag-Sense</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_CheckCoag_MedLevel_DESC">
             <English>Medical level required to check coagulation</English>
+            <French>Compétences médicales requises pour contrôler la coagulation</French>
             <German>Erforderlicher medizinischer Level für Gerinnungsprüfung</German>
             <Japanese>凝固の検査が可能になる場所を設定します</Japanese>
             <Turkish>Koagülasyon kontrolü için gerekli tıbbi seviye</Turkish>
-            <French>Compétences médicales requises pour contrôler la coagulation</French>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_CheckCoag_treatmentTime">
             <English>Treatment time for measuring PT/INR</English>
@@ -1680,15 +1680,15 @@
             <Japanese>PT/INR測定の所要時間</Japanese>
             <Chinese>PT/INR 測量的治療時間</Chinese>
             <Chinesesimp>PT/INR测量的治疗时间</Chinesesimp>
-            <Dutch>Onderzoekstijd voor bepalen PT-INR</Dutch>
             <Turkish>PT/INR ölçüm süresi</Turkish>
+            <Dutch>Onderzoekstijd voor bepalen PT-INR</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_CheckCoag_treatmentTime_DESC">
             <English>Time required to check coagulation</English>
+            <French>Durée nécessaire pour le contrôle de la coagulation</French>
             <German>Zeit für die Gerinnungsprüfung</German>
             <Japanese>凝固の検査に掛かる時間</Japanese>
             <Turkish>Koagülasyon kontrolü için gereken süre</Turkish>
-            <French>Durée nécessaire pour le contrôle de la coagulation</French>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation">
             <English>Enable Coagulation</English>
@@ -1704,9 +1704,9 @@
             <Japanese>血液凝固を有効化</Japanese>
             <Chinese>啟用凝血</Chinese>
             <Chinesesimp>启用凝血</Chinesesimp>
+            <Turkish>Koagülasyonu Etkinleştir</Turkish>
             <Finnish>Ota koagulaatio käyttöön</Finnish>
             <Dutch>Schakel coagulatie in</Dutch>
-            <Turkish>Koagülasyonu Etkinleştir</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_DESC">
             <English>Enables advanced coagulation features and modifies TXA and EACA behaviour accordingly.</English>
@@ -1722,9 +1722,9 @@
             <Japanese>高度な血液凝固機能を有効にし、それに応じて TXA と EACA の動作を変更します。</Japanese>
             <Chinese>啟用高級凝血功能，並相應地修改血栓素(TXA)和EACA行為。</Chinese>
             <Chinesesimp>启用高级凝血功能，并相应地修改血栓素(TXA)和EACA行为。</Chinesesimp>
+            <Turkish>Gelişmiş koagülasyon özelliklerini etkinleştirir ve TXA ile EACA davranışlarını buna göre değiştirir.</Turkish>
             <Finnish>Ottaa käyttöön edistyneet koagulaatioominaisuudet ja muuttaa TXA- ja EACA-käyttäytymistä vastaavasti</Finnish>
             <Dutch>Schakelt geadvanceerde coagulatie functies in, en veranderd het gedrag van TXA en EACA naar behoren</Dutch>
-            <Turkish>Gelişmiş koagülasyon özelliklerini etkinleştirir ve TXA ile EACA davranışlarını buna göre değiştirir.</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_FactorCount">
             <English>Coagulation Factors</English>
@@ -1736,8 +1736,8 @@
             <Japanese>凝固因子</Japanese>
             <Chinese>凝血因子</Chinese>
             <Chinesesimp>凝血因子</Chinesesimp>
-            <Dutch>Stollingsfactoren</Dutch>
             <Turkish>Koagülasyon Faktörleri</Turkish>
+            <Dutch>Stollingsfactoren</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_FactorCount_DESC">
             <English>The amount of coagulation factors that get set on unit spawn &amp; be kept as limit for factor regeneration</English>
@@ -1749,8 +1749,8 @@
             <Japanese>ユニットのスポーン時に定義される凝固因子の量と、因子の再生限界値</Japanese>
             <Chinese>單位菌種上設定的凝血因子數量應作為因子再生的限制</Chinese>
             <Chinesesimp>单位菌种上设定的凝血因子数量应作为因子再生的限制</Chinesesimp>
-            <Dutch>De hoeveelheid stollingsfactoren dat een eenheid krijgt op spawn en als limiet wordt gebruik voor hergeneratie</Dutch>
             <Turkish>Birim doğduğunda ayarlanan ve faktör yenilenmesi için üst sınır olarak tutulan koagülasyon faktörü miktarı</Turkish>
+            <Dutch>De hoeveelheid stollingsfactoren dat een eenheid krijgt op spawn en als limiet wordt gebruik voor hergeneratie</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_Factor_Regenerate_Time">
             <English>Coagulation Factor Regeneration Cycle</English>
@@ -1762,8 +1762,8 @@
             <Japanese>凝固因子再生サイクル</Japanese>
             <Chinese>凝血因子再生循環</Chinese>
             <Chinesesimp>凝血因子再生循环</Chinesesimp>
-            <Dutch>Stollingsfactor hergeneratiecyclus</Dutch>
             <Turkish>Koagülasyon Faktörü Yenilenme Döngüsü</Turkish>
+            <Dutch>Stollingsfactor hergeneratiecyclus</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_Factor_Regenerate_Time_DESC">
             <English>The time between coagulation factor regeneration checks. Will add +1 factor on successful check. Uses Setting: "Coagulation Factors" as limit.\n Note: If the limit is exceeded, this time will be used and then remove -1 factor until Setting: "Coagulation Factors" is reached. Tipp: TXA or EACA stop losing factors\nRequirements for regeneration to work:\n- No wound being clotted in the last cycle check from this setting\n- Setting: "Require Heart Rate"\n- Setting: "Required Blood Volume"</English>
@@ -1775,8 +1775,8 @@
             <Japanese>凝固因子再生チェックの間隔。チェックに成功すると因子が+1されます。設定 "凝固因子の限界値" を限界値として使用します。 \n注:制限を超えた場合、この時間が経過した後、設定"凝固因子の限界値"に達するまで因子を1つ取り除きます。 \nヒント: TXAまたはEACAは因子の消失を止めます。\n因子再生が機能するための条件: \n-ここで設定されたサイクル時間の最後のチェックで傷口が凝血していないこと \n-設定: "心拍を要求する" \n-設定: "血液量を要求する"</Japanese>
             <Chinese>凝血因子再生檢查之間的時間。成功檢查後將新增 +1 個因素。使用設定：「凝血因子」為限值。\n注意：如果超過限制，將使用此時間，然後刪除 -1 因子，直到達到設定：「凝血因子」。提示：血栓素(TXA)或 EACA 停止丟失因子\n再生工作的要求：\n-在此設定下的最後一個週期檢查中沒有傷口凝結\n-設定：「要求心率」\n-設定：「所需血容量」</Chinese>
             <Chinesesimp>凝血因子再生检查之间的时间。成功检查后将添加+1个因素。使用设置：“凝血因子”为限值。\n注意：如果超过限制，将使用此时间，然后删除-1因子，直到达到设置：“凝血因子”。提示：血栓素(TXA)或EACA停止丢失因子\n再生工作的要求：\n-在此设置下的最后一个周期检查中没有伤口凝结\n-设置：“要求心率”\n-设定：“所需血容量”</Chinesesimp>
-            <Dutch>De tijd tussen stollingsfactor hergeneratie checks. Geeft +1 factor op een succesvolle check. Gebruikt instelling: "Stollingsfactoren" als limiet. \n Wees alert: als het limiet overschreden is, dan zal na deze check 1 factor verwijderd worden (-1 factoren) tot het limiet weer bereikt is. Tip: TXA en EACA stoppen het verlies van factoren.\nVereisten voor hergeneratie:\n- Geen wond gestold in de laaste cyclus van deze instelling,\n- Instelling: "Vereist hartslag"\n- "Benodigd bloedvolume"</Dutch>
             <Turkish>Koagülasyon faktörü yenilenme kontrolleri arasındaki süredir. Başarılı bir kontrolde +1 faktör eklenir. Üst sınır olarak “Coagulation Factors” ayarı kullanılır.\n Not: Üst sınır aşılırsa bu süre kullanılmaya devam edilir ve “Coagulation Factors” değerine ulaşılana kadar -1 faktör çıkarılır. İpucu: TXA veya EACA faktör kaybını durdurur\nYenilenmenin çalışması için gerekenler:\n- Bu ayara ait son döngü kontrolünde pıhtılaşan bir yara olmamalı\n- Ayar: “Require Heart Rate”\n- Ayar: “Required Blood Volume”</Turkish>
+            <Dutch>De tijd tussen stollingsfactor hergeneratie checks. Geeft +1 factor op een succesvolle check. Gebruikt instelling: "Stollingsfactoren" als limiet. \n Wees alert: als het limiet overschreden is, dan zal na deze check 1 factor verwijderd worden (-1 factoren) tot het limiet weer bereikt is. Tip: TXA en EACA stoppen het verlies van factoren.\nVereisten voor hergeneratie:\n- Geen wond gestold in de laaste cyclus van deze instelling,\n- Instelling: "Vereist hartslag"\n- "Benodigd bloedvolume"</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_Time">
             <English>Clotting Cycle Time</English>
@@ -1788,8 +1788,8 @@
             <Japanese>凝血サイクル時間</Japanese>
             <Chinese>凝血週期時間</Chinese>
             <Chinesesimp>凝血周期时间</Chinesesimp>
-            <Dutch>Stollingscyclustijd</Dutch>
             <Turkish>Pıhtılaşma Döngü Süresi</Turkish>
+            <Dutch>Stollingscyclustijd</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_Time_Clotting_DESC">
             <English>This time gets divided by 2, randomized &amp; added with the same value devided by 2.\nFor example, if the value was set to 10s this would be one possible varriation: (random (10 / 2)) + (10 / 2) = 8s</English>
@@ -1801,8 +1801,8 @@
             <Japanese>この時間を2で割って、同じ値を2で割った値をランダムに加算する。\n例えば、値を10秒に設定した場合、次のようなバリエーションが考えられる: (ランダム値 (10秒 / 2)) + (10秒 / 2) = 8秒</Japanese>
             <Chinese>此時間除以 2，隨機化並加上除以 2 的相同值。\n例如，如果該值設定為 10 秒，則可能出現一種變化： (random (10 / 2)) + (10 / 2) = 8 秒</Chinese>
             <Chinesesimp>此时间除以2，随机化并加上除以2的相同值。\n例如，如果该值设置为10秒，则可能出现一种变化： (random (10 / 2)) + (10 / 2) = 8s</Chinesesimp>
-            <Dutch>Deze tijd wordt door 2 gedeeld, gerandomiseerd en dan met dezelfde waarde gedeeld door 2 opgeteld. \nBijvoorbeeld: als deze waarde op 10 seconden ingesteld staat dan is één mogelijke variatie:(random(10/2))+(10/2) = 8s</Dutch>
             <Turkish>Bu süre ikiye bölünür, rastgeleleştirilir ve tekrar yarısı eklenir. Örnek: 10 sn → (random (10 / 2)) + (10 / 2) = 8 sn</Turkish>
+            <Dutch>Deze tijd wordt door 2 gedeeld, gerandomiseerd en dan met dezelfde waarde gedeeld door 2 opgeteld. \nBijvoorbeeld: als deze waarde op 10 seconden ingesteld staat dan is één mogelijke variatie:(random(10/2))+(10/2) = 8s</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_Time_DESC">
             <English>The time between each wound clotting cycle that start wound clotting. (low number may cause lag)</English>
@@ -1814,8 +1814,8 @@
             <Japanese>創傷の凝血を開始する各凝血サイクル間の時間の長さ。(低い数値はラグを招く恐れがあります)</Japanese>
             <Chinese>開始傷口凝血的每個傷口凝血週期之間的時間。（數字低可能會導致延遲）</Chinese>
             <Chinesesimp>开始伤口凝血的每个伤口凝血周期之间的时间。（数字低可能会导致滞后）</Chinesesimp>
-            <Dutch>De hoeveelheid tijd tussen elke wondstollingscyclus. (een laag nummer kan leiden tot lag)</Dutch>
             <Turkish>Her yara pıhtılaşma döngüsü arasındaki süredir. (Düşük değer gecikmeye sebep olabilir)</Turkish>
+            <Dutch>De hoeveelheid tijd tussen elke wondstollingscyclus. (een laag nummer kan leiden tot lag)</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_Time_Large">
             <English>Large Wounds Clotting Time</English>
@@ -1827,8 +1827,8 @@
             <Japanese>大きな創傷の凝血時間</Japanese>
             <Chinese>大傷口凝血時間</Chinese>
             <Chinesesimp>大伤口凝血时间</Chinesesimp>
-            <Dutch>Grote wonden stollingstijd</Dutch>
             <Turkish>Büyük Yaralar İçin Pıhtılaşma Süresi</Turkish>
+            <Dutch>Grote wonden stollingstijd</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_Time_Medium">
             <English>Medium Wounds Clotting Time</English>
@@ -1840,8 +1840,8 @@
             <Japanese>中くらいの創傷の凝血時間</Japanese>
             <Chinese>中等傷口凝血時間</Chinese>
             <Chinesesimp>中等伤口凝血时间</Chinesesimp>
-            <Dutch>Middelgrote wonden stollingstijd</Dutch>
             <Turkish>Orta Yaralar İçin Pıhtılaşma Süresi</Turkish>
+            <Dutch>Middelgrote wonden stollingstijd</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_Time_Minor">
             <English>Minor Wounds Clotting Time</English>
@@ -1853,8 +1853,8 @@
             <Japanese>小さな創傷の凝血時間</Japanese>
             <Chinese>輕傷凝血時間</Chinese>
             <Chinesesimp>轻伤凝血时间</Chinesesimp>
-            <Dutch>Kleine wonden stollingstijd</Dutch>
             <Turkish>Küçük Yaralar İçin Pıhtılaşma Süresi</Turkish>
+            <Dutch>Kleine wonden stollingstijd</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allowOnAI">
             <English>Affect AI</English>
@@ -1866,8 +1866,8 @@
             <Japanese>AIへの影響</Japanese>
             <Chinese>影響 AI</Chinese>
             <Chinesesimp>影响AI</Chinesesimp>
-            <Dutch>Beïnvloed AI/KI</Dutch>
             <Turkish>AI’yı Etkile</Turkish>
+            <Dutch>Beïnvloed AI/KI</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allowOnAI_DESC">
             <English>Allow coagulation to affect AI units.\nEvery other value will still be required if turned on. (May cause lag if many AI is present)</English>
@@ -1879,8 +1879,8 @@
             <Japanese>凝固がAIに影響するようにします。\nONにしても他の値は必要です。(多くのAIが存在する場合、ラグが発生する可能性があります。）</Japanese>
             <Chinese>允許凝固影響 AI 單位。\n如果開啟，仍需要其他值。（如果存在許多 AI，可能會導致延遲）</Chinese>
             <Chinesesimp>允许凝固影响AI单位。\n如果打开，仍需要其他值。（如果存在许多AI，可能会导致延迟）</Chinesesimp>
-            <Dutch>Laat coagulatie AI/KI beïnvloeden.\nElke andere waarde wordt ook voor AI/KI gecheckt wanneer dit aanstaat. (Kan prestatieproblemen opleveren als er veel AI's/KI's aanwezig zijn.)</Dutch>
             <Turkish>Koagülasyonun AI birimleri etkilemesine izin verir. (Not: Çok sayıda AI varsa gecikmeye yol açabilir)</Turkish>
+            <Dutch>Laat coagulatie AI/KI beïnvloeden.\nElke andere waarde wordt ook voor AI/KI gecheckt wanneer dit aanstaat. (Kan prestatieproblemen opleveren als er veel AI's/KI's aanwezig zijn.)</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_EACA_script">
             <English>Allow Additional EACA Stiching</English>
@@ -1892,8 +1892,8 @@
             <Japanese>EACAによる追加の"縫合"を許可する</Japanese>
             <Chinese>允許進行額外的 EACA 縫合</Chinese>
             <Chinesesimp>允许进行额外的EACA缝合</Chinesesimp>
-            <Dutch>Sta additionele EACA hechtingen toe</Dutch>
             <Turkish>Ek EACA Dikişine İzin Ver</Turkish>
+            <Dutch>Sta additionele EACA hechtingen toe</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_EACA_script_DESC">
             <English>If enabled EACA will keep all functionality and start stitching bandaged wounds</English>
@@ -1905,8 +1905,8 @@
             <Japanese>有効にすると、EACAがすべての機能を保持し、自身に"縫合"を適用するようになります。</Japanese>
             <Chinese>如果啟用，EACA 將保留所有功能並開始縫合繃帶傷口</Chinese>
             <Chinesesimp>如果启用，EACA将保留所有功能并开始缝合绷带伤口</Chinesesimp>
-            <Dutch>EACA houdt zijn functionaliteit en zal wonden hechten wanneer deze instelling actief is.</Dutch>
             <Turkish>Etkinleştirildiğinde EACA tüm işlevlerini korur ve bandajlı yaraları dikmeye başlar</Turkish>
+            <Dutch>EACA houdt zijn functionaliteit en zal wonden hechten wanneer deze instelling actief is.</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_LargeWounds">
             <English>Affect Large Wounds</English>
@@ -1918,8 +1918,8 @@
             <Japanese>大きな創傷への影響</Japanese>
             <Chinese>影響大傷口</Chinese>
             <Chinesesimp>影响大伤口</Chinesesimp>
-            <Dutch>Beïnvloed grote wonden</Dutch>
             <Turkish>Büyük Yaraları Etkile</Turkish>
+            <Dutch>Beïnvloed grote wonden</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_LargeWounds_DESC">
             <English>Allow coagulation to affect large wounds when clotting</English>
@@ -1931,8 +1931,8 @@
             <Japanese>大きな創傷に対して凝固が影響することを許可する</Japanese>
             <Chinese>凝血時允許凝血影響大傷口</Chinese>
             <Chinesesimp>凝血时允许凝血影响大伤口</Chinesesimp>
-            <Dutch>Staat toe dat coagulatie grote wonden beïnvloed tijdens het stollen</Dutch>
             <Turkish>Pıhtılaşma sırasında koagülasyonun büyük yaraları etkilemesine izin ver</Turkish>
+            <Dutch>Staat toe dat coagulatie grote wonden beïnvloed tijdens het stollen</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_MediumWounds">
             <English>Affect Medium Wounds</English>
@@ -1944,8 +1944,8 @@
             <Japanese>中くらいの創傷への影響</Japanese>
             <Chinese>影響中度傷口</Chinese>
             <Chinesesimp>影响中度伤口</Chinesesimp>
-            <Dutch>Beïnvloed middelgrote wonden</Dutch>
             <Turkish>Orta Yaraları Etkile</Turkish>
+            <Dutch>Beïnvloed middelgrote wonden</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_MediumWounds_DESC">
             <English>Allow coagulation to affect medium wounds when clotting</English>
@@ -1957,8 +1957,8 @@
             <Japanese>中くらいの創傷に対して凝固が影響することを許可する</Japanese>
             <Chinese>凝血時允許凝血影響中度傷口</Chinese>
             <Chinesesimp>凝血时允许凝血影响中度伤口</Chinesesimp>
-            <Dutch>Staat toe dat coagulatie middelgrote wonden beïnvloed tijdens het stollen</Dutch>
             <Turkish>Ek TXA Bandajlamasına İzin Ver</Turkish>
+            <Dutch>Staat toe dat coagulatie middelgrote wonden beïnvloed tijdens het stollen</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_MinorWounds">
             <English>Affect Minor Wounds</English>
@@ -1970,8 +1970,8 @@
             <Japanese>小さな創傷への影響</Japanese>
             <Chinese>影響輕微傷口</Chinese>
             <Chinesesimp>影响轻微伤口</Chinesesimp>
-            <Dutch>Beïnvloed kleine wonden</Dutch>
             <Turkish>Küçük Yaraları Etkile</Turkish>
+            <Dutch>Beïnvloed kleine wonden</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_MinorWounds_DESC">
             <English>Allow coagulation to affect minor wounds when clotting</English>
@@ -1983,8 +1983,8 @@
             <Japanese>小さな創傷に対して凝固が影響することを許可する</Japanese>
             <Chinese>凝血時允許凝血影響輕微傷口</Chinese>
             <Chinesesimp>凝血时允许凝血影响轻微伤口</Chinesesimp>
-            <Dutch>Staat toe dat coagulatie kleine wonden beïnvloed tijdens het stollen</Dutch>
             <Turkish>Pıhtılaşma sırasında koagülasyonun orta yaraları etkilemesine izin ver</Turkish>
+            <Dutch>Staat toe dat coagulatie kleine wonden beïnvloed tijdens het stollen</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_TXA_script">
             <English>Allow Additional TXA Bandaging</English>
@@ -1996,8 +1996,8 @@
             <Japanese>TXAによる追加の"包帯"を許可する</Japanese>
             <Chinese>允許額外的血栓素(TXA)包紮</Chinese>
             <Chinesesimp>允许额外的血栓素(TXA)包扎</Chinesesimp>
-            <Dutch>Sta additionele TXA dichtingen toe</Dutch>
             <Turkish>Ek TXA Bandajlamasına İzin Ver</Turkish>
+            <Dutch>Sta additionele TXA dichtingen toe</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_TXA_script_DESC">
             <English>If enabled TXA will keep all functionality and start bandaging wounds itself</English>
@@ -2009,8 +2009,8 @@
             <Japanese>有効にすると、TXAがすべての機能を保持し、自身に"包帯"を適用するようになります。</Japanese>
             <Chinese>如果啟用，血栓素(TXA)將保持所有功能並開始自行包紮傷口</Chinese>
             <Chinesesimp>如果启用，血栓素(TXA)将保持所有功能并开始自行包扎伤口</Chinesesimp>
-            <Dutch>TXA houdt zijn functionaliteit en zal wonden dichten wanneer deze instelling actief is.</Dutch>
             <Turkish>Etkinleştirildiğinde TXA yaraları otomatik olarak bandajlamaya başlar</Turkish>
+            <Dutch>TXA houdt zijn functionaliteit en zal wonden dichten wanneer deze instelling actief is.</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_clot_text">
             <English>Allow Clots To Be Shown in Menu</English>
@@ -2022,8 +2022,8 @@
             <Japanese>メニューに血栓を表示する</Japanese>
             <Chinese>允許在選單中顯示凝塊</Chinese>
             <Chinesesimp>允许在菜单中显示凝块</Chinesesimp>
-            <Dutch>Sta toe dat stollingen worden weergeven in het menu</Dutch>
             <Turkish>Pıhtıların Menüde Gösterilmesine İzin Ver</Turkish>
+            <Dutch>Sta toe dat stollingen worden weergeven in het menu</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_allow_clot_text_DESC">
             <English>If enabled, when coagulation is bandaging a wound it will add a interaction log to the medical menu.</English>
@@ -2035,8 +2035,8 @@
             <Japanese>有効にすると、凝固が傷に包帯を適用しているときに、医療メニューのログに追加されます。</Japanese>
             <Chinese>如果啟用，當凝固包紮傷口時，它將在醫療選單中新增一個互動日誌。</Chinese>
             <Chinesesimp>如果启用，当凝固包扎伤口时，它将在医疗菜单中添加一个交互日志。</Chinesesimp>
-            <Dutch>Wanneer dit is ingeschakeld is worden gestolde wonden toegevoegd aan de interactie log van het medisch menu.</Dutch>
             <Turkish>Etkinleştirildiğinde koagülasyon bir yarayı bandajlarken medikal menüye etkileşim kaydı eklenir</Turkish>
+            <Dutch>Wanneer dit is ingeschakeld is worden gestolde wonden toegevoegd aan de interactie log van het medisch menu.</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_on_all_Bodyparts">
             <English>Simultaneous Bodypart Coagulation</English>
@@ -2048,8 +2048,8 @@
             <Japanese>身体部位の同時凝固</Japanese>
             <Chinese>同時進行身體部位凝血</Chinese>
             <Chinesesimp>同时进行身体部位凝血</Chinesesimp>
-            <Dutch>Gelijktijdige coagulatie</Dutch>
             <Turkish>Eş Zamanlı Vücut Bölgesi Koagülasyonu</Turkish>
+            <Dutch>Gelijktijdige coagulatie</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_on_all_Bodyparts_DESC">
             <English>If enabled each bodypart will be treated simultaneously by coagulation.\nMeaning if you have a wound on the head and body they will both be treated in the same coagulation cycle.</English>
@@ -2061,8 +2061,8 @@
             <Japanese>有効にすると、各部位が同時に凝固処理されます。\nつまり、頭部と胴体に傷がある場合、同じ凝固サイクルで両方が治癒されます。</Japanese>
             <Chinese>如果啟用，每個身體部位將同時接受凝血治療。\n也就是說，如果你的頭部和身體都有傷口，它們都會在相同的凝血週期中接受治療。</Chinese>
             <Chinesesimp>如果启用，每个身体部位将同时接受凝血治疗。\n也就是说，如果你的头部和身体都有伤口，它们都会在相同的凝血周期中接受治疗。</Chinesesimp>
-            <Dutch>Als dit ingeschakeld is, zal elk lichaamsdeel tegelijkertijd behandeld worden door coagulatie. \nWat betekent dat als je een wond aan je arm en been hebt, dat deze in dezelfde coagulatiecyclus behandeld worden</Dutch>
             <Turkish>Etkinleştirildiğinde her bir vücut bölgesi koagülasyon tarafından eşzamanlı olarak tedavi edilir.\nYani baş ve gövdede yara varsa, her ikisi de aynı koagülasyon döngüsünde tedavi edilir.</Turkish>
+            <Dutch>Als dit ingeschakeld is, zal elk lichaamsdeel tegelijkertijd behandeld worden door coagulatie. \nWat betekent dat als je een wond aan je arm en been hebt, dat deze in dezelfde coagulatiecyclus behandeld worden</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_requireBV">
             <English>Required Blood Volume</English>
@@ -2074,8 +2074,8 @@
             <Japanese>血液量を要求する</Japanese>
             <Chinese>所需血容量</Chinese>
             <Chinesesimp>所需血容量</Chinesesimp>
-            <Dutch>Benodigd bloedvolume</Dutch>
             <Turkish>Gerekli Kan Hacmi</Turkish>
+            <Dutch>Benodigd bloedvolume</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_requireBV_DESC">
             <English>Minimum volume of blood required for coagulation to work</English>
@@ -2087,8 +2087,8 @@
             <Japanese>凝固の作用に最低限必要な血液の量</Japanese>
             <Chinese>凝血所需的最小血容量</Chinese>
             <Chinesesimp>凝血所需的最小血容量</Chinesesimp>
-            <Dutch>Het minimale bloedvolume dat vereist is voor coagulatie om te werken</Dutch>
             <Turkish>Koagülasyonun çalışması için gerekli minimum kan hacmi</Turkish>
+            <Dutch>Het minimale bloedvolume dat vereist is voor coagulatie om te werken</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_requireHR">
             <English>Require Heart Rate</English>
@@ -2100,8 +2100,8 @@
             <Japanese>心拍を要求する</Japanese>
             <Chinese>要求心率</Chinese>
             <Chinesesimp>要求心率</Chinesesimp>
-            <Dutch>Vereist hartslag</Dutch>
             <Turkish>Kalp Atım Hızı Gereksinimi</Turkish>
+            <Dutch>Vereist hartslag</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_requireHR_DESC">
             <English>Should coagulation require a heart rate above 20BPM? (Doing CPR will keep HR above 20BPM)</English>
@@ -2113,8 +2113,8 @@
             <Japanese>凝固が作用するのに20BPM以上の心拍数を必要とさせます (CPRを行うことで心拍数は20BPM以上を保つことが出来ます)</Japanese>
             <Chinese>凝血需要心率超過 20 BPM 嗎？（做心肺復甦術將使心率保持在 20 BPM 以上）</Chinese>
             <Chinesesimp>凝血需要心率超过20BPM吗？（做心肺复苏术将使心率保持在20BPM以上）</Chinesesimp>
-            <Dutch>Is een hartslag van meer dan 20SPM benodigt voor coagulatie? (Het uitvoeren van CPR houdt de hartslag boven 20SPM)</Dutch>
             <Turkish>Koagülasyon için kalp atım hızının 20 BPM üzerinde olması gerekir mi? (CPR, HR’yi 20 BPM üzerinde tutar)</Turkish>
+            <Dutch>Is een hartslag van meer dan 20SPM benodigt voor coagulatie? (Het uitvoeren van CPR houdt de hartslag boven 20SPM)</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_tourniquetBlock">
             <English>Tournique Blocks Blood Clotting</English>
@@ -2126,8 +2126,8 @@
             <Japanese>止血帯による血液凝固の妨げ</Japanese>
             <Chinese>止血帶阻斷凝血</Chinese>
             <Chinesesimp>止血带阻断凝血</Chinesesimp>
-            <Dutch>Tourniquets blokkeren wondstolling</Dutch>
             <Turkish>Turnike Kan Pıhtılaşmasını Engeller</Turkish>
+            <Dutch>Tourniquets blokkeren wondstolling</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Coagulation_tourniquetBlock_DESC">
             <English>If enabled a applied tourniquet will stop wounds from being closed from coagulation on that bodypart</English>
@@ -2139,8 +2139,8 @@
             <Japanese>有効にすると、止血帯を適用中の部位で凝固によって傷口が塞がらないようになります。</Japanese>
             <Chinese>如果啟用止血帶，可以防止傷口因身體部位的凝血而閉合</Chinese>
             <Chinesesimp>如果启用止血带，可以防止伤口因身体部位的凝血而闭合</Chinesesimp>
-            <Dutch>Tourniquets voorkomen dat wonden op hetzelfde ledemaat dichtgemaakt worden door coagulatie wanneer deze instelling actief is</Dutch>
             <Turkish>Uygulanan turnike, o bölgedeki yaraların koagülasyonla kapanmasını engeller</Turkish>
+            <Dutch>Tourniquets voorkomen dat wonden op hetzelfde ledemaat dichtgemaakt worden door coagulatie wanneer deze instelling actief is</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_EACA_Trauma">
             <English>EACA Clears Trauma</English>
@@ -2154,8 +2154,8 @@
             <Japanese>EACAによる外傷の除去</Japanese>
             <Chinese>EACA 清除創傷</Chinese>
             <Chinesesimp>EACA清除创伤</Chinesesimp>
-            <Dutch>EACA verwijderd trauma</Dutch>
             <Turkish>EACA Travmayı Temizler</Turkish>
+            <Dutch>EACA verwijderd trauma</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_EACA_Trauma_Desc">
             <English>Allows Trauma to be cleared by EACA in addition to stitching</English>
@@ -2169,8 +2169,8 @@
             <Japanese>EACAによる効果として縫合に加え、外傷の除去を可能にします。</Japanese>
             <Chinese>除了縫合外，EACA 還可以清除創傷</Chinese>
             <Chinesesimp>除了缝合外，EACA还可以清除创伤</Chinesesimp>
-            <Dutch>Staat toe dat EACA trauma verwijderd, als additie van hechten</Dutch>
             <Turkish>EACA’nın dikişe ek olarak travmayı temizlemesine izin verir</Turkish>
+            <Dutch>Staat toe dat EACA trauma verwijderd, als additie van hechten</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_IV_FLOW_CONTROL">
             <English>Enable IV/IO Flow Control</English>
@@ -2182,8 +2182,8 @@
             <Japanese>IV/IO流量操作を有効化</Japanese>
             <Chinese>啟用IV/IO流量控制</Chinese>
             <Chinesesimp>启用IV/IO流量控制</Chinesesimp>
-            <Dutch>Sta IV/IO Loopsnelheidscontrole toe</Dutch>
             <Turkish>IV/IO Akış Kontrolünü Etkinleştir</Turkish>
+            <Dutch>Sta IV/IO Loopsnelheidscontrole toe</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_IV_FLOW_CONTROL_DESC">
             <English>Enables the IV/IO flow control menu which gives the medic fine control over the volume running through the active line</English>
@@ -2195,8 +2195,8 @@
             <Japanese>IV/IO流量操作メニューを有効にし、輸液がラインを流れる液量を衛生兵が細かく制御できるようにします。</Japanese>
             <Chinese>啟用IV/IO流量控制選單，使醫務人員能夠精細控制通過活動線路的音量</Chinese>
             <Chinesesimp>启用IV/IO流量控制菜单，使医务人员能够精细控制通过活动线路的音量</Chinesesimp>
-            <Dutch>Activeert het IV/IO loopsnelheidscontrole menu wat het medisch personeel fijne controle geeft over de loopsnelheid in de active lijn</Dutch>
             <Turkish>IV/IO hattından geçen sıvı miktarının ayrıntılı kontrolünü sağlar</Turkish>
+            <Dutch>Activeert het IV/IO loopsnelheidscontrole menu wat het medisch personeel fijne controle geeft over de loopsnelheid in de active lijn</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Kidney_Action">
             <English>Kidney damage/failure</English>
@@ -2212,9 +2212,9 @@
             <Japanese>腎臓の損傷/機能不全</Japanese>
             <Chinese>腎損傷/衰竭</Chinese>
             <Chinesesimp>肾损伤/衰竭</Chinesesimp>
+            <Turkish>Böbrek Hasarı / Yetmezliği</Turkish>
             <Finnish>Munuaisvaurio/munuaisten vajaatoiminta</Finnish>
             <Dutch>Nierschade/-falen</Dutch>
-            <Turkish>Böbrek Hasarı / Yetmezliği</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Kidney_Action_DESC">
             <English>Enables kidney damage caused by overuse of saline</English>
@@ -2230,9 +2230,9 @@
             <Japanese>生理食塩液の過剰使用による腎臓の損傷を可能にします</Japanese>
             <Chinese>啟用因過度使用生理鹽水而造成的腎臟損害</Chinese>
             <Chinesesimp>启用因过度使用生理盐水而造成的肾脏损害</Chinesesimp>
+            <Turkish>Aşırı salin kullanımına bağlı böbrek hasarını etkinleştirir</Turkish>
             <Finnish>Mahdollistaa suolaliuoksen liiallisen käytön aiheuttaman munuaisvaurion</Finnish>
             <Dutch>Schakelt nierschade veroorzaakt door overgebruik van saline in</Dutch>
-            <Turkish>Aşırı salin kullanımına bağlı böbrek hasarını etkinleştirir</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Max_Stack">
             <English>Maximum Fluid Bag Stack</English>
@@ -2248,9 +2248,9 @@
             <Japanese>輸液袋の最大スタック数</Japanese>
             <Chinese>注射液堆疊上限</Chinese>
             <Chinesesimp>注射液堆叠上限</Chinesesimp>
+            <Turkish>Maksimum Sıvı Torbası Yığılması</Turkish>
             <Finnish>Suurin nestepussipino</Finnish>
             <Dutch>Maximale vloeistofzak stapel</Dutch>
-            <Turkish>Maksimum Sıvı Torbası Yığılması</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Max_Stack_DESC">
             <English>The maximum amount of fluid bags that can be stacked to increase IV flow rate</English>
@@ -2266,9 +2266,9 @@
             <Japanese>IV流量を増やすために積み重ねることができる輸液袋の最大数</Japanese>
             <Chinese>可堆疊的最大液體袋量以增加 IV 流速</Chinese>
             <Chinesesimp>可堆叠的最大液体袋量以增加 IV 流速</Chinesesimp>
+            <Turkish>IV akış hızını artırmak için üst üste bağlanabilecek maksimum sıvı torbası sayısı</Turkish>
             <Finnish>Suurin määrä nestepusseja, jotka voidaan pinota IV-virtausnopeuden lisäämiseksi</Finnish>
             <Dutch>De maximale hoeveelheid vloeistofzakken die gestapeld kunnen worden om de IV vloeisnelheid te verhogen</Dutch>
-            <Turkish>IV akış hızını artırmak için üst üste bağlanabilecek maksimum sıvı torbası sayısı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_PervitinSpeed_DESC">
             <English>The animation speed that gets set in Stage 1 of Pervitin. (1 = normal, 2 = twice)</English>
@@ -2284,9 +2284,9 @@
             <Japanese>ペルビチン効果の第一段階でのアニメーションの再生速度を設定します (1 = 通常、2 = 2倍速)</Japanese>
             <Chinese>在柏飛汀(Pervitin)的第一階段中設置的動畫速度。（1=正常，2=兩次）</Chinese>
             <Chinesesimp>在柏飞汀(Pervitin)的第一阶段中设置的动画速度。（1=正常，2=两次）</Chinesesimp>
+            <Turkish>Pervitin’in 1. aşamasında ayarlanan animasyon hızı (1 = normal, 2 = iki kat)</Turkish>
             <Finnish>Animaationopeus, joka asetetaan pervitiinin vaiheessa 1. (1 = normaali, 2 = kahdesti)</Finnish>
             <Dutch>Animatiesnelheid van fase 1 van pervitin. (1 = normaal, 2 = dubbel)</Dutch>
-            <Turkish>Pervitin’in 1. aşamasında ayarlanan animasyon hızı (1 = normal, 2 = iki kat)</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_PervitinSpeed_displayName">
             <English>Pervitin Speed Boost</English>
@@ -2302,9 +2302,9 @@
             <Japanese>ペルビチン速度上昇</Japanese>
             <Chinese>柏飛汀(Pervitin)速度提升</Chinese>
             <Chinesesimp>柏飞汀(Pervitin)速度提升</Chinesesimp>
+            <Turkish>Pervitin Hız Artışı</Turkish>
             <Finnish>Pervitiini nopeuden lisääminen</Finnish>
             <Dutch>Pervitin snelheidsboost</Dutch>
-            <Turkish>Pervitin Hız Artışı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_REQUIRE_INS_IV">
             <English>Fluid Require inserted IV/IO</English>
@@ -2318,8 +2318,8 @@
             <Japanese>輸液にIV/IO刺入を要求する</Japanese>
             <Chinese>注射需要插入IV/IO</Chinese>
             <Chinesesimp>推注需要插入IV/IO</Chinesesimp>
-            <Dutch>Vloeistoffen vereisen een aangelegde IV/IO</Dutch>
             <Turkish>Sıvı vermek için IV/IO takılı olmalı</Turkish>
+            <Dutch>Vloeistoffen vereisen een aangelegde IV/IO</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_REQUIRE_INS_IV_BLOOD_DRAW">
             <English>Blood Drawing Require IV/IO</English>
@@ -2333,8 +2333,8 @@
             <Japanese>採血にIV/IO刺入を要求する</Japanese>
             <Chinese>抽血需要插入IV/IO</Chinese>
             <Chinesesimp>抽血需要插入IV/IO</Chinesesimp>
-            <Dutch>Bloedoptrekken vereist IV/IO</Dutch>
             <Turkish>Kan almak için IV/IO gerekli</Turkish>
+            <Dutch>Bloedoptrekken vereist IV/IO</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_REQUIRE_INS_IV_BLOOD_DRAW_DESC">
             <English>Default false. If true, you will need to insert IV/IO first before being able to draw blood from someone. \nIf false, you can draw without it.</English>
@@ -2348,8 +2348,8 @@
             <Japanese>デフォルトではfalseです。trueの場合、人から採血する前にIV/IOの刺入が必要になります。 \nfalseの場合は刺入無しで採血できます。</Japanese>
             <Chinese>默認值為false。如果是真的，你需要先插入靜脈注射/IO，然後才能從某人身上抽血。\n如果是假的，你可以不用它畫畫。</Chinese>
             <Chinesesimp>默认值为false。如果是真的，你需要先插入静脉注射/IO，然后才能从某人身上抽血。\n如果是假的，你可以不用它画画。</Chinesesimp>
-            <Dutch>Standaard vals. Wanneer waar moet er eerst een IV/IO toegediend worden voordat je bloed kan optrekken. \nWanneer vals is dit niet vereist.</Dutch>
             <Turkish>Varsayılan: false. True ise birinden kan alabilmek için önce IV/IO takmanız gerekir. \nFalse ise IV/IO olmadan kan alabilirsiniz.</Turkish>
+            <Dutch>Standaard vals. Wanneer waar moet er eerst een IV/IO toegediend worden voordat je bloed kan optrekken. \nWanneer vals is dit niet vereist.</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_REQUIRE_INS_IV_DESC">
             <English>Default false. If true, you will need to insert IV/IO first before being able to give someone saline/blood/plasma. \nIf false, it retains standard ACE behaviour for using saline/blood/plasma.</English>
@@ -2383,9 +2383,9 @@
             <Japanese>薬液にIV/IO刺入を要求する</Japanese>
             <Chinese>藥物需要通過IV/IO注射</Chinese>
             <Chinesesimp>药物需要通过IV/IO注射</Chinesesimp>
+            <Turkish>İlaçlar IV/IO gerektirir</Turkish>
             <Finnish>Lääkkeet vaativat IV/IO:n</Finnish>
             <Dutch>Medicaties vereisen IV/IO</Dutch>
-            <Turkish>İlaçlar IV/IO gerektirir</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_REQUIRE_INS_IV_Medications_DESC">
             <English>Default false. If true, you will need to insert IV/IO first before being able to give someone medications. \nIf false, you can give them without it.</English>
@@ -2401,9 +2401,9 @@
             <Japanese>デフォルトではfalseです。trueの場合、薬液注射を行う前にIV/IOの刺入が必要になります。 \nfalseの場合は薬品だけで投与可能になります。</Japanese>
             <Chinese>默認假。 如果為真，您將需要先建立 IV/IO, 然後才能給某人注射藥。 \n如果為假, 您可以在沒有IV/IO的情況下注射藥物他們。</Chinese>
             <Chinesesimp>默认假。 如果为真，您将需要先建立 IV/IO, 然后才能给某人注射药。 \n如果为假, 您可以在没有IV/IO的情况下注射药物他们。</Chinesesimp>
+            <Turkish>Varsayılan: false. True ise birine ilaç verebilmek için önce IV/IO takmanız gerekir. \nFalse ise IV/IO olmadan ilaç verebilirsiniz.</Turkish>
             <Finnish>Oletusarvo epätosi. Jos totta, sinun on lisättävä IV/IO ensin, ennen kuin voit antaa jollekin lääkkeitä. \nJos vääriä, voit antaa ne ilman sitä.</Finnish>
             <Dutch>Standaard vals. Wanneer waar moet er eerst een IV/IO aangelegd worden voordat medicatie toegedient kan worden. \nWanneer vals kunnen medicijnen gegeven worden zonder IV/IO</Dutch>
-            <Turkish>Varsayılan: false. True ise birine ilaç verebilmek için önce IV/IO takmanız gerekir. \nFalse ise IV/IO olmadan ilaç verebilirsiniz.</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Reorientation_Enable">
             <English>Reorientation enabled?</English>
@@ -2491,9 +2491,9 @@
             <Japanese>武器の揺れを有効化</Japanese>
             <Chinese>啟用武器搖擺</Chinese>
             <Chinesesimp>启用武器摇摆</Chinesesimp>
+            <Turkish>Silah sallanmasını etkinleştir</Turkish>
             <Finnish>Ota aseen heiluminen käyttöön</Finnish>
             <Dutch>Schakel wapenbeweging in</Dutch>
-            <Turkish>Silah sallanmasını etkinleştir</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_Weapon_Sway_Pervitin_DESC">
             <English>Enables if pervitin should influence your weapon sway</English>
@@ -2509,9 +2509,9 @@
             <Japanese>ペルビチンが武器の揺れに影響を与える機能を有効にします</Japanese>
             <Chinese>啟用柏飛汀(Pervitin)影響您的武器擺動</Chinese>
             <Chinesesimp>启用柏飞汀(Pervitin)影响您的武器摆动</Chinesesimp>
+            <Turkish>Pervitin’in silah sallanmasını etkilemesini etkinleştirir</Turkish>
             <Finnish>Mahdollistaa pervitiinin vaikutuksen aseen heilumiseen.</Finnish>
             <Dutch>Bepaald of pervitin invloed heeft op wapenbewegingen</Dutch>
-            <Turkish>Pervitin’in silah sallanmasını etkilemesini etkinleştirir</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_allowStackScript_EACA">
             <English>Allow Stacking</English>
@@ -2524,8 +2524,8 @@
             <Japanese>重複の許可</Japanese>
             <Chinese>允許堆疊</Chinese>
             <Chinesesimp>允许堆叠</Chinesesimp>
-            <Dutch>Sta stapelen toe</Dutch>
             <Turkish>İstiflemeye izin ver</Turkish>
+            <Dutch>Sta stapelen toe</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_allowStackScript_EACA_DESC">
             <English>If enabled EACA will be stackable and double its efficiency</English>
@@ -2538,8 +2538,8 @@
             <Japanese>有効にすると、EACAの重複と効率の倍化が可能になります。</Japanese>
             <Chinese>如果啟用，EACA 將可堆疊，效率提高一倍</Chinese>
             <Chinesesimp>如果启用，EACA将可堆叠，效率提高一倍</Chinesesimp>
-            <Dutch>Staat het stapelen van EACA toe wanneer ingeschakeld, wat leidt tot een verdubbeling van de effectiviteit</Dutch>
             <Turkish>Etkinleştirilirse EACA istiflenebilir olur ve etkinliği iki katına çıkar</Turkish>
+            <Dutch>Staat het stapelen van EACA toe wanneer ingeschakeld, wat leidt tot een verdubbeling van de effectiviteit</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_allowStackScript_TXA">
             <English>Allow Stacking</English>
@@ -2551,8 +2551,8 @@
             <Japanese>重複の許可</Japanese>
             <Chinese>允許堆疊</Chinese>
             <Chinesesimp>允许堆叠</Chinesesimp>
-            <Dutch>Sta stapelen toe</Dutch>
             <Turkish>İstiflemeye izin ver</Turkish>
+            <Dutch>Sta stapelen toe</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_allowStackScript_TXA_DESC">
             <English>If enabled TXA will be stackable and double it's efficiency</English>
@@ -2564,8 +2564,8 @@
             <Japanese>有効にすると、TXAの重複が可能になり、効率が2倍になります。</Japanese>
             <Chinese>如果啟用血栓素(TXA)，它將是可堆疊的，效率提高一倍</Chinese>
             <Chinesesimp>如果启用血栓素(TXA)，它将是可堆叠的，效率提高一倍</Chinesesimp>
-            <Dutch>Wanneer ingeschakeld: sta het stapelen van TXA toe, wat de effectiviteit verdubbeld)</Dutch>
             <Turkish>Etkinleştirilirse TXA istiflenebilir olur ve etkinliği iki katına çıkar</Turkish>
+            <Dutch>Wanneer ingeschakeld: sta het stapelen van TXA toe, wat de effectiviteit verdubbeld)</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_bandageCycleTime_EACA">
             <English>EACA Cycle Time</English>
@@ -2578,8 +2578,8 @@
             <Japanese>EACAサイクル時間</Japanese>
             <Chinese>EACA 循環時間</Chinese>
             <Chinesesimp>EACA循环时间</Chinesesimp>
-            <Dutch>EACA cyclustimer</Dutch>
             <Turkish>EACA Döngü Süresi</Turkish>
+            <Dutch>EACA cyclustimer</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_bandageCycleTime_EACA_DESC">
             <English>The time it takes for EACA to close a stich a wound</English>
@@ -2592,8 +2592,8 @@
             <Japanese>EACAが創傷を縫合するのにかかる時間</Japanese>
             <Chinese>EACA 閉合傷口所需的時間</Chinese>
             <Chinesesimp>EACA闭合伤口所需的时间</Chinesesimp>
-            <Dutch>Hoe lang het duurt voor EACA om een wond te hechten</Dutch>
             <Turkish>EACA’nın bir dikişli yarayı kapatması için geçen süre</Turkish>
+            <Dutch>Hoe lang het duurt voor EACA om een wond te hechten</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_bandageCycleTime_TXA">
             <English>TXA Cycle Time</English>
@@ -2605,8 +2605,8 @@
             <Japanese>TXAサイクル時間</Japanese>
             <Chinese>血栓素(TXA)循環時間</Chinese>
             <Chinesesimp>血栓素(TXA)循环时间</Chinesesimp>
-            <Dutch>TXA cyclustijd</Dutch>
             <Turkish>TXA Döngü Süresi</Turkish>
+            <Dutch>TXA cyclustijd</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_bandageCycleTime_TXA_DESC">
             <English>The time it takes for TXA to close a wound</English>
@@ -2618,8 +2618,8 @@
             <Japanese>TXAが創傷を塞ぐのにかかる時間</Japanese>
             <Chinese>血栓素(TXA)閉合傷口所需的時間</Chinese>
             <Chinesesimp>血栓素(TXA)闭合伤口所需的时间</Chinesesimp>
-            <Dutch>Hoe lang het duurt voordat TXA een wond dicht</Dutch>
             <Turkish>TXA’nın bir yarayı kapatması için geçen süre</Turkish>
+            <Dutch>Hoe lang het duurt voordat TXA een wond dicht</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_carbonateChance">
             <English>Maximum Carbonate Success Chance</English>
@@ -2635,16 +2635,16 @@
             <Japanese>炭酸アンモニウムの最大成功率</Japanese>
             <Chinese>成功使用碳酸鹽的機率</Chinese>
             <Chinesesimp>成功使用碳酸盐的几率</Chinesesimp>
+            <Turkish>Maksimum Karbonat Başarı Şansı</Turkish>
             <Finnish>Suurin karbonaatin onnistumismahdollisuus</Finnish>
             <Dutch>Maximale succeskans van carbonaat</Dutch>
-            <Turkish>Maksimum Karbonat Başarı Şansı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_carbonateChance_DESC">
             <English>Chance for successful carbonate treatment</English>
+            <French>Chances de réussite du traitement au bicarbonate</French>
             <German>Chance für erfolgreiche Carbonat-Behandlung</German>
             <Japanese>炭酸アンモニウムでの治療の成功確率</Japanese>
             <Turkish>Başarılı karbonat tedavisi şansı</Turkish>
-            <French>Chances de réussite du traitement au bicarbonate</French>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_coagulation_Factor_Limit">
             <English>Coagulation Factor Limit</English>
@@ -2656,8 +2656,8 @@
             <Japanese>凝固因子の限界値</Japanese>
             <Chinese>凝血因子限值</Chinese>
             <Chinesesimp>凝血因子限值</Chinesesimp>
-            <Dutch>Stollingsfactor limiet</Dutch>
             <Turkish>Pıhtılaşma Faktörü Limiti</Turkish>
+            <Dutch>Stollingsfactor limiet</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_coagulation_Factor_Limit_DESC">
             <English>The limit for how many coagulation factors can be present inside a units body at once. Meaning if you administer plasma this is the maximum attainable value.</English>
@@ -2669,8 +2669,8 @@
             <Japanese>血液凝固因子が一度にどれだけ体内に存在できるかの限界値。つまり、血漿を投与した場合における保持可能な因子の最大値。</Japanese>
             <Chinese>一個單位體內同時存在多少凝血因子的限制。這意味著，如果你服用血漿，這是可達到的最大值。</Chinese>
             <Chinesesimp>一个单位体内同时存在多少凝血因子的限制。这意味着，如果你服用血浆，这是可达到的最大值。</Chinesesimp>
-            <Dutch>Het limiet voor hoeveel stollingsfactoren er in een eenheids lichaam tegelijkertijd aanwezig kan zijn. Wat betekent dat dit de waarde is waar zelfs plasma geen extra factoren meer toevoegd</Dutch>
             <Turkish>Bir birimin vücudunda aynı anda bulunabilecek pıhtılaşma faktörü sayısının üst sınırı. Yani plazma uygularsanız ulaşılabilecek maksimum değerdir.</Turkish>
+            <Dutch>Het limiet voor hoeveel stollingsfactoren er in een eenheids lichaam tegelijkertijd aanwezig kan zijn. Wat betekent dat dit de waarde is waar zelfs plasma geen extra factoren meer toevoegd</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_ivCheckLimbDamage">
             <English>IV Check limb damage</English>
@@ -2686,9 +2686,9 @@
             <Japanese>IVの四肢損傷の確認</Japanese>
             <Chinese>IV 檢查肢體損傷</Chinese>
             <Chinesesimp>IV 检查肢体损伤</Chinesesimp>
+            <Turkish>IV uzuv hasarını kontrol et</Turkish>
             <Finnish>IV tarkista raajan vauriot</Finnish>
             <Dutch>IV checkt voor ledemaatschade</Dutch>
-            <Turkish>IV uzuv hasarını kontrol et</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_ivCheckLimbDamage_DESC">
             <English>Whether or not you can apply the IV to the too damaged limb. In default, this is disabled.</English>
@@ -2704,9 +2704,9 @@
             <Japanese>あまりにも損傷した手足に点滴を適用できるかどうか。 デフォルトでは無効。</Japanese>
             <Chinese>是否可以將 IV 應用於受損的肢體。 預設情況下，這是禁用的。</Chinese>
             <Chinesesimp>是否可以将 IV 应用于受损的肢体。 默认情况下，这是禁用的。</Chinesesimp>
+            <Turkish>Aşırı hasarlı bir uzva IV uygulanıp uygulanamayacağını belirler. Varsayılan olarak devre dışıdır.</Turkish>
             <Finnish>Voitko laittaa IV vaurioituneeseen raajaan vai et. Tämä on oletuksena pois käytöstä.</Finnish>
             <Dutch>Of je wel of niet een IV kan plaatsen op een te beschadigd ledemaat. standaard staat dit uit.</Dutch>
-            <Turkish>Aşırı hasarlı bir uzva IV uygulanıp uygulanamayacağını belirler. Varsayılan olarak devre dışıdır.</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_keepScriptRunning_EACA">
             <English>Keep Stiching Until Out Of System</English>
@@ -2719,8 +2719,8 @@
             <Japanese>体内に効果が無くなるまで"縫合"を適用する</Japanese>
             <Chinese>繼續攪拌，直到系統崩潰</Chinese>
             <Chinesesimp>继续搅拌，直到系统崩溃</Chinesesimp>
-            <Dutch>Blijf hechten tot uit systeem</Dutch>
             <Turkish>Sistemden çıkana kadar dikişe devam et</Turkish>
+            <Dutch>Blijf hechten tot uit systeem</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_keepScriptRunning_EACA_DESC">
             <English>If enabled EACA will keep stichinng until it's out of your system\nIf disabled EACA will stop working after stiching the last bandaged wound it can find</English>
@@ -2733,8 +2733,8 @@
             <Japanese>有効にすると、EACAが体内から無くなるまで"縫合"をします。 \n無効にすると、EACAが判定済の最後の包帯創傷に"縫合"を適用した後に、その作用を終了します。</Japanese>
             <Chinese>如果啟用，EACA 將繼續縫合，直到它脫離您的系統\n如果禁用，EACA 在縫合它能找到的最後一個繃帶傷口後將停止工作</Chinese>
             <Chinesesimp>如果启用，EACA将继续缝合，直到它脱离您的系统\n如果禁用，EACA在缝合它能找到的最后一个绷带伤口后将停止工作</Chinesesimp>
-            <Dutch>Als dit ingeschakeld is, EACA blijft hechten tot het uit je systeem is.\nEACA zal stoppen na de laatste hechtbare wond die hij kan vinden wanneer uitgeschakeld</Dutch>
             <Turkish>Etkinleştirilirse EACA vücuttan atılana kadar dikiş atmaya devam eder.\nDevre dışıysa, bulabildiği son bandajlı yarayı diktikten sonra çalışmayı durdurur.</Turkish>
+            <Dutch>Als dit ingeschakeld is, EACA blijft hechten tot het uit je systeem is.\nEACA zal stoppen na de laatste hechtbare wond die hij kan vinden wanneer uitgeschakeld</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_keepScriptRunning_TXA">
             <English>Keep Bandaging Until Out Of System</English>
@@ -2746,8 +2746,8 @@
             <Japanese>体内に効果が無くなるまで"包帯"を適用する</Japanese>
             <Chinese>保持包紮，直到脫離系統</Chinese>
             <Chinesesimp>保持包扎，直到脱离系统</Chinesesimp>
-            <Dutch>Blijf verbinden tot uit het systeem</Dutch>
             <Turkish>Sistemden çıkana kadar bandajlamaya devam et</Turkish>
+            <Dutch>Blijf verbinden tot uit het systeem</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_keepScriptRunning_TXA_DESC">
             <English>If enabled TXA will keep bandaging until it's out of your system\nIf disabled TXA will stop working after bandaging the last wound it can find</English>
@@ -2759,8 +2759,8 @@
             <Japanese>有効にすると、TXAが体内から無くなるまで傷口に"包帯"を巻きます。 \n無効にすると、TXAが判定済の最後の創傷に"包帯"を適用した後に、その作用を終了します。</Japanese>
             <Chinese>如果啟用，血栓素(TXA)將繼續包紮，直到它離開您的系統\n如果禁用，血栓素(TXA)在包紮最後一個傷口後將停止工作</Chinese>
             <Chinesesimp>如果启用，血栓素(TXA)将继续包扎，直到它离开您的系统\n如果禁用，血栓素(TXA)在包扎最后一个伤口后将停止工作</Chinesesimp>
-            <Dutch>Wanneer ingeschakeld: TXA blijft verbinden tot het uit jouw systeem is.\nWanneer uitgeschakeld: TXA Stopt met werken wanneer alle wonden gedicht zijn.</Dutch>
             <Turkish>Etkinleştirilirse TXA vücuttan atılana kadar bandajlamaya devam eder.\nDevre dışıysa, bulabildiği son yarayı bandajladıktan sonra çalışmayı durdurur.</Turkish>
+            <Dutch>Wanneer ingeschakeld: TXA blijft verbinden tot het uit jouw systeem is.\nWanneer uitgeschakeld: TXA Stopt met werken wanneer alle wonden gedicht zijn.</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_medLvl_Penthrox">
             <English>Medical level required for Penthrox Inhaler</English>
@@ -2775,9 +2775,9 @@
             <Japanese>ペンスロックス吸入器の許可</Japanese>
             <Chinese>Penthrox吸入器需要的醫療等級</Chinese>
             <Chinesesimp>Penthrox吸入器所需的医疗水平</Chinesesimp>
+            <Turkish>Penthrox İnhaler için gereken medikal seviye</Turkish>
             <Finnish>Lääketieteellinen koulutustaso vaatii penthrox-inhalaattorin</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Penthrox inhalators</Dutch>
-            <Turkish>Penthrox İnhaler için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_reorientationChance">
             <English>Maximum Reorientation Success Chance</English>
@@ -2793,16 +2793,16 @@
             <Japanese>患者を刺激の最大成功率</Japanese>
             <Chinese>成功進行恢復體態的機率</Chinese>
             <Chinesesimp>成功进行恢复体态的几率</Chinesesimp>
+            <Turkish>Maksimum Reoryantasyon Başarı Şansı</Turkish>
             <Finnish>Suurin mahdollisuus uudelleenorientoitumiseen</Finnish>
             <Dutch>Maximale heroriëntatie succeskans</Dutch>
-            <Turkish>Maksimum Reoryantasyon Başarı Şansı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_reorientationChance_DESC">
             <English>Chance for successful reorientation</English>
+            <French>Chances de réussite de la réorientation</French>
             <German>Chance für erfolgreiche Neuorientierung</German>
             <Japanese>患者を刺激した際の成功確率</Japanese>
             <Turkish>Başarılı reoryantasyon şansı</Turkish>
-            <French>Chances de réussite de la réorientation</French>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_staminaMedication">
             <English>Medication Modifies Stamina</English>
@@ -2817,9 +2817,9 @@
             <Japanese>薬品によるスタミナの変化</Japanese>
             <Chinese>藥物可以改善體力</Chinese>
             <Chinesesimp>药物可以改善体力</Chinesesimp>
+            <Turkish>İlaç dayanıklılığı etkiler</Turkish>
             <Finnish>Lääkitys muuttaa kestävyyttä</Finnish>
             <Dutch>Medicatie heeft invloed op uithoudingsvermogen</Dutch>
-            <Turkish>İlaç dayanıklılığı etkiler</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_staminaMedication_DESC">
             <English>Allow certain medications to modify (vanilla/advanced fatigue) stamina as a side effect</English>
@@ -2834,9 +2834,9 @@
             <Japanese>特定の薬の副作用としてスタミナ(バニラ/ACEアドバンスド疲労)を変更することを許可する</Japanese>
             <Chinese>允許某些藥物改變（香草/重度疲勞）耐力作為副作用</Chinese>
             <Chinesesimp>允许某些药物改变（香草/重度疲劳）耐力作为副作用</Chinesesimp>
+            <Turkish>Bazı ilaçların yan etki olarak (vanilla/gelişmiş yorgunluk) dayanıklılığı değiştirmesine izin verir</Turkish>
             <Finnish>Salli tiettyjen lääkkeiden muuttaa kestävyyttä (vanilja/edistynyt väsymys) sivuvaikutuksena</Finnish>
             <Dutch>Bepaald of sommige medicijnen het uithoudingsvermogen (vanilla/geadvanceerde uitputting) beïnvloeden als een bijwerking</Dutch>
-            <Turkish>Bazı ilaçların yan etki olarak (vanilla/gelişmiş yorgunluk) dayanıklılığı değiştirmesine izin verir</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SETTING_treatmentTime_Penthrox">
             <English>Treatment time for Penthrox Inhaler</English>
@@ -2851,9 +2851,9 @@
             <Japanese>ペンスロックス吸入器の所要時間</Japanese>
             <Chinese>Penthrox吸入器的治療時間</Chinese>
             <Chinesesimp>Penthrox吸入器的治疗时间</Chinesesimp>
+            <Turkish>Penthrox İnhaler tedavi süresi</Turkish>
             <Finnish>Penthrox-inhalaattorin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Penthrox inhalators</Dutch>
-            <Turkish>Penthrox İnhaler tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Saline_Flush">
             <English>Saline Flush</English>
@@ -2869,9 +2869,9 @@
             <Japanese>生理食塩液フラッシュ</Japanese>
             <Chinese>用生理食鹽水沖洗</Chinese>
             <Chinesesimp>用生理盐水冲洗</Chinesesimp>
+            <Turkish>Salin Yıkama</Turkish>
             <Finnish>suolainen flunssa</Finnish>
             <Dutch>Salinespoeling</Dutch>
-            <Turkish>Salin Yıkama</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Amiodarone">
             <English>Amiodarone Settings</English>
@@ -2887,9 +2887,9 @@
             <Japanese>アミオダロン設定</Japanese>
             <Chinese>胺碘酮設定</Chinese>
             <Chinesesimp>胺碘酮设置</Chinesesimp>
+            <Turkish>Amiodaron Ayarları</Turkish>
             <Finnish>Amiodaronin asetukset</Finnish>
             <Dutch>Amiodaron instellingen</Dutch>
-            <Turkish>Amiodaron Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_ApplyIO">
             <English>IO Settings</English>
@@ -2905,9 +2905,9 @@
             <Japanese>IO 設定</Japanese>
             <Chinese>IO設定</Chinese>
             <Chinesesimp>IO设置</Chinesesimp>
+            <Turkish>IO Ayarları</Turkish>
             <Finnish>IO-asetukset</Finnish>
             <Dutch>IO instellingen</Dutch>
-            <Turkish>IO Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_ApplyIV">
             <English>IV Settings</English>
@@ -2923,9 +2923,9 @@
             <Japanese>IV 設定</Japanese>
             <Chinese>IV設定</Chinese>
             <Chinesesimp>IV设置</Chinesesimp>
+            <Turkish>IV Ayarları</Turkish>
             <Finnish>IV asetukset</Finnish>
             <Dutch>IV instellingen</Dutch>
-            <Turkish>IV Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Atropine">
             <English>Atropine Settings</English>
@@ -2941,9 +2941,9 @@
             <Japanese>アトロピン設定</Japanese>
             <Chinese>阿托品設定</Chinese>
             <Chinesesimp>阿托品设置</Chinesesimp>
+            <Turkish>Atropin Ayarları</Turkish>
             <Finnish>Atropiiniasetukset</Finnish>
             <Dutch>Atropine instellingen</Dutch>
-            <Turkish>Atropin Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Basic">
             <English>Basic Settings</English>
@@ -2959,9 +2959,9 @@
             <Japanese>基本設定</Japanese>
             <Chinese>基礎設定</Chinese>
             <Chinesesimp>基础设置</Chinesesimp>
+            <Turkish>Temel Ayarlar</Turkish>
             <Finnish>Perus asetukset</Finnish>
             <Dutch>Basis instellingen</Dutch>
-            <Turkish>Temel Ayarlar</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_CWMP">
             <English>CWMP Settings</English>
@@ -2970,8 +2970,8 @@
             <Italian>Impostazioni CWMP</Italian>
             <German>CWMP Einstellungen</German>
             <Japanese>戦闘傷病治療薬(CWMP)設定</Japanese>
-            <Dutch>CWMP Instellingen</Dutch>
             <Turkish>CWMP Ayarları</Turkish>
+            <Dutch>CWMP Instellingen</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Caffeine">
             <English>Caffeine Settings</English>
@@ -2987,9 +2987,9 @@
             <Japanese>カフェイン設定</Japanese>
             <Chinese>咖啡因設定</Chinese>
             <Chinesesimp>咖啡因设置</Chinesesimp>
+            <Turkish>Kafein Ayarları</Turkish>
             <Finnish>Kofeiiniasetukset</Finnish>
             <Dutch>Caffeïne instellingen</Dutch>
-            <Turkish>Kafein Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Carbonate">
             <English>Carbonate Settings</English>
@@ -3005,9 +3005,9 @@
             <Japanese>炭酸アンモニウム設定</Japanese>
             <Chinese>Carbonate碳酸鹽設定</Chinese>
             <Chinesesimp>碳酸盐设置</Chinesesimp>
+            <Turkish>Karbonat Ayarları</Turkish>
             <Finnish>Karbonaattiasetukset</Finnish>
             <Dutch>Carbonaat instellingen</Dutch>
-            <Turkish>Karbonat Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Coag_Sense">
             <English>Coag-Sense Settings</English>
@@ -3020,8 +3020,8 @@
             <Japanese>Coag-Sense設定</Japanese>
             <Chinese>Coag-Sense 設定</Chinese>
             <Chinesesimp>Coag-Sense设置</Chinesesimp>
-            <Dutch>Coag-Sense instellingen</Dutch>
             <Turkish>Coag-Sense Ayarları</Turkish>
+            <Dutch>Coag-Sense instellingen</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Coagulation">
             <English>Coagulation Settings</English>
@@ -3034,8 +3034,8 @@
             <Japanese>凝固設定</Japanese>
             <Chinese>凝固設定</Chinese>
             <Chinesesimp>凝固设置</Chinesesimp>
-            <Dutch>Coagulatie instellingen</Dutch>
             <Turkish>Pıhtılaşma Ayarları</Turkish>
+            <Dutch>Coagulatie instellingen</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_EACA">
             <English>EACA Settings</English>
@@ -3051,9 +3051,9 @@
             <Japanese>EACA設定</Japanese>
             <Chinese>EACA設定</Chinese>
             <Chinesesimp>EACA设置</Chinesesimp>
+            <Turkish>EACA Ayarları</Turkish>
             <Finnish>EACA-asetukset</Finnish>
             <Dutch>EACA instellingen</Dutch>
-            <Turkish>EACA Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_EpinephrineIV">
             <English>IV Epinephrine Settings</English>
@@ -3065,8 +3065,8 @@
             <Japanese>EACAが創傷を縫合するのにかかる時間</Japanese>
             <Chinese>四腎上腺素設定</Chinese>
             <Chinesesimp>四肾上腺素设置</Chinesesimp>
-            <Dutch>IV Adrenaline Instellingen</Dutch>
             <Turkish>IV Epinefrin Ayarları</Turkish>
+            <Dutch>IV Adrenaline Instellingen</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Etomidate">
             <English>Etomidate Settings</English>
@@ -3082,9 +3082,9 @@
             <Japanese>エトミデート設定</Japanese>
             <Chinese>依托咪酯設定</Chinese>
             <Chinesesimp>依托咪酯设置</Chinesesimp>
+            <Turkish>Etomidat Ayarları</Turkish>
             <Finnish>Etomidatin asetukset</Finnish>
             <Dutch>Etomidaat instellingen</Dutch>
-            <Turkish>Etomidat Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Fentanyl">
             <English>Fentanyl Settings</English>
@@ -3100,9 +3100,9 @@
             <Japanese>フェンタニル設定</Japanese>
             <Chinese>芬太尼設定</Chinese>
             <Chinesesimp>芬太尼设置</Chinesesimp>
+            <Turkish>Fentanil Ayarları</Turkish>
             <Finnish>Fentanyyliasetukset</Finnish>
             <Dutch>Fentanyl instellingen</Dutch>
-            <Turkish>Fentanil Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Flumazenil">
             <English>Flumazenil Settings</English>
@@ -3118,9 +3118,9 @@
             <Japanese>フルマゼニル設定</Japanese>
             <Chinese>氟馬西尼設定</Chinese>
             <Chinesesimp>氟马西尼设置</Chinesesimp>
+            <Turkish>Flumazenil Ayarları</Turkish>
             <Finnish>Flumazenilin asetukset</Finnish>
             <Dutch>Flumazenil instellingen</Dutch>
-            <Turkish>Flumazenil Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Ketamine">
             <English>Ketamine Settings</English>
@@ -3136,9 +3136,9 @@
             <Japanese>ケタミン設定</Japanese>
             <Chinese>氯胺酮設定</Chinese>
             <Chinesesimp>氯胺酮设置</Chinesesimp>
+            <Turkish>Ketamin Ayarları</Turkish>
             <Finnish>Ketamiinin asetukset</Finnish>
             <Dutch>Ketamine instellingen</Dutch>
-            <Turkish>Ketamin Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Lidocaine">
             <English>Lidocaine Settings</English>
@@ -3154,9 +3154,9 @@
             <Japanese>リドカイン設定</Japanese>
             <Chinese>利多卡因設定</Chinese>
             <Chinesesimp>利多卡因设置</Chinesesimp>
+            <Turkish>Lidokain Ayarları</Turkish>
             <Finnish>Lidokaiiniasetukset</Finnish>
             <Dutch>Lidocaïne instellingen</Dutch>
-            <Turkish>Lidokain Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Lorazepam">
             <English>Lorazepam Settings</English>
@@ -3172,9 +3172,9 @@
             <Japanese>ロラゼパム設定</Japanese>
             <Chinese>勞拉西泮設定</Chinese>
             <Chinesesimp>劳拉西泮设置</Chinesesimp>
+            <Turkish>Lorazepam Ayarları</Turkish>
             <Finnish>Loratsepamin asetukset</Finnish>
             <Dutch>Lorazepam instellingen</Dutch>
-            <Turkish>Lorazepam Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Nalbuphine">
             <English>Nalbuphine Settings</English>
@@ -3190,9 +3190,9 @@
             <Japanese>ナルブフィン設定</Japanese>
             <Chinese>納布啡設定</Chinese>
             <Chinesesimp>纳布啡设置</Chinesesimp>
+            <Turkish>Nalbuphin Ayarları</Turkish>
             <Finnish>Nalbuphine-asetukset</Finnish>
             <Dutch>Nalbufine instellingen</Dutch>
-            <Turkish>Nalbuphin Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Naloxone">
             <English>Naloxone Settings</English>
@@ -3208,9 +3208,9 @@
             <Japanese>ナロキソン設定</Japanese>
             <Chinese>Naloxone納洛酮設定</Chinese>
             <Chinesesimp>纳洛酮设置</Chinesesimp>
+            <Turkish>Nalokson Ayarları</Turkish>
             <Finnish>Naloksonin asetukset</Finnish>
             <Dutch>Naloxone instellingen</Dutch>
-            <Turkish>Nalokson Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Nitroglycerin">
             <English>Nitroglycerin Settings</English>
@@ -3226,9 +3226,9 @@
             <Japanese>ニトログリセリン設定</Japanese>
             <Chinese>硝酸甘油設定</Chinese>
             <Chinesesimp>硝酸甘油设置</Chinesesimp>
+            <Turkish>Nitrogliserin Ayarları</Turkish>
             <Finnish>Nitroglyseriiniasetukset</Finnish>
             <Dutch>Nitroglycerine instellingen</Dutch>
-            <Turkish>Nitrogliserin Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Norepinephrine">
             <English>Norepinephrine Settings</English>
@@ -3244,9 +3244,9 @@
             <Japanese>ノルアドレナリン設定</Japanese>
             <Chinese>去甲腎上腺素設定</Chinese>
             <Chinesesimp>去甲肾上腺素设置</Chinesesimp>
+            <Turkish>Norepinefrin Ayarları</Turkish>
             <Finnish>Norepinefriinin asetukset</Finnish>
             <Dutch>Noradrenaline instellingen</Dutch>
-            <Turkish>Norepinefrin Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Penthrox">
             <English>Penthrox Inhaler Settings</English>
@@ -3261,9 +3261,9 @@
             <Japanese>ペンスロックス吸入器設定</Japanese>
             <Chinese>Penthrox吸入器設定</Chinese>
             <Chinesesimp>Penthrox吸入器设置</Chinesesimp>
+            <Turkish>Penthrox İnhaler Ayarları</Turkish>
             <Finnish>Penthrox-inhalaattorin asetukset</Finnish>
             <Dutch>Penthrox inhalator instellingen</Dutch>
-            <Turkish>Penthrox İnhaler Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Pervitin">
             <English>Pervitin Settings</English>
@@ -3279,9 +3279,9 @@
             <Japanese>ペルビチンの設定</Japanese>
             <Chinese>柏飛汀(Pervitin)設定</Chinese>
             <Chinesesimp>柏飞汀(Pervitin)设置</Chinesesimp>
+            <Turkish>Pervitin Ayarları</Turkish>
             <Finnish>Pervitiinin asetukset</Finnish>
             <Dutch>Pervitin instellingen</Dutch>
-            <Turkish>Pervitin Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Phenylephrine">
             <English>Phenylephrine Settings</English>
@@ -3297,9 +3297,9 @@
             <Japanese>フェニレフリン設定</Japanese>
             <Chinese>去氧腎上腺素設定</Chinese>
             <Chinesesimp>苯肾上腺素设置</Chinesesimp>
+            <Turkish>Fenilefrin Ayarları</Turkish>
             <Finnish>Fenyyliefriinin asetukset</Finnish>
             <Dutch>Fenylefrine instellingen</Dutch>
-            <Turkish>Fenilefrin Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_Reorientation">
             <English>Reorientation Settings</English>
@@ -3315,9 +3315,9 @@
             <Japanese>患者を刺激する機能設定</Japanese>
             <Chinese>刺激患者設定</Chinese>
             <Chinesesimp>刺激患者设置</Chinesesimp>
+            <Turkish>Reoryantasyon Ayarları</Turkish>
             <Finnish>Uudelleensuuntausasetukset</Finnish>
             <Dutch>Heroriëntatie instellingen</Dutch>
-            <Turkish>Reoryantasyon Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_SubCategory_TXA">
             <English>TXA Settings</English>
@@ -3333,9 +3333,9 @@
             <Japanese>TXA設定</Japanese>
             <Chinese>TXA血栓素設定</Chinese>
             <Chinesesimp>血栓素设置</Chinesesimp>
+            <Turkish>TXA Ayarları</Turkish>
             <Finnish>TXA-asetukset</Finnish>
             <Dutch>TXA instellingen</Dutch>
-            <Turkish>TXA Ayarları</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_TXA_Box_Display">
             <English>TXA</English>
@@ -3423,9 +3423,9 @@
             <Japanese>カフェインを服用する</Japanese>
             <Chinese>服用 咖啡因</Chinese>
             <Chinesesimp>服用 咖啡因</Chinesesimp>
+            <Turkish>Kafein al</Turkish>
             <Finnish>Ota kofeiinia</Finnish>
             <Dutch>Neem Caffeïne</Dutch>
-            <Turkish>Kafein al</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Take_Carbonate">
             <English>Use Carbonate</English>
@@ -3459,9 +3459,9 @@
             <Japanese>E-アミノカプロン酸 (EACA)を注入</Japanese>
             <Chinese>注射EACA</Chinese>
             <Chinesesimp>推注EACA</Chinesesimp>
+            <Turkish>EACA uygula</Turkish>
             <Finnish>Paina EACA</Finnish>
             <Dutch>Injecteer EACA</Dutch>
-            <Turkish>EACA uygula</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Take_Epi">
             <English>Push Epinephrine</English>
@@ -3473,8 +3473,8 @@
             <Japanese>アドレナリンを注入</Japanese>
             <Chinese>注射腎上腺素</Chinese>
             <Chinesesimp>推肾上腺素</Chinesesimp>
-            <Dutch>Injecteer IV Adrenaline</Dutch>
             <Turkish>Epinefrin uygula</Turkish>
+            <Dutch>Injecteer IV Adrenaline</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_Take_Fentanyl">
             <English>Push Fentanyl</English>
@@ -3490,9 +3490,9 @@
             <Japanese>フェンタニルを注入</Japanese>
             <Chinese>注射芬太尼</Chinese>
             <Chinesesimp>推注芬太尼</Chinesesimp>
+            <Turkish>Fentanil uygula</Turkish>
             <Finnish>Työnnä fentanyyliä</Finnish>
             <Dutch>Injecteer Fentanyl</Dutch>
-            <Turkish>Fentanil uygula</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Take_Ketamine">
             <English>Push Ketamine</English>
@@ -3508,9 +3508,9 @@
             <Japanese>ケタミンを注入</Japanese>
             <Chinese>注射氯胺酮</Chinese>
             <Chinesesimp>推注氯胺酮</Chinesesimp>
+            <Turkish>Ketamin uygula</Turkish>
             <Finnish>Paina ketamiinia</Finnish>
             <Dutch>Injecteer Ketamine</Dutch>
-            <Turkish>Ketamin uygula</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Take_Lidocaine">
             <English>Push Lidocaine</English>
@@ -3544,9 +3544,9 @@
             <Japanese>ナルブフィンを注入</Japanese>
             <Chinese>注射納布啡</Chinese>
             <Chinesesimp>推注纳布啡</Chinesesimp>
+            <Turkish>Nalbuphin uygula</Turkish>
             <Finnish>Paina nalbufiinia</Finnish>
             <Dutch>Injecteer Nalbufine</Dutch>
-            <Turkish>Nalbuphin uygula</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Take_Naloxone">
             <English>Use Naloxone</English>
@@ -3616,9 +3616,9 @@
             <Japanese>ペルビチンを服用する</Japanese>
             <Chinese>使用 柏飛丁</Chinese>
             <Chinesesimp>使用 柏飞丁</Chinesesimp>
+            <Turkish>Pervitin al</Turkish>
             <Finnish>Ota pervitiini</Finnish>
             <Dutch>Neem Pervitin</Dutch>
-            <Turkish>Pervitin al</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Take_Phenyl">
             <English>Push Phenylephrine</English>
@@ -3669,9 +3669,9 @@
             <Japanese>患者を刺激する</Japanese>
             <Chinese>刺激患者</Chinese>
             <Chinesesimp>刺激患者</Chinesesimp>
+            <Turkish>Hastayı reoryante et</Turkish>
             <Finnish>Suuntaa potilas uudelleen</Finnish>
             <Dutch>Heroriënteer patiënt</Dutch>
-            <Turkish>Hastayı reoryante et</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Take_TXA">
             <English>Push TXA</English>
@@ -3704,9 +3704,9 @@
             <Japanese>ペンスロックス吸入器を使う</Japanese>
             <Chinese>使用 Penthrox 吸入器</Chinese>
             <Chinesesimp>使用“绿哨”吸入式止痛药物</Chinesesimp>
+            <Turkish>Penthrox İnhaler kullan</Turkish>
             <Finnish>Käytä penthrox-inhalaattoria</Finnish>
             <Dutch>Gebruik Penthrox inhalator</Dutch>
-            <Turkish>Penthrox İnhaler kullan</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_Using">
             <English>Using</English>
@@ -3750,8 +3750,8 @@
             <Italian>KAT - ADV Medica: Farmaceutica</Italian>
             <German>KAT - ADV Medical: Medikamente</German>
             <Japanese>KAM - 薬学 (Pharmacy)</Japanese>
-            <Dutch>KAT - ADV Medical: Farmaceutica</Dutch>
             <Turkish>KAT – Gelişmiş Tıp: Eczane</Turkish>
+            <Dutch>KAT - ADV Medical: Farmaceutica</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_coagulation_Bandaged">
             <English>Blood clotting temporarily closed a wound on %1</English>
@@ -3764,8 +3764,8 @@
             <Japanese>血液凝固が一時的に %1 の創傷を塞いだ</Japanese>
             <Chinese>凝血暫時閉合了 %1 的傷口</Chinese>
             <Chinesesimp>凝血暂时闭合了%1的伤口</Chinesesimp>
-            <Dutch>Wondstolling heeft een wond op %1 tijdelijk gedicht</Dutch>
             <Turkish>Kan pıhtılaşması %1 bölgesindeki bir yarayı geçici olarak kapattı</Turkish>
+            <Dutch>Wondstolling heeft een wond op %1 tijdelijk gedicht</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_coagulation_Bandaged_TXA">
             <English>Blood clotting permanently closed a wound on %1</English>
@@ -3778,8 +3778,8 @@
             <Japanese>血液凝固が完全に %1 の創傷を塞いだ</Japanese>
             <Chinese>凝血永久閉合了 %1 的傷口</Chinese>
             <Chinesesimp>凝血永久闭合了%1的伤口</Chinesesimp>
-            <Dutch>Wondstolling heeft een wond op %1 permanent gedicht</Dutch>
             <Turkish>Kan pıhtılaşması %1 bölgesindeki bir yarayı kalıcı olarak kapattı</Turkish>
+            <Dutch>Wondstolling heeft een wond op %1 permanent gedicht</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_dialysis_log">
             <English>%1 performed dialysis</English>
@@ -3795,9 +3795,9 @@
             <Japanese>%1 が透析を行った</Japanese>
             <Chinese>%1 進行了透析</Chinese>
             <Chinesesimp>%1 进行了透析</Chinesesimp>
+            <Turkish>%1 diyaliz uyguladı</Turkish>
             <Finnish>%1 suoritettu dialyysi</Finnish>
             <Dutch>%1 heeft een dialyse uitgevoerd</Dutch>
-            <Turkish>%1 diyaliz uyguladı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_flush_log">
             <English>%1 performed a saline flush</English>
@@ -3812,9 +3812,9 @@
             <Japanese>%1 が生理食塩液フラッシュを実施</Japanese>
             <Chinese>%1 進行了鹽水沖洗</Chinese>
             <Chinesesimp>%1 进行了盐水冲洗</Chinesesimp>
+            <Turkish>%1 salin yıkama yaptı</Turkish>
             <Finnish>%1 suoritti suolaliuoksen huuhtelun</Finnish>
             <Dutch>%1 voerde een salinespoeling uit</Dutch>
-            <Turkish>%1 salin yıkama yaptı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_head">
             <English>Head</English>
@@ -3917,9 +3917,9 @@
             <Japanese>アミオダロンの許可</Japanese>
             <Chinese>胺碘酮需要的醫療等級</Chinese>
             <Chinesesimp>胺碘酮所需的医疗水平</Chinesesimp>
+            <Turkish>Amiodaron için gereken medikal seviye</Turkish>
             <Finnish>Amiodaronille vaadittu lääketieteellinen koulutustaso</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Amiodaron</Dutch>
-            <Turkish>Amiodaron için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_ApplyIO">
             <English>Allow applying IO</English>
@@ -3935,9 +3935,9 @@
             <Japanese>IOの使用許可</Japanese>
             <Chinese>允許施用骨內注射 (IO)</Chinese>
             <Chinesesimp>允许使用IO</Chinesesimp>
+            <Turkish>IO uygulanmasına izin ver</Turkish>
             <Finnish>Salli IO:n käyttö</Finnish>
             <Dutch>IO plaatsing niveau</Dutch>
-            <Turkish>IO uygulanmasına izin ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_ApplyIO_Desc">
             <English>Changes what medical level is required to set IOs</English>
@@ -3953,9 +3953,9 @@
             <Japanese>IOの使用に必要な医療スキルのレベルを設定します。</Japanese>
             <Chinese>更改設置骨內注射 (IO) 需要的醫療資格</Chinese>
             <Chinesesimp>更改设置 IO 所需的医疗级别</Chinesesimp>
+            <Turkish>IO yerleştirmek için gereken medikal seviyeyi değiştirir</Turkish>
             <Finnish>Muuttaa IO:iden asettamiseen vaadittavaa lääketieteellistä tasoa</Finnish>
             <Dutch>Bepaald welk medisch niveau benodigd is om IO's aan te kunnen leggen</Dutch>
-            <Turkish>IO yerleştirmek için gereken medikal seviyeyi değiştirir</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_ApplyIV">
             <English>Allow applying IV</English>
@@ -3971,9 +3971,9 @@
             <Japanese>IVの使用許可</Japanese>
             <Chinese>允許施用靜脈注射 (IV)</Chinese>
             <Chinesesimp>允许使用IV</Chinesesimp>
+            <Turkish>IV uygulanmasına izin ver</Turkish>
             <Finnish>Salli hakeminen IV</Finnish>
             <Dutch>IV plaatsing niveau</Dutch>
-            <Turkish>IV uygulanmasına izin ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_ApplyIV_Desc">
             <English>Changes what medical level is required to set IVs</English>
@@ -4007,9 +4007,9 @@
             <Japanese>アトロピンの許可</Japanese>
             <Chinese>阿托品需要的醫療等級</Chinese>
             <Chinesesimp>阿托品所需的医疗水平</Chinesesimp>
+            <Turkish>Atropin için gereken medikal seviye</Turkish>
             <Finnish>Atropiinia varten vaadittava lääketieteellinen koulutustaso</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Atropine</Dutch>
-            <Turkish>Atropin için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_CWMP">
             <English>Allow using CWMP</English>
@@ -4018,8 +4018,8 @@
             <Italian>Consenti l'uso dei CWMP</Italian>
             <German>Erlaube die Verwendung von CWMP</German>
             <Japanese>戦闘傷病治療薬(CWMP)の許可</Japanese>
-            <Dutch>Sta gebruik van CWMP toe</Dutch>
             <Turkish>CWMP kullanımına izin ver</Turkish>
+            <Dutch>Sta gebruik van CWMP toe</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Caffeine">
             <English>Allow using Caffeine</English>
@@ -4028,8 +4028,8 @@
             <Italian>Consenti l'uso della caffeina</Italian>
             <German>Erlaube die Verwendung von Koffein</German>
             <Japanese>カフェインの許可</Japanese>
-            <Dutch>Sta gebruik van caffeine toe</Dutch>
             <Turkish>Kafein kullanımına izin ver</Turkish>
+            <Dutch>Sta gebruik van caffeine toe</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Carbonate">
             <English>Allow using Carbonate</English>
@@ -4045,9 +4045,9 @@
             <Japanese>炭酸アンモニウムの使用を許可</Japanese>
             <Chinese>允許使用碳酸鹽</Chinese>
             <Chinesesimp>允许使用碳酸盐</Chinesesimp>
+            <Turkish>Karbonat kullanımına izin ver</Turkish>
             <Finnish>Salli karbonaatin käyttö</Finnish>
             <Dutch>Sta gebruik van carbonaat toe</Dutch>
-            <Turkish>Karbonat kullanımına izin ver</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_EACA">
             <English>Medical level required for EACA</English>
@@ -4063,9 +4063,9 @@
             <Japanese>EACAの許可</Japanese>
             <Chinese>EACA需要的醫療等級</Chinese>
             <Chinesesimp>EACA所需的医疗水平</Chinesesimp>
+            <Turkish>EACA için gereken medikal seviye</Turkish>
             <Finnish>Lääketieteellinen koulutustaso vaaditaan EACA:lle</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van EACA</Dutch>
-            <Turkish>EACA için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_EpinephrineIV">
             <English>Medical level required for IV Epinephrine</English>
@@ -4077,8 +4077,8 @@
             <Japanese>アドレナリン静脈注射 (IV)の許可</Japanese>
             <Chinese>靜脈注射腎上腺素需要的醫療等級</Chinese>
             <Chinesesimp>静脉注射肾上腺素所需的医疗水平</Chinesesimp>
-            <Dutch>Vereist medisch niveau voor gebruik van IV Adrenaline</Dutch>
             <Turkish>IV Epinefrin için gereken medikal seviye</Turkish>
+            <Dutch>Vereist medisch niveau voor gebruik van IV Adrenaline</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Etomidate">
             <English>Medical level required for Etomidate</English>
@@ -4094,9 +4094,9 @@
             <Japanese>エトミデートの許可</Japanese>
             <Chinese>依托咪酯需要的醫療等級</Chinese>
             <Chinesesimp>依托咪酯所需的医疗水平</Chinesesimp>
+            <Turkish>Etomidat için gereken medikal seviye</Turkish>
             <Finnish>Etomidaatille vaadittava lääketieteellisen hoidon taso</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Etomidaat</Dutch>
-            <Turkish>Etomidat için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Fentanyl">
             <English>Medical level required for Fentanyl</English>
@@ -4112,9 +4112,9 @@
             <Japanese>フェンタニルの許可</Japanese>
             <Chinese>芬太尼需要的醫療等級</Chinese>
             <Chinesesimp>芬太尼所需的医疗水平</Chinesesimp>
+            <Turkish>Fentanil için gereken medikal seviye</Turkish>
             <Finnish>Fentanyylille vaadittu lääketieteellinen koulutustaso</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Fentanyl</Dutch>
-            <Turkish>Fentanil için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Flumazenil">
             <English>Medical level required for Flumazenil</English>
@@ -4130,9 +4130,9 @@
             <Japanese>フルマゼニルの許可</Japanese>
             <Chinese>氟馬西尼需要的醫療等級</Chinese>
             <Chinesesimp>氟马西尼所需的医疗水平</Chinesesimp>
+            <Turkish>Flumazenil için gereken medikal seviye</Turkish>
             <Finnish>Flumatseniilin edellyttämä lääketieteellinen koulutustaso</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Flumazenil</Dutch>
-            <Turkish>Flumazenil için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Ketamine">
             <English>Medical level required for Ketamine</English>
@@ -4148,9 +4148,9 @@
             <Japanese>ケタミンの許可</Japanese>
             <Chinese>氯胺酮需要的醫療等級</Chinese>
             <Chinesesimp>氯胺酮所需的医疗水平</Chinesesimp>
+            <Turkish>Ketamin için gereken medikal seviye</Turkish>
             <Finnish>Lääketieteellinen koulutustaso vaaditaan ketamiinille</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Ketamine</Dutch>
-            <Turkish>Ketamin için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Lidocaine">
             <English>Medical level required for Lidocaine</English>
@@ -4166,9 +4166,9 @@
             <Japanese>リドカインの許可</Japanese>
             <Chinese>利多卡因需要的醫療等級</Chinese>
             <Chinesesimp>利多卡因所需的医疗水平</Chinesesimp>
+            <Turkish>Lidokain için gereken medikal seviye</Turkish>
             <Finnish>Lääketieteellinen koulutustaso vaaditaan lidokaiinin käyttöön</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Lidocaïne</Dutch>
-            <Turkish>Lidokain için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Lorazepam">
             <English>Medical level required for Lorazepam</English>
@@ -4184,9 +4184,9 @@
             <Japanese>ロラゼパムの許可</Japanese>
             <Chinese>勞拉西泮需要的醫療等級</Chinese>
             <Chinesesimp>劳拉西泮所需的医疗水平</Chinesesimp>
+            <Turkish>Lorazepam için gereken medikal seviye</Turkish>
             <Finnish>Lääketieteellinen koulutustaso vaaditaan loratsepaamia varten</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Lorazepam</Dutch>
-            <Turkish>Lorazepam için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Nalbuphine">
             <English>Medical level required for Nalbuphine</English>
@@ -4202,9 +4202,9 @@
             <Japanese>ナルブフィンの許可</Japanese>
             <Chinese>納布啡需要的醫療等級</Chinese>
             <Chinesesimp>纳布啡所需的医疗水平</Chinesesimp>
+            <Turkish>Nalbuphin için gereken medikal seviye</Turkish>
             <Finnish>Lääketieteellinen koulutustaso vaaditaan nalbufiinille</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Nalbufine</Dutch>
-            <Turkish>Nalbuphin için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Naloxone">
             <English>Medical level required for Naloxone</English>
@@ -4220,9 +4220,9 @@
             <Japanese>ナロキソンの許可</Japanese>
             <Chinese>納洛酮需要的醫療等級</Chinese>
             <Chinesesimp>纳洛酮所需的医疗水平</Chinesesimp>
+            <Turkish>Nalokson için gereken medikal seviye</Turkish>
             <Finnish>Naloksonille vaaditaan lääketieteen koulutustaso</Finnish>
             <Dutch>Medisch niveau benodigd voor gebruik van Naloxone</Dutch>
-            <Turkish>Nalokson için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Nitroglycerin">
             <English>Medical level required for Nitroglycerin</English>
@@ -4238,9 +4238,9 @@
             <Japanese>ニトログリセリンの許可</Japanese>
             <Chinese>硝酸甘油需要的醫療等級</Chinese>
             <Chinesesimp>硝酸甘油所需的医疗水平</Chinesesimp>
+            <Turkish>Nitrogliserin için gereken medikal seviye</Turkish>
             <Finnish>Nitroglyseriinille vaadittu lääketieteellinen koulutustaso</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Nitroglycerine</Dutch>
-            <Turkish>Nitrogliserin için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Norepinephrine">
             <English>Medical level required for Norepinephrine</English>
@@ -4256,9 +4256,9 @@
             <Japanese>ノルアドレナリンの許可</Japanese>
             <Chinese>去甲腎上腺素需要的醫療等級</Chinese>
             <Chinesesimp>去甲肾上腺素所需的医疗水平</Chinesesimp>
+            <Turkish>Norepinefrin için gereken medikal seviye</Turkish>
             <Finnish>Norepinefriinin käytön edellyttämä lääketieteellinen taso</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Noradrenaline</Dutch>
-            <Turkish>Norepinefrin için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Pervitin">
             <English>Medical level required for Pervitin</English>
@@ -4274,9 +4274,9 @@
             <Japanese>ペルビチンの許可</Japanese>
             <Chinese>柏飛汀(Pervitin)需要的醫療等級</Chinese>
             <Chinesesimp>柏飞汀(Pervitin)所需的医疗水平</Chinesesimp>
+            <Turkish>Pervitin için gereken medikal seviye</Turkish>
             <Finnish>Pervitiini vaatii lääketieteellisen koulutustason</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Pervitin</Dutch>
-            <Turkish>Pervitin için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_Phenylephrine">
             <English>Medical level required for Phenylephrine</English>
@@ -4292,9 +4292,9 @@
             <Japanese>フェニレフリンの許可</Japanese>
             <Chinese>去氧腎上腺素需要的醫療等級</Chinese>
             <Chinesesimp>苯肾上腺素所需的医疗水平</Chinesesimp>
+            <Turkish>Fenilefrin için gereken medikal seviye</Turkish>
             <Finnish>Lääketieteellinen taso vaaditaan fenyyliefriinille</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van Fenylefrine</Dutch>
-            <Turkish>Fenilefrin için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_medLvl_TXA">
             <English>Medical level required for TXA</English>
@@ -4310,9 +4310,9 @@
             <Japanese>TXAの許可</Japanese>
             <Chinese>血栓素(TXA)需要的醫療等級</Chinese>
             <Chinesesimp>血栓素(TXA)所需的医疗水平</Chinesesimp>
+            <Turkish>TXA için gereken medikal seviye</Turkish>
             <Finnish>Lääketieteellinen koulutustaso vaaditaan TXA:n käyttöön</Finnish>
             <Dutch>Medisch niveau benodigd voor het gebruik van TXA</Dutch>
-            <Turkish>TXA için gereken medikal seviye</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_pharmaSupplyCrate_displayName">
             <English>[KAM] Medicines crate</English>
@@ -4328,9 +4328,9 @@
             <Japanese>[KAM] 医薬品箱</Japanese>
             <Chinese>[KAM]藥品箱</Chinese>
             <Chinesesimp>[KAM]药品箱</Chinesesimp>
+            <Turkish>[KAM] İlaç Sandığı</Turkish>
             <Finnish>[KAM] Lääkelaatikko</Finnish>
             <Dutch>[KAM] Medijnenkrat</Dutch>
-            <Turkish>[KAM] İlaç Sandığı</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_push_log">
             <English>%1 pushed %2</English>
@@ -4398,9 +4398,9 @@
             <Japanese>アミオダロンの所要時間</Japanese>
             <Chinese>胺碘酮的治療時間</Chinese>
             <Chinesesimp>胺碘酮的治疗时间</Chinesesimp>
+            <Turkish>Amiodaron tedavi süresi</Turkish>
             <Finnish>Amiodaronin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Amiodaron</Dutch>
-            <Turkish>Amiodaron tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_ApplyIO">
             <English>Time to establish IOs</English>
@@ -4452,9 +4452,9 @@
             <Japanese>アトロピンの所要時間</Japanese>
             <Chinese>阿托品的治療時間</Chinese>
             <Chinesesimp>阿托品的治疗时间</Chinesesimp>
+            <Turkish>Atropin tedavi süresi</Turkish>
             <Finnish>Atropiinin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Atropine</Dutch>
-            <Turkish>Atropin tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_CWMP">
             <English>Treatment time for CWMP</English>
@@ -4463,8 +4463,8 @@
             <Italian>Tempo di trattamento per il CWMP</Italian>
             <German>Anwendungszeit für CWMP</German>
             <Japanese>戦闘傷病治療薬(CWMP)の所要時間</Japanese>
-            <Dutch>Behandelingstijd voor gebruik van CWMP</Dutch>
             <Turkish>CWMP tedavi süresi</Turkish>
+            <Dutch>Behandelingstijd voor gebruik van CWMP</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Caffeine">
             <English>Treatment time for Caffeine</English>
@@ -4473,8 +4473,8 @@
             <Italian>Tempo di trattamento per la Caffeina</Italian>
             <German>Anwendungszeit für Koffein</German>
             <Japanese>カフェインの所要時間</Japanese>
-            <Dutch>Behandelingstijd voor gebruik van caffeine</Dutch>
             <Turkish>Kafein tedavi süresi</Turkish>
+            <Dutch>Behandelingstijd voor gebruik van caffeine</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Carbonate">
             <English>Treatment time for Carbonate</English>
@@ -4490,9 +4490,9 @@
             <Japanese>炭酸アンモニウムの所要時間</Japanese>
             <Chinese>碳酸鹽的治療時間</Chinese>
             <Chinesesimp>碳酸盐的治疗时间</Chinesesimp>
+            <Turkish>Karbonat tedavi süresi</Turkish>
             <Finnish>Karbonaatin käsittelyaika</Finnish>
             <Dutch>Behandeltijd van carbonaat</Dutch>
-            <Turkish>Karbonat tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_EACA">
             <English>Treatment time for EACA</English>
@@ -4508,9 +4508,9 @@
             <Japanese>EACAの所要時間</Japanese>
             <Chinese>EACA的治療時間</Chinese>
             <Chinesesimp>EACA的治疗时间</Chinesesimp>
+            <Turkish>EACA tedavi süresi</Turkish>
             <Finnish>Hoitoaika EACA:lle</Finnish>
             <Dutch>Behandeltijd van EACA</Dutch>
-            <Turkish>EACA tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_EpinephrineIV">
             <English>Treatment time for IV Epinephrine</English>
@@ -4522,8 +4522,8 @@
             <Japanese>アドレナリン静脈注射 (IV)の所要時間</Japanese>
             <Chinese>靜脈注射腎上腺素的治療時間</Chinese>
             <Chinesesimp>静脉注射肾上腺素的治疗时间</Chinesesimp>
-            <Dutch>Toedieningstijd voor IV Adrenaline</Dutch>
             <Turkish>IV Epinefrin tedavi süresi</Turkish>
+            <Dutch>Toedieningstijd voor IV Adrenaline</Dutch>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Etomidate">
             <English>Treatment time for Etomidate</English>
@@ -4539,9 +4539,9 @@
             <Japanese>エトミデートの所要時間</Japanese>
             <Chinese>依托咪酯的治療時間</Chinese>
             <Chinesesimp>依托咪酯的治疗时间</Chinesesimp>
+            <Turkish>Etomidat tedavi süresi</Turkish>
             <Finnish>Etomidatin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Etomidaat</Dutch>
-            <Turkish>Etomidat tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Fentanyl">
             <English>Treatment time for Fentanyl</English>
@@ -4557,9 +4557,9 @@
             <Japanese>フェンタニルの所要時間</Japanese>
             <Chinese>芬太尼的治療時間</Chinese>
             <Chinesesimp>芬太尼的治疗时间</Chinesesimp>
+            <Turkish>Fentanil tedavi süresi</Turkish>
             <Finnish>Fentanyylin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Fentanyl</Dutch>
-            <Turkish>Fentanil tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Flumazenil">
             <English>Treatment time for Flumazenil</English>
@@ -4575,9 +4575,9 @@
             <Japanese>フルマゼニルの所要時間</Japanese>
             <Chinese>氟馬西尼的治療時間</Chinese>
             <Chinesesimp>氟马西尼的治疗时间</Chinesesimp>
+            <Turkish>Flumazenil tedavi süresi</Turkish>
             <Finnish>Flumatseniilin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Flumazenil</Dutch>
-            <Turkish>Flumazenil tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Ketamine">
             <English>Treatment time for Ketamine</English>
@@ -4593,9 +4593,9 @@
             <Japanese>ケタミンの所要時間</Japanese>
             <Chinese>氯胺酮的治療時間</Chinese>
             <Chinesesimp>氯胺酮的治疗时间</Chinesesimp>
+            <Turkish>Ketamin tedavi süresi</Turkish>
             <Finnish>Ketamiinin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Ketamine</Dutch>
-            <Turkish>Ketamin tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Lidocaine">
             <English>Treatment time for Lidocaine</English>
@@ -4611,9 +4611,9 @@
             <Japanese>リドカインの所要時間</Japanese>
             <Chinese>利多卡因的治療時間</Chinese>
             <Chinesesimp>利多卡因的治疗时间</Chinesesimp>
+            <Turkish>Lidokain tedavi süresi</Turkish>
             <Finnish>Lidokaiinin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Lidocaïne</Dutch>
-            <Turkish>Lidokain tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Lorazepam">
             <English>Treatment time for Lorazepam</English>
@@ -4629,9 +4629,9 @@
             <Japanese>ロラゼパムの所要時間</Japanese>
             <Chinese>勞拉西泮的治療時間</Chinese>
             <Chinesesimp>劳拉西泮的治疗时间</Chinesesimp>
+            <Turkish>Lorazepam tedavi süresi</Turkish>
             <Finnish>Loratsepaamin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Lorazepam</Dutch>
-            <Turkish>Lorazepam tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Nalbuphine">
             <English>Treatment time for Nalbuphine</English>
@@ -4647,9 +4647,9 @@
             <Japanese>ナルブフィンの所要時間</Japanese>
             <Chinese>納布啡的治療時間</Chinese>
             <Chinesesimp>纳布啡的治疗时间</Chinesesimp>
+            <Turkish>Nalbuphin tedavi süresi</Turkish>
             <Finnish>Nalbufiinin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Nalbufine</Dutch>
-            <Turkish>Nalbuphin tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Naloxone">
             <English>Treatment time for Naloxone</English>
@@ -4665,9 +4665,9 @@
             <Japanese>ナロキソンの所要時間</Japanese>
             <Chinese>納洛酮的治療時間</Chinese>
             <Chinesesimp>纳洛酮的治疗时间</Chinesesimp>
+            <Turkish>Nalokson tedavi süresi</Turkish>
             <Finnish>Naloksonin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Naloxone</Dutch>
-            <Turkish>Nalokson tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Nitroglycerin">
             <English>Treatment time for Nitroglycerin</English>
@@ -4683,9 +4683,9 @@
             <Japanese>ニトログリセリンの所要時間</Japanese>
             <Chinese>硝酸甘油的治療時間</Chinese>
             <Chinesesimp>硝酸甘油的治疗时间</Chinesesimp>
+            <Turkish>Nitrogliserin tedavi süresi</Turkish>
             <Finnish>Nitroglyseriinin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Nitroglycerine</Dutch>
-            <Turkish>Nitrogliserin tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Norepinephrine">
             <English>Treatment time for Norepinephrine</English>
@@ -4701,9 +4701,9 @@
             <Japanese>ノルアドレナリンの所要時間</Japanese>
             <Chinese>去甲腎上腺素的治療時間</Chinese>
             <Chinesesimp>去甲肾上腺素的治疗时间</Chinesesimp>
+            <Turkish>Norepinefrin tedavi süresi</Turkish>
             <Finnish>Hoitoaika norepinefriinille</Finnish>
             <Dutch>Behandeltijd van Noradrenaline</Dutch>
-            <Turkish>Norepinefrin tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Pervitin">
             <English>Treatment time for Pervitin</English>
@@ -4719,9 +4719,9 @@
             <Japanese>ペルビチンの所要時間</Japanese>
             <Chinese>柏飛汀(Pervitin)的治療時間</Chinese>
             <Chinesesimp>柏飞汀(Pervitin)的治疗时间</Chinesesimp>
+            <Turkish>Pervitin tedavi süresi</Turkish>
             <Finnish>Pervitiinin hoitoaika</Finnish>
             <Dutch>Behandeltijd van Pervitin</Dutch>
-            <Turkish>Pervitin tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Phenylephrine">
             <English>Treatment time for Phenylephrine</English>
@@ -4737,9 +4737,9 @@
             <Japanese>フェニレフリンの所要時間</Japanese>
             <Chinese>去氧腎上腺素的治療時間</Chinese>
             <Chinesesimp>苯肾上腺素的治疗时间</Chinesesimp>
+            <Turkish>Fenilefrin tedavi süresi</Turkish>
             <Finnish>Käsittelyaika fenyylille</Finnish>
             <Dutch>Behandeltijd van Fenylefrine</Dutch>
-            <Turkish>Fenilefrin tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_Reorientation">
             <English>Treatment time for reorientation</English>
@@ -4755,9 +4755,9 @@
             <Japanese>患者を刺激する所要時間</Japanese>
             <Chinese>恢復體態的治療時間</Chinese>
             <Chinesesimp>恢复体态的治疗时间</Chinesesimp>
+            <Turkish>Reoryantasyon tedavi süresi</Turkish>
             <Finnish>Hoitoaika uudelleensuuntautumiseen</Finnish>
             <Dutch>Behandelingstijd voor heroriëntatie</Dutch>
-            <Turkish>Reoryantasyon tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmentTime_TXA">
             <English>Treatment time for TXA</English>
@@ -4773,23 +4773,23 @@
             <Japanese>TXAの所要時間</Japanese>
             <Chinese>血栓素(TXA)的治療時間</Chinese>
             <Chinesesimp>血栓素(TXA)的治疗时间</Chinesesimp>
+            <Turkish>TXA tedavi süresi</Turkish>
             <Finnish>TXA:n hoitoaika</Finnish>
             <Dutch>Behandeltijd van TXA</Dutch>
-            <Turkish>TXA tedavi süresi</Turkish>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmenttime_applyio_desc">
             <English>Time required to establish an IO.</English>
+            <French>Temps nécessaire pour placer un IO.</French>
             <German>Benötigte Zeit um einen IO-Zugang zu legen.</German>
             <Japanese>IOの刺入に掛かる時間</Japanese>
             <Turkish>Bir IO yerleştirmek için gereken süre.</Turkish>
-            <French>Temps nécessaire pour placer un IO.</French>
         </Key>
         <Key ID="STR_KAT_Pharma_treatmenttime_applyiv_desc">
             <English>Time required to establish an IV.</English>
+            <French>Temps nécessaire pour placer un IV.</French>
             <German>Benötigte Zeit um einen IV-Zugang zu legen.</German>
             <Japanese>IVの刺入に掛かる時間</Japanese>
             <Turkish>Bir IV yerleştirmek için gereken süre.</Turkish>
-            <French>Temps nécessaire pour placer un IV.</French>
         </Key>
         <Key ID="STR_KAT_Pharma_use_log">
             <English>%1 used %2</English>
