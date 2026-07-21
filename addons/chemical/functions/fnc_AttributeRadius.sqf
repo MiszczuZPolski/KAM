@@ -58,14 +58,14 @@ private _fnc_onKeyUp = {
 
 private _fnc_onCheckChange = {
     params ["_sealCheckBox"];
-    _display = ctrlParent _sealCheckBox;
+    private _display = ctrlParent _sealCheckBox;
     private _canBeSealed = cbChecked(_display displayCtrl 1613);
     _display setVariable [QGVAR(ui_sealable),_canBeSealed];
 };
 
 private _fnc_onLBSelChange = {
     params ["_gasTypeCombo"];
-    _display = ctrlParent _gasTypeCombo;
+    private _display = ctrlParent _gasTypeCombo;
     private _gastype = lbCurSel _gasTypeCombo;
     _display setVariable [QGVAR(ui_gastype), _gastype];
 };

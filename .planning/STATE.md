@@ -133,6 +133,7 @@ This document tracks the current state of the project development session, activ
 - [x] Write script to detect discrepancies between function headers and parameter declarations
 - [x] Fix identified parameter mismatches and update example comment blocks
 - [x] Re-verify compilation of header changes with hemtt check -p
+- [x] Fix un-private variable warnings in circulation (fnc_addArterialApplyActions, fnc_drawBlood) and chemical (fnc_AttributeRadius) addons
 
 
 
