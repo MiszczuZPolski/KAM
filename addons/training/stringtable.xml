@@ -2,12 +2,12 @@
 <Project name="KAT">
     <Package name="Training">
         <Key ID="STR_KAT_Training_Mission">
-            <English>KAM medical training</English>
-            <Polish>KAM trening medyczny</Polish>
+            <English>KAM Medical Training</English>
+            <Polish>KAM Trening Medyczny</Polish>
         </Key>
         <Key ID="STR_KAT_Training_Mission_tooltip">
-            <English>KAM medical training</English>
-            <Polish>KAM trening medyczny</Polish>
+            <English>KAM Medical Training</English>
+            <Polish>KAM Trening Medyczny</Polish>
         </Key>
     </Package>
 </Project>

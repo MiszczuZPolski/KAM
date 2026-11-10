@@ -1,4 +1,4 @@
-if (isServer) then {    
-    spawned = false;
-    publicVariable "spawned";
+if (isServer) then {
+    kat_training_spawned = false;
+    publicVariable "kat_training_spawned";
 };

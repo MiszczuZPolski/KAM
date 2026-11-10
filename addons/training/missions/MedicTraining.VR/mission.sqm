@@ -4528,7 +4528,7 @@ class Mission
 			position[]={5715.9609,5,3840.0911};
 			class Attributes
 			{
-				condition="spawned";
+				condition="kat_training_spawned";
 				sizeA=0;
 				sizeB=0;
 			};
