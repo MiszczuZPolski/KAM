@@ -1,3 +1,11 @@
-PREP(causeHeartAttack);
-PREP(causeThoracicInjuries);
-PREP(createPatient);
+PREP(addChestInjury);
+PREP(addFracture);
+PREP(addInjury);
+PREP(applySeverity);
+PREP(deletePatient);
+PREP(getAmountActions);
+PREP(getPatientActions);
+PREP(getPatients);
+PREP(getSpots);
+PREP(requestInjury);
+PREP(spawnPatient);

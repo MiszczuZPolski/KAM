@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=52;
+		nextID=53;
 	};
 	class Camera
 	{
@@ -41,7 +41,8 @@ addons[]=
 	"A3_Modules_F_Intel",
 	"A3_Props_F_Enoch_Military_Equipment",
 	"A3_Structures_F_Civ_InfoBoards",
-	"A3_Weapons_F_Ammoboxes"
+	"A3_Weapons_F_Ammoboxes",
+	"kat_training"
 };
 class AddonsMetaData
 {
@@ -3247,7 +3248,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=29;
+		items=30;
 		class Item0
 		{
 			dataType="Group";
@@ -4271,7 +4272,7 @@ class Mission
 				name="laptop";
 			};
 			id=42;
-			type="Land_MultiScreenComputer_01_sand_F";
+			type="kat_training_computer";
 			atlOffset=0.00040245056;
 			class CustomAttributes
 			{
@@ -4583,6 +4584,21 @@ class Mission
 			};
 			id=51;
 			type="Box_NATO_Wps_F";
+		};
+		class Item29
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5712.106,5.0005684,3844.123};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=52;
+			type="kat_training_patientSpot";
 		};
 	};
 	class Connections

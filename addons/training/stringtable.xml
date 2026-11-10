@@ -9,5 +9,229 @@
             <English>KAM Medical Training</English>
             <Polish>KAM Trening Medyczny</Polish>
         </Key>
+        <Key ID="STR_KAT_Training_Computer_DisplayName">
+            <English>KAM Training Computer</English>
+            <Polish>Komputer treningowy KAM</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_SpawnPatient">
+            <English>Spawn patient</English>
+            <Polish>Stwórz pacjenta</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_RandomWounds">
+            <English>Add random wounds</English>
+            <Polish>Dodaj losowe rany</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_AddWound">
+            <English>Add wound</English>
+            <Polish>Dodaj ranę</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_AddFracture">
+            <English>Add fracture</English>
+            <Polish>Dodaj złamanie</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_ChestInjury">
+            <English>Chest injury</English>
+            <Polish>Uraz klatki piersiowej</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_CardiacArrest">
+            <English>Cardiac arrest</English>
+            <Polish>Zatrzymanie krążenia</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Airway">
+            <English>Airway</English>
+            <Polish>Drogi oddechowe</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_ManagePatient">
+            <English>Patient</English>
+            <Polish>Pacjent</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_KnockOut">
+            <English>Knock unconscious</English>
+            <Polish>Pozbaw przytomności</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_FullHeal">
+            <English>Full heal</English>
+            <Polish>Pełne uleczenie</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_DeletePatient">
+            <English>Delete selected patient</English>
+            <Polish>Usuń wybranego pacjenta</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Severity_Healthy">
+            <English>Healthy</English>
+            <Polish>Zdrowy</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Severity_Light">
+            <English>Lightly wounded</English>
+            <Polish>Lekko ranny</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Severity_Moderate">
+            <English>Moderately wounded</English>
+            <Polish>Średnio ranny</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Severity_Severe">
+            <English>Severely wounded</English>
+            <Polish>Ciężko ranny</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Severity_Critical">
+            <English>Critically wounded</English>
+            <Polish>Krytycznie ranny</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_BodyPart_Head">
+            <English>Head</English>
+            <Polish>Głowa</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_BodyPart_Torso">
+            <English>Torso</English>
+            <Polish>Tułów</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_BodyPart_LeftArm">
+            <English>Left arm</English>
+            <Polish>Lewa ręka</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_BodyPart_RightArm">
+            <English>Right arm</English>
+            <Polish>Prawa ręka</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_BodyPart_LeftLeg">
+            <English>Left leg</English>
+            <Polish>Lewa noga</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_BodyPart_RightLeg">
+            <English>Right leg</English>
+            <Polish>Prawa noga</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_DamageType_Bullet">
+            <English>Gunshot</English>
+            <Polish>Postrzał</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_DamageType_Shrapnel">
+            <English>Shrapnel</English>
+            <Polish>Odłamki</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_DamageType_Explosion">
+            <English>Explosion</English>
+            <Polish>Eksplozja</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_DamageType_Stab">
+            <English>Stab</English>
+            <Polish>Rana kłuta</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_DamageType_Blunt">
+            <English>Blunt trauma</English>
+            <Polish>Uraz tępy</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_DamageType_Burn">
+            <English>Burn</English>
+            <Polish>Oparzenie</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Strength_Light">
+            <English>Light</English>
+            <Polish>Lekka</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Strength_Medium">
+            <English>Medium</English>
+            <Polish>Średnia</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Strength_Heavy">
+            <English>Heavy</English>
+            <Polish>Ciężka</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Fracture_Simple">
+            <English>Simple fracture</English>
+            <Polish>Złamanie proste</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Fracture_Compound">
+            <English>Compound fracture</English>
+            <Polish>Złamanie otwarte</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Fracture_Comminuted">
+            <English>Comminuted fracture</English>
+            <Polish>Złamanie wieloodłamowe</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Pneumothorax">
+            <English>Pneumothorax</English>
+            <Polish>Odma opłucnowa</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_TensionPneumothorax">
+            <English>Tension pneumothorax</English>
+            <Polish>Odma prężna</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Hemopneumothorax">
+            <English>Hemopneumothorax</English>
+            <Polish>Krwiak opłucnej z odmą</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Tamponade">
+            <English>Cardiac tamponade (developing)</English>
+            <Polish>Tamponada serca (narastająca)</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Asystole">
+            <English>Asystole</English>
+            <Polish>Asystolia</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_PEA">
+            <English>Pulseless electrical activity</English>
+            <Polish>Aktywność elektryczna bez tętna</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_VFib">
+            <English>Ventricular fibrillation</English>
+            <Polish>Migotanie komór</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_VTach">
+            <English>Ventricular tachycardia</English>
+            <Polish>Częstoskurcz komorowy</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Obstruction">
+            <English>Airway obstruction</English>
+            <Polish>Niedrożność dróg oddechowych</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Occlusion">
+            <English>Airway occlusion</English>
+            <Polish>Zatkanie dróg oddechowych</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_PatientSpawned">
+            <English>Patients spawned</English>
+            <Polish>Pacjenci stworzeni</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_PatientDeleted">
+            <English>Patients deleted</English>
+            <Polish>Pacjenci usunięci</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_NoPatient">
+            <English>No living patient selected</English>
+            <Polish>Nie wybrano żywego pacjenta</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_InjuryApplied">
+            <English>Injury applied to %1</English>
+            <Polish>Dodano uraz: %1</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_SelectPatient">
+            <English>Select patient</English>
+            <Polish>Wybierz pacjenta</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_SelectedPatient">
+            <English>%1 (selected)</English>
+            <Polish>%1 (wybrany)</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_PatientSelected">
+            <English>Selected patient: %1</English>
+            <Polish>Wybrany pacjent: %1</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_DeleteAllPatients">
+            <English>Delete all patients</English>
+            <Polish>Usuń wszystkich pacjentów</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_PatientSpot_DisplayName">
+            <English>KAM Training Patient Spot</English>
+            <Polish>Miejsce pacjenta treningowego KAM</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_Amount">
+            <English>Patients: %1</English>
+            <Polish>Pacjenci: %1</Polish>
+        </Key>
+        <Key ID="STR_KAT_Training_NoFreeSpot">
+            <English>No free patient spot</English>
+            <Polish>Brak wolnego miejsca dla pacjenta</Polish>
+        </Key>
     </Package>
 </Project>

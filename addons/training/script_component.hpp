@@ -15,3 +15,6 @@
 #endif
 
 #include "\x\kat\addons\main\script_macros.hpp"
+
+// Patient spots within this distance of a training computer belong to it
+#define PATIENT_SPOT_RADIUS 25
